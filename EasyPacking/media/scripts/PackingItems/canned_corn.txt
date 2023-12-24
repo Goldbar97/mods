@@ -1,0 +1,35 @@
+module GidOrganizedFood
+{
+	imports
+	{
+		Base,
+	}
+
+	item OS6pkCannedCorn
+	{
+		Weight			= 2.4,
+		Type			= Normal,
+		DisplayName		= 6 x Canned Corn,
+		Icon			= OS6pkCannedCorn,
+	}
+	
+	recipe Pack 6
+	{
+		destroy CannedCorn=6,
+
+		Result:OS6pkCannedCorn,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:60.0,
+		Category:Storage,
+	}
+
+	recipe Unpack 6
+	{
+		destroy OS6pkCannedCorn,
+
+		Result:CannedCorn=6,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		Time:60.0,
+		Category:Storage,
+	}
+}

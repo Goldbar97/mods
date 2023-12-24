@@ -1,0 +1,76 @@
+Recipe_IT = {
+	Recipe_Put_Together = "Unisci",
+	Recipe_Split_in_Two = "Dividi in 2",
+	Recipe_Split_in_Five = "Dividi in 5",
+	
+	Recipe_Pack_4 = "Imballa 4",
+	Recipe_Unpack_4 = "Disimballa 4",
+	Recipe_Merge_and_Pack_4 = "Unisci e imballa 4",
+	
+	Recipe_Pack_5 = "Imballa 5",
+	Recipe_Unpack_5 = "Disimballa 5",
+	Recipe_Merge_and_Pack_5 = "Unisci e imballa 5",
+	
+	Recipe_Pack_6 = "Imballa 6",
+	Recipe_Unpack_6 = "Disimballa 6",
+	Recipe_Merge_and_Pack_6 = "Unisci e imballa 6",
+	
+	Recipe_Pack_8 = "Imballa 8",
+	Recipe_Unpack_8 = "Disimballa 8",
+	
+	Recipe_Pack_9 = "Imballa 9",
+	Recipe_Unpack_9 = "Disimballa 9",
+	
+	Recipe_Pack_10 = "Imballa 10",
+	Recipe_Unpack_10 = "Disimballa 10",
+	Recipe_Merge_and_Pack_10 = "Unisci e imballa 10",
+	
+	Recipe_Pack_12 = "Imballa 12",
+	Recipe_Unpack_12 = "Disimballa 12",
+	
+	Recipe_Pack_24 = "Imballa 24",
+	Recipe_Unpack_24 = "Disimballa 24",
+	
+	Recipe_Pack_20 = "Imballa 20",
+	Recipe_Unpack_20 = "Disimballa 20",
+	
+	Recipe_Pack_30 = "Imballa 30",
+	Recipe_Unpack_30 = "Disimballa 30",
+	
+	Recipe_Pack_50 = "Imballa 50",
+	Recipe_Unpack_50 = "Disimballa 50",
+	
+	Recipe_Pack_100 = "Imballa 100",
+	Recipe_Unpack_100 = "Disimballa 100",
+	
+	Recipe_Rope_5 = "Lega 5",
+	Recipe_Unrope_5 = "Slega 5",
+	
+	Recipe_Rope_10 = "Lega 10",
+	Recipe_Unrope_10 = "Slega 10",
+	
+	Recipe_Fill_Pack_of_Empty_Water_Bottles = "Riempi bottiglie vuote imballate",
+	
+	Recipe_Pack_Carpentry_Skill_Books = "Imballa libri di carpenteria",
+	Recipe_Unpack_Carpentry_Skill_Books = "Disimballa libri di carpenteria",
+	Recipe_Pack_Cooking_Skill_Books = "Imballa libri di cucina",
+	Recipe_Unpack_Cooking_Skill_Books = "Disimballa libri di cucina",
+	Recipe_Pack_Electricity_Skill_Books = "Imballa libri di elettronica",
+	Recipe_Unpack_Electricity_Skill_Books = "Disimballa libri di elettronica",
+	Recipe_Pack_Farming_Skill_Books = "Imballa libri di coltivazione",
+	Recipe_Unpack_Farming_Skill_Books = "Disimballa libri di coltivazione",
+	Recipe_Pack_Firstaid_Skill_Books = "Imballa libri di pronto soccorso",
+	Recipe_Unpack_Firstaid_Skill_Books = "Disimballa libri di pronto soccorso",
+	Recipe_Pack_Fishing_Skill_Books = "Imballa libri di pesca",
+	Recipe_Unpack_Fishing_Skill_Books = "Disimballa libri di pesca",
+	Recipe_Pack_Foraging_Skill_Books = "Imballa libri di ispezione",
+	Recipe_Unpack_Foraging_Skill_Books = "Disimballa libri di ispezione",
+	Recipe_Pack_Mechanics_Skill_Books = "Imballa libri di meccanica",
+	Recipe_Unpack_Mechanics_Skill_Books = "Disimballa libri di meccanica",
+	Recipe_Pack_Tailoring_Skill_Books = "Imballa libri di sartoria",
+	Recipe_Unpack_Tailoring_Skill_Books = "Disimballa libri di sartoria",
+	Recipe_Pack_Metalwork_Skill_Books = "Imballa libri di lavorazione metalli",
+	Recipe_Unpack_Metalwork_Skill_Books = "Disimballa libri di lavorazione metalli",
+	Recipe_Pack_Trapping_Skill_Books = "Imballa libri di costruzione trappole",
+	Recipe_Unpack_Trapping_Skill_Books = "Disimballa libri di costruzione trappole",
+}

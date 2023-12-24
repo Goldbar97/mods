@@ -1,0 +1,38 @@
+module GidOrganized
+{
+	imports
+	{
+		Base,
+	}
+
+	item OS50pkSleepingPills
+	{
+		Weight				= 0.5,
+		Type				= Normal,
+		UseWhileEquipped	= FALSE,
+		DisplayName			= 5 x Sleeping Pills,
+		Icon				= OS50pkSleepingPills,
+	}
+	
+	recipe Pack 5
+	{
+		destroy PillsSleepingTablets=5,
+
+		Result:OS50pkSleepingPills,
+		OnCreate:Recipe.OnCreate.SaveUses,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:120.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5
+	{
+		OS50pkSleepingPills,
+
+		Result:PillsSleepingTablets,
+		OnCreate:Recipe.OnCreate.LoadUses,
+		RemoveResultItem:true,
+		Time:120.0,
+		Category:Storage,
+	}
+}

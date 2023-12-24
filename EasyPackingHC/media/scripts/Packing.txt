@@ -1,0 +1,3315 @@
+module Packing
+{
+	imports
+	{
+		Base,
+	}
+	
+	/*******************************************ITEMS***/
+	
+	item 6pkBeerCan
+	{
+		Weight			= 0.9,
+		Type			= Normal,
+		DisplayName		= 6 x Beer Can,
+		Icon			= PBeerCan,
+	}
+	
+	item 6pkBeer
+	{
+		Weight			= 1.2,
+		Type			= Normal,
+		DisplayName		= 6 x Beer Bottle,
+		Icon			= PBeer,
+	}
+	
+	item 10pkRopeSheetMetal
+	{
+		Weight			= 2.25,
+		Type			= Normal,
+		DisplayName		= 10 x Metal Sheet (Rope),
+		Icon			= PRopeSheetMetal,
+	}
+	
+	item 5pkRopeSheetMetal
+	{
+		Weight			= 1.5,
+		Type			= Normal,
+		DisplayName		= 5 x Metal Sheet (Rope),
+		Icon			= PRopeSheetMetal,
+	}
+	
+	item 10pkSheetRopeSheetMetal
+	{
+		Weight			= 3.75,
+		Type			= Normal,
+		DisplayName		= 10 x Metal Sheet (SheetRope),
+		Icon			= PSheetRopeSheetMetal,
+	}
+	
+	item 5pkSheetRopeSheetMetal
+	{
+		Weight			= 2.25,
+		Type			= Normal,
+		DisplayName		= 5 x Metal Sheet (SheetRope),
+		Icon			= PSheetRopeSheetMetal,
+	}
+	
+	item 10pkScrapMetal
+	{
+		Weight			= 0.5,
+		Type			= Normal,
+		DisplayName		= 10 x Scrap Metal,
+		Icon			= PScrapMetal,
+	}
+	
+	item 5pkScrapMetal
+	{
+		Weight			= 0.35,
+		Type			= Normal,
+		DisplayName		= 5 x Scrap Metal,
+		Icon			= PScrapMetal,
+	}
+	
+	item 10pkRopeMetalBar
+	{
+		Weight			= 2.25,
+		Type			= Normal,
+		DisplayName		= 10 x Metal Bar (Rope),
+		Icon			= PRopeMetalBar,
+	}
+	
+	item 5pkRopeMetalBar
+	{
+		Weight			= 1.5,
+		Type			= Normal,
+		DisplayName		= 5 x Metal Bar (Rope),
+		Icon			= PRopeMetalBar,
+	}
+	
+	item 10pkSheetRopeMetalBar
+	{
+		Weight			= 3.75,
+		Type			= Normal,
+		DisplayName		= 10 x Metal Bar (SheetRope),
+		Icon			= PSheetRopeMetalBar,
+	}
+	
+	item 5pkSheetRopeMetalBar
+	{
+		Weight			= 2.25,
+		Type			= Normal,
+		DisplayName		= 5 x Metal Bar (SheetRope),
+		Icon			= PSheetRopeMetalBar,
+	}
+	
+	item 10pkRopeMetalPipe
+	{
+		Weight			= 1.5,
+		Type			= Normal,
+		DisplayName		= 10 x Metal Pipe (Rope),
+		Icon			= PRopeMetalPipe,
+	}
+	
+	item 5pkRopeMetalPipe
+	{
+		Weight			= 1,
+		Type			= Normal,
+		DisplayName		= 5 x Metal Pipe (Rope),
+		Icon			= PRopeMetalPipe,
+	}
+	
+	item 10pkSheetRopeMetalPipe
+	{
+		Weight			= 2.5,
+		Type			= Normal,
+		DisplayName		= 10 x Metal Pipe (SheetRope),
+		Icon			= PSheetRopeMetalPipe,
+	}
+	
+	item 5pkSheetRopeMetalPipe
+	{
+		Weight			= 1.5,
+		Type			= Normal,
+		DisplayName		= 5 x Metal Pipe (SheetRope),
+		Icon			= PSheetRopeMetalPipe,
+	}
+	
+	item 6pkDogFood
+	{
+		Weight			= 3,
+		Type			= Normal,
+		DisplayName		= 6 x Dog Food,
+		Icon			= PDogFood,
+	}
+	
+	item 10pkRopeBranch
+	{
+		Weight			= 1.5,
+		Type			= Normal,
+		DisplayName		= 10 x Branch (Rope),
+		Icon			= PRopeBranch,
+	}
+	
+	item 5pkRopeBranch
+	{
+		Weight			= 1,
+		Type			= Normal,
+		DisplayName		= 5 x Branch (Rope),
+		Icon			= PRopeBranch,
+	}
+	
+	item 10pkSheetRopeBranch
+	{
+		Weight			= 2.5,
+		Type			= Normal,
+		DisplayName		= 10 x Branch (SheetRope),
+		Icon			= PSheetRopeBranch,
+	}
+	
+	item 5pkSheetRopeBranch
+	{
+		Weight			= 1.5,
+		Type			= Normal,
+		DisplayName		= 5 x Branch (SheetRope),
+		Icon			= PSheetRopeBranch,
+	}
+	
+	item 10pkWhiteWine
+	{
+		Weight			= 5,
+		Type			= Normal,
+		DisplayName		= 10 x Chardonnay,
+		Icon			= PWhiteWine,
+	}
+	
+	item 5pkWhiteWine
+	{
+		Weight			= 3.5,
+		Type			= Normal,
+		DisplayName		= 5 x Chardonnay,
+		Icon			= PWhiteWine,
+	}
+	
+	item 10pkOrangeSoda
+	{
+		Weight			= 4,
+		Type			= Normal,
+		DisplayName		= 10 x Orange Soda,
+		Icon			= POrangeSoda,
+	}
+	
+	item 5pkOrangeSoda
+	{
+		Weight			= 2.8,
+		Type			= Normal,
+		DisplayName		= 5 x Orange Soda,
+		Icon			= POrangeSoda,
+	}
+	
+	item 10pkWhiskey
+	{
+		Weight			= 3.5,
+		Type			= Normal,
+		DisplayName		= 10 x Whiskey,
+		Icon			= PWhiskey,
+	}
+	
+	item 5pkWhiskey
+	{
+		Weight			= 2.45,
+		Type			= Normal,
+		DisplayName		= 5 x Whiskey,
+		Icon			= PWhiskey,
+	}
+	
+	item 10pkRedWine
+	{
+		Weight			= 5,
+		Type			= Normal,
+		DisplayName		= 10 x Red Wine,
+		Icon			= PRedWine,
+	}
+	
+	item 5pkRedWine
+	{
+		Weight			= 3.5,
+		Type			= Normal,
+		DisplayName		= 5 x Red Wine,
+		Icon			= PRedWine,
+	}
+	
+	item 10pkSheetRopePlank
+	{
+		Weight			= 7.5,
+		Type			= Normal,
+		DisplayName		= 10 x Plank (SheetRope),
+		Icon			= PSheetRopePlank,
+	}
+	
+	item 5pkSheetRopePlank
+	{
+		Weight			= 4.5,
+		Type			= Normal,
+		DisplayName		= 5 x Plank (SheetRope),
+		Icon			= PSheetRopePlank,
+	}
+	
+	item 10pkRopePlank
+	{
+		Weight			= 4.5,
+		Type			= Normal,
+		DisplayName		= 10 x Plank (Rope),
+		Icon			= PRopePlank,
+	}
+	
+	item 5pkRopePlank
+	{
+		Weight			= 3,
+		Type			= Normal,
+		DisplayName		= 5 x Plank (Rope),
+		Icon			= PRopePlank,
+	}
+	
+	item 10pkMagazine
+	{
+		Weight			= 1,
+		Type			= Normal,
+		DisplayName		= 10 x Magazine,
+		Icon			= PMagazine,
+	}
+	
+	item 5pkMagazine
+	{
+		Weight			= 0.7,
+		Type			= Normal,
+		DisplayName		= 5 x Magazine,
+		Icon			= PMagazine,
+	}
+	
+	item 10pkNewspaper
+	{
+		Weight			= 0.5,
+		Type			= Normal,
+		DisplayName		= 10 x Newspaper,
+		Icon			= PNewspaper,
+	}
+	
+	item 5pkNewspaper
+	{
+		Weight			= 0.35,
+		Type			= Normal,
+		DisplayName		= 5 x Newspaper,
+		Icon			= PNewspaper,
+	}
+	
+	item pkCarpentry
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Carpentry Books,
+		Icon			= PCarpentryBook,
+	}
+	
+	item pkCooking
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Cooking Books,
+		Icon			= PCookingBook,
+	}
+	
+	item pkElectricity
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Electricity Books,
+		Icon			= PElectricityBook,
+	}
+	
+	item pkFarming
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Farming Books,
+		Icon			= PFarmingBook,
+	}
+	
+	item pkFirstaid
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Firstaid Books,
+		Icon			= PFirstaidBook,
+	}
+	
+	item pkFishing
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Fishing Books,
+		Icon			= PFishingBook,
+	}
+	
+	item pkForaging
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Foraging Books,
+		Icon			= PForagingBook,
+	}
+	
+	item pkMechanics
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Mechanics Books,
+		Icon			= PMechanicsBook,
+	}
+	
+	item pkTailoring
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Tailoring Books,
+		Icon			= PTailoringBook,
+	}
+	
+	item pkMetalwork
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Metalwork Books,
+		Icon			= PMetalworkBook,
+	}
+	
+	item pkTrapping
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= Bundle of Trapping Books,
+		Icon			= PTrappingBook,
+	}
+	
+	item 10pkBook
+	{
+		Weight			= 2.5,
+		Type			= Normal,
+		DisplayName		= 10 x Book,
+		Icon			= PBook,
+	}
+	
+	item 5pkBook
+	{
+		Weight			= 1.75,
+		Type			= Normal,
+		DisplayName		= 5 x Book,
+		Icon			= PBook,
+	}
+	
+	item 10pkSoap
+	{
+		Weight			= 0.5,
+		Type			= Normal,
+		DisplayName		= 10 x Soap,
+		Icon			= PSoap,
+	}
+	
+	item 5pkSoap
+	{
+		Weight			= 0.35,
+		Type			= Normal,
+		DisplayName		= 5 x Soap,
+		Icon			= PSoap,
+	}
+	
+	item 10pkTissue
+	{
+		Weight			= 0.5,
+		Type			= Normal,
+		DisplayName		= 10 x Tissue,
+		Icon			= PTissue,
+	}
+	
+	item 5pkTissue
+	{
+		Weight			= 0.35,
+		Type			= Normal,
+		DisplayName		= 5 x Tissue,
+		Icon			= PTissue,
+	}
+	
+	item 10pkThread
+	{
+		Weight			= 0.5,
+		Type			= Normal,
+		DisplayName		= 10 x Thread,
+		Icon			= PThread,
+	}
+	
+	item 5pkThread
+	{
+		Weight			= 0.35,
+		Type			= Normal,
+		DisplayName		= 5 x Thread,
+		Icon			= PThread,
+	}
+	
+	item 10pkWire
+	{
+		Weight			= 1.0,
+		Type			= Normal,
+		DisplayName		= 10 x Wire,
+		Icon			= PWire,
+	}
+	
+	item 5pkWire
+	{
+		Weight			= 0.7,
+		Type			= Normal,
+		DisplayName		= 5 x Wire,
+		Icon			= PWire,
+	}
+	
+	item 10pkFishingLine
+	{
+		Weight			= 0.5,
+		Type			= Normal,
+		DisplayName		= 10 x Fishing Line,
+		Icon			= PFishingLine,
+	}
+	
+	item 5pkFishingLine
+	{
+		Weight			= 0.35,
+		Type			= Normal,
+		DisplayName		= 5 x Fishing Line,
+		Icon			= PFishingLine,
+	}
+	
+	item 10pkTwine
+	{
+		Weight			= 0.5,
+		Type			= Normal,
+		DisplayName		= 10 x Twine,
+		Icon			= PTwine,
+	}
+	
+	item 5pkTwine
+	{
+		Weight			= 0.35,
+		Type			= Normal,
+		DisplayName		= 5 x Twine,
+		Icon			= PTwine,
+	}
+	
+	item 10pkMatches
+	{
+		Weight			= 0.5,
+		Type			= Normal,
+		DisplayName		= 10 x Matches,
+		Icon			= PMatches,
+	}
+	
+	item 5pkMatches
+	{
+		Weight			= 0.35,
+		Type			= Normal,
+		DisplayName		= 5 x Matches,
+		Icon			= PMatches,
+	}
+	
+	item 10pkSheetMetal
+	{
+		Weight			= 7.5,
+		Type			= Normal,
+		DisplayName		= 10 x Metal Sheet,
+		Icon			= PSheetMetal,
+	}
+	
+	item 5pkSheetMetal
+	{
+		Weight			= 5.25,
+		Type			= Normal,
+		DisplayName		= 5 x Metal Sheet,
+		Icon			= PSheetMetal,
+	}
+	
+	item 10pkSheetMetalSmall
+	{
+		Weight			= 2.0,
+		Type			= Normal,
+		DisplayName		= 10 x Small Metal Sheet,
+		Icon			= PSheetMetalSmall,
+	}
+	
+	item 5pkSheetMetalSmall
+	{
+		Weight			= 1.4,
+		Type			= Normal,
+		DisplayName		= 5 x Small Metal Sheet,
+		Icon			= PSheetMetalSmall,
+	}
+	
+	item 10pkMetalBar
+	{
+		Weight			= 7.5,
+		Type			= Normal,
+		DisplayName		= 10 x Metal Bar,
+		Icon			= PMetalBar,
+	}
+	
+	item 5pkMetalBar
+	{
+		Weight			= 5.25,
+		Type			= Normal,
+		DisplayName		= 5 x Metal Bar,
+		Icon			= PMetalBar,
+	}
+	
+	item 10pkMetalPipe
+	{
+		Weight			= 5.0,
+		Type			= Normal,
+		DisplayName		= 10 x Metal Pipe,
+		Icon			= PMetalPipe,
+	}
+	
+	item 5pkMetalPipe
+	{
+		Weight			= 3.5,
+		Type			= Normal,
+		DisplayName		= 5 x Metal Pipe,
+		Icon			= PMetalPipe,
+	}
+	
+	item 10pkRope
+	{
+		Weight			= 1.5,
+		Type			= Normal,
+		DisplayName		= 10 x Rope,
+		Icon			= PRope,
+	}
+	
+	item 5pkRope
+	{
+		Weight			= 1.05,
+		Type			= Normal,
+		DisplayName		= 5 x Rope,
+		Icon			= PRope,
+	}
+	
+	item 10pkSheetRope
+	{
+		Weight			= 4,
+		Type			= Normal,
+		DisplayName		= 10 x Sheet Rope,
+		Icon			= PSheetRope,
+	}
+	
+	item 5pkSheetRope
+	{
+		Weight			= 2.8,
+		Type			= Normal,
+		DisplayName		= 5 x Sheet Rope,
+		Icon			= PSheetRope,
+	}
+	
+	item 10pkFishingNet
+	{
+		Weight			= 2.5,
+		Type			= Normal,
+		DisplayName		= 10 x Fishing Net Trap,
+		Icon			= PFishTrap,
+	}
+	
+	item 5pkFishingNet
+	{
+		Weight			= 1.75,
+		Type			= Normal,
+		DisplayName		= 5 x Fishing Net Trap,
+		Icon			= PFishTrap,
+	}
+	
+	item 10pkLighter
+	{
+		Weight			= 0.5,
+		Type			= Normal,
+		DisplayName		= 10 x Lighter,
+		Icon			= PLighter,
+	}
+	
+	item 5pkLighter
+	{
+		Weight			= 0.35,
+		Type			= Normal,
+		DisplayName		= 5 x Lighter,
+		Icon			= PLighter,
+	}
+	
+	item 10pkElectronicsScrap
+	{
+		Weight			= 0.7,
+		Type			= Normal,
+		DisplayName		= 10 x Electronics Scrap,
+		Icon			= PElectronicsScrap,
+	}
+	
+	item 50pkElectronicsScrap
+	{
+		Weight			= 3,
+		Type			= Normal,
+		DisplayName		= 50 x Electronics Scrap,
+		Icon			= PElectronicsScrap,
+	}
+	
+	item 100pkElectronicsScrap
+	{
+		Weight			= 5,
+		Type			= Normal,
+		DisplayName		= 100 x Electronics Scrap,
+		Icon			= PElectronicsScrap,
+	}
+	
+	item 10pkRag
+	{
+		Weight			= 0.35,
+		Type			= Normal,
+		DisplayName		= 10 x Ripped Sheets,
+		Icon			= PRag,
+	}
+	
+	item 50pkRag
+	{
+		Weight			= 1.5,
+		Type			= Normal,
+		DisplayName		= 50 x Ripped Sheets,
+		Icon			= PRag,
+	}
+	
+	item 100pkRag
+	{
+		Weight			= 2.5,
+		Type			= Normal,
+		DisplayName		= 100 x Ripped Sheets,
+		Icon			= PRag,
+	}
+	
+	item 10pkDenim
+	{
+		Weight			= 0.35,
+		Type			= Normal,
+		DisplayName		= 10 x Denim Strips,
+		Icon			= PDenimStrips,
+	}
+	
+	item 50pkDenim
+	{
+		Weight			= 1.5,
+		Type			= Normal,
+		DisplayName		= 50 x Denim Strips,
+		Icon			= PDenimStrips,
+	}
+	
+	item 100pkDenim
+	{
+		Weight			= 2.5,
+		Type			= Normal,
+		DisplayName		= 100 x Denim Strips,
+		Icon			= PDenimStrips,
+	}
+	
+	item 10pkLeather
+	{
+		Weight			= 0.35,
+		Type			= Normal,
+		DisplayName		= 10 x Leather Strips,
+		Icon			= PLeatherStrips,
+	}
+	
+	item 50pkLeather
+	{
+		Weight			= 1.5,
+		Type			= Normal,
+		DisplayName		= 50 x Leather Strips,
+		Icon			= PLeatherStrips,
+	}
+	
+	item 100pkLeather
+	{
+		Weight			= 2.5,
+		Type			= Normal,
+		DisplayName		= 100 x Leather Strips,
+		Icon			= PLeatherStrips,
+	}
+	
+	/*******************************************RECIPE PACK AND UNPACK***/
+	
+	recipe Pack 6 Beer Can
+	{
+		BeerCan=6,
+		
+		Result:6pkBeerCan,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 6 Beer Can
+	{
+		6pkBeerCan,
+		
+		Result:BeerCan=6,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 6 Beer Bottle
+	{
+		BeerBottle=6,
+		
+		Result:6pkBeer,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 6 Beer Bottle
+	{
+		6pkBeer,
+		
+		Result:BeerBottle=6,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 10 Metal Sheet
+	{
+		SheetMetal=10,
+		Rope=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkRopeSheetMetal,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unrope 10 Metal Sheet
+	{
+		10pkRopeSheetMetal,
+		
+		CanBeDoneFromFloor:true,
+		Result:SheetMetal=10,
+		OnCreate:Recipe.OnCreate.Unpack2Rope,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 5 Metal Sheet
+	{
+		SheetMetal=5,
+		Rope=1,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkRopeSheetMetal,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unrope 5 Metal Sheet
+	{
+		5pkRopeSheetMetal,
+		
+		CanBeDoneFromFloor:true,
+		Result:SheetMetal=5,
+		OnCreate:Recipe.OnCreate.Unpack1Rope,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 10 Metal Sheet
+	{
+		SheetMetal=10,
+		SheetRope=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkSheetRopeSheetMetal,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unrope 10 Metal Sheet
+	{
+		10pkSheetRopeSheetMetal,
+		
+		CanBeDoneFromFloor:true,
+		Result:SheetMetal=10,
+		OnCreate:Recipe.OnCreate.Unpack2SheetRope,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 5 Metal Sheet
+	{
+		SheetMetal=5,
+		SheetRope=1,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkSheetRopeSheetMetal,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unrope 5 Metal Sheet
+	{
+		5pkSheetRopeSheetMetal,
+		
+		CanBeDoneFromFloor:true,
+		Result:SheetMetal=5,
+		OnCreate:Recipe.OnCreate.Unpack1SheetRope,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Scrap Metal
+	{
+		ScrapMetal=10,
+		
+		Result:10pkScrapMetal,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Scrap Metal
+	{
+		10pkScrapMetal,
+		
+		Result:ScrapMetal=10,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 5 Scrap Metal
+	{
+		ScrapMetal=5,
+		
+		Result:5pkScrapMetal,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5 Scrap Metal
+	{
+		5pkScrapMetal,
+		
+		Result:ScrapMetal=5,
+		Time:25.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 6 Dog Food
+	{
+		Dogfood=6,
+		
+		Result:6pkDogFood,
+		Time:60.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 6 Dog Food
+	{
+		6pkDogFood,
+		
+		Result:Dogfood=6,
+		Time:40.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 10 Metal Pipe
+	{
+		MetalPipe=10,
+		Rope=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkRopeMetalPipe,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unrope 10 Metal Pipe
+	{
+		10pkRopeMetalPipe,
+		
+		CanBeDoneFromFloor:true,
+		Result:MetalPipe=10,
+		OnCreate:Recipe.OnCreate.Unpack2Rope,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 5 Metal Pipe
+	{
+		MetalPipe=5,
+		Rope,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkRopeMetalPipe,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unrope 5 Metal Pipe
+	{
+		5pkRopeMetalPipe,
+		
+		CanBeDoneFromFloor:true,
+		Result:MetalPipe=5,
+		OnCreate:Recipe.OnCreate.Unpack1Rope,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 10 Metal Pipe
+	{
+		MetalPipe=10,
+		SheetRope=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkSheetRopeMetalPipe,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unrope 10 Metal Pipe
+	{
+		10pkSheetRopeMetalPipe,
+		
+		CanBeDoneFromFloor:true,
+		Result:MetalPipe=10,
+		OnCreate:Recipe.OnCreate.Unpack2SheetRope,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 5 Metal Pipe
+	{
+		MetalPipe=5,
+		SheetRope,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkSheetRopeMetalPipe,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unrope 5 Metal Pipe
+	{
+		5pkSheetRopeMetalPipe,
+		
+		CanBeDoneFromFloor:true,
+		Result:MetalPipe=5,
+		OnCreate:Recipe.OnCreate.Unpack1SheetRope,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 10 Metal Bar
+	{
+		MetalBar=10,
+		Rope=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkRopeMetalBar,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unrope 10 Metal Bar
+	{
+		10pkRopeMetalBar,
+		
+		CanBeDoneFromFloor:true,
+		Result:MetalBar=10,
+		OnCreate:Recipe.OnCreate.Unpack2Rope,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 5 Metal Bar
+	{
+		MetalBar=5,
+		Rope,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkRopeMetalBar,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unrope 5 Metal Bar
+	{
+		5pkRopeMetalBar,
+		
+		CanBeDoneFromFloor:true,
+		Result:MetalBar=5,
+		OnCreate:Recipe.OnCreate.Unpack1Rope,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 10 Metal Bar
+	{
+		MetalBar=10,
+		SheetRope=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkSheetRopeMetalBar,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unrope 10 Metal Bar
+	{
+		10pkSheetRopeMetalBar,
+		
+		CanBeDoneFromFloor:true,
+		Result:MetalBar=10,
+		OnCreate:Recipe.OnCreate.Unpack2SheetRope,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 5 Metal Bar
+	{
+		MetalBar=5,
+		SheetRope,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkSheetRopeMetalBar,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unrope 5 Metal Bar
+	{
+		5pkSheetRopeMetalBar,
+		
+		CanBeDoneFromFloor:true,
+		Result:MetalBar=5,
+		OnCreate:Recipe.OnCreate.Unpack1SheetRope,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 10 Branch
+	{
+		TreeBranch=10,
+		Rope=2,
+		
+		Result:10pkRopeBranch,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unrope 10 Branch
+	{
+		10pkRopeBranch,
+		
+		Result:TreeBranch=10,
+		OnCreate:Recipe.OnCreate.Unpack2Rope,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 5 Branch
+	{
+		TreeBranch=5,
+		Rope,
+		
+		Result:5pkRopeBranch,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unrope 5 Branch
+	{
+		5pkRopeBranch,
+		
+		Result:TreeBranch=5,
+		OnCreate:Recipe.OnCreate.Unpack1Rope,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 10 Branch
+	{
+		TreeBranch=10,
+		SheetRope=2,
+		
+		Result:10pkSheetRopeBranch,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unrope 10 Branch
+	{
+		10pkSheetRopeBranch,
+		
+		Result:TreeBranch=10,
+		OnCreate:Recipe.OnCreate.Unpack2SheetRope,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 5 Branch
+	{
+		TreeBranch=5,
+		SheetRope,
+		
+		Result:5pkSheetRopeBranch,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unrope 5 Branch
+	{
+		5pkSheetRopeBranch,
+		
+		Result:TreeBranch=5,
+		OnCreate:Recipe.OnCreate.Unpack1SheetRope,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Chardonnay
+	{
+		Wine=10,
+		
+		Result:10pkWhiteWine,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Chardonnay
+	{
+		10pkWhiteWine,
+		
+		Result:Wine=10,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 5 Chardonnay
+	{
+		Wine=5,
+		
+		Result:5pkWhiteWine,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5 Chardonnay
+	{
+		5pkWhiteWine,
+		
+		Result:Wine=5,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Orange Soda
+	{
+		PopBottle=10,
+		
+		Result:10pkOrangeSoda,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Orange Soda
+	{
+		10pkOrangeSoda,
+		
+		Result:PopBottle=10,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 5 Orange Soda
+	{
+		PopBottle=5,
+		
+		Result:5pkOrangeSoda,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5 Orange Soda
+	{
+		5pkOrangeSoda,
+		
+		Result:PopBottle=5,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Whiskey
+	{
+		WhiskeyFull=10,
+		
+		Result:10pkWhiskey,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Whiskey
+	{
+		10pkWhiskey,
+		
+		Result:WhiskeyFull=10,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 5 Whiskey
+	{
+		WhiskeyFull=5,
+		
+		Result:5pkWhiskey,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5 Whiskey
+	{
+		5pkWhiskey,
+		
+		Result:WhiskeyFull=5,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Red Wine
+	{
+		Wine2=10,
+		
+		Result:10pkRedWine,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Red Wine
+	{
+		10pkRedWine,
+		
+		Result:Wine2=10,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 5 Red Wine
+	{
+		Wine2=5,
+		
+		Result:5pkRedWine,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5 Red Wine
+	{
+		5pkRedWine,
+		
+		Result:Wine2=5,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 10 Plank
+	{
+		Plank=10,
+		Rope=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkRopePlank,
+		Time:175.0,
+		Category:Storage,
+	}
+	
+	recipe Unrope 10 Plank
+	{
+		10pkRopePlank,
+		
+		CanBeDoneFromFloor:true,
+		Result:Plank=10,
+		OnCreate:Recipe.OnCreate.Unpack2Rope,
+		Time:125.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 5 Plank
+	{
+		Plank=5,
+		Rope,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkRopePlank,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unrope 5 Plank
+	{
+		5pkRopePlank,
+		
+		CanBeDoneFromFloor:true,
+		Result:Plank=5,
+		OnCreate:Recipe.OnCreate.Unpack1Rope,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 10 Plank
+	{
+		Plank=10,
+		SheetRope=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkSheetRopePlank,
+		Time:175.0,
+		Category:Storage,
+	}
+	
+	recipe Unrope 10 Plank
+	{
+		10pkSheetRopePlank,
+		
+		CanBeDoneFromFloor:true,
+		Result:Plank=10,
+		OnCreate:Recipe.OnCreate.Unpack2SheetRope,
+		Time:125.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 5 Plank
+	{
+		Plank=5,
+		SheetRope,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkSheetRopePlank,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unrope 5 Plank
+	{
+		5pkSheetRopePlank,
+		
+		CanBeDoneFromFloor:true,
+		Result:Plank=5,
+		OnCreate:Recipe.OnCreate.Unpack1SheetRope,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Magazine
+	{
+		Magazine=10,
+		
+		Result:10pkMagazine,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Magazine
+	{
+		10pkMagazine,
+		
+		Result:Magazine=10,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 5 Magazine
+	{
+		Magazine=5,
+		
+		Result:5pkMagazine,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5 Magazine
+	{
+		5pkMagazine,
+		
+		Result:Magazine=5,
+		Time:25.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Newspaper
+	{
+		Newspaper=10,
+		
+		Result:10pkNewspaper,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Newspaper
+	{
+		10pkNewspaper,
+		
+		Result:Newspaper=10,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 5 Newspaper
+	{
+		Newspaper=5,
+		
+		Result:5pkNewspaper,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5 Newspaper
+	{
+		5pkNewspaper,
+		
+		Result:Newspaper=5,
+		Time:25.0,
+		Category:Storage,
+	}
+	
+	recipe Pack Carpentry Skill Books
+	{
+		BookCarpentry1,
+		BookCarpentry2,
+		BookCarpentry3,
+		BookCarpentry4,
+		BookCarpentry5,
+		
+		Result:pkCarpentry,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack Carpentry Skill Books
+	{
+		pkCarpentry,
+		
+		Result:BookCarpentry1,
+		OnCreate:Recipe.OnCreate.UnpackCarpentrySkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack Cooking Skill Books
+	{
+		BookCooking1,
+		BookCooking2,
+		BookCooking3,
+		BookCooking4,
+		BookCooking5,
+		
+		Result:pkCooking,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack Cooking Skill Books
+	{
+		pkCooking,
+		
+		Result:BookCooking1,
+		OnCreate:Recipe.OnCreate.UnpackCookingSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack Electricity Skill Books
+	{
+		BookElectrician1,
+		BookElectrician2,
+		BookElectrician3,
+		BookElectrician4,
+		BookElectrician5,
+		
+		Result:pkElectricity,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack Electricity Skill Books
+	{
+		pkElectricity,
+		
+		Result:BookElectrician1,
+		OnCreate:Recipe.OnCreate.UnpackElectricitySkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack Farming Skill Books
+	{
+		BookFarming1,
+		BookFarming2,
+		BookFarming3,
+		BookFarming4,
+		BookFarming5,
+		
+		Result:pkFarming,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack Farming Skill Books
+	{
+		pkFarming,
+		
+		Result:BookFarming1,
+		OnCreate:Recipe.OnCreate.UnpackFarmingSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack Firstaid Skill Books
+	{
+		BookFirstAid1,
+		BookFirstAid2,
+		BookFirstAid3,
+		BookFirstAid4,
+		BookFirstAid5,
+		
+		Result:pkFirstaid,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack Firstaid Skill Books
+	{
+		pkFirstaid,
+		
+		Result:BookFirstAid1,
+		OnCreate:Recipe.OnCreate.UnpackFirstaidSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack Fishing Skill Books
+	{
+		BookFishing1,
+		BookFishing2,
+		BookFishing3,
+		BookFishing4,
+		BookFishing5,
+		
+		Result:pkFishing,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack Fishing Skill Books
+	{
+		pkFishing,
+		
+		Result:BookFishing1,
+		OnCreate:Recipe.OnCreate.UnpackFishingSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack Foraging Skill Books
+	{
+		BookForaging1,
+		BookForaging2,
+		BookForaging3,
+		BookForaging4,
+		BookForaging5,
+		
+		Result:pkForaging,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack Foraging Skill Books
+	{
+		pkForaging,
+		
+		Result:BookForaging1,
+		OnCreate:Recipe.OnCreate.UnpackForagingSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack Mechanics Skill Books
+	{
+		BookMechanic1,
+		BookMechanic2,
+		BookMechanic3,
+		BookMechanic4,
+		BookMechanic5,
+		
+		Result:pkMechanics,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack Mechanics Skill Books
+	{
+		pkMechanics,
+		
+		Result:BookMechanic1,
+		OnCreate:Recipe.OnCreate.UnpackMechanicsSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack Tailoring Skill Books
+	{
+		BookTailoring1,
+		BookTailoring2,
+		BookTailoring3,
+		BookTailoring4,
+		BookTailoring5,
+		
+		Result:pkTailoring,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack Tailoring Skill Books
+	{
+		pkTailoring,
+		
+		Result:BookTailoring1,
+		OnCreate:Recipe.OnCreate.UnpackTailoringSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack Metalwork Skill Books
+	{
+		BookMetalWelding1,
+		BookMetalWelding2,
+		BookMetalWelding3,
+		BookMetalWelding4,
+		BookMetalWelding5,
+		
+		Result:pkMetalwork,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack Metalwork Skill Books
+	{
+		pkMetalwork,
+		
+		Result:BookMetalWelding1,
+		OnCreate:Recipe.OnCreate.UnpackMetalworkSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack Trapping Skill Books
+	{
+		BookTrapping1,
+		BookTrapping2,
+		BookTrapping3,
+		BookTrapping4,
+		BookTrapping5,
+		
+		Result:pkTrapping,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack Trapping Skill Books
+	{
+		pkTrapping,
+		
+		Result:BookTrapping1,
+		OnCreate:Recipe.OnCreate.UnpackTrappingSkillBook,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Book
+	{
+		Book=10,
+		
+		Result:10pkBook,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Book
+	{
+		10pkBook,
+		
+		Result:Book=10,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 5 Book
+	{
+		Book=5,
+		
+		Result:5pkBook,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5 Book
+	{
+		5pkBook,
+		
+		Result:Book=5,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 20 Garbage Bag
+	{
+		Garbagebag=20,
+		
+		Result:HCGarbagebagbox,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Soap
+	{
+		Soap2=500,
+		
+		Result:10pkSoap,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Soap
+	{
+		10pkSoap,
+		
+		Result:Soap2=10,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 5 Soap
+	{
+		Soap2=250,
+		
+		Result:5pkSoap,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5 Soap
+	{
+		5pkSoap,
+		
+		Result:Soap2=5,
+		Time:25.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 4 Glue
+	{
+		Glue=20,
+		
+		Result:HCGluepack,
+		OnCreate:Recipe.OnCreate.PackGlue,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 4 Woodglue
+	{
+		Woodglue=20,
+		
+		Result:HCWoodgluepack,
+		OnCreate:Recipe.OnCreate.PackWoodGlue,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+    recipe Pack 100 Tissue
+	{
+		Tissue=3200,
+		
+		Result:HCTissuebox,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Tissue
+	{
+		Tissue=320,
+		
+		Result:10pkTissue,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Tissue
+	{
+		10pkTissue,
+		
+		Result:Tissue=10,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 5 Tissue
+	{
+		Tissue=160,
+		
+		Result:5pkTissue,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5 Tissue
+	{
+		5pkTissue,
+		
+		Result:Tissue=5,
+		Time:25.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Thread
+	{
+		Thread=100,
+		
+		Result:10pkThread,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Thread
+	{
+		10pkThread,
+		
+		Result:Thread=10,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 5 Thread
+	{
+		Thread=50,
+		
+		Result:5pkThread,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5 Thread
+	{
+		5pkThread,
+		
+		Result:Thread=5,
+		Time:25.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Wire
+	{
+		Wire=50,
+		
+		Result:10pkWire,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Wire
+	{
+		10pkWire,
+		
+		Result:Wire=10,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 5 Wire
+	{
+		Wire=25,
+		
+		Result:5pkWire,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5 Wire
+	{
+		5pkWire,
+		
+		Result:Wire=5,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Fishing Line
+	{
+		FishingLine=100,
+		
+		Result:10pkFishingLine,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Fishing Line
+	{
+		10pkFishingLine,
+		
+		Result:FishingLine=10,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 5 Fishing Line
+	{
+		FishingLine=50,
+		
+		Result:5pkFishingLine,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5 Fishing Line
+	{
+		5pkFishingLine,
+		
+		Result:FishingLine=5,
+		Time:25.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Twine
+	{
+		Twine=50,
+		
+		Result:10pkTwine,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Twine
+	{
+		10pkTwine,
+		
+		Result:Twine=10,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 5 Twine
+	{
+		Twine=25,
+		
+		Result:5pkTwine,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5 Twine
+	{
+		5pkTwine,
+		
+		Result:Twine=5,
+		Time:25.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Matches
+	{
+		Matches=100,
+		
+		Result:10pkMatches,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Matches
+	{
+		10pkMatches,
+		
+		Result:Matches=10,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 5 Matches
+	{
+		Matches=50,
+		
+		Result:5pkMatches,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5 Matches
+	{
+		5pkMatches,
+		
+		Result:Matches=5,
+		Time:25.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Metal Sheet
+	{
+		SheetMetal=10,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkSheetMetal,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Metal Sheet
+	{
+		10pkSheetMetal,
+		
+		CanBeDoneFromFloor:true,
+		Result:SheetMetal=10,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 5 Metal Sheet
+	{
+		SheetMetal=5,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkSheetMetal,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5 Metal Sheet
+	{
+		5pkSheetMetal,
+		
+		CanBeDoneFromFloor:true,
+		Result:SheetMetal=5,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Small Metal Sheet
+	{
+		SmallSheetMetal=10,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkSheetMetalSmall,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Small Metal Sheet
+	{
+		10pkSheetMetalSmall,
+		
+		CanBeDoneFromFloor:true,
+		Result:SmallSheetMetal=10,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 5 Small Metal Sheet
+	{
+		SmallSheetMetal=5,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkSheetMetalSmall,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5 Small Metal Sheet
+	{
+		5pkSheetMetalSmall,
+		
+		CanBeDoneFromFloor:true,
+		Result:SmallSheetMetal=5,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Metal Bar
+	{
+		MetalBar=10,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkMetalBar,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Metal Bar
+	{
+		10pkMetalBar,
+		
+		CanBeDoneFromFloor:true,
+		Result:MetalBar=10,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 5 Metal Bar
+	{
+		MetalBar=5,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkMetalBar,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5 Metal Bar
+	{
+		5pkMetalBar,
+		
+		CanBeDoneFromFloor:true,
+		Result:MetalBar=5,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Metal Pipe
+	{
+		MetalPipe=10,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkMetalPipe,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Metal Pipe
+	{
+		10pkMetalPipe,
+		
+		CanBeDoneFromFloor:true,
+		Result:MetalPipe=10,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 5 Metal Pipe
+	{
+		MetalPipe=5,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkMetalPipe,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5 Metal Pipe
+	{
+		5pkMetalPipe,
+		
+		CanBeDoneFromFloor:true,
+		Result:MetalPipe=5,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Rope
+	{
+		Rope=10,
+		
+		Result:10pkRope,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Rope
+	{
+		10pkRope,
+		
+		Result:Rope=10,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 5 Rope
+	{
+		Rope=5,
+		
+		Result:5pkRope,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5 Rope
+	{
+		5pkRope,
+		
+		Result:Rope=5,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Sheet Rope
+	{
+		SheetRope=10,
+		
+		Result:10pkSheetRope,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Sheet Rope
+	{
+		10pkSheetRope,
+		
+		Result:SheetRope=10,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 5 Sheet Rope
+	{
+		SheetRope=5,
+		
+		Result:5pkSheetRope,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5 Sheet Rope
+	{
+		5pkSheetRope,
+		
+		Result:SheetRope=5,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 4 Toilet Paper
+	{
+		ToiletPaper=128,
+		
+		Result:HCToiletpaperpack,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 8 MRE
+	{
+		HCMRE=8,
+		
+		Result:HCMREbox=1,
+		Time:100.0,
+		Category:Cooking,
+	}
+	
+	recipe Pack 3 Electric Tape
+	{
+		HCElectrictape=12,
+		
+		Result:HCElectricaltapepack=1,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Fishing Net Trap
+	{
+		FishingNet=10,
+		
+		Result:10pkFishingNet,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Fishing Net Trap
+	{
+		10pkFishingNet,
+		
+		Result:FishingNet=10,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 5 Fishing Net Trap
+	{
+		FishingNet=5,
+		
+		Result:5pkFishingNet,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5 Fishing Net Trap
+	{
+		5pkFishingNet,
+		
+		Result:FishingNet=5,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Lighter
+	{
+		Lighter=320,
+		
+		Result:10pkLighter,
+		OnCreate:Recipe.OnCreate.PackLighter,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Lighter
+	{
+		10pkLighter,
+		
+		Result:Lighter=10,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 5 Lighter
+	{
+		Lighter=160,
+		
+		Result:5pkLighter,
+		OnCreate:Recipe.OnCreate.PackLighter,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5 Lighter
+	{
+		5pkLighter,
+		
+		Result:Lighter=5,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 6 Battery
+	{
+		Battery=600000,
+		
+		Result:HCBatterysixpack,
+		OnCreate:Recipe.OnCreate.PackBattery,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Electronics Scrap
+	{
+		ElectronicsScrap=10,
+		
+		Result:10pkElectronicsScrap=1,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Electronics Scrap
+	{
+		10pkElectronicsScrap,
+		
+		Result:ElectronicsScrap=10,
+		Time:25.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 50 Electronics Scrap
+	{
+		ElectronicsScrap=50,
+		
+		Result:50pkElectronicsScrap=1,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 50 Electronics Scrap
+	{
+		50pkElectronicsScrap,
+		
+		Result:ElectronicsScrap=50,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 100 Electronics Scrap
+	{
+		ElectronicsScrap=100,
+		
+		Result:100pkElectronicsScrap=1,
+		Time:150.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 100 Electronics Scrap
+	{
+		100pkElectronicsScrap,
+		
+		Result:ElectronicsScrap=100,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Ripped Sheets
+	{
+		RippedSheets=10,
+		
+		Result:10pkRag=1,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Ripped Sheets
+	{
+		10pkRag,
+		
+		Result:RippedSheets=10,
+		Time:25.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 50 Ripped Sheets
+	{
+		RippedSheets=50,
+		
+		Result:50pkRag=1,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 50 Ripped Sheets
+	{
+		50pkRag,
+		
+		Result:RippedSheets=50,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 100 Ripped Sheets
+	{
+		RippedSheets=100,
+		
+		Result:100pkRag=1,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 100 Ripped Sheets
+	{
+		100pkRag,
+		
+		Result:RippedSheets=100,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Denim Strips
+	{
+		DenimStrips=10,
+		
+		Result:10pkDenim=1,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Denim Strips
+	{
+		10pkDenim,
+		
+		Result:DenimStrips=10,
+		Time:25.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 50 Denim Strips
+	{
+		DenimStrips=50,
+		
+		Result:50pkDenim=1,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 50 Denim Strips
+	{
+		50pkDenim,
+		
+		Result:DenimStrips=50,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 100 Denim Strips
+	{
+		DenimStrips=100,
+		
+		Result:100pkDenim=1,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 100 Denim Strips
+	{
+		100pkDenim,
+		
+		Result:DenimStrips=100,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 10 Leather Strips
+	{
+		LeatherStrips=10,
+		
+		Result:10pkLeather=1,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10 Leather Strips
+	{
+		10pkLeather,
+		
+		Result:LeatherStrips=10,
+		Time:25.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 50 Leather Strips
+	{
+		LeatherStrips=50,
+		
+		Result:50pkLeather=1,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 50 Leather Strips
+	{
+		50pkLeather,
+		
+		Result:LeatherStrips=50,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 100 Leather Strips
+	{
+		LeatherStrips=100,
+		
+		Result:100pkLeather=1,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 100 Leather Strips
+	{
+		100pkLeather,
+		
+		Result:LeatherStrips=100,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	/*******************************************RECIPE PUT TOGETHER***/
+	
+	recipe Put Together
+	{
+		5pkRopeSheetMetal=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkRopeSheetMetal=1,
+		Time:50.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkSheetRopeSheetMetal=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkSheetRopeSheetMetal=1,
+		Time:50.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkScrapMetal=2,
+		
+		Result:10pkScrapMetal=1,
+		Time:30.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkSheetRopeMetalBar=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkSheetRopeMetalBar=1,
+		Time:50.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkRopeMetalBar=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkRopeMetalBar=1,
+		Time:50.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkSheetRopeMetalPipe=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkSheetRopeMetalPipe=1,
+		Time:50.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkRopeMetalPipe=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkRopeMetalPipe=1,
+		Time:50.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkSheetRopeBranch=2,
+		
+		Result:10pkSheetRopeBranch=1,
+		Time:40.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkRopeBranch=2,
+		
+		Result:10pkRopeBranch=1,
+		Time:40.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkWhiteWine=2,
+		
+		Result:10pkWhiteWine=1,
+		Time:40.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkOrangeSoda=2,
+		
+		Result:10pkOrangeSoda=1,
+		Time:40.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkWhiskey=2,
+		
+		Result:10pkWhiskey=1,
+		Time:40.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkRedWine=2,
+		
+		Result:10pkRedWine=1,
+		Time:40.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkSheetRopePlank=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkSheetRopePlank=1,
+		Time:50.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkRopePlank=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkRopePlank=1,
+		Time:50.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkMagazine=2,
+		
+		Result:10pkMagazine=1,
+		Time:30.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkNewspaper=2,
+		
+		Result:10pkNewspaper=1,
+		Time:30.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkBook=2,
+		
+		Result:10pkBook=1,
+		Time:30.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkSoap=2,
+		
+		Result:10pkSoap=1,
+		Time:30.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkFishingLine=2,
+		
+		Result:10pkFishingLine=1,
+		Time:30.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkMatches=2,
+		
+		Result:10pkMatches=1,
+		Time:30.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkThread=2,
+		
+		Result:10pkThread=1,
+		Time:30.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkTwine=2,
+		
+		Result:10pkTwine=1,
+		Time:30.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkWire=2,
+		
+		Result:10pkWire=1,
+		Time:30.0,
+	}
+	
+	recipe Put Together
+	{
+		10pkRag=5,
+		
+		Result:50pkRag=1,
+		Time:40.0,
+	}
+	
+	recipe Put Together
+	{
+		50pkRag=2,
+		
+		Result:100pkRag=1,
+		Time:40.0,
+	}
+	
+	recipe Put Together
+	{
+		10pkDenim=5,
+		
+		Result:50pkDenim=1,
+		Time:40.0,
+	}
+	
+	recipe Put Together
+	{
+		50pkDenim=2,
+		
+		Result:100pkDenim=1,
+		Time:40.0,
+	}
+	
+	recipe Put Together
+	{
+		10pkLeather=5,
+		
+		Result:50pkLeather=1,
+		Time:40.0,
+	}
+	
+	recipe Put Together
+	{
+		50pkLeather=2,
+		
+		Result:100pkLeather=1,
+		Time:40.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkMetalBar=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkMetalBar=1,
+		Time:50.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkMetalPipe=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkMetalPipe=1,
+		Time:50.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkSheetMetal=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkSheetMetal=1,
+		Time:50.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkSheetMetalSmall=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkSheetMetalSmall=1,
+		Time:40.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkSheetRope=2,
+		
+		Result:10pkSheetRope=1,
+		Time:40.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkRope=2,
+		
+		Result:10pkRope=1,
+		Time:30.0,
+	}
+	
+	recipe Put Together
+	{
+		50pkElectronicsScrap=2,
+		
+		Result:100pkElectronicsScrap=1,
+		Time:40.0,
+	}
+	
+	recipe Put Together
+	{
+		10pkElectronicsScrap=5,
+		
+		Result:50pkElectronicsScrap=1,
+		Time:40.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkFishingNet=2,
+		
+		Result:10pkFishingNet=1,
+		Time:40.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkLighter=2,
+		
+		Result:10pkLighter=1,
+		Time:30.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkTissue=2,
+		
+		Result:10pkTissue=1,
+		Time:30.0,
+	}
+	
+	/*******************************************RECIPE SPLIT***/
+	
+	recipe Split in Two
+	{
+		10pkSheetRopeSheetMetal=1,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkSheetRopeSheetMetal=2,
+		Time:40.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkRopeSheetMetal=1,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkRopeSheetMetal=2,
+		Time:40.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkScrapMetal=1,
+		
+		Result:5pkScrapMetal=2,
+		Time:30.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkSheetRopeMetalPipe=1,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkSheetRopeMetalPipe=2,
+		Time:40.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkRopeMetalPipe=1,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkRopeMetalPipe=2,
+		Time:40.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkSheetRopeMetalBar=1,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkSheetRopeMetalBar=2,
+		Time:40.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkRopeMetalBar=1,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkRopeMetalBar=2,
+		Time:40.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkSheetRopeBranch=1,
+		
+		Result:5pkSheetRopeBranch=2,
+		Time:30.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkRopeBranch=1,
+		
+		Result:5pkRopeBranch=2,
+		Time:30.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkWhiteWine=1,
+		
+		Result:5pkWhiteWine=2,
+		Time:40.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkOrangeSoda=1,
+		
+		Result:5pkOrangeSoda=2,
+		Time:40.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkWhiskey=1,
+		
+		Result:5pkWhiskey=2,
+		Time:40.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkRedWine=1,
+		
+		Result:5pkRedWine=2,
+		Time:40.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkSheetRopePlank=1,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkSheetRopePlank=2,
+		Time:50.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkRopePlank=1,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkRopePlank=2,
+		Time:50.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkMagazine=1,
+		
+		Result:5pkMagazine=2,
+		Time:30.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkNewspaper=1,
+		
+		Result:5pkNewspaper=2,
+		Time:30.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkBook=1,
+		
+		Result:5pkBook=2,
+		Time:30.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkSoap=1,
+		
+		Result:5pkSoap=2,
+		Time:30.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkFishingLine=1,
+		
+		Result:5pkFishingLine=2,
+		Time:30.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkMatches=1,
+		
+		Result:5pkMatches=2,
+		Time:30.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkThread=1,
+		
+		Result:5pkThread=2,
+		Time:30.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkTwine=1,
+		
+		Result:5pkTwine=2,
+		Time:30.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkWire=1,
+		
+		Result:5pkWire=2,
+		Time:30.0,
+	}
+	
+	recipe Split in Two
+	{
+		100pkRag=1,
+		
+		Result:50pkRag=2,
+		Time:40.0,
+	}
+	
+	recipe Split in Two
+	{
+		100pkDenim=1,
+		
+		Result:50pkDenim=2,
+		Time:40.0,
+	}
+	
+	recipe Split in Two
+	{
+		100pkLeather=1,
+		
+		Result:50pkLeather=2,
+		Time:40.0,
+	}
+	
+	recipe Split in Two
+	{
+		100pkElectronicsScrap=1,
+		
+		Result:50pkElectronicsScrap=2,
+		Time:40.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkSheetMetal=1,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkSheetMetal=2,
+		Time:40.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkSheetMetalSmall=1,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkSheetMetalSmall=2,
+		Time:30.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkMetalBar=1,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkMetalBar=2,
+		Time:40.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkMetalPipe=1,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkMetalPipe=2,
+		Time:40.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkRope=1,
+		
+		Result:5pkRope=2,
+		Time:30.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkSheetRope=1,
+		
+		Result:5pkSheetRope=2,
+		Time:40.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkFishingNet=1,
+		
+		Result:5pkFishingNet=2,
+		Time:40.0,
+	}
+	
+	recipe Split in Two
+	{
+		100pkElectronicsScrap=1,
+		
+		Result:50pkElectronicsScrap=2,
+		Time:40.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkLighter=1,
+		
+		Result:5pkLighter=2,
+		Time:30.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkTissue=1,
+		
+		Result:5pkTissue=2,
+		Time:30.0,
+	}
+	
+	recipe Split in Five
+	{
+		50pkRag=1,
+		
+		Result:10pkRag=5,
+		Time:40.0,
+	}
+	
+	recipe Split in Five
+	{
+		50pkDenim=1,
+		
+		Result:10pkDenim=5,
+		Time:40.0,
+	}
+	
+	recipe Split in Five
+	{
+		50pkLeather=1,
+		
+		Result:10pkLeather=5,
+		Time:40.0,
+	}
+	
+	recipe Split in Five
+	{
+		50pkElectronicsScrap=1,
+		
+		Result:10pkElectronicsScrap=5,
+		Time:40.0,
+	}
+}

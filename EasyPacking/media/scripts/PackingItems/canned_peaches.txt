@@ -1,0 +1,35 @@
+module Packing
+{
+	imports
+	{
+		Base,
+	}
+	
+	item 6pkCannedPeaches
+	{
+		Weight			= 2.4,
+		Type			= Normal,
+		DisplayName		= 6 x Canned Peaches,
+		Icon			= PCannedPeaches,
+	}
+
+    recipe Pack 6
+	{
+		destroy CannedPeaches=6,
+		
+		Result:6pkCannedPeaches,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:60.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 6
+	{
+		destroy 6pkCannedPeaches,
+		
+		Result:CannedPeaches=6,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		Time:40.0,
+		Category:Storage,
+	}
+}

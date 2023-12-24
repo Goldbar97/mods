@@ -1,0 +1,33 @@
+module GidOrganizedFood
+{
+	imports
+	{
+		Base,
+	}
+
+	item OS12pkWineEmpty
+	{
+		Weight			= 1.8,
+		Type			= Normal,
+		DisplayName		= 12 x Empty Wine Bottles,
+		Icon			= OS12pkWineEmpty,
+	}
+	
+	recipe Pack 12
+	{
+		WineEmpty=12,
+
+		Result:OS12pkWineEmpty,
+		Time:120.0,
+		Category:Storage,
+	}
+
+	recipe Unpack 12
+	{
+		OS12pkWineEmpty,
+
+		Result:WineEmpty=12,
+		Time:120.0,
+		Category:Storage,
+	}
+}

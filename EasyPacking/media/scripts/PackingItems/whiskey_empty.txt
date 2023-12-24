@@ -1,0 +1,33 @@
+module GidOrganizedFood
+{
+	imports
+	{
+		Base,
+	}
+
+	item OS8pkWhiskeyEmpty
+	{
+		Weight			= 1.2,
+		Type			= Normal,
+		DisplayName		= 8 x Empty Whiskey Bottles,
+		Icon			= OS8pkWhiskeyEmpty,
+	}
+	
+	recipe Pack 8
+	{
+		WhiskeyEmpty=8,
+
+		Result:OS8pkWhiskeyEmpty,
+		Time:120.0,
+		Category:Storage,
+	}
+
+	recipe Unpack 8
+	{
+		OS8pkWhiskeyEmpty,
+
+		Result:WhiskeyEmpty=8,
+		Time:120.0,
+		Category:Storage,
+	}
+}

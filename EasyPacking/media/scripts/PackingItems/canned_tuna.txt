@@ -1,0 +1,35 @@
+module GidOrganizedFood
+{
+	imports
+	{
+		Base,
+	}
+
+	item OS8pkCannedTuna
+	{
+		Weight			= 1.2,
+		Type			= Normal,
+		DisplayName		= 8 x Canned Tuna,
+		Icon			= OS8pkCannedTuna,
+	}
+	
+	recipe Pack 8
+	{
+		destroy TunaTin=8,
+
+		Result:OS8pkCannedTuna,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:60.0,
+		Category:Storage,
+	}
+
+	recipe Unpack 8
+	{
+		destroy OS8pkCannedTuna,
+
+		Result:TunaTin=8,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		Time:60.0,
+		Category:Storage,
+	}
+}

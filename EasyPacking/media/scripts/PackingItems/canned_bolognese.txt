@@ -1,0 +1,35 @@
+module GidOrganizedFood
+{
+	imports
+	{
+		Base,
+	}
+
+	item OS6pkCannedBolognese
+	{
+		Weight			= 2.4,
+		Type			= Normal,
+		DisplayName		= 6 x Canned Bolognese,
+		Icon			= OS6pkCannedBolognese,
+	}
+	
+	recipe Pack 6
+	{
+		destroy CannedBolognese=6,
+
+		Result:OS6pkCannedBolognese,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:60.0,
+		Category:Storage,
+	}
+
+	recipe Unpack 6
+	{
+		destroy OS6pkCannedBolognese,
+
+		Result:CannedBolognese=6,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		Time:60.0,
+		Category:Storage,
+	}
+}

@@ -1,0 +1,82 @@
+Recipe_EN = {
+
+	Recipe_Put_Together = "Put Together",
+	Recipe_Split_in_Two = "Split in Two",
+	Recipe_Split_in_Five = "Split in Five",
+	
+	Recipe_Pack_4 = "Pack 4",
+	Recipe_Unpack_4 = "Unpack 4",
+	Recipe_Merge_and_Pack_4 = "Merge and Pack 4",
+	
+	Recipe_Pack_5 = "Pack 5",
+	Recipe_Unpack_5 = "Unpack 5",
+	Recipe_Merge_and_Pack_5 = "Merge and Pack 5",
+	
+	Recipe_Pack_6 = "Pack 6",
+	Recipe_Unpack_6 = "Unpack 6",
+	Recipe_Merge_and_Pack_6 = "Merge and Pack 6",
+	
+	Recipe_Pack_8 = "Pack 8",
+	Recipe_Unpack_8 = "Unpack 8",
+	
+	Recipe_Pack_9 = "Pack 9",
+	Recipe_Unpack_9 = "Unpack 9",
+	
+	Recipe_Pack_10 = "Pack 10",
+	Recipe_Unpack_10 = "Unpack 10",
+	Recipe_Merge_and_Pack_10 = "Merge and Pack 10",
+	
+	Recipe_Pack_12 = "Pack 12",
+	Recipe_Unpack_12 = "Unpack 12",
+	
+	Recipe_Pack_24 = "Pack 24",
+	Recipe_Unpack_24 = "Unpack 24",
+	
+	Recipe_Pack_20 = "Pack 20",
+	Recipe_Unpack_20 = "Unpack 20",
+	
+	Recipe_Pack_30 = "Pack 30",
+	Recipe_Unpack_30 = "Unpack 30",
+	
+	Recipe_Pack_50 = "Pack 50",
+	Recipe_Unpack_50 = "Unpack 50",
+	
+	Recipe_Pack_100 = "Pack 100",
+	Recipe_Unpack_100 = "Unpack 100",
+	
+	
+	
+	Recipe_Rope_5 = "Rope 5",
+	Recipe_Unrope_5 = "Unrope 5",
+	
+	Recipe_Rope_10 = "Rope 10",
+	Recipe_Unrope_10 = "Unrope 10",
+	
+	
+	
+	Recipe_Fill_Pack_of_Empty_Water_Bottles = "Fill Empty Bottles",
+	
+	
+	Recipe_Pack_Carpentry_Skill_Books = "Pack Carpentry Books",
+	Recipe_Unpack_Carpentry_Skill_Books = "Unpack Carpentry Books",
+	Recipe_Pack_Cooking_Skill_Books = "Pack Cooking Books",
+	Recipe_Unpack_Cooking_Skill_Books = "Unpack Cooking Books",
+	Recipe_Pack_Electricity_Skill_Books = "Pack Electricity Books",
+	Recipe_Unpack_Electricity_Skill_Books = "Unpack Electricity Books",
+	Recipe_Pack_Farming_Skill_Books = "Pack Farming Books",
+	Recipe_Unpack_Farming_Skill_Books = "Unpack Farming Books",
+	Recipe_Pack_Firstaid_Skill_Books = "Pack Firstaid Books",
+	Recipe_Unpack_Firstaid_Skill_Books = "Unpack Firstaid Books",
+	Recipe_Pack_Fishing_Skill_Books = "Pack Fishing Books",
+	Recipe_Unpack_Fishing_Skill_Books = "Unpack Fishing Books",
+	Recipe_Pack_Foraging_Skill_Books = "Pack Foraging Books",
+	Recipe_Unpack_Foraging_Skill_Books = "Unpack Foraging Books",
+	Recipe_Pack_Mechanics_Skill_Books = "Pack Mechanics Books",
+	Recipe_Unpack_Mechanics_Skill_Books = "Unpack Mechanics Books",
+	Recipe_Pack_Tailoring_Skill_Books = "Pack Tailoring Books",
+	Recipe_Unpack_Tailoring_Skill_Books = "Unpack Tailoring Books",
+	Recipe_Pack_Metalwork_Skill_Books = "Pack Metalwork Books",
+	Recipe_Unpack_Metalwork_Skill_Books = "Unpack Metalwork Books",
+	Recipe_Pack_Trapping_Skill_Books = "Pack Trapping Books",
+	Recipe_Unpack_Trapping_Skill_Books = "Unpack Trapping Books",
+}

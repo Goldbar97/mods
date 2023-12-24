@@ -1,0 +1,284 @@
+ItemName_CH = {
+
+/** -----  ----- || METAL STUFF || -----  ----- **/
+
+	ItemName_Packing.5pkScrapMetal = "廢金屬 (5x)",
+	ItemName_Packing.10pkScrapMetal = "廢金屬 (10x)",
+	ItemName_Packing.50pkScrapMetal = "廢金屬 (50x)",
+	ItemName_Packing.100pkScrapMetal = "廢金屬 (100x)",
+
+	ItemName_Packing.10pkSheetMetalSmall = "小金屬片 (10x)",
+	ItemName_Packing.5pkSheetMetalSmall = "小金屬片 (5x)",
+	
+	ItemName_Packing.10pkSheetMetal = "金屬片 (10x)",
+	ItemName_Packing.5pkSheetMetal = "金屬片 (5x)",
+        ItemName_Packing.10pkRopeSheetMetal = "金屬片 (繩子/10x)",
+	ItemName_Packing.5pkRopeSheetMetal = "金屬片 (繩子/5x)",
+	ItemName_Packing.10pkSheetRopeSheetMetal = "金屬片 (床單繩/10x)",
+	ItemName_Packing.5pkSheetRopeSheetMetal = "金屬片 (床單繩/5x)",
+	
+	ItemName_Packing.10pkMetalBar = "鐵棒 (10x)",
+	ItemName_Packing.5pkMetalBar = "鐵棒 (5x)",
+	ItemName_Packing.10pkRopeMetalBar = "鐵棒 (繩子/10x)",
+	ItemName_Packing.5pkRopeMetalBar = "鐵棒 (繩子/5x)",
+	ItemName_Packing.10pkSheetRopeMetalBar = "鐵棒 (床單繩/10x)",
+	ItemName_Packing.5pkSheetRopeMetalBar = "鐵棒 (床單繩/5x)",
+	
+	ItemName_Packing.10pkMetalPipe = "鐵管 (10x)",
+	ItemName_Packing.5pkMetalPipe = "鐵管 (5x)",
+	ItemName_Packing.10pkRopeMetalPipe = "鐵管 (繩子/10x)",
+	ItemName_Packing.5pkRopeMetalPipe = "鐵管 (繩子/5x)",
+	ItemName_Packing.10pkSheetRopeMetalPipe = "鐵管 (床單繩/10x)",
+	ItemName_Packing.5pkSheetRopeMetalPipe = "鐵管 (床單繩/5x)",
+	
+	ItemName_Packing.10pkWire = "鐵絲 (10x)",
+	ItemName_Packing.5pkWire = "鐵絲 (5x)",
+	
+	ItemName_Packing.10pkBarbedWire = "帶刺鐵絲 (10x)",
+	ItemName_Packing.5pkBarbedWire = "帶刺鐵絲 (5x)",
+	
+	ItemName_Packing.10pkWeldingRods = "焊條 (10x)",
+	ItemName_Packing.5pkWeldingRods = "焊條 (5x)",
+	
+	ItemName_Packing.10pkNailsBox = "盒裝釘子 (10x)",
+	ItemName_Packing.5pkNailsBox = "盒裝釘子 (5x)",
+	
+	ItemName_Packing.10pkScrewsBox = "盒裝螺絲 (10x)",
+	ItemName_Packing.5pkScrewsBox = "盒裝螺絲 (5x)",
+	
+	
+	
+/** -----  ----- || CARPENTRY STUFF || -----  ----- **/
+	
+	ItemName_Packing.10pkRopePlank = "木板 (繩子/10x)",
+	ItemName_Packing.5pkRopePlank = "木板 (繩子/5x)",
+	ItemName_Packing.10pkSheetRopePlank = "木板 (床單繩/10x)",
+	ItemName_Packing.5pkSheetRopePlank = "木板 (床單繩/5x)",
+
+	
+	
+/** -----  ----- || FOOD STUFF || -----  ----- **/
+
+	ItemName_Packing.6pkDogFood = "狗食 (6x)",
+	ItemName_GidOrganizedFood.OS6pkCannedSoup = "蔬菜湯罐頭 (6x)",
+	ItemName_GidOrganizedFood.OS6pkCannedBeans = "豆子罐頭 (6x)",
+	ItemName_GidOrganizedFood.OS6pkCannedBolognese = "波隆那肉醬意大利麵罐頭 (6x)",
+	ItemName_GidOrganizedFood.OS6pkCannedCarrots = "胡蘿蔔罐頭 (6x)",
+	ItemName_GidOrganizedFood.OS6pkCannedChili = "辣醬罐頭 (6x)",
+	ItemName_GidOrganizedFood.OS6pkCannedCorn = "玉米罐頭 (6x)",
+	ItemName_GidOrganizedFood.OS6pkCannedCornedBeef = "醃牛肉罐頭 (6x)",
+	ItemName_GidOrganizedFood.OS6pkCannedMushSoup = "蘑菇湯罐頭 (6x)",
+	ItemName_GidOrganizedFood.OS6pkCannedPeas = "碗豆罐頭 (6x)",
+	ItemName_GidOrganizedFood.OS6pkCannedPotato = "馬鈴薯罐頭 (6x)",
+	ItemName_GidOrganizedFood.OS6pkCannedTomato = "番茄罐頭 (6x)",
+	ItemName_GidOrganizedFood.OS8pkCannedTuna = "鮪魚罐頭 (8x)",
+	ItemName_GidOrganizedFood.OS4pkSardines = "沙丁魚罐頭 (4x)",
+	
+	ItemName_Packing.6pkCannedMilk = "蒸發乳罐頭 (6x)",
+	ItemName_Packing.6pkCannedFruitBeverage = "水果飲料罐頭 (6x)",
+	ItemName_Packing.6pkCannedFruitCocktail = "水果沙拉罐頭 (6x)",
+	ItemName_Packing.6pkCannedPeaches = "桃子罐頭 (6x)",
+	ItemName_Packing.6pkCannedPineapple = "鳳梨罐頭 (6x)",
+	
+	ItemName_GidOrganizedFood.OS4pkCoffee = "咖啡 (4x)",
+	
+	
+
+/** -----  ----- || DRINK STUFF || -----  ----- **/
+
+	ItemName_Packing.6pkBeerCan = "罐裝啤酒 (6x)",
+	ItemName_Packing.6pkBeer = "瓶裝啤酒 (6x)",
+	
+	ItemName_Packing.10pkRedWine = "紅葡萄酒 (10x)",
+	ItemName_Packing.5pkRedWine = "紅葡萄酒 (5x)",
+	ItemName_Packing.10pkWhiteWine = "白葡萄酒 (10x)",
+	ItemName_Packing.5pkWhiteWine = "白葡萄酒 (5x)",
+	
+	ItemName_Packing.10pkWhiskey = "波本威士忌 (10x)",
+	ItemName_Packing.5pkWhiskey = "波本威士忌 (5x)",
+	
+	ItemName_Packing.10pkOrangeSoda = "橘子汽水 (10x)",
+	ItemName_Packing.5pkOrangeSoda = "橘子汽水 (5x)",
+	
+	ItemName_GidOrganizedFood.OS6pkPopDiet = "汽水 (6x)",
+	ItemName_GidOrganizedFood.OS6pkPop = "汽水 (6x)",
+	ItemName_GidOrganizedFood.OS6pkFizz = "汽水 (6x)",
+
+	ItemName_GidOrganizedFood.OS12pkWineEmpty = "空瓶 (12x)",
+	ItemName_GidOrganizedFood.OS12pkWineEmpty2 = "空瓶 (12x)",
+	ItemName_GidOrganizedFood.OS8pkWhiskeyEmpty = "空瓶 (8x)",
+	
+	ItemName_GidOrganizedFood.OS24pkWaterBottleEmpty = "空瓶 (24x)",
+	ItemName_GidOrganizedFood.OS24pkWaterBottleFull = "水瓶 (24x)",
+	
+	
+
+/** -----  ----- || PAPER STUFF || -----  ----- **/
+
+	ItemName_Packing.10pkPencil = "鉛筆 (10x)",
+	ItemName_Packing.5pkPencil = "鉛筆 (5x)",
+	
+	ItemName_Packing.10pkPen = "原子筆 - 黑色 (10x)",
+	ItemName_Packing.5pkPen = "原子筆 - 黑色 (5x)",
+	
+	ItemName_Packing.10pkRedPen = "原子筆 - 紅色 (10x)",
+	ItemName_Packing.5pkRedPen = "原子筆 - 紅色 (5x)",
+	
+	ItemName_Packing.10pkBluePen = "原子筆 - 藍色 (10x)",
+	ItemName_Packing.5pkBluePen = "原子筆 - 藍色 (5x)",
+
+	ItemName_Packing.10pkSheetPaper = "紙張 (10x)",
+	ItemName_Packing.5pkSheetPaper = "紙張 (5x)",
+	
+	ItemName_Packing.10pkNotebook = "空筆記本 (10x)",
+	ItemName_Packing.5pkNotebook = "空筆記本 (5x)",
+
+	ItemName_Packing.10pkBook = "書 (10x)",
+	ItemName_Packing.5pkBook = "書 (5x)",
+
+	ItemName_Packing.10pkMagazine = "雜誌 (10x)",
+	ItemName_Packing.5pkMagazine = "雜誌 (5x)",
+	
+	ItemName_Packing.10pkNewspaper = "報紙 (10x)",
+	ItemName_Packing.5pkNewspaper = "報紙 (5x)",
+	
+	
+	
+/** -----  ----- || TAILORING STUFF || -----  ----- **/
+
+	ItemName_Packing.10pkThread = "縫線 (10x)",
+	ItemName_Packing.5pkThread = "縫線 (5x)",
+
+	ItemName_Packing.10pkRag = "碎布 (10x)",
+	ItemName_Packing.50pkRag = "碎布 (50x)",
+	ItemName_Packing.100pkRag = "碎布 (100x)",
+	
+	ItemName_Packing.10pkDenim = "丹寧條 (10x)",
+	ItemName_Packing.50pkDenim = "丹寧條 (50x)",
+	ItemName_Packing.100pkDenim = "丹寧條 (100x)",
+	
+	ItemName_Packing.10pkLeather = "皮革條 (10x)",
+	ItemName_Packing.50pkLeather = "皮革條 (50x)",
+	ItemName_Packing.100pkLeather = "皮革條 (100x)",
+
+	ItemName_Packing.10pkTwine = "捆繩 (10x)",
+	ItemName_Packing.5pkTwine = "捆繩 (5x)",
+	
+
+
+/** -----  ----- || FORAGING STUFF || -----  ----- **/
+
+	ItemName_Packing.10pkRopeBranch = "樹枝 (繩子/10x)",
+	ItemName_Packing.5pkRopeBranch = "樹枝 (繩子/5x)",
+
+	ItemName_Packing.10pkSheetRopeBranch = "樹枝 (床單繩/10x)",
+	ItemName_Packing.5pkSheetRopeBranch = "樹枝 (床單繩/5x)",
+	
+	
+	
+/** -----  ----- || MEDICINE STUFF || -----  ----- **/
+
+	ItemName_GidOrganized.OS12pkAdhesiveBandages = "OK繃 (12x)",
+	ItemName_GidOrganized.OS9pkBandages = "繃帶 (9x)",
+	ItemName_GidOrganized.OS9pkSterileBandages = "已消毒繃帶 (9x)",
+	ItemName_GidOrganized.OS9pkBandagesDirty = "髒繃帶 (9x)",
+
+	ItemName_Packing.10pkTissue = "紙巾 (10x)",
+	ItemName_Packing.5pkTissue = "紙巾 (5x)",
+	ItemName_Packing.4pkToiletPaper = "廁紙 (4x)",
+	
+	ItemName_GidOrganized.OS12pkCottonBalls = "棉花球 (12x)",
+	
+	ItemName_GidOrganized.OS30pkAntibiotics = "抗生素 (30x)",
+	ItemName_GidOrganized.OS50pkPainkillers = "止痛藥 (5x)",
+	ItemName_GidOrganized.OS50pkVitamins = "維他命 (5x)",
+	ItemName_GidOrganized.OS50pkBetaBlockers = "乙型阻斷劑 (5x)",
+	ItemName_GidOrganized.OS50pkAntidepressants = "抑鬱藥 (5x)",
+	ItemName_GidOrganized.OS50pkSleepingPills = "安眠藥 (5x)",
+	
+	ItemName_GidOrganized.OS4pkDisinfectant = "瓶裝消毒水 (4x)",
+	ItemName_GidOrganized.OS30pkAlcoholWipes = "酒精棉片 (6x)",
+
+
+
+/** -----  ----- || ELETRONIC STUFF || -----  ----- **/
+
+	ItemName_Packing.10pkBattery = "電池 (10x)",
+	ItemName_Packing.5pkBattery = "電池 (5x)",
+	
+	ItemName_Packing.10pkElectronicsScrap = "電子零件 (10x)",
+	ItemName_Packing.50pkElectronicsScrap = "電子零件 (50x)",
+	ItemName_Packing.100pkElectronicsScrap = "電子零件 (100x)",
+	
+	ItemName_Packing.10pkElectricWire = "電線 (10x)",
+	ItemName_Packing.5pkElectricWire = "電線 (5x)",
+
+	
+	
+/** -----  ----- || MISCELLANEOUS THINGS || -----  ----- **/
+	
+	ItemName_Packing.10pkRope = "繩子 (10x)",
+	ItemName_Packing.5pkRope = "繩子 (5x)",
+	
+	ItemName_Packing.10pkSheetRope = "床單繩 (10x)",
+	ItemName_Packing.5pkSheetRope = "床單繩 (5x)",
+	
+	ItemName_Packing.10pkGarbage = "垃圾袋 (10x)",
+	ItemName_Packing.5pkGarbage = "垃圾袋 (5x)",
+	
+	ItemName_Packing.10pkSoap = "肥皂 (10x)",
+	ItemName_Packing.5pkSoap = "肥皂 (5x)",
+
+	ItemName_Packing.10pkFishingLine = "釣魚線 (10x)",
+	ItemName_Packing.5pkFishingLine = "釣魚線 (5x)",
+
+	
+	ItemName_Packing.10pkFishingNet = "漁網 (10x)",
+	ItemName_Packing.5pkFishingNet = "漁網 (5x)",
+
+	ItemName_Packing.20pkCigarettes = "香菸 (20x)",
+	
+	ItemName_Packing.10pkMatches = "火柴 (10x)",
+	ItemName_Packing.5pkMatches = "火柴 (5x)",
+	ItemName_Packing.10pkLighter = "打火機 (10x)",
+	ItemName_Packing.5pkLighter = "打火機 (5x)",
+	
+	ItemName_Packing.10pkWoodGlue = "木膠 (10x)",
+	ItemName_Packing.5pkWoodGlue = "木膠 (5x)",
+	
+	ItemName_Packing.10pkGlue = "澆水 (10x)",
+	ItemName_Packing.5pkGlue = "澆水 (5x)",
+	
+	ItemName_GidOrganizedFood.OS4pkDuctTape = "布膠帶 (4x)",
+	
+	ItemName_Packing.10pkRopeEmptyPetrolCan = "空汽油罐 (繩子/10x)",
+	ItemName_Packing.5pkRopeEmptyPetrolCan = "空汽油罐 (繩子/5x)",
+	ItemName_Packing.10pkSheetRopeEmptyPetrolCan = "空汽油罐 (床單繩/10x)",
+	ItemName_Packing.5pkSheetRopeEmptyPetrolCan = "空汽油罐 (床單繩/5x)",
+	
+	ItemName_Packing.10pkRopePetrolCan = "汽油罐 (繩子/10x)",
+	ItemName_Packing.5pkRopePetrolCan = "汽油罐 (繩子/5x)",
+	ItemName_Packing.10pkSheetRopePetrolCan = "汽油罐 (床單繩/10x)",
+	ItemName_Packing.5pkSheetRopePetrolCan = "汽油罐 (床單繩/5x)",
+	
+	ItemName_Packing.10pkRopePropaneTank = "瓦斯桶 (繩子/10x)",
+	ItemName_Packing.5pkRopePropaneTank = "瓦斯桶 (繩子/5x)",
+	ItemName_Packing.10pkSheetRopePropaneTank = "瓦斯桶 (床單繩/10x)",
+	ItemName_Packing.5pkSheetRopePropaneTank = "瓦斯桶 (床單繩/5x)",
+	
+	
+	
+/** -----  ----- || SKILL BOOKS || -----  ----- **/
+
+	ItemName_Packing.pkCarpentry = "全套木工技能書",
+	ItemName_Packing.pkCooking = "全套烹飪技能書",
+	ItemName_Packing.pkElectricity = "全套電工技能書",
+	ItemName_Packing.pkFarming = "全套農耕技能書",
+	ItemName_Packing.pkFirstaid = "全套醫療技能書",
+	ItemName_Packing.pkFishing = "全套釣魚技能書",
+	ItemName_Packing.pkForaging = "全套採集技能書",
+	ItemName_Packing.pkMechanics = "全套機工技能書",
+	ItemName_Packing.pkTailoring = "全套裁縫技能書",
+	ItemName_Packing.pkMetalwork = "全套金工技能書",
+	ItemName_Packing.pkTrapping = "全套陷阱技能書",
+}

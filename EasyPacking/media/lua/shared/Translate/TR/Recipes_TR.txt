@@ -1,0 +1,82 @@
+Recipe_TR = {
+
+	Recipe_Put_Together = "Birleştir",
+	Recipe_Split_in_Two = "İkiye böl",
+	Recipe_Split_in_Five = "Beşe böl",
+	
+	Recipe_Pack_4 = "Paketle 4",
+	Recipe_Unpack_4 = "Paketi aç 4",
+	Recipe_Merge_and_Pack_4 = "Birleştir ve Paketle 4",
+	
+	Recipe_Pack_5 = "Paketle 5",
+	Recipe_Unpack_5 = "Paketi aç 5",
+	Recipe_Merge_and_Pack_5 = "Birleştir ve Paketle 5",
+	
+	Recipe_Pack_6 = "Paketle 6",
+	Recipe_Unpack_6 = "Paketi aç 6",
+	Recipe_Merge_and_Pack_6 = "Birleştir ve Paketle 6",
+	
+	Recipe_Pack_8 = "Paketle 8",
+	Recipe_Unpack_8 = "Paketi aç 8",
+	
+	Recipe_Pack_9 = "Paketle 9",
+	Recipe_Unpack_9 = "Paketi aç 9",
+	
+	Recipe_Pack_10 = "Paketle 10",
+	Recipe_Unpack_10 = "Paketi aç 10",
+	Recipe_Merge_and_Pack_10 = "Birleştir ve Paketle 10",
+	
+	Recipe_Pack_12 = "Paketle 12",
+	Recipe_Unpack_12 = "Paketi aç 12",
+	
+	Recipe_Pack_24 = "Paketle 24",
+	Recipe_Unpack_24 = "Paketi aç 24",
+	
+	Recipe_Pack_20 = "Paketle 20",
+	Recipe_Unpack_20 = "Paketi aç 20",
+	
+	Recipe_Pack_30 = "Paketle 30",
+	Recipe_Unpack_30 = "Paketi aç 30",
+	
+	Recipe_Pack_50 = "Paketle 50",
+	Recipe_Unpack_50 = "Paketi aç 50",
+	
+	Recipe_Pack_100 = "Paketle 100",
+	Recipe_Unpack_100 = "Paketi aç 100",
+	
+	
+	
+	Recipe_Rope_5 = "Bağla 5",
+	Recipe_Unrope_5 = "Bağı çöz 5",
+	
+	Recipe_Rope_10 = "Bağla 10",
+	Recipe_Unrope_10 = "Bağı çöz 10",
+	
+	
+	
+	Recipe_Fill_Pack_of_Empty_Water_Bottles = "Boş şişeleri doldur",
+	
+	
+	Recipe_Pack_Carpentry_Skill_Books = "Marangozluk kitaplarını paketle",
+	Recipe_Unpack_Carpentry_Skill_Books = "Marangozluk kitaplarının paketini aç",
+	Recipe_Pack_Cooking_Skill_Books = "Aşçılık kitaplarını paketle",
+	Recipe_Unpack_Cooking_Skill_Books = "Aşçılık kitaplarının paketini aç",
+	Recipe_Pack_Electricity_Skill_Books = "Elektrikçilik kitaplarını paketle",
+	Recipe_Unpack_Electricity_Skill_Books = "Elektrikçilik kitaplarının paketini aç",
+	Recipe_Pack_Farming_Skill_Books = "Çiftçilik kitaplarını paketle",
+	Recipe_Unpack_Farming_Skill_Books = "Çiftçilik kitaplarının paketini aç",
+	Recipe_Pack_Firstaid_Skill_Books = "İlk Yardım kitaplarını paketle",
+	Recipe_Unpack_Firstaid_Skill_Books = "İlk Yardım kitaplarının paketini aç",
+	Recipe_Pack_Fishing_Skill_Books = "Balıkçılık kitaplarını paketle",
+	Recipe_Unpack_Fishing_Skill_Books = "Balıkçılık kitaplarının paketini aç",
+	Recipe_Pack_Foraging_Skill_Books = "Araştırma kitaplarını paketle",
+	Recipe_Unpack_Foraging_Skill_Books = "Araştırma kitaplarının paketini aç",
+	Recipe_Pack_Mechanics_Skill_Books = "Tamircilik kitaplarını paketle",
+	Recipe_Unpack_Mechanics_Skill_Books = "Tamircilik kitaplarının paketini aç",
+	Recipe_Pack_Tailoring_Skill_Books = "Terzilik kitaplarını paketle",
+	Recipe_Unpack_Tailoring_Skill_Books = "Terzilik kitaplarının paketini aç",
+	Recipe_Pack_Metalwork_Skill_Books = "Demircilik kitaplarını paketle",
+	Recipe_Unpack_Metalwork_Skill_Books = "Demircilik kitaplarının paketini aç",
+	Recipe_Pack_Trapping_Skill_Books = "Avcılık kitaplarını paketle",
+	Recipe_Unpack_Trapping_Skill_Books = "Avcılıking kitaplarının paketini aç",
+}

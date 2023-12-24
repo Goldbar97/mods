@@ -1,0 +1,38 @@
+module GidOrganized
+{
+	imports
+	{
+		Base,
+	}
+
+	item OS4pkDisinfectant
+	{
+		Weight				= 0.6,
+		Type				= Normal,
+		UseWhileEquipped	= FALSE,
+		DisplayName			= 4 x Full Disinfectant Bottles,
+		Icon				= OS4pkDisinfectant,
+	}
+	
+	recipe Pack 4
+	{
+		destroy Disinfectant=4,
+
+		Result:OS4pkDisinfectant,
+		OnCreate:Recipe.OnCreate.SaveUses,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:120.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 4
+	{
+		OS4pkDisinfectant,
+
+		Result:Disinfectant,
+		OnCreate:Recipe.OnCreate.LoadUses,
+		RemoveResultItem:true,
+		Time:120.0,
+		Category:Storage,
+	}
+}

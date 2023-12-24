@@ -1,0 +1,3 @@
+IGUI_CH = {
+	IGUI_CraftCategory_Storage = "庫存",
+}

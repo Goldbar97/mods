@@ -1,0 +1,284 @@
+ItemName_PTBR = {
+
+/** -----  ----- || METAL STUFF || -----  ----- **/
+
+	ItemName_Packing.5pkScrapMetal = "5x Sucatas de Metal",
+	ItemName_Packing.10pkScrapMetal = "10x Sucatas de Metal",
+	ItemName_Packing.50pkScrapMetal = "50x Sucatas de Metal",
+	ItemName_Packing.100pkScrapMetal = "100x Sucatas de Metal",
+
+	ItemName_Packing.10pkSheetMetalSmall = "10x Placas de Metal Pequena",
+	ItemName_Packing.5pkSheetMetalSmall = "5x Placas de Metal Pequena",
+	
+	ItemName_Packing.10pkSheetMetal = "10x Placas de Metal",
+	ItemName_Packing.5pkSheetMetal = "5x Placas de Metal",
+    ItemName_Packing.10pkRopeSheetMetal = "10x Placas de Metal (Corda)",
+	ItemName_Packing.5pkRopeSheetMetal = "5x Placas de Metal (Corda)",
+	ItemName_Packing.10pkSheetRopeSheetMetal = "10x Placas de Metal (Corda Improvisada)",
+	ItemName_Packing.5pkSheetRopeSheetMetal = "5x Placas de Metal (Corda Improvisada)",
+	
+	ItemName_Packing.10pkMetalBar = "10x Barras de Metal",
+	ItemName_Packing.5pkMetalBar = "5x Barras de Metal",
+	ItemName_Packing.10pkRopeMetalBar = "10x Barras de Metal (Corda)",
+	ItemName_Packing.5pkRopeMetalBar = "5x Barras de Metal (Corda)",
+	ItemName_Packing.10pkSheetRopeMetalBar = "10x Barras de Metal (Corda Improvisada)",
+	ItemName_Packing.5pkSheetRopeMetalBar = "5x Barras de Metal (Corda Improvisada)",
+	
+	ItemName_Packing.10pkMetalPipe = "10x Canos de Metal",
+	ItemName_Packing.5pkMetalPipe = "5x Canos de Metal",
+	ItemName_Packing.10pkRopeMetalPipe = "10x Canos de Metal (Corda)",
+	ItemName_Packing.5pkRopeMetalPipe = "5x Canos de Metal (Corda)",
+	ItemName_Packing.10pkSheetRopeMetalPipe = "10x Canos de Metal (Corda Improvisada)",
+	ItemName_Packing.5pkSheetRopeMetalPipe = "5x Canos de Metal (Corda Improvisada)",
+	
+	ItemName_Packing.10pkWire = "10x Arames",
+	ItemName_Packing.5pkWire = "5x Arames",
+	
+	ItemName_Packing.10pkBarbedWire = "10x Arames Farpados",
+	ItemName_Packing.5pkBarbedWire = "5x Arames Farpados",
+	
+	ItemName_Packing.10pkWeldingRods = "10x Varetas de Solda",
+	ItemName_Packing.5pkWeldingRods = "5x Varetas de Solda",
+	
+	ItemName_Packing.10pkNailsBox = "10x Caixas de Prego",
+	ItemName_Packing.5pkNailsBox = "5x Caixas de Prego",
+	
+	ItemName_Packing.10pkScrewsBox = "10x Caixas de Parafuso",
+	ItemName_Packing.5pkScrewsBox = "5x Caixas de Parafuso",
+	
+	
+	
+/** -----  ----- || CARPENTRY STUFF || -----  ----- **/
+	
+	ItemName_Packing.10pkSheetRopePlank = "10x Tábuas (Corda Improvisada)",
+	ItemName_Packing.5pkSheetRopePlank = "5x Tábuas (Corda Improvisada)",
+	
+	ItemName_Packing.10pkRopePlank = "10x Tábuas (Corda)",
+	ItemName_Packing.5pkRopePlank = "5x Tábuas (Corda)",
+	
+	
+	
+/** -----  ----- || FOOD STUFF || -----  ----- **/
+
+	ItemName_Packing.6pkDogFood = "6x Latas de Ração de Cachorro",
+	ItemName_GidOrganizedFood.OS6pkCannedSoup = "6x Latas de Sopa",
+	ItemName_GidOrganizedFood.OS6pkCannedBeans = "6x Latas de Feijão",
+	ItemName_GidOrganizedFood.OS6pkCannedBolognese = "6x Latas de Espaguete a Bolonhesa",
+	ItemName_GidOrganizedFood.OS6pkCannedCarrots = "6x Latas de Cenoura",
+	ItemName_GidOrganizedFood.OS6pkCannedChili = "6x Latas de Chili",
+	ItemName_GidOrganizedFood.OS6pkCannedCorn = "6x Latas de Milho",
+	ItemName_GidOrganizedFood.OS6pkCannedCornedBeef = "6x Latas de Carne",
+	ItemName_GidOrganizedFood.OS6pkCannedMushSoup = "6x Latas de Sopa de Cogumelo",
+	ItemName_GidOrganizedFood.OS6pkCannedPeas = "6x Latas de Ervilha",
+	ItemName_GidOrganizedFood.OS6pkCannedPotato = "6x Latas de Batata",
+	ItemName_GidOrganizedFood.OS6pkCannedTomato = "6x Latas de Tomate",
+	ItemName_GidOrganizedFood.OS8pkCannedTuna = "8x Latas de Atum",
+	ItemName_GidOrganizedFood.OS4pkSardines = "4x Latas de Sardinha",
+	
+	ItemName_Packing.6pkCannedMilk = "6x Latas de Leite Evaporado",
+	ItemName_Packing.6pkCannedFruitBeverage = "6x Latas de Suco de Frutas",
+	ItemName_Packing.6pkCannedFruitCocktail = "6x Latas de Salada de Frutas",
+	ItemName_Packing.6pkCannedPeaches = "6x Latas de Pêssego",
+	ItemName_Packing.6pkCannedPineapple = "6x Latas de Abacaxi",
+	
+	ItemName_GidOrganizedFood.OS4pkCoffee = "4x Cafés",
+	
+	
+
+/** -----  ----- || DRINK STUFF || -----  ----- **/
+
+	ItemName_Packing.6pkBeerCan = "6x Latas de Cerveja",
+	ItemName_Packing.6pkBeer = "6x Garrafas de Cerveja",
+	
+	ItemName_Packing.10pkRedWine = "10x Garrafas de Vinho Tinto",
+	ItemName_Packing.5pkRedWine = "5x Garrafas de Vinho Tinto",
+	ItemName_Packing.10pkWhiteWine = "10x Garrafas de Vinho Branco",
+	ItemName_Packing.5pkWhiteWine = "5x Garrafas de Vinho Branco",
+	
+	ItemName_Packing.10pkWhiskey = "10x Garrafas de Uísque",
+	ItemName_Packing.5pkWhiskey = "5x Garrafas de Uísque",
+	
+	ItemName_Packing.10pkOrangeSoda = "10x Refrigerantes de Laranja",
+	ItemName_Packing.5pkOrangeSoda = "5x Refrigerantes de Laranja",
+	
+	ItemName_GidOrganizedFood.OS6pkPopDiet = "6x Pop Diet",
+	ItemName_GidOrganizedFood.OS6pkPop = "6x Pop",
+	ItemName_GidOrganizedFood.OS6pkFizz = "6x Pop Fizz",
+
+	ItemName_GidOrganizedFood.OS12pkWineEmpty = "12x Garrafas de Vinho Vazia",
+	ItemName_GidOrganizedFood.OS12pkWineEmpty2 = "12x Garrafas de Vinho Vazia",
+	ItemName_GidOrganizedFood.OS8pkWhiskeyEmpty = "8x Garrafas de Uisque Vazia",
+	
+	ItemName_GidOrganizedFood.OS24pkWaterBottleEmpty = "24x Garrafas Vazias",
+	ItemName_GidOrganizedFood.OS24pkWaterBottleFull = "24x Garrafas de Água",
+	
+	
+
+/** -----  ----- || PAPER STUFF || -----  ----- **/
+
+	ItemName_Packing.10pkPencil = "10x Lápis",
+	ItemName_Packing.5pkPencil = "5x Lápis",
+	
+	ItemName_Packing.10pkPen = "10x Canetas",
+	ItemName_Packing.5pkPen = "5x Canetas",
+	
+	ItemName_Packing.10pkRedPen = "10x Canetas Vermelhas",
+	ItemName_Packing.5pkRedPen = "5x Canetas Vermelhas",
+	
+	ItemName_Packing.10pkBluePen = "10x Canetas Azuis",
+	ItemName_Packing.5pkBluePen = "5x Canetas Azuis",
+
+	ItemName_Packing.10pkSheetPaper = "10x Papéis",
+	ItemName_Packing.5pkSheetPaper = "5x Papéis",
+	
+	ItemName_Packing.10pkNotebook = "10x Cadernos",
+	ItemName_Packing.5pkNotebook = "5x Cadernos",
+
+	ItemName_Packing.10pkBook = "10x Livros",
+	ItemName_Packing.5pkBook = "5x Livros",
+
+	ItemName_Packing.10pkMagazine = "10x Revistas",
+	ItemName_Packing.5pkMagazine = "5x Revistas",
+	
+	ItemName_Packing.10pkNewspaper = "10x Jornais",
+	ItemName_Packing.5pkNewspaper = "5x Jornais",
+	
+	
+	
+/** -----  ----- || TAILORING STUFF || -----  ----- **/
+
+	ItemName_Packing.10pkThread = "10x Linhas",
+	ItemName_Packing.5pkThread = "5x Linhas",
+
+	ItemName_Packing.10pkRag = "10x Panos Rasgados",
+	ItemName_Packing.50pkRag = "50x Panos Rasgados",
+	ItemName_Packing.100pkRag = "100x Panos Rasgados",
+	
+	ItemName_Packing.10pkDenim = "10x Tiras de Jeans",
+	ItemName_Packing.50pkDenim = "50x Tiras de Jeans",
+	ItemName_Packing.100pkDenim = "100x Tiras de Jeans",
+	
+	ItemName_Packing.10pkLeather = "10x Tiras de Couro",
+	ItemName_Packing.50pkLeather = "50x Tiras de Couro",
+	ItemName_Packing.100pkLeather = "100x Tiras de Couro",
+
+	ItemName_Packing.10pkTwine = "10x Barbantes",
+	ItemName_Packing.5pkTwine = "5x Barbantes",
+
+
+
+/** -----  ----- || FORAGING STUFF || -----  ----- **/
+
+	ItemName_Packing.10pkRopeBranch = "10x Galhos (Corda)",
+	ItemName_Packing.5pkRopeBranch = "5x Galhos (Corda)",
+
+	ItemName_Packing.10pkSheetRopeBranch = "10x Galhos (Corda Improvisada)",
+	ItemName_Packing.5pkSheetRopeBranch = "5x Galhos (Corda Improvisada)",
+	
+	
+	
+/** -----  ----- || MEDICINE STUFF || -----  ----- **/
+
+	ItemName_GidOrganized.OS12pkAdhesiveBandages = "12x Band-Aids",
+	ItemName_GidOrganized.OS9pkBandages = "9x Bandagens",
+	ItemName_GidOrganized.OS9pkSterileBandages = "9x Bandagens (Esterilizadas)",
+	ItemName_GidOrganized.OS9pkBandagesDirty = "9x Bandagens (Sujas)",
+
+	ItemName_Packing.10pkTissue = "10x Lenços Descartáveis",
+	ItemName_Packing.5pkTissue = "5x Lencos Descartáveis",
+	ItemName_Packing.4pkToiletPaper = "4x Papéis Higiênicos",
+	
+	ItemName_GidOrganized.OS12pkCottonBalls = "12x Algodões",
+	
+	ItemName_GidOrganized.OS30pkAntibiotics = "30x Antibióticos",
+	ItemName_GidOrganized.OS50pkPainkillers = "5x Analgésicos",
+	ItemName_GidOrganized.OS50pkVitamins = "5x Vitaminas",
+	ItemName_GidOrganized.OS50pkBetaBlockers = "5x Calmantes",
+	ItemName_GidOrganized.OS50pkAntidepressants = "5x Antidepressivos",
+	ItemName_GidOrganized.OS50pkSleepingPills = "5x Pílulas Soníferas",
+	
+	ItemName_GidOrganized.OS4pkDisinfectant = "4x Garrafas de Desinfetante",
+	ItemName_GidOrganized.OS30pkAlcoholWipes = "6x Lenços Esterilizados",
+
+
+
+/** -----  ----- || ELETRONIC STUFF || -----  ----- **/
+
+	ItemName_Packing.10pkBattery = "10x Pilhas",
+	ItemName_Packing.5pkBattery = "5x Pilhas",
+	
+	ItemName_Packing.10pkElectronicsScrap = "10x Sucatas Eletrônicas",
+	ItemName_Packing.50pkElectronicsScrap = "50x Sucatas Eletrônicas",
+	ItemName_Packing.100pkElectronicsScrap = "100x Sucatas Eletrônicas",
+	
+	ItemName_Packing.10pkElectricWire = "10x Fios Elétricos",
+	ItemName_Packing.5pkElectricWire = "5x Fios Elétricos",
+
+	
+	
+/** -----  ----- || MISCELLANEOUS THINGS || -----  ----- **/
+	
+	ItemName_Packing.10pkRope = "10x Cordas",
+	ItemName_Packing.5pkRope = "5x Cordas",
+	
+	ItemName_Packing.10pkSheetRope = "10x Cordas Improvisadas",
+	ItemName_Packing.5pkSheetRope = "5x Cordas Improvisadas",
+	
+	ItemName_Packing.10pkGarbage = "10x Sacos de Lixo",
+	ItemName_Packing.5pkGarbage = "5x Sacos de Lixo",
+	
+	ItemName_Packing.10pkSoap = "10x Sabões",
+	ItemName_Packing.5pkSoap = "5x Sabões",
+
+	ItemName_Packing.10pkFishingLine = "10x Linhas de Pesca",
+	ItemName_Packing.5pkFishingLine = "5x Linhas de Pesca",
+
+	ItemName_Packing.10pkFishingNet = "10x Redes de Pesca",
+	ItemName_Packing.5pkFishingNet = "5x Redes de Pesca",
+
+	ItemName_Packing.20pkCigarettes = "20x Cigarros",
+	
+	ItemName_Packing.10pkMatches = "10x Fósforos",
+	ItemName_Packing.5pkMatches = "5x Fósforos",
+	ItemName_Packing.10pkLighter = "10x Isqueiros",
+	ItemName_Packing.5pkLighter = "5x Isqueiros",
+	
+	ItemName_Packing.10pkWoodGlue = "10x Colas de Madeira",
+	ItemName_Packing.5pkWoodGlue = "5x Colas de Madeira",
+	
+	ItemName_Packing.10pkGlue = "10x Colas",
+	ItemName_Packing.5pkGlue = "5x Colas",
+	
+	ItemName_GidOrganizedFood.OS4pkDuctTape = "4x Silver Tapes",
+	
+	ItemName_Packing.10pkRopeEmptyPetrolCan = "10x Galões de Combustível Vazios (Corda)",
+	ItemName_Packing.5pkRopeEmptyPetrolCan = "5x Galões de Combustível Vazios (Corda)",
+	ItemName_Packing.10pkSheetRopeEmptyPetrolCan = "10x Galões de Combustível Vazios (Corda Improvisada)",
+	ItemName_Packing.5pkSheetRopeEmptyPetrolCan = "5x Galões de Combustível Vazios (Corda Improvisada)",
+	
+	ItemName_Packing.10pkRopePetrolCan = "10x Galões de Combustível (Corda)",
+	ItemName_Packing.5pkRopePetrolCan = "5x Galões de Combustível (Corda)",
+	ItemName_Packing.10pkSheetRopePetrolCan = "10x Galões de Combustível (Corda Improvisada)",
+	ItemName_Packing.5pkSheetRopePetrolCan = "5x Galões de Combustível (Corda Improvisada)",
+	
+	ItemName_Packing.10pkRopePropaneTank = "10x Botijões (Corda)",
+	ItemName_Packing.5pkRopePropaneTank = "5x Botijões (Corda)",
+	ItemName_Packing.10pkSheetRopePropaneTank = "10x Botijões (Corda Improvisada)",
+	ItemName_Packing.5pkSheetRopePropaneTank = "5x Botijões (Corda Improvisada)",
+	
+	
+	
+/** -----  ----- || SKILL BOOKS || -----  ----- **/
+
+	ItemName_Packing.pkCarpentry = "Coleção de Livros de Carpintaria",
+	ItemName_Packing.pkCooking = "Coleção de Livros de Culinária",
+	ItemName_Packing.pkElectricity = "Coleção de Livros de Engenharia Elétrica",
+	ItemName_Packing.pkFarming = "Coleção de Livros de Agricultura",
+	ItemName_Packing.pkFirstaid = "Coleção de Livros de Medicina",
+	ItemName_Packing.pkFishing = "Coleção de Livros de Pesca",
+	ItemName_Packing.pkForaging = "Coleção de Livros de Sobrevivência",
+	ItemName_Packing.pkMechanics = "Coleção de Livros de Mecânica",
+	ItemName_Packing.pkTailoring = "Coleção de Livros de Costura",
+	ItemName_Packing.pkMetalwork = "Coleção de Livros de Metalurgia",
+	ItemName_Packing.pkTrapping = "Coleção de Livros de Caça",
+}

@@ -1,0 +1,10 @@
+Recipes_EN = {
+	Recipe_Pack_10 = "Pack 10",
+	Recipe_Pack_5 = "Pack 5",
+	
+	Recipe_Unpack_10 = "Unpack 10",
+	Recipe_Unpack_5 = "Unpack 5",
+
+	Recipe_Put_Together = "Put Together"
+	Recipe_Split_in_Two = "Split in Two"
+}

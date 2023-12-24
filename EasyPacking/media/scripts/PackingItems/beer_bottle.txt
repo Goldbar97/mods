@@ -1,0 +1,42 @@
+module Packing
+{
+	imports
+	{
+		Base,
+	}
+	
+	item 6pkBeer
+	{
+		Weight			= 1.2,
+		Type			= Normal,
+		DisplayName		= 6 x Beer Bottle,
+		Icon			= PBeer,
+		WorldStaticModel = 6BeerBottle_Ground,
+	}
+
+	recipe Pack 6
+	{
+		destroy BeerBottle=6,
+		
+		Result:6pkBeer,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 6
+	{
+		destroy 6pkBeer,
+		
+		Result:BeerBottle=6,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	model 6BeerBottle_Ground
+	{
+		mesh = WorldItems/6beerbottle_ground,
+		scale = 0.400,
+	}
+}

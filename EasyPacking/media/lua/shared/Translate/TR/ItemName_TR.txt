@@ -1,0 +1,284 @@
+ItemName_TR = {
+
+/** -----  ----- || METAL STUFF || -----  ----- **/
+
+	ItemName_Packing.5pkScrapMetal = "5x Hurda Metal",
+	ItemName_Packing.10pkScrapMetal = "10x Hurda Metal",
+	ItemName_Packing.50pkScrapMetal = "50x Hurda Metal",
+	ItemName_Packing.100pkScrapMetal = "100x Hurda Metal",
+
+	ItemName_Packing.10pkSheetMetalSmall = "10x Küçük Sac Metal",
+	ItemName_Packing.5pkSheetMetalSmall = "5x Küçük Sac Metal",
+	
+	ItemName_Packing.10pkSheetMetal = "10x Sac Metal",
+	ItemName_Packing.5pkSheetMetal = "5x Sac Metal",
+    ItemName_Packing.10pkRopeSheetMetal = "10x Sac Metal (Halata Baðlý)",
+	ItemName_Packing.5pkRopeSheetMetal = "5x Sac Metal (Halata Baðlý)",
+	ItemName_Packing.10pkSheetRopeSheetMetal = "10x Sac Metal (Çarþaftan Halata Baðlý)",
+	ItemName_Packing.5pkSheetRopeSheetMetal = "5x Sac Metal (Çarþaftan Halata Baðlý)",
+	
+	ItemName_Packing.10pkMetalBar = "10x Metal Çubuk",
+	ItemName_Packing.5pkMetalBar = "5x Metal Çubuk",
+	ItemName_Packing.10pkRopeMetalBar = "10x Metal Çubuk (Halata Baðlý)",
+	ItemName_Packing.5pkRopeMetalBar = "5x Metal Çubuk (Halata Baðlý)",
+	ItemName_Packing.10pkSheetRopeMetalBar = "10x Metal Bar (Çarþaftan Halata Baðlý)",
+	ItemName_Packing.5pkSheetRopeMetalBar = "5x Metal Bar (Çarþaftan Halata Baðlý)",
+	
+	ItemName_Packing.10pkMetalPipe = "10x Metal Boru",
+	ItemName_Packing.5pkMetalPipe = "5x Metal Boru",
+	ItemName_Packing.10pkRopeMetalPipe = "10x Metal Boru (Halata Baðlý)",
+	ItemName_Packing.5pkRopeMetalPipe = "5x Metal Boru (Halata Baðlý)",
+	ItemName_Packing.10pkSheetRopeMetalPipe = "10x Metal Boru (Çarþaftan Halata Baðlý)",
+	ItemName_Packing.5pkSheetRopeMetalPipe = "5x Metal Boru (Çarþaftan Halata Baðlý)",
+	
+	ItemName_Packing.10pkWire = "10x Tel",
+	ItemName_Packing.5pkWire = "5x Tel",
+	
+	ItemName_Packing.10pkBarbedWire = "10x Dikenli Tel",
+	ItemName_Packing.5pkBarbedWire = "5x Dikenli Tel",
+	
+	ItemName_Packing.10pkWeldingRods = "10x Kaynak Elektrodu",
+	ItemName_Packing.5pkWeldingRods = "5x Kaynak Elektrodu",
+	
+	ItemName_Packing.10pkNailsBox = "10x Çivi Kutusu",
+	ItemName_Packing.5pkNailsBox = "5x Çivi Kutusu",
+	
+	ItemName_Packing.10pkScrewsBox = "10x Vida Kutusu",
+	ItemName_Packing.5pkScrewsBox = "5x Vida Kutusu",
+	
+	
+	
+/** -----  ----- || CARPENTRY STUFF || -----  ----- **/
+	
+	ItemName_Packing.10pkRopePlank = "10x Kalas (Halata Baðlý)",
+	ItemName_Packing.5pkRopePlank = "5x Kalas (Halata Baðlý)",
+	ItemName_Packing.10pkSheetRopePlank = "10x Kalas (Çarþaftan Halata Baðlý)",
+	ItemName_Packing.5pkSheetRopePlank = "5x Kalas (Çarþaftan Halata Baðlý)",
+
+	
+	
+/** -----  ----- || FOOD STUFF || -----  ----- **/
+
+	ItemName_Packing.6pkDogFood = "6x Köpek Mamasý",
+	ItemName_GidOrganizedFood.OS6pkCannedSoup = "6x Konserve Çorba",
+	ItemName_GidOrganizedFood.OS6pkCannedBeans = "6x Konserve Fasulye",
+	ItemName_GidOrganizedFood.OS6pkCannedBolognese = "6x Konserve Spaghetti Bolonez",
+	ItemName_GidOrganizedFood.OS6pkCannedCarrots = "6x Konserve Havuç",
+	ItemName_GidOrganizedFood.OS6pkCannedChili = "6x Konserve Acý Biber",
+	ItemName_GidOrganizedFood.OS6pkCannedCorn = "6x Konserve Mýsýr",
+	ItemName_GidOrganizedFood.OS6pkCannedCornedBeef = "6x Konserve Sýðýr Eti",
+	ItemName_GidOrganizedFood.OS6pkCannedMushSoup = "6x Konserve Mantar Çorbasý",
+	ItemName_GidOrganizedFood.OS6pkCannedPeas = "6x Konserve Bezelye",
+	ItemName_GidOrganizedFood.OS6pkCannedPotato = "6x Konserve Patates",
+	ItemName_GidOrganizedFood.OS6pkCannedTomato = "6x Konserve Domates",
+	ItemName_GidOrganizedFood.OS8pkCannedTuna = "8x Konserve Ton Balýðý",
+	ItemName_GidOrganizedFood.OS4pkSardines = "4x Sardalya",
+	
+	ItemName_Packing.6pkCannedMilk = "6x Konserve Süt",
+	ItemName_Packing.6pkCannedFruitBeverage = "6x Konserve Meyve Ýçeceði",
+	ItemName_Packing.6pkCannedFruitCocktail = "6x Konserve Meyve Kokteyli",
+	ItemName_Packing.6pkCannedPeaches = "6x Konserve Þeftali",
+	ItemName_Packing.6pkCannedPineapple = "6x Konserve Ananas",
+	
+	ItemName_GidOrganizedFood.OS4pkCoffee = "4x Kahve",
+	
+	
+
+/** -----  ----- || DRINK STUFF || -----  ----- **/
+
+	ItemName_Packing.6pkBeerCan = "6x Bira Kutusu",
+	ItemName_Packing.6pkBeer = "6x Bira Kutusu",
+	
+	ItemName_Packing.10pkRedWine = "10x Kýrmýzý Þarap",
+	ItemName_Packing.5pkRedWine = "5x Kýrmýzý Þarap",
+	ItemName_Packing.10pkWhiteWine = "10x Beyaz Þarap",
+	ItemName_Packing.5pkWhiteWine = "5x Beyaz Þarap",
+	
+	ItemName_Packing.10pkWhiskey = "10x Viski",
+	ItemName_Packing.5pkWhiskey = "5x Viski",
+	
+	ItemName_Packing.10pkOrangeSoda = "10x Portakallý Gazlý Ýçecek",
+	ItemName_Packing.5pkOrangeSoda = "5x Portakallý Gazlý Ýçecek",
+	
+	ItemName_GidOrganizedFood.OS6pkPopDiet = "6x Pop Diyet Ýçecek",
+	ItemName_GidOrganizedFood.OS6pkPop = "6x Pop Ýçecek",
+	ItemName_GidOrganizedFood.OS6pkFizz = "6x Pop Gazlý Ýçecek",
+
+	ItemName_GidOrganizedFood.OS12pkWineEmpty = "12x Boþ Þarap Þiþesi",
+	ItemName_GidOrganizedFood.OS12pkWineEmpty2 = "12x Boþ Þarap Þiþesi",
+	ItemName_GidOrganizedFood.OS8pkWhiskeyEmpty = "8x Boþ Viski Þiþesi",
+	
+	ItemName_GidOrganizedFood.OS24pkWaterBottleEmpty = "24x Boþ Su Þiþesi",
+	ItemName_GidOrganizedFood.OS24pkWaterBottleFull = "24x Su Þiþesi",
+	
+	
+
+/** -----  ----- || PAPER STUFF || -----  ----- **/
+
+	ItemName_Packing.10pkPencil = "10x Kurþun Kalem",
+	ItemName_Packing.5pkPencil = "5x Kurþun Kalem",
+	
+	ItemName_Packing.10pkPen = "10x Tükenmez Kalem",
+	ItemName_Packing.5pkPen = "5x Tükenmez Kalem",
+	
+	ItemName_Packing.10pkRedPen = "10x Kýrmýzý Tükenmez Kalem",
+	ItemName_Packing.5pkRedPen = "5x Kýrmýzý Tükenmez Kalem",
+	
+	ItemName_Packing.10pkBluePen = "10x Mavi Tükenmez Kalem",
+	ItemName_Packing.5pkBluePen = "5x Mavi Tükenmez Kalem",
+
+	ItemName_Packing.10pkSheetPaper = "10x Sayfa Kaðýt",
+	ItemName_Packing.5pkSheetPaper = "5x Sayfa Kaðýt",
+	
+	ItemName_Packing.10pkNotebook = "10x Defter",
+	ItemName_Packing.5pkNotebook = "5x Defter",
+
+	ItemName_Packing.10pkBook = "10x Kitap",
+	ItemName_Packing.5pkBook = "5x Kitap",
+
+	ItemName_Packing.10pkMagazine = "10x Dergi",
+	ItemName_Packing.5pkMagazine = "5x Dergi",
+	
+	ItemName_Packing.10pkNewspaper = "10x Gazete",
+	ItemName_Packing.5pkNewspaper = "5x Gazete",
+	
+	
+	
+/** -----  ----- || TAILORING STUFF || -----  ----- **/
+
+	ItemName_Packing.10pkThread = "10x Ýplik",
+	ItemName_Packing.5pkThread = "5x Ýplik",
+
+	ItemName_Packing.10pkRag = "10x Yýrtýk Çarþaf",
+	ItemName_Packing.50pkRag = "50x Yýrtýk Çarþaf",
+	ItemName_Packing.100pkRag = "100x Yýrtýk Çarþaf",
+	
+	ItemName_Packing.10pkDenim = "10x Kot Parçasý",
+	ItemName_Packing.50pkDenim = "50x Kot Parçasý",
+	ItemName_Packing.100pkDenim = "100x Kot Parçasý",
+	
+	ItemName_Packing.10pkLeather = "10x Deri Þerit",
+	ItemName_Packing.50pkLeather = "50x Deri Þerit",
+	ItemName_Packing.100pkLeather = "100x Deri Þerit",
+
+	ItemName_Packing.10pkTwine = "10x Hasýr Ýp",
+	ItemName_Packing.5pkTwine = "5x Hasýr Ýp",
+	
+
+
+/** -----  ----- || FORAGING STUFF || -----  ----- **/
+
+	ItemName_Packing.10pkRopeBranch = "10x Aðaç Dalý (Halata Baðlý)",
+	ItemName_Packing.5pkRopeBranch = "5x Aðaç Dalý (Halata Baðlý)",
+
+	ItemName_Packing.10pkSheetRopeBranch = "10x Aðaç Dalý (Çarþaftan Halata Baðlý)",
+	ItemName_Packing.5pkSheetRopeBranch = "5x Aðaç Dalý (Çarþaftan Halata Baðlý)",
+	
+	
+	
+/** -----  ----- || MEDICINE STUFF || -----  ----- **/
+
+	ItemName_GidOrganized.OS12pkAdhesiveBandages = "12x Yara Bandý",
+	ItemName_GidOrganized.OS9pkBandages = "9x Bandaj",
+	ItemName_GidOrganized.OS9pkSterileBandages = "9x Sterilize Bandaj",
+	ItemName_GidOrganized.OS9pkBandagesDirty = "9x Kirli Bandaj",
+
+	ItemName_Packing.10pkTissue = "10x Mendil",
+	ItemName_Packing.5pkTissue = "5x Mendil",
+	ItemName_Packing.4pkToiletPaper = "4x Tuvalet Kâðýdý",
+	
+	ItemName_GidOrganized.OS12pkCottonBalls = "12x Pamuk Toplarý",
+	
+	ItemName_GidOrganized.OS30pkAntibiotics = "30x Antibiyotik",
+	ItemName_GidOrganized.OS50pkPainkillers = "5x Aðrý Kesici",
+	ItemName_GidOrganized.OS50pkVitamins = "5x Vitamin",
+	ItemName_GidOrganized.OS50pkBetaBlockers = "5x Beta Bloker",
+	ItemName_GidOrganized.OS50pkAntidepressants = "5x Antidepresanlar",
+	ItemName_GidOrganized.OS50pkSleepingPills = "5x Uyku Ýlacý",
+	
+	ItemName_GidOrganized.OS4pkDisinfectant = "4x Dezenfektan",
+	ItemName_GidOrganized.OS30pkAlcoholWipes = "6x Alkollü Mendil",
+
+
+
+/** -----  ----- || ELETRONIC STUFF || -----  ----- **/
+
+	ItemName_Packing.10pkBattery = "10x Pil",
+	ItemName_Packing.5pkBattery = "5x Pil",
+	
+	ItemName_Packing.10pkElectronicsScrap = "10x Elektronik Hurda",
+	ItemName_Packing.50pkElectronicsScrap = "50x Elektronik Hurda",
+	ItemName_Packing.100pkElectronicsScrap = "100x Elektronik Hurda",
+	
+	ItemName_Packing.10pkElectricWire = "10x Elektrik Kablosu",
+	ItemName_Packing.5pkElectricWire = "5x Elektrik Kablosu",
+
+	
+	
+/** -----  ----- || MISCELLANEOUS THINGS || -----  ----- **/
+	
+	ItemName_Packing.10pkRope = "10x Halat",
+	ItemName_Packing.5pkRope = "5x Halat",
+	
+	ItemName_Packing.10pkSheetRope = "10x Çarþaftan Halat",
+	ItemName_Packing.5pkSheetRope = "5x Çarþaftan Halat",
+	
+	ItemName_Packing.10pkGarbage = "10x Çöp Poþeti",
+	ItemName_Packing.5pkGarbage = "5x Çöp Poþeti",
+	
+	ItemName_Packing.10pkSoap = "10x Sabun",
+	ItemName_Packing.5pkSoap = "5x Sabun",
+
+	ItemName_Packing.10pkFishingLine = "10x Misina",
+	ItemName_Packing.5pkFishingLine = "5x Misina",
+
+	
+	ItemName_Packing.10pkFishingNet = "10x Balýk Aðý",
+	ItemName_Packing.5pkFishingNet = "5x Balýk Aðý",
+
+	ItemName_Packing.20pkCigarettes = "20x Sigara",
+	
+	ItemName_Packing.10pkMatches = "10x Kibrit",
+	ItemName_Packing.5pkMatches = "5x Kibrit",
+	ItemName_Packing.10pkLighter = "10x Çakmak",
+	ItemName_Packing.5pkLighter = "5x Çakmak",
+	
+	ItemName_Packing.10pkWoodGlue = "10x Ahþap Tutkalý",
+	ItemName_Packing.5pkWoodGlue = "5x Ahþap Tutkalý",
+	
+	ItemName_Packing.10pkGlue = "10x Tutkal",
+	ItemName_Packing.5pkGlue = "5x Tutkal",
+	
+	ItemName_GidOrganizedFood.OS4pkDuctTape = "4x Koli Bandý",
+	
+	ItemName_Packing.10pkRopeEmptyPetrolCan = "10x Boþ Benzin Bidonu (Halata Baðlý)",
+	ItemName_Packing.5pkRopeEmptyPetrolCan = "5x Boþ Benzin Bidonu (Halata Baðlý)",
+	ItemName_Packing.10pkSheetRopeEmptyPetrolCan = "10x Boþ Benzin Bidonu (Çarþaftan Halata Baðlý)",
+	ItemName_Packing.5pkSheetRopeEmptyPetrolCan = "5x Boþ Benzin Bidonu (Çarþaftan Halata Baðlý)",
+	
+	ItemName_Packing.10pkRopePetrolCan = "10x Benzin Bidonu (Halata Baðlý)",
+	ItemName_Packing.5pkRopePetrolCan = "5x Benzin Bidonu (Halata Baðlý)",
+	ItemName_Packing.10pkSheetRopePetrolCan = "10x Benzin Bidonu (Çarþaftan Halata Baðlý)",
+	ItemName_Packing.5pkSheetRopePetrolCan = "5x Benzin Bidonu (Çarþaftan Halata Baðlý)",
+	
+	ItemName_Packing.10pkRopePropaneTank = "10x Tüp (Halata Baðlý)",
+	ItemName_Packing.5pkRopePropaneTank = "5x Tüp (Halata Baðlý)",
+	ItemName_Packing.10pkSheetRopePropaneTank = "10x Tüp (Çarþaftan Halata Baðlý)",
+	ItemName_Packing.5pkSheetRopePropaneTank = "5x Tüp (Çarþaftan Halata Baðlý)",
+	
+	
+	
+/** -----  ----- || SKILL BOOKS || -----  ----- **/
+
+	ItemName_Packing.pkCarpentry = "Marangozluk Kitap Koleksiyonu",
+	ItemName_Packing.pkCooking = "Aþçýlýk Kitap Koleksiyonu",
+	ItemName_Packing.pkElectricity = "Elektrikçilik Kitap Koleksiyonu",
+	ItemName_Packing.pkFarming = "Çiftçilik Kitap Koleksiyonu",
+	ItemName_Packing.pkFirstaid = "Ýlk Yardým Kitap Koleksiyonu",
+	ItemName_Packing.pkFishing = "Balýkçýlýk Kitap Koleksiyonu",
+	ItemName_Packing.pkForaging = "Araþtýrma Kitap Koleksiyonu",
+	ItemName_Packing.pkMechanics = "Tamircilik Kitap Koleksiyonu",
+	ItemName_Packing.pkTailoring = "Terzilik Kitap Koleksiyonu",
+	ItemName_Packing.pkMetalwork = "Demircilik  Kitap Koleksiyonu",
+	ItemName_Packing.pkTrapping = "Avcýlýk Kitap Koleksiyonu",
+}

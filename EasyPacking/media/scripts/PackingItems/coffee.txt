@@ -1,0 +1,35 @@
+module GidOrganizedFood
+{
+	imports
+	{
+		Base,
+	}
+
+	item OS4pkCoffee
+	{
+		Weight			= 2,
+		Type			= Normal,
+		DisplayName		= 4 x Instant Coffee,
+		Icon			= OS4pkCoffee,
+	}
+	
+	recipe Pack 4
+	{
+		destroy Coffee2=4,
+
+		Result:OS4pkCoffee,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:60.0,
+		Category:Storage,
+	}
+
+	recipe Unpack 4
+	{
+		destroy OS4pkCoffee,
+
+		Result:Coffee2=4,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		Time:60.0,
+		Category:Storage,
+	}
+}

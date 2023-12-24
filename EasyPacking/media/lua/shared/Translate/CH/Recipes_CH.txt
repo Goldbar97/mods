@@ -1,0 +1,82 @@
+Recipe_CH = {
+
+	Recipe_Put_Together = "包裝成 1 份",
+	Recipe_Split_in_Two = "分裝成 2 份",
+	Recipe_Split_in_Five = "分裝成 5 份",
+	
+	Recipe_Pack_4 = "打包(4x)",
+	Recipe_Unpack_4 = "拆開",
+	Recipe_Merge_and_Pack_4 = "合併並打包(4x)",
+	
+	Recipe_Pack_5 = "打包(5x)",
+	Recipe_Unpack_5 = "拆開",
+	Recipe_Merge_and_Pack_5 = "合併並打包(5x)",
+	
+	Recipe_Pack_6 = "打包(6x)",
+	Recipe_Unpack_6 = "拆開",
+	Recipe_Merge_and_Pack_6 = "合併並打包(6x)",
+	
+	Recipe_Pack_8 = "打包(8x)",
+	Recipe_Unpack_8 = "拆開",
+	
+	Recipe_Pack_9 = "打包(9x)",
+	Recipe_Unpack_9 = "拆開",
+	
+	Recipe_Pack_10 = "打包(10x)",
+	Recipe_Unpack_10 = "拆開",
+	Recipe_Merge_and_Pack_10 = "合併並打包(10x)",
+	
+	Recipe_Pack_12 = "打包(12x)",
+	Recipe_Unpack_12 = "拆開",
+	
+	Recipe_Pack_24 = "打包(24x)",
+	Recipe_Unpack_24 = "拆開",
+	
+	Recipe_Pack_20 = "打包(20x)",
+	Recipe_Unpack_20 = "拆開",
+	
+	Recipe_Pack_30 = "打包(30x)",
+	Recipe_Unpack_30 = "拆開",
+	
+	Recipe_Pack_50 = "打包(50x)",
+	Recipe_Unpack_50 = "拆開",
+	
+	Recipe_Pack_100 = "打包(100x)",
+	Recipe_Unpack_100 = "拆開",
+	
+	
+	
+	Recipe_Rope_5 = "捆包(5x)",
+	Recipe_Unrope_5 = "拆開",
+	
+	Recipe_Rope_10 = "捆包(10x)",
+	Recipe_Unrope_10 = "拆開",
+	
+	
+	
+	Recipe_Fill_Pack_of_Empty_Water_Bottles = "裝滿空瓶",
+	
+	
+	Recipe_Pack_Carpentry_Skill_Books = "打包技能書",
+	Recipe_Unpack_Carpentry_Skill_Books = "拆開技能書",
+	Recipe_Pack_Cooking_Skill_Books = "打包技能書",
+	Recipe_Unpack_Cooking_Skill_Books = "拆開技能書",
+	Recipe_Pack_Electricity_Skill_Books = "打包技能書",
+	Recipe_Unpack_Electricity_Skill_Books = "拆開技能書",
+	Recipe_Pack_Farming_Skill_Books = "打包技能書",
+	Recipe_Unpack_Farming_Skill_Books = "拆開技能書",
+	Recipe_Pack_Firstaid_Skill_Books = "打包技能書",
+	Recipe_Unpack_Firstaid_Skill_Books = "拆開技能書",
+	Recipe_Pack_Fishing_Skill_Books = "打包技能書",
+	Recipe_Unpack_Fishing_Skill_Books = "拆開技能書",
+	Recipe_Pack_Foraging_Skill_Books = "打包技能書",
+	Recipe_Unpack_Foraging_Skill_Books = "拆開技能書",
+	Recipe_Pack_Mechanics_Skill_Books = "打包技能書",
+	Recipe_Unpack_Mechanics_Skill_Books = "拆開技能書",
+	Recipe_Pack_Tailoring_Skill_Books = "打包技能書",
+	Recipe_Unpack_Tailoring_Skill_Books = "拆開技能書",
+	Recipe_Pack_Metalwork_Skill_Books = "打包技能書",
+	Recipe_Unpack_Metalwork_Skill_Books = "拆開技能書",
+	Recipe_Pack_Trapping_Skill_Books = "打包技能書",
+	Recipe_Unpack_Trapping_Skill_Books = "拆開技能書",
+}

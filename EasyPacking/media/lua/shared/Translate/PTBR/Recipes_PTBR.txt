@@ -1,0 +1,83 @@
+Recipe_PTBR = {
+
+	Recipe_Put_Together = "Colocar junto",
+	Recipe_Split_in_Two = "Separar em Dois",
+	Recipe_Split_in_Five = "Separar em Cinco",
+	
+	Recipe_Pack_4 = "Empacotar 4",
+	Recipe_Unpack_4 = "Desempacotar 4",
+	Recipe_Merge_and_Pack_4 = "Mesclar e Empacotar 4",
+	
+	Recipe_Pack_5 = "Empacotar 5",
+	Recipe_Unpack_5 = "Desempacotar 5",
+	Recipe_Merge_and_Pack_5 = "Mesclar e Empacotar 5",
+	
+	Recipe_Pack_6 = "Empacotar 6",
+	Recipe_Unpack_6 = "Desempacotar 6",
+	Recipe_Merge_and_Pack_6 = "Mesclar e Empacotar 6",
+	
+	Recipe_Pack_8 = "Empacotar 8",
+	Recipe_Unpack_8 = "Desempacotar 8",
+	
+	Recipe_Pack_9 = "Empacotar 9",
+	Recipe_Unpack_9 = "Desempacotar 9",
+	
+	Recipe_Pack_10 = "Empacotar 10",
+	Recipe_Unpack_10 = "Desempacotar 10",
+	Recipe_Merge_and_Pack_10 = "Mesclar e Empacotar 10",
+	
+	Recipe_Pack_12 = "Empacotar 12",
+	Recipe_Unpack_12 = "Desempacotar 12",
+	
+	Recipe_Pack_24 = "Empacotar 24",
+	Recipe_Unpack_24 = "Desempacotar 24",
+	
+	Recipe_Pack_20 = "Empacotar 20",
+	Recipe_Unpack_20 = "Desempacotar 20",
+	
+	Recipe_Pack_30 = "Empacotar 30",
+	Recipe_Unpack_30 = "Desempacotar 30",
+	
+	Recipe_Pack_50 = "Empacotar 50",
+	Recipe_Unpack_50 = "Desempacotar 50",
+	
+	Recipe_Pack_100 = "Empacotar 100",
+	Recipe_Unpack_100 = "Desempacotar 100",
+	
+	
+	
+	Recipe_Rope_5 = "Amarrar 5",
+	Recipe_Unrope_5 = "Desamarrar 5",
+	
+	Recipe_Rope_10 = "Amarrar 10",
+	Recipe_Unrope_10 = "Desamarrar 10",
+	
+	
+	
+	Recipe_Fill_Pack_of_Empty_Water_Bottles = "Encher Garrafas Vazias",
+	
+	
+	
+	Recipe_Pack_Carpentry_Skill_Books = "Empacotar Livros de Carpintaria",
+	Recipe_Unpack_Carpentry_Skill_Books = "Desempacotar Livros de Carpintaria",
+	Recipe_Pack_Cooking_Skill_Books = "Empacotar Livros de Culinária",
+	Recipe_Unpack_Cooking_Skill_Books = "Desempacotar Livros de Culinária",
+	Recipe_Pack_Electricity_Skill_Books = "Empacotar Livros de Engenharia Elétrica",
+	Recipe_Unpack_Electricity_Skill_Books = "Desempacotar Livros de Engenharia Elétrica",
+	Recipe_Pack_Farming_Skill_Books = "Empacotar Livros de Agricultura",
+	Recipe_Unpack_Farming_Skill_Books = "Desempacotar Livros de Agricultura",
+	Recipe_Pack_Firstaid_Skill_Books = "Empacotar Livros de Medicina",
+	Recipe_Unpack_Firstaid_Skill_Books = "Desempacotar Livros de Medicina",
+	Recipe_Pack_Fishing_Skill_Books = "Empacotar Livros de Pesca",
+	Recipe_Unpack_Fishing_Skill_Books = "Desempacotar Livros de Pesca",
+	Recipe_Pack_Foraging_Skill_Books = "Empacotar Livros de Sobrevivência",
+	Recipe_Unpack_Foraging_Skill_Books = "Desempacotar Livros de Sobrevivência",
+	Recipe_Pack_Mechanics_Skill_Books = "Empacotar Livros de Mecânica",
+	Recipe_Unpack_Mechanics_Skill_Books = "Desempacotar Livros de Mecânica",
+	Recipe_Pack_Tailoring_Skill_Books = "Empacotar Livros de Costura",
+	Recipe_Unpack_Tailoring_Skill_Books = "Desempacotar Livros de Costura",
+	Recipe_Pack_Metalwork_Skill_Books = "Empacotar Livros de Metalurgia",
+	Recipe_Unpack_Metalwork_Skill_Books = "Desempacotar Livros de Metalurgia",
+	Recipe_Pack_Trapping_Skill_Books = "Empacotar Livros de Caça",
+	Recipe_Unpack_Trapping_Skill_Books = "Desempacotar Livros de Caça",
+}

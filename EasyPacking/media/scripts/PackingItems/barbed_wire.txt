@@ -1,0 +1,79 @@
+module Packing
+{
+	imports
+	{
+		Base,
+	}
+	
+	item 10pkBarbedWire
+	{
+		Weight			= 5,
+		Type			= Normal,
+		DisplayName		= 10 x Barbed Wire,
+		Icon			= PBarbedWire,
+	}
+
+	item 5pkBarbedWire
+	{
+		Weight			= 3.5,
+		Type			= Normal,
+		DisplayName		= 5 x Barbed Wire,
+		Icon			= PBarbedWire,
+	}
+
+	recipe Pack 10
+	{
+		destroy BarbedWire=10,
+		
+		Result:10pkBarbedWire,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10
+	{
+		destroy 10pkBarbedWire,
+		
+		Result:BarbedWire=10,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 5
+	{
+		destroy BarbedWire=5,
+		
+		Result:5pkBarbedWire,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5
+	{
+		destroy 5pkBarbedWire,
+		
+		Result:BarbedWire=5,
+		Time:50.0,
+		Category:Storage,
+	}
+
+	recipe Put Together
+	{
+		5pkBarbedWire=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkBarbedWire=1,
+		Time:50.0,
+	}
+
+	recipe Split in Two
+	{
+		10pkBarbedWire=1,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkBarbedWire=2,
+		Time:40.0,
+	}
+}

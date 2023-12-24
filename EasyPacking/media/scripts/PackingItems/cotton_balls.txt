@@ -1,0 +1,34 @@
+module GidOrganized
+{
+	imports
+	{
+		Base,
+	}
+
+	item OS12pkCottonBalls
+	{
+		Weight			= 0.6,
+		Type			= Normal,
+		DisplayName		= 12 x Cotton Balls,
+		Icon			= OS12pkCottonBalls,
+	}
+	
+	recipe Pack 12
+	{
+		CottonBalls=12,
+
+		Result:OS12pkCottonBalls,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:60.0,
+		Category:Storage,
+	}
+
+	recipe Unpack 12
+	{
+		OS12pkCottonBalls,
+
+		Result:CottonBalls=12,
+		Time:60.0,
+		Category:Storage,
+	}
+}

@@ -1,0 +1,88 @@
+ItemName_EN = {
+	ItemName_Packing.10pk9 = "Ammo Can: 10x 9mm",
+	ItemName_Packing.5pk9 = "Ammo Can: 5x 9mm",
+	
+	ItemName_Packing.10pk22 = "Ammo Can: 10x .22",
+	ItemName_Packing.5pk22 = "Ammo Can: 5x .22",
+	
+	ItemName_Packing.10pk762 = "Ammo Can: 10x 7.62",
+	ItemName_Packing.5pk762 = "Ammo Can: 5x 7.62",
+	
+	ItemName_Packing.10pk38 = "Ammo Can: 10x .38 Special",
+	ItemName_Packing.5pk38 = "Ammo Can: 5x .38 Special",
+	
+	ItemName_Packing.10pk44 = "Ammo Can: 10x .44 Magnum",
+	ItemName_Packing.5pk44 = "Ammo Can: 5x .44 Magnum",
+	
+	ItemName_Packing.10pk45 = "Ammo Can: 10x .45 Auto",
+	ItemName_Packing.5pk45 = "Ammo Can: 5x .45 Auto",
+	
+	ItemName_Packing.10pk223 = "Ammo Can: 10x .223",
+	ItemName_Packing.5pk223 = "Ammo Can: 5x .223",
+	
+	ItemName_Packing.10pk308 = "Ammo Can: 10x .308",
+	ItemName_Packing.5pk308 = "Ammo Can: 5x .308",
+	
+	ItemName_Packing.10pk556 = "Ammo Can: 10x 5.56mm",
+	ItemName_Packing.5pk556 = "Ammo Can: 5x 5.56mm",
+	
+	ItemName_Packing.10pkShotgun = "Ammo Can: 10x Shotgun Shells",
+	ItemName_Packing.5pkShotgun = "Ammo Can: 5x Shotgun Shells",
+	
+	ItemName_Packing.10pkGF10g = "Ammo Can: 10x 10g Shotgun Shells",
+	ItemName_Packing.5pkGF10g = "Ammo Can: 5x 10g Shotgun Shells",
+	
+	ItemName_Packing.10pkGF20g = "Ammo Can: 10x 20g Shotgun Shells",
+	ItemName_Packing.5pkGF20g = "Ammo Can: 5x 20g Shotgun Shells",
+	
+	ItemName_Packing.10pkGF22 = "Ammo Can: 10x 22-LR",
+	ItemName_Packing.5pkGF22 = "Ammo Can: 5x 22-LR",
+	
+	ItemName_Packing.10pkGF3006 = "Ammo Can: 10x 30-06 SPRG",
+	ItemName_Packing.5pkGF3006 = "Ammo Can: 5x 30-06 SPRG",
+	
+	ItemName_Packing.10pkGF357 = "Ammo Can: 10x 357-MAG",
+	ItemName_Packing.5pkGF357 = "Ammo Can: 5x 357-MAG",
+	
+	ItemName_Packing.10pkGF380 = "Ammo Can: 10x 380-ACP",
+	ItemName_Packing.5pkGF380 = "Ammo Can: 5x 380-ACP",
+	
+	ItemName_Packing.10pkGF410g = "Ammo Can: 10x 410g Shotgun Shells",
+	ItemName_Packing.5pkGF410g = "Ammo Can: 5x 410g Shotgun Shells",
+	
+	ItemName_Packing.10pkGF4570 = "Ammo Can: 10x 45-70 GOV",
+	ItemName_Packing.5pkGF4570 = "Ammo Can: 5x 45-70 GOV",
+	
+	ItemName_Packing.10pkGF45 = "Ammo Can: 10x 45-LC",
+	ItemName_Packing.5pkGF45 = "Ammo Can: 5x 45-LC",
+	
+	ItemName_Packing.10pkGF4g = "Ammo Can: 10x 4g Shotgun Shells",
+	ItemName_Packing.5pkGF4g = "Ammo Can: 5x 4g Shotgun Shells",
+	
+	ItemName_Packing.10pkGF545x39 = "Ammo Can: 10x 5.45x39mm",
+	ItemName_Packing.5pkGF545x39 = "Ammo Can: 5x 5.45x39mm",
+	
+	ItemName_Packing.10pkGF57 = "Ammo Can: 10x 5.7x28mm",
+	ItemName_Packing.5pkGF57 = "Ammo Can: 5x 5.7x28mm",
+	
+	ItemName_Packing.10pkGF50 = "Ammo Can: 10x 50 MAG",
+	ItemName_Packing.5pkGF50 = "Ammo Can: 5x 50 MAG",
+	
+	ItemName_Packing.10pkGF50BMG = "Ammo Can: 10x 50 MAG",
+	ItemName_Packing.5pkGF50BMG = "Ammo Can: 5x 50 MAG",
+	
+	ItemName_Packing.10pkGF762x39 = "Ammo Can: 10x 7.62x39mm",
+	ItemName_Packing.5pkGF762x39 = "Ammo Can: 5x 7.62x39mm",
+	
+	ItemName_Packing.10pkGF762x51 = "Ammo Can: 10x 7.62x51mm-NATO",
+	ItemName_Packing.5pkGF762x51 = "Ammo Can: 5x 7.62x51mm-NATO",
+	
+	ItemName_Packing.10pkGF762x54r = "Ammo Can: 10x 7.62x51mm-R",
+	ItemName_Packing.5pkGF762x54r = "Ammo Can: 5x 7.62x51mm-R",
+	
+	ItemName_Packing.10pkGFBoltBear = "Ammo Can: 10x BearX Carbon Crossbow Bolts",
+	ItemName_Packing.5pkGFBoltBear = "Ammo Can: 5x BearX Carbon Crossbow Bolts",
+	
+	ItemName_Packing.10pkGFArrowFiberglass = "Ammo Can: 10x Fiberglass Arrows",
+	ItemName_Packing.5pkGFArrowFiberglass = "Ammo Can: 10x Fiberglass Arrows",
+}

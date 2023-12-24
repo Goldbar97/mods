@@ -1,0 +1,35 @@
+module GidOrganized
+{
+	imports
+	{
+		Base,
+	}
+	
+	item OS30pkAntibiotics
+	{
+		Weight			= 1.5,
+		Type			= Normal,
+		DisplayName		= 30 x Antibiotics,
+		Icon			= OS30pkAntibiotics,
+	}
+	
+	recipe Pack 30
+	{
+		destroy Antibiotics=30,
+
+		Result:OS30pkAntibiotics,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:60.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 30
+	{
+		destroy OS30pkAntibiotics,
+
+		Result:Antibiotics=30,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		Time:60.0,
+		Category:Storage,
+	}
+}

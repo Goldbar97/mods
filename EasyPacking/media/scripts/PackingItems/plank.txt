@@ -1,0 +1,208 @@
+module Packing
+{
+	imports
+	{
+		Base,
+	}
+	
+	item 10pkSheetRopePlank
+	{
+		Weight			= 7.5,
+		Type			= Normal,
+		DisplayName		= 10 x Plank (SheetRope),
+		Icon			= PSheetRopePlank,
+		WorldStaticModel = 10SheetRopePlank_Ground,
+	}
+	
+	item 5pkSheetRopePlank
+	{
+		Weight			= 4.5,
+		Type			= Normal,
+		DisplayName		= 5 x Plank (SheetRope),
+		Icon			= PSheetRopePlank,
+		WorldStaticModel = 5SheetRopePlank_Ground,
+	}
+	
+	item 10pkRopePlank
+	{
+		Weight			= 4.5,
+		Type			= Normal,
+		DisplayName		= 10 x Plank (Rope),
+		Icon			= PRopePlank,
+		WorldStaticModel = 10RopePlank_Ground,
+	}
+	
+	item 5pkRopePlank
+	{
+		Weight			= 3,
+		Type			= Normal,
+		DisplayName		= 5 x Plank (Rope),
+		Icon			= PRopePlank,
+		WorldStaticModel = 5RopePlank_Ground,
+	}
+
+	recipe Rope 10
+	{
+		destroy Plank=10,
+		Rope=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkRopePlank,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:175.0,
+		Category:Storage,
+	}
+	
+	recipe Unrope 10
+	{
+		destroy 10pkRopePlank,
+		
+		CanBeDoneFromFloor:true,
+		Result:Plank=10,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnCreate:Recipe.OnCreate.Unpack2Rope,
+		Time:125.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 5
+	{
+		destroy Plank=5,
+		Rope,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkRopePlank,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unrope 5
+	{
+		destroy 5pkRopePlank,
+		
+		CanBeDoneFromFloor:true,
+		Result:Plank=5,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnCreate:Recipe.OnCreate.Unpack1Rope,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 10
+	{
+		destroy Plank=10,
+		SheetRope=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkSheetRopePlank,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:175.0,
+		Category:Storage,
+	}
+	
+	recipe Unrope 10
+	{
+		destroy 10pkSheetRopePlank,
+		
+		CanBeDoneFromFloor:true,
+		Result:Plank=10,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnCreate:Recipe.OnCreate.Unpack2SheetRope,
+		Time:125.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 5
+	{
+		destroy Plank=5,
+		SheetRope,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkSheetRopePlank,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:100.0,
+		Category:Storage,
+	}
+	
+	recipe Unrope 5
+	{
+		destroy 5pkSheetRopePlank,
+		
+		CanBeDoneFromFloor:true,
+		Result:Plank=5,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnCreate:Recipe.OnCreate.Unpack1SheetRope,
+		Time:75.0,
+		Category:Storage,
+	}
+
+	recipe Put Together
+	{
+		5pkSheetRopePlank=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkSheetRopePlank=1,
+		Time:50.0,
+	}
+	
+	recipe Put Together
+	{
+		5pkRopePlank=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:10pkRopePlank=1,
+		Time:50.0,
+	}
+
+	recipe Split in Two
+	{
+		10pkSheetRopePlank=1,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkSheetRopePlank=2,
+		Time:50.0,
+	}
+	
+	recipe Split in Two
+	{
+		10pkRopePlank=1,
+		
+		CanBeDoneFromFloor:true,
+		Result:5pkRopePlank=2,
+		Time:50.0,
+	}
+	
+	model 10RopePlank_Ground
+	{
+		mesh = WorldItems/10ropeplank_ground,
+		texture = WorldItems/ropeplank,
+		scale = 0.005,
+	}
+	
+	model 5RopePlank_Ground
+	{
+		mesh = WorldItems/5ropeplank_ground,
+		texture = WorldItems/ropeplank,
+		scale = 0.005,
+	}
+	
+	model 10SheetRopePlank_Ground
+	{
+		mesh = WorldItems/10sheetropeplank_ground,
+		texture = WorldItems/ropeplank,
+		scale = 0.005,
+	}
+	
+	model 5SheetRopePlank_Ground
+	{
+		mesh = WorldItems/5sheetropeplank_ground,
+		texture = WorldItems/ropeplank,
+		scale = 0.005,
+	}
+	
+}

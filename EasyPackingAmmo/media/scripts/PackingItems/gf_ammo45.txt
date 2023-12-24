@@ -1,0 +1,87 @@
+module Packing
+{
+	imports
+	{
+		Base,
+	}
+	
+	item 10pkGF45
+	{
+		Weight			= 3.5,
+		Type			= Normal,
+		DisplayName		= 10 x Box of 45-LC Rounds,
+		DisplayCategory = Ammo,
+		Icon			= PAmmoBox,
+		WorldStaticModel = pkAmmoCan_Ground,
+	}
+	
+	item 5pkGF45
+	{
+		Weight			= 2.45,
+		Type			= Normal,
+		DisplayName		= 5 x Box of 45-LC Rounds,
+		DisplayCategory = Ammo,
+		Icon			= PAmmoBox,
+		WorldStaticModel = pkAmmoCan_Ground,
+	}
+	
+	recipe Pack 10
+	{
+		destroy Bullets45LCBox=10,
+		
+		Result:10pkGF45,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:260.0,
+		Category:Storage,
+		Sound:AmmoCan_Storage,
+	}
+	
+	recipe Unpack 10
+	{
+		destroy 10pkGF45,
+		
+		Result:Bullets45LCBox=10,
+		Time:260.0,
+		Category:Storage,
+		Sound:AmmoCan_Storage,
+	}
+	
+	recipe Pack 5
+	{
+		destroy Bullets45LCBox=5,
+		
+		Result:5pkGF45,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:180.0,
+		Category:Storage,
+		Sound:AmmoCan_Storage,
+	}
+	
+	recipe Unpack 5
+	{
+		destroy 5pkGF45,
+		
+		Result:Bullets45LCBox=5,
+		Time:180.0,
+		Category:Storage,
+		Sound:AmmoCan_Storage,
+	}
+
+	recipe Put Together
+	{
+		5pkGF45=2,
+		
+		Result:10pkGF45=1,
+		Time:130.0,
+		Sound:AmmoCan_Storage,
+	}
+
+	recipe Split in Two
+	{
+		10pkGF45=1,
+		
+		Result:5pkGF45=2,
+		Time:130.0,
+		Sound:AmmoCan_Storage,
+	}
+}
