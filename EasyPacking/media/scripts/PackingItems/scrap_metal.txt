@@ -10,6 +10,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 100 x Scrap Metal,
 		Icon			= PScrapMetal,
+		WorldStaticModel= BoxOfScrapMetal,
 	}
 	
 	item 50pkScrapMetal
@@ -18,6 +19,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 50 x Scrap Metal,
 		Icon			= PScrapMetal,
+		WorldStaticModel= BoxOfScrapMetal,
 	}
 	
 	item 10pkScrapMetal
@@ -26,6 +28,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Scrap Metal,
 		Icon			= PScrapMetal,
+		WorldStaticModel= BoxOfScrapMetal,
 	}
 	
 	item 5pkScrapMetal
@@ -34,6 +37,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Scrap Metal,
 		Icon			= PScrapMetal,
+		WorldStaticModel= BoxOfScrapMetal,
 	}
 
 	recipe Pack 100
@@ -158,5 +162,12 @@ module Packing
 		
 		Result:5pkScrapMetal=2,
 		Time:30.0,
+	}
+
+	model BoxOfScrapMetal
+	{
+		mesh = WorldItems/box_of_scrap_metal,
+		texture = WorldItems/BoxOfScrapMetal,
+		scale = 1.0,
 	}
 }

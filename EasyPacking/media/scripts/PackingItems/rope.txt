@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Rope,
 		Icon			= PRope,
+		WorldStaticModel = StackOfRope,
 	}
 	
 	item 5pkRope
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Rope,
 		Icon			= PRope,
+		WorldStaticModel = StackOfRope,
 	}
 
 	recipe Pack 10
@@ -73,5 +75,12 @@ module Packing
 		
 		Result:5pkRope=2,
 		Time:30.0,
+	}
+
+	model StackOfRope
+	{
+		mesh = WorldItems/stack_of_rope,
+		texture = WorldItems/Rope,
+		scale = 1.0,
 	}
 }

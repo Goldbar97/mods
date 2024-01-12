@@ -11,7 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Propane Tank (Rope),
 		Icon			= PRopePropaneTank,
-		WorldStaticModel= RopePropaneTank,
+		WorldStaticModel= StackOfPropaneTankRoped,
 	}
 
 	item 5pkRopePropaneTank
@@ -20,7 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Propane Tank (Rope),
 		Icon			= PRopePropaneTank,
-		WorldStaticModel= RopePropaneTank,
+		WorldStaticModel= StackOfPropaneTankRoped,
 	}
 	
 	item 10pkSheetRopePropaneTank
@@ -29,6 +29,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Propane Tank (Sheet Rope),
 		Icon			= PSheetRopePropaneTank,
+		WorldStaticModel= StackOfPropaneTankSheetRoped,
 	}
 
 	item 5pkSheetRopePropaneTank
@@ -37,6 +38,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Propane Tank (Sheet Rope),
 		Icon			= PSheetRopePropaneTank,
+		WorldStaticModel= StackOfPropaneTankSheetRoped,
 	}
 
 	recipe Rope 10
@@ -181,10 +183,17 @@ module Packing
 		Time:60.0,
 	}
 	
-	model RopePropaneTank
+	model StackOfPropaneTankRoped
 	{
-		mesh = WorldItems/ropepropanetank_ground,
-		texture = WorldItems/ropepropanetank,
-		scale = 0.0028,
+		mesh = WorldItems/stack_of_propane_tanks,
+		texture = WorldItems/StackOfPropaneTankRoped,
+		scale = 1.0,
+	}
+
+	model StackOfPropaneTankSheetRoped
+	{
+		mesh = WorldItems/stack_of_propane_tanks,
+		texture = WorldItems/StackOfPropaneTankSheetRoped,
+		scale = 1.0,
 	}
 }

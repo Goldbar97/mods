@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Leather Strips,
 		Icon			= PLeatherStrips,
+		WorldStaticModel = StripRollLeather,
 	}
 	
 	item 50pkLeather
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 50 x Leather Strips,
 		Icon			= PLeatherStrips,
+		WorldStaticModel = StripRollLeather,
 	}
 	
 	item 100pkLeather
@@ -27,6 +29,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 100 x Leather Strips,
 		Icon			= PLeatherStrips,
+		WorldStaticModel = StripRollLeather,
 	}
 
 	recipe Pack 10
@@ -116,5 +119,12 @@ module Packing
 		
 		Result:10pkLeather=5,
 		Time:40.0,
+	}
+
+	model StripRollLeather
+	{
+		mesh = WorldItems/stripsroll,
+		texture = WorldItems/LeatherStrips,
+		scale = 1.0,
 	}
 }

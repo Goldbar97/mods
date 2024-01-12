@@ -12,6 +12,7 @@ module GidOrganized
 		UseWhileEquipped	= FALSE,
 		DisplayName			= 6 x Alcohol Wipes,
 		Icon				= OS30pkAlcoholWipes,
+		WorldStaticModel    = PackOfAlchoholWipes,
 	}
 	
 	recipe Pack 6
@@ -34,5 +35,12 @@ module GidOrganized
 		RemoveResultItem:true,
 		Time:60.0,
 		Category:Storage,
+	}
+
+	model PackOfAlchoholWipes
+	{
+		mesh = WorldItems/small_box_for_pack,
+		texture = WorldItems/PackOfAlcoholWipes,
+		scale = 1.1,
 	}
 }

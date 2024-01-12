@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Electronics Scrap,
 		Icon			= PElectronicsScrap,
+		WorldStaticModel= BoxOfElectronicScrap,
 	}
 	
 	item 50pkElectronicsScrap
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 50 x Electronics Scrap,
 		Icon			= PElectronicsScrap,
+		WorldStaticModel= BoxOfElectronicScrap,
 	}
 	
 	item 100pkElectronicsScrap
@@ -27,6 +29,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 100 x Electronics Scrap,
 		Icon			= PElectronicsScrap,
+		WorldStaticModel= BoxOfElectronicScrap,
 	}
 
 	recipe Pack 10
@@ -116,5 +119,12 @@ module Packing
 		
 		Result:10pkElectronicsScrap=5,
 		Time:40.0,
+	}
+
+	model BoxOfElectronicScrap
+	{
+		mesh = WorldItems/box_of_electronics_scrap,
+		texture = WorldItems/BoxOfElectronicScrap,
+		scale = 1.0,
 	}
 }

@@ -11,6 +11,7 @@ module GidOrganizedFood
 		Type			= Normal,
 		DisplayName		= 8 x Canned Tuna,
 		Icon			= OS8pkCannedTuna,
+		WorldStaticModel= PackOfTinnedTuna,
 	}
 	
 	recipe Pack 8
@@ -31,5 +32,12 @@ module GidOrganizedFood
 		OnGiveXP:Recipe.OnGiveXP.None,
 		Time:60.0,
 		Category:Storage,
+	}
+
+	model PackOfTinnedTuna
+	{
+		mesh = WorldItems/pack_of_tinned_tuna,
+		texture = WorldItems/TinnedTuna,
+		scale = 1.0,
 	}
 }

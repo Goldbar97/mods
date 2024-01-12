@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Red Pen,
 		Icon			= PRedPen,
+		WorldStaticModel= PackOfRedPens,
 	}
 	
 	item 5pkRedPen
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Red Pen,
 		Icon			= PRedPen,
+		WorldStaticModel= PackOfRedPens,
 	}
 	
 	recipe Pack 10
@@ -73,5 +75,12 @@ module Packing
 		
 		Result:5pkRedPen=2,
 		Time:30.0,
+	}
+
+	model PackOfRedPens
+	{
+		mesh = WorldItems/pack_of_pens,
+		texture = WorldItems/PackOfRedPens,
+		scale = 1.0,
 	}
 }

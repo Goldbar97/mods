@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Ripped Sheets,
 		Icon			= PRag,
+		WorldStaticModel= StripRollSheet,
 	}
 	
 	item 50pkRag
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 50 x Ripped Sheets,
 		Icon			= PRag,
+		WorldStaticModel= StripRollSheet,
 	}
 	
 	item 100pkRag
@@ -27,6 +29,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 100 x Ripped Sheets,
 		Icon			= PRag,
+		WorldStaticModel= StripRollSheet,
 	}
 
 	recipe Pack 10
@@ -116,5 +119,12 @@ module Packing
 		
 		Result:10pkRag=5,
 		Time:40.0,
+	}
+
+	model StripRollSheet
+	{
+		mesh = WorldItems/stripsroll,
+		texture = WorldItems/Sheet,
+		scale = 1.0,
 	}
 }

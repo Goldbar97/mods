@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 6 x Canned Peaches,
 		Icon			= PCannedPeaches,
+		WorldStaticModel= PackOfPeachesCan,
 	}
 
     recipe Pack 6
@@ -31,5 +32,12 @@ module Packing
 		OnGiveXP:Recipe.OnGiveXP.None,
 		Time:40.0,
 		Category:Storage,
+	}
+
+	model PackOfPeachesCan
+	{
+		mesh = WorldItems/pack_of_cans,
+		texture = WorldItems/TinnedPeaches,
+		scale = 1.0,
 	}
 }

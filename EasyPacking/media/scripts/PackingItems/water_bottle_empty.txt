@@ -15,6 +15,7 @@ module GidOrganizedFood
 		ReplaceOnUseOn 	= WaterSource-OS24pkWaterBottleFull,
 		ReplaceTypes	= WaterSource OS24pkWaterBottleFull,
 		ToolTip = Tooltip_item_OnlyPurifyMicrowave,
+		WorldStaticModel= PackOfWaterBottleEmpty,
 	}
 	
 	recipe Pack 24
@@ -275,5 +276,12 @@ module GidOrganizedFood
 		Time:960.0,
 		Category:Storage,
 		OnTest:Recipe.OnTest.NotTaintedWater,
+	}
+
+	model PackOfWaterBottleEmpty
+	{
+		mesh = WorldItems/pack_of_water_bottles,
+		texture = WorldItems/WaterBottleEmpty,
+		scale = 1.0,
 	}
 }

@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Pencil,
 		Icon			= PPencil,
+		WorldStaticModel= PackOfPencils,
 	}
 	
 	item 5pkPencil
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Pencil,
 		Icon			= PPencil,
+		WorldStaticModel= PackOfPencils,
 	}
 	
 	recipe Pack 10
@@ -73,5 +75,12 @@ module Packing
 		
 		Result:5pkPencil=2,
 		Time:30.0,
+	}
+
+	model PackOfPencils
+	{
+		mesh = WorldItems/pack_of_pens,
+		texture = WorldItems/PackOfPencils,
+		scale = 1.0,
 	}
 }

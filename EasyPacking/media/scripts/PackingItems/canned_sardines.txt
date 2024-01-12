@@ -11,6 +11,7 @@ module GidOrganizedFood
 		Type			= Normal,
 		DisplayName		= 4 x Canned Sardines,
 		Icon			= OS4pkSardines,
+		WorldStaticModel= PackOfSardines,
 	}
 	
 	recipe Pack 4
@@ -31,5 +32,12 @@ module GidOrganizedFood
 		OnGiveXP:Recipe.OnGiveXP.None,
 		Time:40.0,
 		Category:Storage,
+	}
+
+	model PackOfSardines
+	{
+		mesh = WorldItems/stack_of_sardines,
+		texture = WorldItems/CannedSardines,
+		scale = 1.0,
 	}
 }

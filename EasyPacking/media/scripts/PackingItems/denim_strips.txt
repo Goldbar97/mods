@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Denim Strips,
 		Icon			= PDenimStrips,
+		WorldStaticModel= StripRollDenim,
 	}
 	
 	item 50pkDenim
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 50 x Denim Strips,
 		Icon			= PDenimStrips,
+		WorldStaticModel= StripRollDenim,
 	}
 	
 	item 100pkDenim
@@ -27,6 +29,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 100 x Denim Strips,
 		Icon			= PDenimStrips,
+		WorldStaticModel= StripRollDenim,
 	}
 
 	recipe Pack 10
@@ -116,5 +119,12 @@ module Packing
 		
 		Result:10pkDenim=5,
 		Time:40.0,
+	}
+
+	model StripRollDenim
+	{
+		mesh = WorldItems/stripsroll,
+		texture = WorldItems/DenimStrips,
+		scale = 1.0,
 	}
 }

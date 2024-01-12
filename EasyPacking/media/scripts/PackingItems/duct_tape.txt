@@ -11,6 +11,7 @@ module GidOrganizedFood
 		Type			= Normal,
 		DisplayName		= 4 x Duct Tape,
 		Icon			= OS4pkDuctTape,
+		WorldStaticModel= StackOfDuctTape,
 	}
 	
 	recipe Pack 4
@@ -32,5 +33,12 @@ module GidOrganizedFood
 		RemoveResultItem:true,
 		Time:30.0,
 		Category:Storage,
+	}
+
+	model StackOfDuctTape
+	{
+		mesh = WorldItems/stack_of_duct_tape,
+		texture = WorldItems/DuctTape,
+		scale = 1.0,
 	}
 }

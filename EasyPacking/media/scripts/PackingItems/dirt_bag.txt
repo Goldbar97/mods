@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Dirt Bag (Rope),
 		Icon			= PRopeSandbag,
+		WorldStaticModel= StackOfDirtBagRoped
 	}
 	
 	item 5pkRopeDirtBag
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Dirt Bag (Rope),
 		Icon			= PRopeSandbag,
+		WorldStaticModel= StackOfDirtBagRoped,
 	}
 
 	item 10pkSheetRopeDirtBag
@@ -27,6 +29,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Dirt Bag (SheetRope),
 		Icon			= PSheetRopeSandbag,
+		WorldStaticModel= StackOfDirtBagSheetRoped,
 	}
 	
 	item 5pkSheetRopeDirtBag
@@ -35,6 +38,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Dirt Bag (SheetRope),
 		Icon			= PSheetRopeSandbag,
+		WorldStaticModel= StackOfDirtBagSheetRoped,
 	}
 	
 	recipe Rope 10
@@ -173,5 +177,19 @@ module Packing
 		OnCreate:Recipe.OnCreate.SplitUsesInTwo,
 		RemoveResultItem:true,
 		Time:50.0,
+	}
+
+	model StackOfDirtBagRoped
+	{
+		mesh = WorldItems/stack_of_dirt_bags,
+		texture = WorldItems/StackOfSandbagsRoped,
+		scale = 1.0,
+	}
+
+	model StackOfDirtBagSheetRoped
+	{
+		mesh = WorldItems/stack_of_dirt_bags,
+		texture = WorldItems/StackOfSandbagsSheetRoped,
+		scale = 1.0,
 	}
 }

@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Notebook,
 		Icon			= PNotebook,
+		WorldStaticModel= StackOfNotebook,
 	}
 	
 	item 5pkNotebook
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Notebook,
 		Icon			= PNotebook,
+		WorldStaticModel= StackOfNotebook,
 	}
 	
 	recipe Pack 10
@@ -73,5 +75,12 @@ module Packing
 		
 		Result:5pkNotebook=2,
 		Time:40.0,
+	}
+
+	model StackOfNotebook
+	{
+		mesh = WorldItems/stack_of_notebooks,
+		texture = WorldItems/EmptyNotePad,
+		scale = 1.0,
 	}
 }

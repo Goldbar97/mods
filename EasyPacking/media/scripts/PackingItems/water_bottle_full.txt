@@ -21,6 +21,7 @@ module GidOrganizedFood
 		IsWaterSource			= TRUE,
 		UseWhileEquipped  		= FALSE,
 		ToolTip					= Tooltip_item_OnlyPurifyMicrowave,
+		WorldStaticModel        = PackOfWaterBottle
 	}
 	
 	recipe Pack 24
@@ -42,5 +43,12 @@ module GidOrganizedFood
 		OnGiveXP:Recipe.OnGiveXP.None,
 		Time:120.0,
 		Category:Storage,
+	}
+
+	model PackOfWaterBottle
+	{
+		mesh = WorldItems/pack_of_water_bottles,
+		texture = WorldItems/WaterBottleFull,
+		scale = 1.0,
 	}
 }

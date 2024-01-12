@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Fishing Line,
 		Icon			= PFishingLine,
+		WorldStaticModel= FishingLineXL,
 	}
 	
 	item 5pkFishingLine
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Fishing Line,
 		Icon			= PFishingLine,
+		WorldStaticModel= FishingLineXL,
 	}
 
 	recipe Pack 10
@@ -82,5 +84,12 @@ module Packing
 		OnCreate:Recipe.OnCreate.SplitUsesInTwo,
 		RemoveResultItem:true,
 		Time:30.0,
+	}
+
+	model FishingLineXL
+	{
+		mesh = WorldItems/xl_fishing_line,
+		texture = WorldItems/FishingLine,
+		scale = 1.0,
 	}
 }

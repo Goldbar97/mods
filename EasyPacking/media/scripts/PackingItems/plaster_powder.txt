@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Bag of Plaster Powder (Rope),
 		Icon			= PRopePlasterPowder,
+		WorldStaticModel= StackOfPlasterPowderRoped
 	}
 	
 	item 5pkRopePlasterPowder
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Bag of Plaster Powder (Rope),
 		Icon			= PRopePlasterPowder,
+		WorldStaticModel= StackOfPlasterPowderRoped
 	}
 
 	item 10pkSheetRopePlasterPowder
@@ -27,6 +29,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Bag of Plaster Powder (SheetRope),
 		Icon			= PSheetRopePlasterPowder,
+		WorldStaticModel= StackOfPlasterPowderSheetRoped
 	}
 	
 	item 5pkSheetRopePlasterPowder
@@ -35,6 +38,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Bag of Plaster Powder (SheetRope),
 		Icon			= PSheetRopePlasterPowder,
+		WorldStaticModel= StackOfPlasterPowderSheetRoped
 	}
 	
 	recipe Rope 10
@@ -164,5 +168,19 @@ module Packing
 		CanBeDoneFromFloor:true,
 		Result:5pkSheetRopePlasterPowder=2,
 		Time:50.0,
+	}
+
+	model StackOfPlasterPowderRoped
+	{
+		mesh = WorldItems/stack_of_plaster_powder,
+		texture = WorldItems/StackOfPlasterRoped,
+		scale = 1.0,
+	}
+
+	model StackOfPlasterPowderSheetRoped
+	{
+		mesh = WorldItems/stack_of_plaster_powder,
+		texture = WorldItems/StackOfPlasterSheetRoped,
+		scale = 1.0,
 	}
 }

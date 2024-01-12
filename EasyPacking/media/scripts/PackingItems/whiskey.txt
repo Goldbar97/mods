@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Whiskey,
 		Icon			= PWhiskey,
+		WorldStaticModel= WoodenBoxOfWhiskey,
 	}
 	
 	item 5pkWhiskey
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Whiskey,
 		Icon			= PWhiskey,
+		WorldStaticModel= WoodenBoxOfWhiskey,
 	}
 
 	recipe Pack 10
@@ -76,5 +78,12 @@ module Packing
 		CanBeDoneFromFloor:true,
 		Result:5pkWhiskey=2,
 		Time:40.0,
+	}
+
+	model WoodenBoxOfWhiskey
+	{
+		mesh = WorldItems/wooden_box_of_whiskey_bottles,
+		texture = WorldItems/WoodenBoxOfWhiskeyBottle,
+		scale = 1.0,
 	}
 }

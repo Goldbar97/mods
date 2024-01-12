@@ -11,6 +11,7 @@ module GidOrganized
 		Type			= Normal,
 		DisplayName		= 30 x Antibiotics,
 		Icon			= OS30pkAntibiotics,
+		WorldStaticModel= BottleOfAntibiotics,
 	}
 	
 	recipe Pack 30
@@ -31,5 +32,12 @@ module GidOrganized
 		OnGiveXP:Recipe.OnGiveXP.None,
 		Time:60.0,
 		Category:Storage,
+	}
+
+	model BottleOfAntibiotics
+	{
+		mesh = WorldItems/bottle_of_antibiotics,
+		texture = WorldItems/BottleOfAntibiotics,
+		scale = 1.0,
 	}
 }

@@ -12,6 +12,7 @@ module GidOrganized
 		UseWhileEquipped	= FALSE,
 		DisplayName			= 5 x Antidepressants,
 		Icon				= OS50pkAntidepressants,
+		WorldStaticModel    = BottleOfAntidepressants,
 	}
 	
 	recipe Pack 5
@@ -34,5 +35,12 @@ module GidOrganized
 		RemoveResultItem:true,
 		Time:120.0,
 		Category:Storage,
+	}
+
+	model BottleOfAntiDepressants
+	{
+		mesh = WorldItems/bottle_of_antibiotics,
+		texture = WorldItems/BottleOfAntidepressants,
+		scale = 0.8,
 	}
 }

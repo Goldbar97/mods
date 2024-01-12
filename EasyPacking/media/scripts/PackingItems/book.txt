@@ -11,7 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Book,
 		Icon			= PBook,
-		WorldStaticModel = Books_Ground,
+		WorldStaticModel = BoxOfBooks,
 	}
 	
 	item 5pkBook
@@ -20,7 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Book,
 		Icon			= PBook,
-		WorldStaticModel = Books_Ground,
+		WorldStaticModel = BoxOfBooks,
 	}
 
 	recipe Pack 10
@@ -77,10 +77,10 @@ module Packing
 		Time:30.0,
 	}
 	
-	model Books_Ground
+	model BoxOfBooks
 	{
-		mesh = WorldItems/pkbook_box_skillbook_ground,
+		mesh = WorldItems/box_of_books,
 		texture = WorldItems/BookRed,
-		scale = 0.005,
+		scale = 1.0,
 	}
 }

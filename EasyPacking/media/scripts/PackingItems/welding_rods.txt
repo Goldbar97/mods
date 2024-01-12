@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Welding Rods,
 		Icon			= PWeldingRods,
+		WorldStaticModel= PackOfWeldingRods,
 	}
 
 	item 5pkWeldingRods
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Welding Rods,
 		Icon			= PWeldingRods,
+		WorldStaticModel= PackOfWeldingRods,
 	}
 
 	recipe Pack 10
@@ -84,5 +86,12 @@ module Packing
 		OnCreate:Recipe.OnCreate.SplitUsesInTwo,
 		RemoveResultItem:true,
 		Time:40.0,
+	}
+
+	model PackOfWeldingRods
+	{
+		mesh = WorldItems/pack_of_welding_rods,
+		texture = WorldItems/PackOfWeldingRods,
+		scale = 1.0,
 	}
 }
