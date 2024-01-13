@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 6 x Dog Food,
 		Icon			= PDogFood,
+		WorldStaticModel= PackOfDogFoodCan,
 	}
 
 	recipe Pack 6
@@ -31,5 +32,12 @@ module Packing
 		OnGiveXP:Recipe.OnGiveXP.None,
 		Time:40.0,
 		Category:Storage,
+	}
+
+	model PackOfDogFoodCan
+	{
+		mesh = WorldItems/pack_of_cans,
+		texture = WorldItems/TinnedDogFood,
+		scale = 1.0,
 	}
 }

@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Tissue,
 		Icon			= PTissue,
+		WorldStaticModel= PackOfTissues,
 	}
 	
 	item 5pkTissue
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Tissue,
 		Icon			= PTissue,
+		WorldStaticModel= PackOfTissues,
 	}
 
 	recipe Pack 10
@@ -82,5 +84,12 @@ module Packing
 		OnCreate:Recipe.OnCreate.SplitUsesInTwo,
 		RemoveResultItem:true,
 		Time:30.0,
+	}
+
+	model PackOfTissues
+	{
+		mesh = WorldItems/pack_of_bandages,
+		texture = WorldItems/PackOfTissue,
+		scale = 0.9,
 	}
 }

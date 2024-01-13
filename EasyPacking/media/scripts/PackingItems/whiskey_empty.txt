@@ -11,6 +11,7 @@ module GidOrganizedFood
 		Type			= Normal,
 		DisplayName		= 8 x Empty Whiskey Bottles,
 		Icon			= OS8pkWhiskeyEmpty,
+		WorldStaticModel= WoodenBoxOfWhiskeyEmpty,
 	}
 	
 	recipe Pack 8
@@ -29,5 +30,12 @@ module GidOrganizedFood
 		Result:WhiskeyEmpty=8,
 		Time:120.0,
 		Category:Storage,
+	}
+
+	model WoodenBoxOfWhiskeyEmpty
+	{
+		mesh = WorldItems/wooden_box_of_whiskey_bottles,
+		texture = WorldItems/WoodenBoxOfWhiskeyBottleEmpty,
+		scale = 1.0,
 	}
 }

@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Battery,
 		Icon			= PBattery,
+		WorldStaticModel= PackOfBatteries
 	}
 	
 	item 5pkBattery
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Battery,
 		Icon			= PBattery,
+		WorldStaticModel= PackOfBatteries
 	}
 
 	recipe Pack 10
@@ -82,5 +84,12 @@ module Packing
 		OnCreate:Recipe.OnCreate.SplitUsesInTwo,
 		RemoveResultItem:true,
 		Time:30.0,
+	}
+
+	model PackOfBatteries
+	{
+		mesh = WorldItems/pack_of_batteries,
+		texture = WorldItems/PackOfBattery,
+		scale = 1.0,
 	}
 }

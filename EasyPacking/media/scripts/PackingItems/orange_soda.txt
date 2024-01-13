@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Orange Soda,
 		Icon			= POrangeSoda,
+		WorldStaticModel= PackOfPopBottles,
 	}
 	
 	item 5pkOrangeSoda
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Orange Soda,
 		Icon			= POrangeSoda,
+		WorldStaticModel= PackOfPopBottles,
 	}
 
 	recipe Pack 10
@@ -76,5 +78,12 @@ module Packing
 		CanBeDoneFromFloor:true,
 		Result:5pkOrangeSoda=2,
 		Time:40.0,
+	}
+
+	model PackOfPopBottles
+	{
+		mesh = WorldItems/pack_of_pop_bottles,
+		texture = PopBottle,
+		scale = 0.67,
 	}
 }

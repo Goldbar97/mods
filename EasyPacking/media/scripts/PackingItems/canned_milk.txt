@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 6 x Canned Evaporated Milk,
 		Icon			= PCannedMilk,
+		WorldStaticModel= PackOfCondensedMilkCan,
 	}
 	
 	recipe Pack 6
@@ -31,5 +32,12 @@ module Packing
 		OnGiveXP:Recipe.OnGiveXP.None,
 		Time:40.0,
 		Category:Storage,
+	}
+
+	model PackOfCondensedMilkCan
+	{
+		mesh = WorldItems/pack_of_cans,
+		texture = WorldItems/TinnedCondensedMilk,
+		scale = 1.0,
 	}
 }

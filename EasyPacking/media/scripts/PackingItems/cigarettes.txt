@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 20 x Cigarettes,
 		Icon			= PCigarettes,
+		WorldStaticModel= PackOfCigarettes,
 	}
 
 	recipe Pack 20
@@ -32,5 +33,12 @@ module Packing
 		RemoveResultItem:true,
 		OnGiveXP:Recipe.OnGiveXP.None,
 		Time:25.0,
+	}
+
+	model PackOfCigarettes
+	{
+		mesh = WorldItems/pack_of_cigarettes,
+		texture = WorldItems/CigarettePack,
+		scale = 0.5,
 	}
 }

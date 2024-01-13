@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Blue Pen,
 		Icon			= PBluePen,
+		WorldStaticModel= PackOfBluePens,
 	}
 	
 	item 5pkBluePen
@@ -18,7 +19,7 @@ module Packing
 		Weight			= 0.35,
 		Type			= Normal,
 		DisplayName		= 5 x Blue Pen,
-		Icon			= PBluePen,
+		Icon			= PackOfBluePens,
 	}
 	
 	recipe Pack 10
@@ -73,5 +74,12 @@ module Packing
 		
 		Result:5pkBluePen=2,
 		Time:30.0,
+	}
+
+	model PackOfBluePens
+	{
+		mesh = WorldItems/pack_of_pens,
+		texture = WorldItems/PackOfBluePens,
+		scale = 1.0,
 	}
 }

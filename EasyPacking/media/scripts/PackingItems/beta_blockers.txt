@@ -12,6 +12,7 @@ module GidOrganized
 		UseWhileEquipped	= FALSE,
 		DisplayName			= 5 x Beta Blockers,
 		Icon				= OS50pkBetaBlockers,
+		WorldStaticModel    = BottleOfBetaBlockers,
 	}
 	
 	recipe Pack 5
@@ -34,5 +35,12 @@ module GidOrganized
 		RemoveResultItem:true,
 		Time:120.0,
 		Category:Storage,
+	}
+
+	model BottleOfBetaBlockers
+	{
+		mesh = WorldItems/bottle_of_antibiotics,
+		texture = WorldItems/BottleOfBetaBlocker,
+		scale = 0.7,
 	}
 }

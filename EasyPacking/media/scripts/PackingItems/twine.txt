@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Twine,
 		Icon			= PTwine,
+		WorldStaticModel= TwineXL,
 	}
 	
 	item 5pkTwine
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Twine,
 		Icon			= PTwine,
+		WorldStaticModel= TwineXL,
 	}
 
 	recipe Pack 10
@@ -82,5 +84,12 @@ module Packing
 		OnCreate:Recipe.OnCreate.SplitUsesInTwo,
 		RemoveResultItem:true,
 		Time:30.0,
+	}
+
+	model TwineXL
+	{
+		mesh = WorldItems/xl_twine,
+		texture = WorldItems/Twine,
+		scale = 0.7,
 	}
 }

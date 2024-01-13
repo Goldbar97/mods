@@ -11,6 +11,7 @@ module GidOrganizedFood
 		Type			= Normal,
 		DisplayName		= 4 x Instant Coffee,
 		Icon			= OS4pkCoffee,
+		WorldStaticModel= StackOfCoffee,
 	}
 	
 	recipe Pack 4
@@ -31,5 +32,12 @@ module GidOrganizedFood
 		OnGiveXP:Recipe.OnGiveXP.None,
 		Time:60.0,
 		Category:Storage,
+	}
+
+	model StackOfCoffee
+	{
+		mesh = WorldItems/stack_of_coffee,
+		texture = WorldItems/Coffee,
+		scale = 1.0,
 	}
 }

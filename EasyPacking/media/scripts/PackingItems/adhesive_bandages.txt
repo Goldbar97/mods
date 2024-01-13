@@ -11,6 +11,7 @@ module GidOrganized
 		Type			= Normal,
 		DisplayName		= 12 x Adhesive Bandages,
 		Icon			= OS12pkAdhesiveBandages,
+		WorldStaticModel= PackOfAdhesiveBandages,
 	}
 	
 	recipe Pack 12
@@ -30,5 +31,12 @@ module GidOrganized
 		Result:Bandaid=12,
 		Time:60.0,
 		Category:Storage,
+	}
+
+	model PackOfAdhesiveBandages
+	{
+		mesh = WorldItems/pack_of_adhesive_bandages,
+		texture = WorldItems/PackOfAdhesiveBandages,
+		scale = 1.0,
 	}
 }

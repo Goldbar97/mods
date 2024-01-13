@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Sheet of Paper,
 		Icon			= PSheetPaper,
+		WorldStaticModel= StackOfPaper,
 	}
 
 	item 5pkSheetPaper
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Sheet of Paper,
 		Icon			= PSheetPaper,
+		WorldStaticModel= StackOfPaper,
 	}
 
 	recipe Pack 10
@@ -73,5 +75,12 @@ module Packing
 		
 		Result:5pkSheetPaper=2,
 		Time:30.0,
+	}
+
+	model StackOfPaper
+	{
+		mesh = WorldItems/stack_of_paper,
+		texture = WorldItems/StackOfPaper,
+		scale = 1.0,
 	}
 }

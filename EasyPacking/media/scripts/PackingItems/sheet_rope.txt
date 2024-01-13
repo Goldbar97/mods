@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Sheet Rope,
 		Icon			= PSheetRope,
+		WorldStaticModel= BundleOfSheetRope,
 	}
 	
 	item 5pkSheetRope
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Sheet Rope,
 		Icon			= PSheetRope,
+		WorldStaticModel= BundleOfSheetRope,
 	}
 
 	recipe Pack 10
@@ -73,5 +75,12 @@ module Packing
 		
 		Result:5pkSheetRope=2,
 		Time:40.0,
+	}
+
+	model BundleOfSheetRope
+	{
+		mesh = WorldItems/pack_of_sheet_rope,
+		texture = WorldItems/BundleOfSheetRope,
+		scale = 1.0,
 	}
 }

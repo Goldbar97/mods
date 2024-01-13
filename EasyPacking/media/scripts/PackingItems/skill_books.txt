@@ -11,7 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= Bundle of Carpentry Books,
 		Icon			= PCarpentryBook,
-		WorldStaticModel = CarpentryBooks_Ground,
+		WorldStaticModel = BoxOfBooksCarpentry,
 	}
 	
 	item pkCooking
@@ -20,7 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= Bundle of Cooking Books,
 		Icon			= PCookingBook,
-		WorldStaticModel = CookingBooks_Ground,
+		WorldStaticModel = BoxOfBooksCooking,
 	}
 	
 	item pkElectricity
@@ -29,7 +29,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= Bundle of Electricity Books,
 		Icon			= PElectricityBook,
-		WorldStaticModel = ElectricityBooks_Ground,
+		WorldStaticModel = BoxOfBooksElectricity,
 	}
 	
 	item pkFarming
@@ -38,7 +38,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= Bundle of Farming Books,
 		Icon			= PFarmingBook,
-		WorldStaticModel = FarmingBooks_Ground,
+		WorldStaticModel = BoxOfBooksFarming,
 	}
 	
 	item pkFirstaid
@@ -47,7 +47,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= Bundle of Firstaid Books,
 		Icon			= PFirstaidBook,
-		WorldStaticModel = FirstaidBooks_Ground,
+		WorldStaticModel = BoxOfBooksFirstaid,
 	}
 	
 	item pkFishing
@@ -56,7 +56,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= Bundle of Fishing Books,
 		Icon			= PFishingBook,
-		WorldStaticModel = FishingBooks_Ground,
+		WorldStaticModel = BoxOfBooksFishing,
 	}
 	
 	item pkForaging
@@ -65,7 +65,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= Bundle of Foraging Books,
 		Icon			= PForagingBook,
-		WorldStaticModel = ForagingBooks_Ground,
+		WorldStaticModel = BoxOfBooksForaging,
 	}
 	
 	item pkMechanics
@@ -74,7 +74,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= Bundle of Mechanics Books,
 		Icon			= PMechanicsBook,
-		WorldStaticModel = MechanicsBooks_Ground,
+		WorldStaticModel = BoxOfBooksMechanics,
 	}
 	
 	item pkTailoring
@@ -83,7 +83,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= Bundle of Tailoring Books,
 		Icon			= PTailoringBook,
-		WorldStaticModel = TailoringBooks_Ground,
+		WorldStaticModel = BoxOfBooksTailoring,
 	}
 	
 	item pkMetalwork
@@ -92,7 +92,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= Bundle of Metalwork Books,
 		Icon			= PMetalworkBook,
-		WorldStaticModel = MetalworkBooks_Ground,
+		WorldStaticModel = BoxOfBooksMetalwork,
 	}
 	
 	item pkTrapping
@@ -101,7 +101,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= Bundle of Trapping Books,
 		Icon			= PTrappingBook,
-		WorldStaticModel = TrappingBooks_Ground,
+		WorldStaticModel = BoxOfBooksTrapping,
 	}
 
 	recipe Pack Carpentry Skill Books
@@ -357,80 +357,80 @@ module Packing
 		Category:Storage,
 	}
 	
-	model CarpentryBooks_Ground
+	model BoxOfBooksCarpentry
 	{
-		mesh = WorldItems/pkbook_box_skillbook_ground,
+		mesh = WorldItems/box_of_books,
 		texture = WorldItems/BookBrown,
-		scale = 0.005,
+		scale = 1.0,
 	}
 	
-	model CookingBooks_Ground
+	model BoxOfBooksCooking
 	{
-		mesh = WorldItems/pkbook_box_skillbook_ground,
+		mesh = WorldItems/box_of_books,
 		texture = WorldItems/BookDarkCyan,
-		scale = 0.005,
+		scale = 1.0,
 	}
 	
-	model ElectricityBooks_Ground
+	model BoxOfBooksElectricity
 	{
-		mesh = WorldItems/pkbook_box_skillbook_ground,
+		mesh = WorldItems/box_of_books,
 		texture = WorldItems/BookRedPink,
-		scale = 0.005,
+		scale = 1.0,
 	}
 	
-	model FarmingBooks_Ground
+	model BoxOfBooksFarming
 	{
-		mesh = WorldItems/pkbook_box_skillbook_ground,
+		mesh = WorldItems/box_of_books,
 		texture = WorldItems/BookLightGreen,
-		scale = 0.005,
+		scale = 1.0,
 	}
 	
-	model FirstaidBooks_Ground
+	model BoxOfBooksFirstaid
 	{
-		mesh = WorldItems/pkbook_box_skillbook_ground,
+		mesh = WorldItems/box_of_books,
 		texture = WorldItems/BookLightBlue,
-		scale = 0.005,
+		scale = 1.0,
 	}
 	
-	model FishingBooks_Ground
+	model BoxOfBooksFishing
 	{
-		mesh = WorldItems/pkbook_box_skillbook_ground,
+		mesh = WorldItems/box_of_books,
 		texture = WorldItems/BookPurple,
-		scale = 0.005,
+		scale = 1.0,
 	}
 	
-	model ForagingBooks_Ground
+	model BoxOfBooksForaging
 	{
-		mesh = WorldItems/pkbook_box_skillbook_ground,
+		mesh = WorldItems/box_of_books,
 		texture = WorldItems/BookGreen,
-		scale = 0.005,
+		scale = 1.0,
 	}
 	
-	model MechanicsBooks_Ground
+	model BoxOfBooksMechanics
 	{
-		mesh = WorldItems/pkbook_box_skillbook_ground,
+		mesh = WorldItems/box_of_books,
 		texture = WorldItems/BookYellow,
-		scale = 0.005,
+		scale = 1.0,
 	}
 	
-	model TailoringBooks_Ground
+	model BoxOfBooksTailoring
 	{
-		mesh = WorldItems/pkbook_box_skillbook_ground,
+		mesh = WorldItems/box_of_books,
 		texture = WorldItems/BookYellow,
-		scale = 0.005,
+		scale = 1.0,
 	}
 	
-	model MetalworkBooks_Ground
+	model BoxOfBooksMetalwork
 	{
-		mesh = WorldItems/pkbook_box_skillbook_ground,
+		mesh = WorldItems/box_of_books,
 		texture = WorldItems/BookGrey,
-		scale = 0.005,
+		scale = 1.0,
 	}
 	
-	model TrappingBooks_Ground
+	model BoxOfBooksTrapping
 	{
-		mesh = WorldItems/pkbook_box_skillbook_ground,
+		mesh = WorldItems/box_of_books,
 		texture = WorldItems/BookYellowBrown,
-		scale = 0.005,
+		scale = 1.0,
 	}
 }

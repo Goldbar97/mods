@@ -11,6 +11,7 @@ module GidOrganizedFood
 		Type			= Normal,
 		DisplayName		= 12 x Empty Wine Bottles,
 		Icon			= OS12pkWineEmpty,
+		WorldStaticModel= WoodenBoxOfRedWineBottleEmpty,
 	}
 	
 	recipe Pack 12
@@ -29,5 +30,12 @@ module GidOrganizedFood
 		Result:WineEmpty2=12,
 		Time:120.0,
 		Category:Storage,
+	}
+
+	model WoodenBoxOfRedWineBottleEmpty
+	{
+		mesh = WorldItems/wooden_box_of_empty_wine_bottles,
+		texture = WorldItems/WoodenBoxOfRedWineBottle,
+		scale = 1.0,
 	}
 }

@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Bag of Concrete Powder (Rope),
 		Icon			= PRopeConcretePowder,
+		WorldStaticModel= StackOfConcretePowderRoped
 	}
 	
 	item 5pkRopeConcretePowder
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Bag of Concrete Powder (Rope),
 		Icon			= PRopeConcretePowder,
+		WorldStaticModel= StackOfConcretePowderRoped
 	}
 
 	item 10pkSheetRopeConcretePowder
@@ -27,6 +29,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Bag of Concrete Powder (SheetRope),
 		Icon			= PSheetRopeConcretePowder,
+		WorldStaticModel= StackOfConcretePowderSheetRoped
 	}
 	
 	item 5pkSheetRopeConcretePowder
@@ -35,6 +38,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Bag of Concrete Powder (SheetRope),
 		Icon			= PSheetRopeConcretePowder,
+		WorldStaticModel= StackOfConcretePowderSheetRoped
 	}
 	
 	recipe Rope 10
@@ -164,5 +168,19 @@ module Packing
 		CanBeDoneFromFloor:true,
 		Result:5pkSheetRopeConcretePowder=2,
 		Time:50.0,
+	}
+
+	model StackOfConcretePowderRoped
+	{
+		mesh = WorldItems/stack_of_concrete_powder,
+		texture = WorldItems/StackOfConcretePowderRoped,
+		scale = 1.0,
+	}
+
+	model StackOfConcretePowderSheetRoped
+	{
+		mesh = WorldItems/stack_of_concrete_powder,
+		texture = WorldItems/StackOfConcretePowderSheetRoped,
+		scale = 1.0,
 	}
 }

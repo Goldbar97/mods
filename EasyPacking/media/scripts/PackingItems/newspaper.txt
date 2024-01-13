@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Newspaper,
 		Icon			= PNewspaper,
+		WorldStaticModel= StackOfNewspaper,
 	}
 	
 	item 5pkNewspaper
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Newspaper,
 		Icon			= PNewspaper,
+		WorldStaticModel= StackOfNewspaper,
 	}
 
 	recipe Pack 10
@@ -73,5 +75,12 @@ module Packing
 		
 		Result:5pkNewspaper=2,
 		Time:30.0,
+	}
+
+	model StackOfNewspaper
+	{
+		mesh = WorldItems/stack_of_newspaper,
+		texture = WorldItems/Newspaper,
+		scale = 0.88,
 	}
 }

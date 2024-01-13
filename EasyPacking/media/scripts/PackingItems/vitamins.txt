@@ -12,6 +12,7 @@ module GidOrganized
 		UseWhileEquipped	= FALSE,
 		DisplayName			= 5 x Vitamins,
 		Icon				= OS50pkVitamins,
+		WorldStaticModel    = BottleOfVitamins,
 	}
 	
 	recipe Pack 5
@@ -35,5 +36,12 @@ module GidOrganized
 		RemoveResultItem:true,
 		Time:120.0,
 		Category:Storage,
+	}
+
+	model BottleOfVitamins
+	{
+		mesh = WorldItems/bottle_of_antibiotics,
+		texture = WorldItems/BottleOfVitamins,
+		scale = 0.9,
 	}
 }

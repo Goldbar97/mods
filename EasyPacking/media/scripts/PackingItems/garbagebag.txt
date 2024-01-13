@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Garbage Bag,
 		Icon			= PGarbage,
+		WorldStaticModel= PackOfGarbageBags,
 	}
 	
 	item 5pkGarbage
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Garbage Bag,
 		Icon			= PGarbage,
+		WorldStaticModel= PackOfGarbageBags,
 	}
 
 	recipe Pack 10
@@ -73,5 +75,12 @@ module Packing
 		
 		Result:5pkGarbage=2,
 		Time:30.0,
+	}
+
+	model PackOfGarbageBags
+	{
+		mesh = WorldItems/pack_of_adhesive_bandages,
+		texture = WorldItems/PackOfGarbageBags,
+		scale = 1.5,
 	}
 }

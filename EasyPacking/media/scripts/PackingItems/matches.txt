@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Matches,
 		Icon			= PMatches,
+		WorldStaticModel= PackOfMatches,
 	}
 	
 	item 5pkMatches
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Matches,
 		Icon			= PMatches,
+		WorldStaticModel= PackOfMatches,
 	}
 
 	recipe Pack 10
@@ -82,5 +84,12 @@ module Packing
 		OnCreate:Recipe.OnCreate.SplitUsesInTwo,
 		RemoveResultItem:true,
 		Time:30.0,
+	}
+
+	model PackOfMatches
+	{
+		mesh = WorldItems/pack_of_matches,
+		texture = WorldItems/Matches,
+		scale = 1.0,
 	}
 }

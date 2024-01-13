@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Glue,
 		Icon			= PGlue,
+		WorldStaticModel= StackOfGlue,
 	}
 	
 	item 5pkGlue
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Glue,
 		Icon			= PGlue,
+		WorldStaticModel= StackOfGlue,
 	}
 
 	recipe Pack 10
@@ -82,5 +84,12 @@ module Packing
 		OnCreate:Recipe.OnCreate.SplitUsesInTwo,
 		RemoveResultItem:true,
 		Time:30.0,
+	}
+
+	model StackOfGlue
+	{
+		mesh = WorldItems/stack_of_glue,
+		texture = WorldItems/Glue,
+		scale = 1.0,
 	}
 }

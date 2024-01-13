@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Small Metal Sheet,
 		Icon			= PSheetMetalSmall,
+		WorldStaticModel= StackOfSmallMetalSheets,
 	}
 	
 	item 5pkSheetMetalSmall
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Small Metal Sheet,
 		Icon			= PSheetMetalSmall,
+		WorldStaticModel= StackOfSmallMetalSheets,
 	}
 
 	recipe Pack 10
@@ -79,5 +81,12 @@ module Packing
 		CanBeDoneFromFloor:true,
 		Result:5pkSheetMetalSmall=2,
 		Time:30.0,
+	}
+
+	model StackOfSmallMetalSheets
+	{
+		mesh = WorldItems/stack_of_small_metal_sheets,
+		texture = WorldItems/MetalSheet,
+		scale = 0.87,
 	}
 }

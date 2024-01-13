@@ -11,6 +11,7 @@ module GidOrganized
 		Type			= Normal,
 		DisplayName		= 9 x Dirty Bandages,
 		Icon			= OS9pkBandagesDirty,
+		WorldStaticModel= PackOfDirtyBandages,
 	}
 	
 	recipe Pack 9
@@ -30,5 +31,12 @@ module GidOrganized
 		Result:BandageDirty=9,
 		Time:60.0,
 		Category:Storage,
+	}
+
+	model PackOfDirtyBandages
+	{
+		mesh = WorldItems/pack_of_bandages,
+		texture = WorldItems/PackOfDirtyBandages,
+		scale = 1.0,
 	}
 }

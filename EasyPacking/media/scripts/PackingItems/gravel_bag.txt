@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Gravel Bag (Rope),
 		Icon			= PRopeSandbag,
+		WorldStaticModel= StackOfGravelBagRoped,
 	}
 	
 	item 5pkRopeGravelBag
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Gravel Bag (Rope),
 		Icon			= PRopeSandbag,
+		WorldStaticModel= StackOfGravelBagRoped,
 	}
 
 	item 10pkSheetRopeGravelBag
@@ -27,6 +29,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Gravel Bag (SheetRope),
 		Icon			= PSheetRopeSandbag,
+		WorldStaticModel= StackOfGravelBagSheetRoped,
 	}
 	
 	item 5pkSheetRopeGravelBag
@@ -35,6 +38,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Gravel Bag (SheetRope),
 		Icon			= PSheetRopeSandbag,
+		WorldStaticModel= StackOfGravelBagSheetRoped,
 	}
 	
 	recipe Rope 10
@@ -173,5 +177,19 @@ module Packing
 		OnCreate:Recipe.OnCreate.SplitUsesInTwo,
 		RemoveResultItem:true,
 		Time:50.0,
+	}
+
+	model StackOfGravelBagRoped
+	{
+		mesh = WorldItems/stack_of_gravel_bags,
+		texture = WorldItems/StackOfGravelBagRoped,
+		scale = 0.9,
+	}
+	
+	model StackOfGravelBagSheetRoped
+	{
+		mesh = WorldItems/stack_of_gravel_bags,
+		texture = WorldItems/StackOfGravelBagSheetRoped,
+		scale = 0.9,
 	}
 }

@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Box of Nails,
 		Icon			= PNailsBox,
+		WorldStaticModel= PackOfNails,
 	}
 
 	item 5pkNailsBox
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Box of Nails,
 		Icon			= PNailsBox,
+		WorldStaticModel= PackOfNails,
 	}
 
 	recipe Pack 10
@@ -74,5 +76,12 @@ module Packing
 		CanBeDoneFromFloor:true,
 		Result:5pkNailsBox=2,
 		Time:40.0,
+	}
+
+	model PackOfNails
+	{
+		mesh = WorldItems/pack_of_adhesive_bandages,
+		texture = WorldItems/PackOfNails,
+		scale = 1.3,
 	}
 }

@@ -12,6 +12,7 @@ module GidOrganized
 		UseWhileEquipped	= FALSE,
 		DisplayName			= 5 x Painkillers,
 		Icon				= OS50pkPainkillers,
+		WorldStaticModel    = BottleOfPainkillers,
 	}
 	
 	recipe Pack 5
@@ -34,5 +35,12 @@ module GidOrganized
 		RemoveResultItem:true,
 		Time:120.0,
 		Category:Storage,
+	}
+
+	model BottleOfPainkillers
+	{
+		mesh = WorldItems/bottle_of_antibiotics,
+		texture = WorldItems/BottleOfPainkillers,
+		scale = 0.8,
 	}
 }

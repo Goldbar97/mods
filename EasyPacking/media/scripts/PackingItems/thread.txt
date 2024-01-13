@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Thread,
 		Icon			= PThread,
+		WorldStaticModel= ThreadXL,
 	}
 	
 	item 5pkThread
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Thread,
 		Icon			= PThread,
+		WorldStaticModel= ThreadXL,
 	}
 
 	recipe Pack 10
@@ -82,5 +84,12 @@ module Packing
 		OnCreate:Recipe.OnCreate.SplitUsesInTwo,
 		RemoveResultItem:true,
 		Time:30.0,
+	}
+
+	model ThreadXL
+	{
+		mesh = WorldItems/threadXL,
+		texture = WorldItems/Thread,
+		scale = 1.0,
 	}
 }

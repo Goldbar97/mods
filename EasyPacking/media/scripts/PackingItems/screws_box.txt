@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Box of Screws,
 		Icon			= PScrewsBox,
+		WorldStaticModel= BoxOfScrews,
 	}
 
 	item 5pkScrewsBox
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Box of Screws,
 		Icon			= PScrewsBox,
+		WorldStaticModel= BoxOfScrews,
 	}
 
 	recipe Pack 10
@@ -74,5 +76,12 @@ module Packing
 		CanBeDoneFromFloor:true,
 		Result:5pkScrewsBox=2,
 		Time:40.0,
+	}
+
+	model BoxOfScrews
+	{
+		mesh = WorldItems/box_of_screws,
+		texture = WorldItems/BoxOfScrews,
+		scale = 1.0,
 	}
 }

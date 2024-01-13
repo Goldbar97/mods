@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Wire,
 		Icon			= PWire,
+		WorldStaticModel= StackOfWire,
 	}
 	
 	item 5pkWire
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Wire,
 		Icon			= PWire,
+		WorldStaticModel= StackOfWire,
 	}
 	
 	recipe Pack 10
@@ -82,5 +84,12 @@ module Packing
 		OnCreate:Recipe.OnCreate.SplitUsesInTwo,
 		RemoveResultItem:true,
 		Time:30.0,
+	}
+
+	model StackOfWire
+	{
+		mesh = WorldItems/stack_of_wire,
+		texture = WorldItems/Wire,
+		scale = 1.0,
 	}
 }

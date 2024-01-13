@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 6 x Beer Can,
 		Icon			= PBeerCan,
+		WorldStaticModel= PackOfBeerCan,
 	}
 
 	recipe Pack 6
@@ -31,5 +32,12 @@ module Packing
 		OnGiveXP:Recipe.OnGiveXP.None,
 		Time:50.0,
 		Category:Storage,
+	}
+
+	model PackOfBeerCan
+	{
+		mesh = WorldItems/pack_of_pop,
+		texture = BeerCan,
+		scale = 1.0,
 	}
 }

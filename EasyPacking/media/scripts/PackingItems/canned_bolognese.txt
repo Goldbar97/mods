@@ -11,6 +11,7 @@ module GidOrganizedFood
 		Type			= Normal,
 		DisplayName		= 6 x Canned Bolognese,
 		Icon			= OS6pkCannedBolognese,
+		WorldStaticModel= PackOfBologneseCan,
 	}
 	
 	recipe Pack 6
@@ -31,5 +32,12 @@ module GidOrganizedFood
 		OnGiveXP:Recipe.OnGiveXP.None,
 		Time:60.0,
 		Category:Storage,
+	}
+
+	model PackOfBologneseCan
+	{
+		mesh = WorldItems/pack_of_cans,
+		texture = WorldItems/TinnedBolognese,
+		scale = 1.0,
 	}
 }

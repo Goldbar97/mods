@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 4 x Toilet Paper,
 		Icon			= PToiletPaper,
+		WorldStaticModel= PackOfToiletPaper,
 	}
 
 	recipe Pack 4
@@ -33,5 +34,12 @@ module Packing
 		RemoveResultItem:true,
 		Time:25.0,
 		Category:Storage,
+	}
+
+	model PackOfToiletPaper
+	{
+		mesh = WorldItems/pack_of_toilet_paper,
+		texture = WorldItems/PackOfToiletPaper,
+		scale = 1.0,
 	}
 }

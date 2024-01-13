@@ -11,7 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 6 x Beer Bottle,
 		Icon			= PBeer,
-		WorldStaticModel = 6BeerBottle_Ground,
+		WorldStaticModel = PackOfBeer,
 	}
 
 	recipe Pack 6
@@ -34,9 +34,10 @@ module Packing
 		Category:Storage,
 	}
 	
-	model 6BeerBottle_Ground
+	model PackOfBeer
 	{
-		mesh = WorldItems/6beerbottle_ground,
-		scale = 0.400,
+		mesh = WorldItems/pack_of_beer,
+		texture = WorldItems/PackOfBeer,
+		scale = 1.0,
 	}
 }

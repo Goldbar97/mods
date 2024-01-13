@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Branch (Rope),
 		Icon			= PRopeBranch,
+		WorldStaticModel= StackOfTreeBranchesRoped,
 	}
 	
 	item 5pkRopeBranch
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Branch (Rope),
 		Icon			= PRopeBranch,
+		WorldStaticModel= StackOfTreeBranchesRoped,
 	}
 	
 	item 10pkSheetRopeBranch
@@ -27,6 +29,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Branch (SheetRope),
 		Icon			= PSheetRopeBranch,
+		WorldStaticModel= StackOfTreeBranchesSheetRoped,
 	}
 	
 	item 5pkSheetRopeBranch
@@ -35,6 +38,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Branch (SheetRope),
 		Icon			= PSheetRopeBranch,
+		WorldStaticModel= StackOfTreeBranchesSheetRoped,
 	}
 
 	recipe Rope 10
@@ -153,5 +157,19 @@ module Packing
 		CanBeDoneFromFloor:true,
 		Result:5pkRopeBranch=2,
 		Time:30.0,
+	}
+
+	model StackOfTreeBranchesRoped
+	{
+		mesh = WorldItems/stack_of_tree_branches,
+		texture = WorldItems/StackOfTreeBranchRoped,
+		scale = 1.0,
+	}
+
+	model StackOfTreeBranchesSheetRoped
+	{
+		mesh = WorldItems/stack_of_tree_branches,
+		texture = WorldItems/StackOfTreeBranchSheetRoped,
+		scale = 1.0,
 	}
 }

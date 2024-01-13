@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Magazine,
 		Icon			= PMagazine,
+		WorldStaticModel= StackOfMagazine,
 	}
 	
 	item 5pkMagazine
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Magazine,
 		Icon			= PMagazine,
+		WorldStaticModel= StackOfMagazine,
 	}
 
 	recipe Pack 10
@@ -73,5 +75,12 @@ module Packing
 		
 		Result:5pkMagazine=2,
 		Time:30.0,
+	}
+
+	model StackOfMagazine
+	{
+		mesh = WorldItems/stack_of_magazine,
+		texture = WorldItems/Magazine,
+		scale = 1.0,
 	}
 }

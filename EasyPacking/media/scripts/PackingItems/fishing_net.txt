@@ -11,6 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Fishing Net Trap,
 		Icon			= PFishTrap,
+		WorldStaticModel= StackOfFishingNet,
 	}
 	
 	item 5pkFishingNet
@@ -19,6 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Fishing Net Trap,
 		Icon			= PFishTrap,
+		WorldStaticModel= StackOfFishingNet,
 	}
 
 	recipe Pack 10
@@ -73,5 +75,12 @@ module Packing
 		
 		Result:5pkFishingNet=2,
 		Time:40.0,
+	}
+
+	model StackOfFishingNet
+	{
+		mesh = WorldItems/stack_of_fishing_net,
+		texture = WorldItems/FishingNet,
+		scale = 1.0,
 	}
 }

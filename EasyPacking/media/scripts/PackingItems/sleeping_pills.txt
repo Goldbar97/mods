@@ -12,6 +12,7 @@ module GidOrganized
 		UseWhileEquipped	= FALSE,
 		DisplayName			= 5 x Sleeping Pills,
 		Icon				= OS50pkSleepingPills,
+		WorldStaticModel    = BottleOfSleepingPills,
 	}
 	
 	recipe Pack 5
@@ -34,5 +35,12 @@ module GidOrganized
 		RemoveResultItem:true,
 		Time:120.0,
 		Category:Storage,
+	}
+
+	model BottleOfSleepingPills
+	{
+		mesh = WorldItems/bottle_of_antibiotics,
+		texture = WorldItems/BottleOfSleepingPills,
+		scale = 1.0,
 	}
 }
