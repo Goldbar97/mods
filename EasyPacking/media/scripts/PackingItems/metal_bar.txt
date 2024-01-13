@@ -11,7 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Metal Bar,
 		Icon			= PMetalBar,
-		WorldStaticModel= StackOfMetalBarsRoped,
+		WorldStaticModel= StackOfMetalBars,
 	}
 	
 	item 5pkMetalBar
@@ -20,7 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Metal Bar,
 		Icon			= PMetalBar,
-		WorldStaticModel= StackOfMetalBarsRoped,
+		WorldStaticModel= StackOfMetalBars,
 	}
 
 	item 10pkRopeMetalBar
@@ -245,6 +245,13 @@ module Packing
 		CanBeDoneFromFloor:true,
 		Result:5pkRopeMetalBar=2,
 		Time:40.0,
+	}
+	
+	model StackOfMetalBars
+	{
+		mesh = WorldItems/stack_of_metal_pipes_no_rope,
+		texture = WorldItems/StackOfLeadPipeRoped,
+		scale = 1.0,
 	}
 	
 	model StackOfMetalBarsRoped

@@ -11,7 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Metal Pipe,
 		Icon			= PMetalPipe,
-		WorldStaticModel= StackOfMetalPipesRoped,
+		WorldStaticModel= StackOfMetalPipes,
 	}
 	
 	item 5pkMetalPipe
@@ -20,7 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Metal Pipe,
 		Icon			= PMetalPipe,
-		WorldStaticModel= StackOfMetalPipesRoped,
+		WorldStaticModel= StackOfMetalPipes,
 		
 	}
 	
@@ -246,6 +246,13 @@ module Packing
 		CanBeDoneFromFloor:true,
 		Result:5pkRopeMetalPipe=2,
 		Time:40.0,
+	}
+	
+	model StackOfMetalPipes
+	{
+		mesh = WorldItems/stack_of_metal_pipes_no_rope,
+		texture = WorldItems/StackOfLeadPipeRoped,
+		scale = 1.0,
 	}
 
 	model StackOfMetalPipesRoped

@@ -11,7 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Metal Sheet,
 		Icon			= PSheetMetal,
-		WorldStaticModel= StackOfSheetMetalRoped,
+		WorldStaticModel= StackOfSheetMetal,
 	}
 	
 	item 5pkSheetMetal
@@ -20,7 +20,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Metal Sheet,
 		Icon			= PSheetMetal,
-		WorldStaticModel= StackOfSheetMetalRoped,
+		WorldStaticModel= StackOfSheetMetal,
 	}
 
 	item 10pkRopeSheetMetal
@@ -245,6 +245,13 @@ module Packing
 		CanBeDoneFromFloor:true,
 		Result:5pkSheetRopeSheetMetal=2,
 		Time:40.0,
+	}
+	
+	model StackOfSheetMetal
+	{
+		mesh = WorldItems/stack_of_metal_sheets_no_rope,
+		texture = WorldItems/StackOfMetalSheetRoped,
+		scale = 0.89,
 	}
 
 	model StackOfSheetMetalRoped
