@@ -183,13 +183,13 @@ module Packing
 	{
 		mesh = WorldItems/stack_of_dirt_bags,
 		texture = WorldItems/StackOfSandbagsRoped,
-		scale = 1.0,
+		scale = 0.82,
 	}
 
 	model StackOfSandbagsSheetRoped
 	{
 		mesh = WorldItems/stack_of_dirt_bags,
 		texture = WorldItems/StackOfSandbagsSheetRoped,
-		scale = 1.0,
+		scale = 0.82,
 	}
 }

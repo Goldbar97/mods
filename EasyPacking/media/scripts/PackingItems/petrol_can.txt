@@ -351,13 +351,13 @@ module Packing
 	{
 		mesh = WorldItems/stack_of_petrolcans,
 		texture = WorldItems/StackOfGasCanRoped,
-		scale = 1.0,
+		scale = 0.9,
 	}
 
 	model StackOfPetrolCansSheetRoped
 	{
 		mesh = WorldItems/stack_of_petrolcans,
 		texture = WorldItems/StackOfGasCanSheetRoped,
-		scale = 1.0,
+		scale = 0.9,
 	}
 }

@@ -90,6 +90,6 @@ module Packing
 	{
 		mesh = WorldItems/xl_twine,
 		texture = WorldItems/Twine,
-		scale = 1.0,
+		scale = 0.8,
 	}
 }
