@@ -84,6 +84,6 @@ module Packing
 	{
 		mesh = WorldItems/pack_of_pop_bottles,
 		texture = PopBottle,
-		scale = 1.0,
+		scale = 0.67,
 	}
 }
