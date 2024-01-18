@@ -1,0 +1,3 @@
+IGUI_KO = {
+	IGUI_CraftCategory_Storage = "Almacenamiento",
+}
