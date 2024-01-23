@@ -1,0 +1,86 @@
+module Packing
+{
+	imports
+	{
+		Base,
+	}
+	
+	item 10pkMagazineCrosswordC
+	{
+		Weight			= 1,
+		Type			= Normal,
+		DisplayName		= 10 x Crossword Magazine,
+		Icon			= PMagazine,
+		WorldStaticModel= StackOfMagazine,
+	}
+	
+	item 5pkMagazineCrosswordC
+	{
+		Weight			= 0.7,
+		Type			= Normal,
+		DisplayName		= 5 x Crossword Magazine,
+		Icon			= PMagazine,
+		WorldStaticModel= StackOfMagazine,
+	}
+
+	recipe Pack 10
+	{
+		destroy MagazineCrossword3=10,
+		
+		Result:10pkMagazineCrosswordC,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 10
+	{
+		destroy 10pkMagazineCrosswordC,
+		
+		Result:MagazineCrossword3=10,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 5
+	{
+		destroy MagazineCrossword3=5,
+		
+		Result:5pkMagazineCrosswordC,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 5
+	{
+		destroy 5pkMagazineCrosswordC,
+		
+		Result:MagazineCrossword3=5,
+		Time:25.0,
+		Category:Storage,
+	}
+
+	recipe Put Together
+	{
+		5pkMagazineCrosswordC=2,
+		
+		Result:10pkMagazineCrosswordC=1,
+		Time:30.0,
+	}
+
+	recipe Split in Two
+	{
+		10pkMagazineCrosswordC=1,
+		
+		Result:5pkMagazineCrosswordC=2,
+		Time:30.0,
+	}
+
+	model StackOfMagazine
+	{
+		mesh = WorldItems/stack_of_magazine,
+		texture = WorldItems/Magazine,
+		scale = 1.0,
+	}
+}
