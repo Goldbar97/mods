@@ -79,8 +79,8 @@ module Packing
 
 	model StackOfComicBook
 	{
-		mesh = WorldItems/stack_of_ComicBook,
-		texture = WorldItems/ComicBook,
+		mesh = WorldItems/stack_of_magazine,
+		texture = Magazine,
 		scale = 1.0,
 	}
 }

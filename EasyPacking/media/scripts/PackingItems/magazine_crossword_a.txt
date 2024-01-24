@@ -10,8 +10,8 @@ module Packing
 		Weight			= 1,
 		Type			= Normal,
 		DisplayName		= 10 x Crossword Magazine,
-		Icon			= PMagazine,
-		WorldStaticModel= StackOfMagazine,
+		Icon			= PMagazineCrosswordA,
+		WorldStaticModel= StackOfMagazineCrosswordA,
 	}
 	
 	item 5pkMagazineCrosswordA
@@ -19,8 +19,8 @@ module Packing
 		Weight			= 0.7,
 		Type			= Normal,
 		DisplayName		= 5 x Crossword Magazine,
-		Icon			= PMagazine,
-		WorldStaticModel= StackOfMagazine,
+		Icon			= PMagazineCrosswordA,
+		WorldStaticModel= StackOfMagazineCrosswordA,
 	}
 
 	recipe Pack 10
@@ -76,11 +76,27 @@ module Packing
 		Result:5pkMagazineCrosswordA=2,
 		Time:30.0,
 	}
+	
+	recipe Change
+	{
+		destroy MagazineCrossword1,
+		
+		Result:MagazineCrossword2=1,
+		Time:25.0,
+	}
+	
+	recipe Change
+	{
+		destroy MagazineCrossword1,
+		
+		Result:MagazineCrossword3=1,
+		Time:25.0,
+	}
 
-	model StackOfMagazine
+	model StackOfMagazineCrosswordA
 	{
 		mesh = WorldItems/stack_of_magazine,
-		texture = WorldItems/Magazine,
+		texture = WorldItems/MagazineCrossword1,
 		scale = 1.0,
 	}
 }
