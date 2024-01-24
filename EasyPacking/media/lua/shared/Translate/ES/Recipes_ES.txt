@@ -1,4 +1,4 @@
-Recipe_KO = {
+Recipe_ES = {
 	Recipe_Put_Together = "Juntar",
 	Recipe_Split_in_Two = "Dividir en 2",
 	Recipe_Split_in_Five = "Dividir en 5",

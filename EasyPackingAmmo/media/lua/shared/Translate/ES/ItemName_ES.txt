@@ -1,4 +1,4 @@
-ItemName_KO = {
+ItemName_ES = {
 	ItemName_Packing.10pk9 = "Paquete de 10 Cajas de cartuchos 9mm",
 	ItemName_Packing.5pk9 = "Paquete de 5 Cajas de cartuchos 9mm",
 	ItemName_Packing.10pk38 = "Paquete de 10 Cajas de cartuchos .38 Special",
