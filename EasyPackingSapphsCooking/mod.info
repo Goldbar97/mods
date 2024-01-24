@@ -1,0 +1,6 @@
+name=Easy Packing For Sapph's Cooking (ADDON)
+id=EasyPackingSapphsCooking
+poster=poster.png
+description=Allows to pack items from Sapph's Cooking
+authors=MrNekuromu, GoldBar
+require=EasyPacking,sapphcooking

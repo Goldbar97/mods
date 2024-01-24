@@ -1,0 +1,80 @@
+module SapphEasyPacking
+{
+    imports
+    {
+        Base,
+        SapphCooking,
+    }
+
+    item packOfCanOfPowderedMilk
+    {
+        Weight          = 3.6,
+        Type            = Normal,
+        DisplayName     = 4 x Can of Evaporated Milk,
+        Icon            = CanofPowderedMilkIcon,
+        WorldStaticModel= packOfCanOfPowderedMilk_ground,
+    }
+
+    recipe Pack 4
+    {
+        destroy CanofPowderedMilk=4,
+
+        Result:packOfCanOfPowderedMilk,
+        OnTest:Recipe.OnTest.IsFavorite,
+        Time:60.0,
+        Category:Storage
+    }
+
+    recipe Unpack 4
+    {
+        destroy packOfCanOfPowderedMilk,
+        
+        Result:CanofPowderedMilk=4,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:60.0,
+        Category:Storage,
+    }
+
+    model packOfCanOfPowderedMilk_ground
+    {
+        mesh = WorldItems/PackOfBigCan,
+        texture = Worlditems/CanofPowderedMilk,
+        scale = 0.45,
+    }
+
+    item packOfCanOfProteinPowder
+    {
+        Weight          = 3.6,
+        Type            = Normal,
+        DisplayName     = 4 x Can of Protein Powder,
+        Icon            = CanofProteinPowderIcon,
+        WorldStaticModel = packOfCanOfProteinPowder_ground
+    }
+
+    recipe Pack 4
+    {
+        destroy CanofProteinPowder=4,
+
+        Result:packOfCanOfProteinPowder,
+        OnTest:Recipe.OnTest.IsFavorite,
+        Time:60.0,
+        Category:Storage,
+    }
+
+    recipe Unpack 4
+    {
+        destroy packOfCanOfProteinPowder,
+
+        Result:CanofProteinPowder=4,
+        OnGiveXP:Recipe:OnGiveXP.None,
+        Time:60.0,
+        Category:Storage,
+    }
+
+    model packOfCanOfProteinPowder_ground
+    {
+        mesh = WorldItems/PackOfBigCan,
+        texture = Worlditems/CanofProteinPowder,
+        scale = 0.45,
+    }
+}

@@ -1,0 +1,266 @@
+module SapphEasyPacking
+{
+    imports
+    {
+        Base,
+        SapphCooking,
+    }
+
+    item packOfCanOfKernelCorn
+    {
+        Weight          = 3.6,
+        Type            = Normal,
+        DisplayName     = 6 x Can of Kernel Corn,
+        Icon            = KernelCanClosedIcon,
+        WorldStaticModel= packOfCanOfKernelCorn_ground,
+    }
+
+    recipe Pack 6
+    {
+        destroy CanofKernelCorn=6,
+
+        Result:packOfCanOfKernelCorn,
+        OnTest:Recipe.OnTest.IsFavorite,
+        Time:60.0,
+        Category:Storage,
+    }
+
+    recipe Unpack 6
+    {
+        destroy packOfCanOfKernelCorn,
+
+        Result:CanofKernelCorn=6,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:60.0,
+        Category:Storage,
+    }
+
+    model packOfCanOfKernelCorn_ground
+    {
+        mesh = WorldItems/PackOfCanGeneric,
+        texture = Worlditems/CannedCornKernels,
+        scale = 0.45,
+    }
+
+    item packOfCanOfRefriedBeans
+    {
+        Weight          = 3.6,
+        Type            = Normal,
+        DisplayName     = 6 x Can of Refried Beans,
+        Icon            = CanofRefriedBeansIcon,
+        WorldStaticModel= packOfCanOfRefriedBeans_ground,
+    }
+
+    recipe Pack 6
+    {
+        destroy CanofRefriedBeans=6,
+
+        Result:packOfCanOfRefriedBeans,
+        OnTest:Recipe.OnTest.IsFavorite,
+        Time:60.0,
+        Category:Storage,
+    }
+
+    recipe Unpack 6
+    {
+        destroy packOfCanOfRefriedBeans,
+
+        Result:CanofRefriedBeans=6,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:60.0,
+        Category:Storage,
+    }
+
+    model packOfCanOfRefriedBeans_ground
+    {
+        mesh = WorldItems/PackOfCanGeneric,
+        texture = Worlditems/CanofRefriedBeans,
+        scale = 0.45,
+    }
+
+
+    item packOfCannedSausages
+    {
+        Weight          = 3.6,
+        Type            = Normal,
+        DisplayName     = 6 x Canned Vienna Sausages,
+        Icon            = CanofSausagesIcon,
+        WorldStaticModel= packOfCannedSausages_ground,
+    }
+
+    recipe Pack 6
+    {
+        destroy CannedSausages=6,
+
+        Result:packOfCannedSausages,
+        OnTest:Recipe.OnTest.IsFavorite,
+        Time:60.0,
+        Category:Storage,
+    }
+
+    recipe Unpack 6
+    {
+        destroy packOfCannedSausages,
+
+        Result:CannedSausages=6,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:60.0,
+        Category:Storage,
+    }
+
+    model packOfCannedSausages_ground
+    {
+        mesh = WorldItems/PackOfCanGeneric,
+        texture = Worlditems/CanofSausages,
+        scale = 0.45,
+    }
+
+
+    item packOfCanOfBeets
+    {
+        Weight          = 3.6,
+        Type            = Normal,
+        DisplayName     = 6 x Can of Sliced Beets,
+        Icon            = CanofSlicedBeetsIcon,
+        WorldStaticModel= packOfCanOfBeets_ground,
+    }
+
+    recipe Pack 6
+    {
+        destroy CanofBeets=6,
+
+        Result:packOfCanOfBeets,
+        OnTest:Recipe.OnTest.IsFavorite,
+        Time:60.0,
+        Category:Storage,
+    }
+
+    recipe Unpack 6
+    {
+        destroy packOfCanOfBeets,
+
+        Result:CanofBeets,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:60.0,
+        Category:Storage,
+    }
+
+    model packOfCanOfBeets_ground
+    {
+        mesh = WorldItems/PackOfCanGeneric,
+        texture = Worlditems/CannedBeets,
+        scale = 0.45,
+    }
+
+
+    item packOfCannedBacon
+    {
+        Weight          = 3.6,
+        Type            = Normal,
+        DisplayName     = 6 x Canned Bacon,
+        Icon            = CannedBaconIcon,
+        WorldStaticModel= packOfCannedBacon_ground,
+    }
+
+    recipe Pack 6
+    {
+        destroy CannedBacon=6,
+
+        Result:packOfCannedBacon,
+        OnTest:Recipe.OnTest.IsFavorite,
+        Time:60.0,
+        Category:Storage,
+    }
+
+    recipe Unpack 6
+    {
+        destroy packOfCannedBacon,
+
+        Result:CannedBacon=6,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:60.0,
+        Category:Storage,
+    }
+
+    model packOfCannedBacon_ground
+    {
+        mesh = WorldItems/PackOfCanGeneric,
+        texture = Worlditems/CanOfBacon,
+        scale = 0.45,
+    }
+
+
+    item packOfPowderedEggs
+    {
+        Weight          = 3.6,
+        Type            = Normal,
+        DisplayName     = 6 x Can of Powdered Eggs,
+        Icon            = CannedEggsIcon,
+        WorldStaticModel= packOfPowderedEggs_ground,
+    }
+
+    recipe Pack 6
+    {
+        destroy PowderedEggs=6,
+
+        Result:packOfPowderedEggs,
+        OnTest:Recipe.OnTest.IsFavorite,
+        Time:60.0,
+        Category:Storage,
+    }
+
+    recipe Unpack 6
+    {
+        destroy packOfPowderedEggs,
+
+        Result:PowderedEggs=6,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:60.0,
+        Category:Storage,
+    }
+
+    model packOfPowderedEggs_ground
+    {
+        mesh = WorldItems/PackOfCanGeneric,
+        texture = Worlditems/CanOfPowderedEggs,
+        scale = 0.45,
+    }
+
+
+    item packOfCannedBread
+    {
+        Weight          = 3.6,
+        Type            = Normal,
+        DisplayName     = 6 x Canned Bread,
+        Icon            = CannedBreadIcon,
+        WorldStaticModel= packOfCannedBread_ground,
+    }
+
+    recipe Pack 6
+    {
+        destroy CannedBread=6,
+
+        Result:packOfCannedBread,
+        OnTest:Recipe.OnTest.IsFavorite,
+        Time:60.0,
+        Category:Storage,
+    }
+
+    recipe Unpack 6
+    {
+        destroy packOfCannedBread,
+
+        Result:CannedBread=6,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:60.0,
+        Category:Storage,
+    }
+
+    model packOfCannedBread_ground
+    {
+        mesh = WorldItems/PackOfCanGeneric,
+        texture = Worlditems/CannedBread,
+        scale = 0.45,
+    }
+**/
+}
