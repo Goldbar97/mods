@@ -82,7 +82,6 @@ module Packing
 		
 		CanBeDoneFromFloor:true,
 		Result:PlasterPowder=5,
-		RemoveResultItem:true,
 		OnCreate:Recipe.OnCreate.Unpack1Rope,
 		Time:200.0,
 		Category:Storage,
