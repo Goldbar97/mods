@@ -1,0 +1,381 @@
+module SapphEasyPacking
+{
+    imports
+    {
+       Base,
+       GidOrganizedFood,
+       SapphCooking,
+    }
+
+   /** ITEM: Bottle of Orange Juice **/
+    item packOfBottleofOrangeJuice
+    {
+        Weight          = 9.6,
+        Type            = Normal,
+        DisplayName     = 24 x Bottle of Orange Juice,
+        Icon            = BottlewithOrangeJuiceIcon,
+        WorldStaticModel= packOfBottleofOrangeJuice_ground,
+    }
+
+    recipe Pack 24
+    {
+        destroy BottleofOrangeJuice=24,
+
+        Result:packOfBottleofOrangeJuice,
+        OnTest:Recipe.OnTest.IsFavorite,
+        Time:240.0,
+        Category:Storage,
+    }
+
+    recipe Unpack 24
+    {
+        destroy packOfBottleofOrangeJuice,
+
+        Result:BottleofOrangeJuice=24,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:240.0,
+        Category:Storage,
+    }
+
+    model packOfBottleofOrangeJuice_ground
+    {
+        mesh = WorldItems/pack_of_water_bottles,
+        texture = Worlditems/WaterBottleOrangemix,
+        scale =  1.0,
+    }
+
+   /** ITEM: Bottle of Grape Juice **/
+    item packOfBottleofGrapeJuice
+    {
+        Weight          = 9.6,
+        Type            = Normal,
+        DisplayName     = 24 x Bottle of Grape Juice,
+        Icon            = BottlewithGrapeJuiceIcon,
+        WorldStaticModel= packOfBottleofGrapeJuice_ground,
+    }
+
+    recipe Pack 24
+    {
+        destroy BottleofGrapeJuice=24,
+
+        Result:packOfBottleofGrapeJuice,
+        OnTest:Recipe.OnTest.IsFavorite,
+        Time:240.0,
+        Category:Storage,
+    }
+
+    recipe Unpack 24
+    {
+        destroy packOfBottleofGrapeJuice,
+
+        Result:BottleofGrapeJuice=24,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:240.0,
+        Category:Storage,
+    }
+
+    model packOfBottleofGrapeJuice_ground
+    {
+        mesh = WorldItems/pack_of_water_bottles,
+        texture = Worlditems/WaterBottleGrape,
+        scale =  1.0,
+    }
+
+   /** ITEM: Bottle of Watermelon Juice **/
+    item packOfBottleofWatermelonJuice
+    {
+        Weight          = 9.6,
+        Type            = Normal,
+        DisplayName     = 24 x Bottle of Watermelon Juice,
+        Icon            = BottlewithStrawberryJuiceIcon,
+        WorldStaticModel= packOfBottleofWatermelonJuice_ground,
+    }
+
+    recipe Pack 24
+    {
+        destroy BottleofWatermelonJuice=24,
+
+        Result:packOfBottleofWatermelonJuice,
+        OnTest:Recipe.OnTest.IsFavorite,
+        Time:240.0,
+        Category:Storage,
+    }
+
+    recipe Unpack 24
+    {
+        destroy packOfBottleofWatermelonJuice,
+
+        Result:BottleofWatermelonJuice=24,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:240.0,
+        Category:Storage,
+    }
+
+    model packOfBottleofWatermelonJuice_ground
+    {
+        mesh = WorldItems/pack_of_water_bottles,
+        texture = Worlditems/WaterBottleWatermelon,
+        scale =  1.0,
+    }
+
+   /** ITEM: Bottle of Peach Juice **/
+    item packOfBottleofPeachJuice
+    {
+        Weight          = 9.6,
+        Type            = Normal,
+        DisplayName     = 24 x Bottle of Peach Juice,
+        Icon            = BottlewithPineappleJuiceIcon,
+        WorldStaticModel= packOfBottleofPeachJuice_ground,
+    }
+
+    recipe Pack 24
+    {
+        destroy BottleofPeachJuice=24,
+
+        Result:packOfBottleofPeachJuice,
+        OnTest:Recipe.OnTest.IsFavorite,
+        Time:240.0,
+        Category:Storage,
+    }
+
+    recipe Unpack 24
+    {
+        destroy packOfBottleofPeachJuice,
+
+        Result:BottleofPeachJuice=24,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:240.0,
+        Category:Storage,
+    }
+
+    model packOfBottleofPeachJuice_ground
+    {
+        mesh = WorldItems/pack_of_water_bottles,
+        texture = Worlditems/WaterBottlePeach,
+        scale =  1.0,
+    }
+
+   /** ITEM: Bottle of Strawberry Juice **/
+    item packOfBottleofStrawberryJuice
+    {
+        Weight          = 9.6,
+        Type            = Normal,
+        DisplayName     = 24 x Bottle of Strawberry Juice,
+        Icon            = BottlewithStrawberryJuiceIcon,
+        WorldStaticModel= packOfBottleofStrawberryJuice_ground,
+    }
+
+    recipe Pack 24
+    {
+        destroy BottleofStrawberryJuice=24,
+
+        Result:packOfBottleofStrawberryJuice,
+        OnTest:Recipe.OnTest.IsFavorite,
+        Time:240.0,
+        Category:Storage,
+    }
+
+    recipe Unpack 24
+    {
+        destroy packOfBottleofStrawberryJuice,
+
+        Result:BottleofStrawberryJuice=24,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:240.0,
+        Category:Storage,
+    }
+
+    model packOfBottleofStrawberryJuice_ground
+    {
+        mesh = WorldItems/pack_of_water_bottles,
+        texture = Worlditems/WaterBottleStrawberry,
+        scale =  1.0,
+    }
+
+   /** ITEM: Bottle of Pineapple Juice **/
+    item packOfBottleofPineappleJuice
+    {
+        Weight          = 9.6,
+        Type            = Normal,
+        DisplayName     = 24 x Bottle of Pineapple Juice,
+        Icon            = BottlewithPineappleJuiceIcon,
+        WorldStaticModel= packOfBottleofPineappleJuice_ground,
+    }
+
+    recipe Pack 24
+    {
+        destroy BottleofPineappleJuice=24,
+
+        Result:packOfBottleofPineappleJuice,
+        OnTest:Recipe.OnTest.IsFavorite,
+        Time:240.0,
+        Category:Storage,
+    }
+
+    recipe Unpack 24
+    {
+        destroy packOfBottleofPineappleJuice,
+
+        Result:BottleofPineappleJuice=24,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:240.0,
+        Category:Storage,
+    }
+
+    model packOfBottleofPineappleJuice_ground
+    {
+        mesh = WorldItems/pack_of_water_bottles,
+        texture = Worlditems/WaterBottlePineapple,
+        scale =  1.0,
+    }
+
+   /** ITEM: Bottle of Apple Juice **/
+    item packOfBottleofAppleJuice
+    {
+        Weight          = 9.6,
+        Type            = Normal,
+        DisplayName     = 24 x Bottle of Apple Juice,
+        Icon            = BottlewithAppleJuiceIcon,
+        WorldStaticModel= packOfBottleofAppleJuice_ground,
+    }
+
+    recipe Pack 24
+    {
+        destroy BottleofAppleJuice=24,
+
+        Result:packOfBottleofAppleJuice,
+        OnTest:Recipe.OnTest.IsFavorite,
+        Time:240.0,
+        Category:Storage,
+    }
+
+    recipe Unpack 24
+    {
+        destroy packOfBottleofAppleJuice,
+
+        Result:BottleofAppleJuice=24,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:240.0,
+        Category:Storage,
+    }
+
+    model packOfBottleofAppleJuice_ground
+    {
+        mesh = WorldItems/pack_of_water_bottles,
+        texture = Worlditems/WaterBottleApple,
+        scale =  1.0,
+    }
+
+   /** ITEM: BottlewithPineappleJuiceIcon **/
+    item packOfBottleofLemonJuice
+    {
+        Weight          = 9.6,
+        Type            = Normal,
+        DisplayName     = 24 x Bottle of Lemon Juice,
+        Icon            = BottlewithPineappleJuiceIcon,
+        WorldStaticModel= packOfBottleofLemonJuice_ground,
+    }
+
+    recipe Pack 24
+    {
+        destroy BottleofLemonJuice=24,
+
+        Result:packOfBottleofLemonJuice,
+        OnTest:Recipe.OnTest.IsFavorite,
+        Time:240.0,
+        Category:Storage,
+    }
+
+    recipe Unpack 24
+    {
+        destroy packOfBottleofLemonJuice,
+
+        Result:BottleofLemonJuice=24,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:240.0,
+        Category:Storage,
+    }
+
+    model packOfBottleofLemonJuice_ground
+    {
+        mesh = WorldItems/pack_of_water_bottles,
+        texture = WorldItems/WaterBottleLemonade,
+        scale =  1.0,
+    }
+
+   /** ITEM: Bottle of Vegetable Broth **/
+    item packOfVegetableBroth
+    {
+        Weight          = 9.6,
+        Type            = Normal,
+        DisplayName     = 24 x Bottle of Vegetable Broth,
+        Icon            = BottleWithGas,
+        WorldStaticModel= packOfVegetableBroth_ground,
+    }
+
+    recipe Pack 24
+    {
+        destroy VegetableBroth=24,
+
+        Result:packOfVegetableBroth,
+        OnTest:Recipe.OnTest.IsFavorite,
+        Time:240.0,
+        Category:Storage,
+    }
+
+    recipe Unpack 24
+    {
+        destroy packOfVegetableBroth,
+
+        Result:VegetableBroth=24,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:240.0,
+        Category:Storage,
+    }
+
+    model packOfVegetableBroth_ground
+    {
+        mesh = WorldItems/pack_of_water_bottles,
+        texture = WorldItems/WaterBottleFull,
+        scale =  1.0,
+    }
+
+   /** ITEM: Carbonated Water **/
+    item packOfCarbonatedWater
+    {
+        Weight          = 9.6,
+        Type            = Normal,
+        DisplayName     = 24 x Carbonated Water,
+        Icon            = WaterBottle_Full,
+        WorldStaticModel= packOfCarbonatedWater_ground,
+    }
+
+    recipe Pack 24
+    {
+        destroy CarbonatedWater=24,
+
+        Result:packOfCarbonatedWater,
+        OnTest:Recipe.OnTest.IsFavorite,
+        Time:240.0,
+        Category:Storage,
+    }
+
+    recipe Unpack 24
+    {
+        destroy packOfCarbonatedWater,
+
+        Result:CarbonatedWater=24,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:240.0,
+        Category:Storage,
+    }
+
+    model packOfCarbonatedWater_ground
+    {
+        mesh = WorldItems/pack_of_water_bottles,
+        texture = WorldItems/WaterBottleFull,
+        scale =  1.0,
+    }
+
+   /**END**/
+}

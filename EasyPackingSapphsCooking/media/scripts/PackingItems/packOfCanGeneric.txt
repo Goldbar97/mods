@@ -3,6 +3,7 @@ module SapphEasyPacking
     imports
     {
         Base,
+        GidOrganizedFood,
         SapphCooking,
     }
 
@@ -262,5 +263,4 @@ module SapphEasyPacking
         texture = Worlditems/CannedBread,
         scale = 0.45,
     }
-**/
 }

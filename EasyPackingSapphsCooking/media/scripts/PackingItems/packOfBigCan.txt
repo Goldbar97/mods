@@ -3,6 +3,7 @@ module SapphEasyPacking
     imports
     {
         Base,
+        GidOrganizedFood,
         SapphCooking,
     }
 
