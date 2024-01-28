@@ -19,7 +19,7 @@ module GidOrganizedFood
 		destroy Pop3=6,
 
 		Result:OS6pkFizz,
-		OnTest:Recipe.OnTest.IsFavorite,
+		OnTest:Recipe.OnTest.WholeFood,
 		Time:60.0,
 		Category:Storage,
 	}
@@ -32,6 +32,26 @@ module GidOrganizedFood
 		OnGiveXP:Recipe.OnGiveXP.None,
 		Time:60.0,
 		Category:Storage,
+	}
+	
+	recipe Change
+	{
+		destroy Pop3,
+		
+		Result:Pop=1,
+		OnTest:Recipe.OnTest.WholeFood,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		Time:25.0,
+	}
+	
+	recipe Change
+	{
+		destroy Pop3,
+		
+		Result:Pop2=1,
+		OnTest:Recipe.OnTest.WholeFood,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		Time:25.0,
 	}
 
 	model PackOfPopFizz
