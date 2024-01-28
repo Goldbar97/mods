@@ -28,7 +28,7 @@ module Packing
 		destroy WhiskeyFull=10,
 		
 		Result:10pkWhiskey,
-		OnTest:Recipe.OnTest.IsFavorite,
+		OnTest:Recipe.OnTest.WholeFood,
 		Time:100.0,
 		Category:Storage,
 	}
@@ -48,7 +48,7 @@ module Packing
 		destroy WhiskeyFull=5,
 		
 		Result:5pkWhiskey,
-		OnTest:Recipe.OnTest.IsFavorite,
+		OnTest:Recipe.OnTest.WholeFood,
 		Time:75.0,
 		Category:Storage,
 	}

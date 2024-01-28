@@ -21,12 +21,6 @@ function Recipe.OnTest.WholeFood(item)
     return not ((baseHunger * 0.99) > hungerChange)
 end
 
-function Recipe.OnCreate.RemoveBattery(items, result, player)
-	for i=0, items:size() - 1 do
-		player:getInventory():RemoveOneOf("Base.Battery");
-	end
-end
-
 function Recipe.OnCreate.UnpackCarpentrySkillBook(items, result, player)
 	player:getInventory():AddItem("Base.BookCarpentry2");
 	player:getInventory():AddItem("Base.BookCarpentry3");
