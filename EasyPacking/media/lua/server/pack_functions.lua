@@ -14,10 +14,11 @@ function Recipe.OnTest.FullAndNotTainted(items)
 	return items:getUsedDelta() == 1 and Recipe.OnTest.NotTaintedWater(items)
 end
 
-function Recipe.OnCreate.RemoveBattery(items, result, player)
-	for i=0, items:size() - 1 do
-		player:getInventory():RemoveOneOf("Base.Battery");
-	end
+function Recipe.OnTest.WholeFood(item)
+    local baseHunger = math.abs(item:getBaseHunger())
+    local hungerChange = math.abs(item:getHungerChange())
+	if item:isFresh() then return not (baseHunger * 0.99 > hungerChange) end
+    return not ((baseHunger * 0.99) > hungerChange)
 end
 
 function Recipe.OnCreate.UnpackCarpentrySkillBook(items, result, player)

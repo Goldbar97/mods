@@ -28,7 +28,7 @@ module Packing
 		destroy Wine2=10,
 		
 		Result:10pkRedWine,
-		OnTest:Recipe.OnTest.IsFavorite,
+		OnTest:Recipe.OnTest.WholeFood,
 		Time:100.0,
 		Category:Storage,
 	}
@@ -48,7 +48,7 @@ module Packing
 		destroy Wine2=5,
 		
 		Result:5pkRedWine,
-		OnTest:Recipe.OnTest.IsFavorite,
+		OnTest:Recipe.OnTest.WholeFood,
 		Time:75.0,
 		Category:Storage,
 	}

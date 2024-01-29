@@ -19,7 +19,7 @@ module Packing
 		destroy BeerCan=6,
 		
 		Result:6pkBeerCan,
-		OnTest:Recipe.OnTest.IsFavorite,
+		OnTest:Recipe.OnTest.WholeFood,
 		Time:75.0,
 		Category:Storage,
 	}
