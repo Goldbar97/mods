@@ -39,7 +39,7 @@ module Packing
     {
         mesh = WorldItems/pack_of_gunpowder,
         texture = WorldItems/GunpowderJar,
-        scale = 1.0,
+        scale = 1.8,
     }
 
    /**END**/
