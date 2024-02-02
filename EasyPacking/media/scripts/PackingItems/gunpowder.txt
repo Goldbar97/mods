@@ -1,0 +1,46 @@
+module Packing
+{
+    imports
+    {
+       Base,
+    }
+
+   /** ITEM: Gunpowder **/
+    item 10pkGunpowder
+    {
+        Weight          = 0.75,
+        Type            = Normal,
+        DisplayName     = 10 x Gunpowder,
+        Icon            = GunpowderJar,
+        WorldStaticModel= 10pkGunpowder_ground,
+    }
+
+    recipe Pack 10
+    {
+        destroy GunPowder=10,
+
+        Result:10pkGunpowder,
+        OnTest:Recipe.OnTest.IsFavorite,
+        Time:200.0,
+        Category:Storage,
+    }
+
+    recipe Unpack 10
+    {
+        destroy 10pkGunpowder,
+
+        Result:GunPowder=10,
+        OnGiveXP:Recipe.OnGiveXP.None,
+        Time:200.0,
+        Category:Storage,
+    }
+
+    model 10pkGunpowder_ground
+    {
+        mesh = WorldItems/pack_of_gunpowder,
+        texture = WorldItems/GunpowderJar,
+        scale = 1.0,
+    }
+
+   /**END**/
+}
