@@ -243,7 +243,10 @@ AdjustWeight("Packing.10pkWire","Base.Wire",10,0.5)
 AdjustWeight("Packing.5pkWire","Base.Wire",5,0.7)
 AdjustWeight("Packing.10pkWoodGlue","Base.Woodglue",10,0.5)
 AdjustWeight("Packing.5pkWoodGlue","Base.Woodglue",5,0.7)
-if getActivatedMods():contains("EasyPackingAmmo") then
+AdjustWeight("Packing.10pkGunpowder","Base.GunPowder",10,0.5)
+AdjustWeight("Packing.5pkGunpowder","Base.GunPowder",5,0.7)
+
+-- Ammo
 AdjustWeight("Packing.10pk9","Base.Bullets9mmBox",10,0.5)
 AdjustWeight("Packing.5pk9","Base.Bullets9mmBox",5,0.7)
 AdjustWeight("Packing.10pk38","Base.Bullets38Box",10,0.5)
@@ -298,5 +301,4 @@ AdjustWeight("Packing.10pkGFArrowFiberglass","Base.Arrow_Fiberglass_Pack",10,0.5
 AdjustWeight("Packing.5pkGFArrowFiberglass","Base.Arrow_Fiberglass_Pack",5,0.7)
 AdjustWeight("Packing.10pkGFBoltBear","Base.Bolt_Bear_Pack",10,0.5)
 AdjustWeight("Packing.5pkGFBoltBear","Base.Bolt_Bear_Pack",5,0.7)
-end
 Events.OnGameTimeLoaded.Add(Perform)
