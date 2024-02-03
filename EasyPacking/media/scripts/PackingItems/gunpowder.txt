@@ -11,7 +11,7 @@ module Packing
         Weight          = 0.5,
         Type            = Normal,
         DisplayName     = 10 x Gunpowder,
-        Icon            = GunpowderJar,
+        Icon            = PGunpowder,
         WorldStaticModel= 10pkGunpowder_ground,
     }
 	
@@ -20,7 +20,7 @@ module Packing
         Weight          = 0.35,
         Type            = Normal,
         DisplayName     = 5 x Gunpowder,
-        Icon            = GunpowderJar,
+        Icon            = PGunpowder,
         WorldStaticModel= 10pkGunpowder_ground,
     }
 
