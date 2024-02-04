@@ -89,7 +89,7 @@ module Packing
 	{
 		destroy MagazineWordsearch2,
 		
-		Result:MagazineWordsearch3=1,
+		Result:MagazineWordsearch1=1,
 		Time:25.0,
 	}
 
