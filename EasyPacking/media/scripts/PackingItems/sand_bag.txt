@@ -10,6 +10,7 @@ module Packing
 		Weight			= 3.0,
 		Type			= Normal,
 		DisplayName		= 10 x Sand Bag (Rope),
+		DisplayCategory = Material,
 		Icon			= PRopeSandbag,
 		WorldStaticModel= StackOfSandbagsRoped,
 	}
@@ -19,6 +20,7 @@ module Packing
 		Weight			= 2.0,
 		Type			= Normal,
 		DisplayName		= 5 x Sand Bag (Rope),
+		DisplayCategory = Material,
 		Icon			= PRopeSandbag,
 		WorldStaticModel= StackOfSandbagsRoped,
 	}
@@ -28,6 +30,7 @@ module Packing
 		Weight			= 5.0,
 		Type			= Normal,
 		DisplayName		= 10 x Sand Bag (SheetRope),
+		DisplayCategory = Material,
 		Icon			= PSheetRopeSandbag,
 		WorldStaticModel= StackOfSandbagsSheetRoped,
 	}
@@ -37,6 +40,7 @@ module Packing
 		Weight			= 3.0,
 		Type			= Normal,
 		DisplayName		= 5 x Sand Bag (SheetRope),
+		DisplayCategory = Material,
 		Icon			= PSheetRopeSandbag,
 		WorldStaticModel= StackOfSandbagsSheetRoped,
 	}

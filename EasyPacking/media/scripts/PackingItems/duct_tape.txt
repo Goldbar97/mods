@@ -10,6 +10,7 @@ module GidOrganizedFood
 		Weight			= 0.6,
 		Type			= Normal,
 		DisplayName		= 4 x Duct Tape,
+		DisplayCategory = Material,
 		Icon			= OS4pkDuctTape,
 		WorldStaticModel= StackOfDuctTape,
 	}

@@ -11,6 +11,7 @@ module GidOrganized
 		Type				= Normal,
 		UseWhileEquipped	= FALSE,
 		DisplayName			= 5 x Vitamins,
+		DisplayCategory 	= FirstAid,
 		Icon				= OS50pkVitamins,
 		WorldStaticModel    = BottleOfVitamins,
 	}

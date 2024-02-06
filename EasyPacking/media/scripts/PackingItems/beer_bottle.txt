@@ -10,6 +10,7 @@ module Packing
 		Weight			= 1.2,
 		Type			= Normal,
 		DisplayName		= 6 x Beer Bottle,
+		DisplayCategory = Food,
 		Icon			= PBeer,
 		WorldStaticModel = PackOfBeer,
 	}

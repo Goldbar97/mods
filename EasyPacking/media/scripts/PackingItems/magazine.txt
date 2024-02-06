@@ -10,6 +10,7 @@ module Packing
 		Weight			= 1,
 		Type			= Normal,
 		DisplayName		= 10 x Magazine,
+		DisplayCategory = Literature,
 		Icon			= PMagazine,
 		WorldStaticModel= StackOfMagazine,
 	}
@@ -19,6 +20,7 @@ module Packing
 		Weight			= 0.7,
 		Type			= Normal,
 		DisplayName		= 5 x Magazine,
+		DisplayCategory = Literature,
 		Icon			= PMagazine,
 		WorldStaticModel= StackOfMagazine,
 	}

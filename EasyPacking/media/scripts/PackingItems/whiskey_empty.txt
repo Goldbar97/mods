@@ -10,6 +10,7 @@ module GidOrganizedFood
 		Weight			= 1.2,
 		Type			= Normal,
 		DisplayName		= 8 x Empty Whiskey Bottles,
+		DisplayCategory = WaterContainer,
 		Icon			= OS8pkWhiskeyEmpty,
 		WorldStaticModel= WoodenBoxOfWhiskeyEmpty,
 	}

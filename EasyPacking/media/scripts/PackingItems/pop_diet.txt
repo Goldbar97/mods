@@ -10,6 +10,7 @@ module GidOrganizedFood
 		Weight			= 0.9,
 		Type			= Normal,
 		DisplayName		= 6 x Diet Pop,
+		DisplayCategory = Food,
 		Icon			= OS6pkPopDiet,
 		WorldStaticModel= PackOfPopDiet,
 	}
@@ -34,7 +35,7 @@ module GidOrganizedFood
 		Category:Storage,
 	}
 	
-	recipe Change
+	recipe Change to Type 2
 	{
 		destroy Pop,
 		
@@ -44,7 +45,7 @@ module GidOrganizedFood
 		Time:25.0,
 	}
 	
-	recipe Change
+	recipe Change to Type 3
 	{
 		destroy Pop,
 		

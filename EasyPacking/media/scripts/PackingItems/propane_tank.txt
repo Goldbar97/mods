@@ -10,6 +10,7 @@ module Packing
 		Weight			= 15,
 		Type			= Normal,
 		DisplayName		= 10 x Propane Tank (Rope),
+		DisplayCategory = Material,
 		Icon			= PRopePropaneTank,
 		WorldStaticModel= StackOfPropaneTankRoped,
 	}
@@ -19,6 +20,7 @@ module Packing
 		Weight			= 10,
 		Type			= Normal,
 		DisplayName		= 5 x Propane Tank (Rope),
+		DisplayCategory = Material,
 		Icon			= PRopePropaneTank,
 		WorldStaticModel= StackOfPropaneTankRoped,
 	}
@@ -28,6 +30,7 @@ module Packing
 		Weight			= 25,
 		Type			= Normal,
 		DisplayName		= 10 x Propane Tank (Sheet Rope),
+		DisplayCategory = Material,
 		Icon			= PSheetRopePropaneTank,
 		WorldStaticModel= StackOfPropaneTankSheetRoped,
 	}
@@ -37,6 +40,7 @@ module Packing
 		Weight			= 15,
 		Type			= Normal,
 		DisplayName		= 5 x Propane Tank (Sheet Rope),
+		DisplayCategory = Material,
 		Icon			= PSheetRopePropaneTank,
 		WorldStaticModel= StackOfPropaneTankSheetRoped,
 	}
