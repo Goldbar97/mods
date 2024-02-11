@@ -11,7 +11,8 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Amplifier,
 		DisplayCategory = Electronics,
-		Icon			= ,
+		Icon			= Amplifier,
+		WorldStaticModel = Amplifier,
 	}
 	
 	item 50pkAmplifier
@@ -20,7 +21,8 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 50 x Amplifier,
 		DisplayCategory = Electronics,
-		Icon			= ,
+		Icon			= Amplifier,
+		WorldStaticModel = Amplifier,
 	}
 	
 	item 100pkAmplifier
@@ -29,7 +31,8 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 100 x Amplifier,
 		DisplayCategory = Electronics,
-		Icon			= ,
+		Icon			= Amplifier,
+		WorldStaticModel = Amplifier,
 	}
 
 	recipe Pack 10

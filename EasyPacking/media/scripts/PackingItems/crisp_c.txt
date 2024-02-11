@@ -11,7 +11,8 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Chips,
 		DisplayCategory = Food,
-		Icon			= ,
+		Icon			= Crisps3,
+		WorldStaticModel = Chips3,
 	}
 	
 	item 5pkCrispC
@@ -20,7 +21,8 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Chips,
 		DisplayCategory = Food,
-		Icon			= ,
+		Icon			= Crisps3,
+		WorldStaticModel = Chips3,
 	}
 
 	recipe Pack 10

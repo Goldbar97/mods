@@ -11,7 +11,8 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Aluminum,
 		DisplayCategory = Material,
-		Icon			= ,
+		Icon			= Aluminum,
+		WorldStaticModel = Aluminum,
 	}
 	
 	item 50pkAluminum
@@ -20,7 +21,8 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 50 x Aluminum,
 		DisplayCategory = Material,
-		Icon			= ,
+		Icon			= Aluminum,
+		WorldStaticModel = Aluminum,
 	}
 	
 	item 100pkAluminum
@@ -29,7 +31,8 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 100 x Aluminum,
 		DisplayCategory = Material,
-		Icon			= ,
+		Icon			= Aluminum,
+		WorldStaticModel = Aluminum,
 	}
 
 	recipe Pack 10
