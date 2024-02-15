@@ -12,7 +12,7 @@ module Packing
 		DisplayName		= 10 x Aluminum,
 		DisplayCategory = Material,
 		Icon			= Aluminum,
-		WorldStaticModel = Aluminum,
+		WorldStaticModel = WIP,
 	}
 	
 	item 50pkAluminum
@@ -22,7 +22,7 @@ module Packing
 		DisplayName		= 50 x Aluminum,
 		DisplayCategory = Material,
 		Icon			= Aluminum,
-		WorldStaticModel = Aluminum,
+		WorldStaticModel = WIP,
 	}
 	
 	item 100pkAluminum
@@ -32,7 +32,7 @@ module Packing
 		DisplayName		= 100 x Aluminum,
 		DisplayCategory = Material,
 		Icon			= Aluminum,
-		WorldStaticModel = Aluminum,
+		WorldStaticModel = WIP,
 	}
 
 	recipe Pack 10
@@ -122,5 +122,12 @@ module Packing
 		
 		Result:10pkAluminum=5,
 		Time:40.0,
+	}
+	
+	model WIP
+	{
+		mesh = WorldItems/wip_model,
+		texture = WorldItems/WIP_Tex,
+		scale = 1.0,
 	}
 }

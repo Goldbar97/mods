@@ -15,7 +15,7 @@ module Packing
 		ColorRed		= 255,
         ColorGreen		= 20,
         ColorBlue		= 147,
-		WorldStaticModel = LightBulbPink,
+		WorldStaticModel = WIP,
 	}
 	
 	item 50pkLightBulbPink
@@ -28,7 +28,7 @@ module Packing
 		ColorRed		= 255,
         ColorGreen		= 20,
         ColorBlue		= 147,
-		WorldStaticModel = LightBulbPink,
+		WorldStaticModel = WIP,
 	}
 	
 	item 100pkLightBulbPink
@@ -41,7 +41,7 @@ module Packing
 		ColorRed		= 255,
         ColorGreen		= 20,
         ColorBlue		= 147,
-		WorldStaticModel = LightBulbPink,
+		WorldStaticModel = WIP,
 	}
 
 	recipe Pack 10
@@ -131,5 +131,12 @@ module Packing
 		
 		Result:10pkLightBulbPink=5,
 		Time:40.0,
+	}
+
+	model WIP
+	{
+		mesh = WorldItems/wip_model,
+		texture = WorldItems/WIP_Tex,
+		scale = 1.0,
 	}
 }

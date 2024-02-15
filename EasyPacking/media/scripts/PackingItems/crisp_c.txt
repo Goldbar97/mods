@@ -12,7 +12,7 @@ module Packing
 		DisplayName		= 10 x Chips,
 		DisplayCategory = Food,
 		Icon			= Crisps3,
-		WorldStaticModel = Chips3,
+		WorldStaticModel = WIP,
 	}
 	
 	item 5pkCrispC
@@ -22,7 +22,7 @@ module Packing
 		DisplayName		= 5 x Chips,
 		DisplayCategory = Food,
 		Icon			= Crisps3,
-		WorldStaticModel = Chips3,
+		WorldStaticModel = WIP,
 	}
 
 	recipe Pack 10
@@ -110,5 +110,12 @@ module Packing
 		CanBeDoneFromFloor:true,
 		Result:5pkCrispC=2,
 		Time:40.0,
+	}
+
+	model WIP
+	{
+		mesh = WorldItems/wip_model,
+		texture = WorldItems/WIP_Tex,
+		scale = 1.0,
 	}
 }

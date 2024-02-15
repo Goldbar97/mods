@@ -12,7 +12,7 @@ module Packing
 		DisplayName		= 10 x Light Bulb,
 		DisplayCategory = Electronics,
 		Icon			= LightBulb,
-		WorldStaticModel = LightBulb,
+		WorldStaticModel = WIP,
 	}
 	
 	item 50pkLightBulb
@@ -22,7 +22,7 @@ module Packing
 		DisplayName		= 50 x Light Bulb,
 		DisplayCategory = Electronics,
 		Icon			= LightBulb,
-		WorldStaticModel = LightBulb,
+		WorldStaticModel = WIP,
 	}
 	
 	item 100pkLightBulb
@@ -32,7 +32,7 @@ module Packing
 		DisplayName		= 100 x Light Bulb,
 		DisplayCategory = Electronics,
 		Icon			= LightBulb,
-		WorldStaticModel = LightBulb,
+		WorldStaticModel = WIP,
 	}
 
 	recipe Pack 10
@@ -122,5 +122,12 @@ module Packing
 		
 		Result:10pkLightBulb=5,
 		Time:40.0,
+	}
+
+	model WIP
+	{
+		mesh = WorldItems/wip_model,
+		texture = WorldItems/WIP_Tex,
+		scale = 1.0,
 	}
 }
