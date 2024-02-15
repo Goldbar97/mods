@@ -21,6 +21,11 @@ function Recipe.OnTest.WholeFood(item)
     return not ((baseHunger * 0.99) > hungerChange)
 end
 
+function Recipe.OnTest.WholeItem(item)
+	local maxItemCondition = item:getConditionMax()
+	return item:getCondition() == maxItemCondition
+end
+
 function Recipe.OnCreate.UnpackCarpentrySkillBook(items, result, player)
 	player:getInventory():AddItem("Base.BookCarpentry2");
 	player:getInventory():AddItem("Base.BookCarpentry3");

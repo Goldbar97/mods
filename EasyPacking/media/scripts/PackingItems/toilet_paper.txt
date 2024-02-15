@@ -9,8 +9,8 @@ module Packing
 	{
 		Weight			= 0.4,
 		Type			= Normal,
+		DisplayName		= 4 x Toilet Paper,
 		DisplayCategory = Household,
-		DisplayCategory = FirstAid,
 		Icon			= PToiletPaper,
 		WorldStaticModel= PackOfToiletPaper,
 	}
