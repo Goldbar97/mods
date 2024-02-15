@@ -29,7 +29,7 @@ module Packing
         ColorGreen		= 255,
         ColorBlue		= 0,
 		WorldStaticModel = WIP,
-	}WIP
+	}
 	
 	item 100pkLightBulbGreen
 	{
