@@ -10,6 +10,7 @@ module Packing
 		Weight			= 1,
 		Type			= Normal,
 		DisplayName		= 10 x Crossword Magazine,
+		DisplayCategory = Literature,
 		Icon			= PMagazineCrosswordC,
 		WorldStaticModel= StackOfMagazineCrosswordC,
 	}
@@ -19,6 +20,7 @@ module Packing
 		Weight			= 0.7,
 		Type			= Normal,
 		DisplayName		= 5 x Crossword Magazine,
+		DisplayCategory = Literature,
 		Icon			= PMagazineCrosswordC,
 		WorldStaticModel= StackOfMagazineCrosswordC,
 	}
@@ -77,19 +79,19 @@ module Packing
 		Time:30.0,
 	}
 	
-	recipe Change
-	{
-		destroy MagazineCrossword3,
-		
-		Result:MagazineCrossword2=1,
-		Time:25.0,
-	}
-	
-	recipe Change
+	recipe Change to Type 1
 	{
 		destroy MagazineCrossword3,
 		
 		Result:MagazineCrossword1=1,
+		Time:25.0,
+	}
+	
+	recipe Change to Type 2
+	{
+		destroy MagazineCrossword3,
+		
+		Result:MagazineCrossword2=1,
 		Time:25.0,
 	}
 

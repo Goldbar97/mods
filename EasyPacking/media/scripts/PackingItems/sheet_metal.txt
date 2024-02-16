@@ -10,6 +10,7 @@ module Packing
 		Weight			= 7.5,
 		Type			= Normal,
 		DisplayName		= 10 x Metal Sheet,
+		DisplayCategory = Material,
 		Icon			= PSheetMetal,
 		WorldStaticModel= StackOfSheetMetal,
 	}
@@ -19,6 +20,7 @@ module Packing
 		Weight			= 5.25,
 		Type			= Normal,
 		DisplayName		= 5 x Metal Sheet,
+		DisplayCategory = Material,
 		Icon			= PSheetMetal,
 		WorldStaticModel= StackOfSheetMetal,
 	}
@@ -28,6 +30,7 @@ module Packing
 		Weight			= 2.25,
 		Type			= Normal,
 		DisplayName		= 10 x Metal Sheet (Rope),
+		DisplayCategory = Material,
 		Icon			= PRopeSheetMetal,
 		WorldStaticModel= StackOfSheetMetalRoped,
 	}
@@ -37,6 +40,7 @@ module Packing
 		Weight			= 1.5,
 		Type			= Normal,
 		DisplayName		= 5 x Metal Sheet (Rope),
+		DisplayCategory = Material,
 		Icon			= PRopeSheetMetal,
 		WorldStaticModel= StackOfSheetMetalRoped,
 	}
@@ -46,6 +50,7 @@ module Packing
 		Weight			= 3.75,
 		Type			= Normal,
 		DisplayName		= 10 x Metal Sheet (SheetRope),
+		DisplayCategory = Material,
 		Icon			= PSheetRopeSheetMetal,
 		WorldStaticModel= StackOfSheetMetalSheetRoped,
 	}
@@ -55,6 +60,7 @@ module Packing
 		Weight			= 2.25,
 		Type			= Normal,
 		DisplayName		= 5 x Metal Sheet (SheetRope),
+		DisplayCategory = Material,
 		Icon			= PSheetRopeSheetMetal,
 		WorldStaticModel= StackOfSheetMetalSheetRoped,
 	}
@@ -190,6 +196,54 @@ module Packing
 		Result:SheetMetal=5,
 		OnCreate:Recipe.OnCreate.Unpack1SheetRope,
 		Time:75.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 10
+	{
+		destroy 10pkSheetMetal,
+		Rope=2,
+		
+		CanBeDoneFromFloor:true,
+		Result: 10pkRopeSheetMetal,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time: 50.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 5
+	{
+		destroy 5pkSheetMetal,
+		Rope=1,
+		
+		CanBeDoneFromFloor:true,
+		Result: 5pkRopeSheetMetal,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time: 50.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 10
+	{
+		destroy 10pkSheetMetal,
+		SheetRope=2,
+		
+		CanBeDoneFromFloor:true,
+		Result: 10pkSheetRopeSheetMetal,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time: 50.0,
+		Category:Storage,
+	}
+	
+	recipe Rope 5
+	{
+		destroy 5pkSheetMetal,
+		SheetRope=1,
+		
+		CanBeDoneFromFloor:true,
+		Result: 5pkSheetRopeSheetMetal,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time: 50.0,
 		Category:Storage,
 	}
 

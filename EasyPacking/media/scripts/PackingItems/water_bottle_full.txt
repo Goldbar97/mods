@@ -10,6 +10,7 @@ module GidOrganizedFood
 		Weight					= 9.6,
 		Type					= Drainable,
 		DisplayName				= 24 x Full Water Bottles,
+		DisplayCategory 		= Water,
 		Icon					= OS24pkWaterBottleFull,
 		ReplaceOnDeplete		= OS24pkWaterBottleEmpty,
 		ReplaceOnUseOn			= WaterSource-OS24pkWaterBottleFull,

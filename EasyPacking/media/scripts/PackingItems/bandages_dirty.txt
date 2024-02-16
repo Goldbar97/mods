@@ -10,6 +10,7 @@ module GidOrganized
 		Weight			= 0.3,
 		Type			= Normal,
 		DisplayName		= 9 x Dirty Bandages,
+		DisplayCategory = FirstAid,
 		Icon			= OS9pkBandagesDirty,
 		WorldStaticModel= PackOfDirtyBandages,
 	}

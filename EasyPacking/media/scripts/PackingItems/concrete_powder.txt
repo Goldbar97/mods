@@ -10,6 +10,7 @@ module Packing
 		Weight			= 7.5,
 		Type			= Normal,
 		DisplayName		= 10 x Bag of Concrete Powder (Rope),
+		DisplayCategory = Material,
 		Icon			= PRopeConcretePowder,
 		WorldStaticModel= StackOfConcretePowderRoped
 	}
@@ -19,6 +20,7 @@ module Packing
 		Weight			= 5.0,
 		Type			= Normal,
 		DisplayName		= 5 x Bag of Concrete Powder (Rope),
+		DisplayCategory = Material,
 		Icon			= PRopeConcretePowder,
 		WorldStaticModel= StackOfConcretePowderRoped
 	}
@@ -28,6 +30,7 @@ module Packing
 		Weight			= 12.5,
 		Type			= Normal,
 		DisplayName		= 10 x Bag of Concrete Powder (SheetRope),
+		DisplayCategory = Material,
 		Icon			= PSheetRopeConcretePowder,
 		WorldStaticModel= StackOfConcretePowderSheetRoped
 	}
@@ -37,6 +40,7 @@ module Packing
 		Weight			= 7.5,
 		Type			= Normal,
 		DisplayName		= 5 x Bag of Concrete Powder (SheetRope),
+		DisplayCategory = Material,
 		Icon			= PSheetRopeConcretePowder,
 		WorldStaticModel= StackOfConcretePowderSheetRoped
 	}

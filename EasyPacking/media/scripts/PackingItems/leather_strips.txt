@@ -10,6 +10,7 @@ module Packing
 		Weight			= 0.35,
 		Type			= Normal,
 		DisplayName		= 10 x Leather Strips,
+		DisplayCategory = Material,
 		Icon			= PLeatherStrips,
 		WorldStaticModel = StripRollLeather,
 	}
@@ -19,6 +20,7 @@ module Packing
 		Weight			= 1.5,
 		Type			= Normal,
 		DisplayName		= 50 x Leather Strips,
+		DisplayCategory = Material,
 		Icon			= PLeatherStrips,
 		WorldStaticModel = StripRollLeather,
 	}
@@ -28,6 +30,7 @@ module Packing
 		Weight			= 2.5,
 		Type			= Normal,
 		DisplayName		= 100 x Leather Strips,
+		DisplayCategory = Material,
 		Icon			= PLeatherStrips,
 		WorldStaticModel = StripRollLeather,
 	}

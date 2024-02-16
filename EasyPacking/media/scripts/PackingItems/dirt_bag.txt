@@ -10,6 +10,7 @@ module Packing
 		Weight			= 3.0,
 		Type			= Normal,
 		DisplayName		= 10 x Dirt Bag (Rope),
+		DisplayCategory = Material,
 		Icon			= PRopeSandbag,
 		WorldStaticModel= StackOfDirtBagRoped
 	}
@@ -19,6 +20,7 @@ module Packing
 		Weight			= 2.0,
 		Type			= Normal,
 		DisplayName		= 5 x Dirt Bag (Rope),
+		DisplayCategory = Material,
 		Icon			= PRopeSandbag,
 		WorldStaticModel= StackOfDirtBagRoped,
 	}
@@ -28,6 +30,7 @@ module Packing
 		Weight			= 5.0,
 		Type			= Normal,
 		DisplayName		= 10 x Dirt Bag (SheetRope),
+		DisplayCategory = Material,
 		Icon			= PSheetRopeSandbag,
 		WorldStaticModel= StackOfDirtBagSheetRoped,
 	}
@@ -37,6 +40,7 @@ module Packing
 		Weight			= 3.0,
 		Type			= Normal,
 		DisplayName		= 5 x Dirt Bag (SheetRope),
+		DisplayCategory = Material,
 		Icon			= PSheetRopeSandbag,
 		WorldStaticModel= StackOfDirtBagSheetRoped,
 	}

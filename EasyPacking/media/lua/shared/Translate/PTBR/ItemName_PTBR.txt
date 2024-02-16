@@ -281,4 +281,95 @@ ItemName_PTBR = {
 	ItemName_Packing.pkTailoring = "Coleção de Livros de Costura",
 	ItemName_Packing.pkMetalwork = "Coleção de Livros de Metalurgia",
 	ItemName_Packing.pkTrapping = "Coleção de Livros de Caça",
+
+
+
+/** -----  ----- || AMMO || -----  ----- **/
+
+	ItemName_Packing.10pk9 = "Lata de Munição: 10x 9mm",
+	ItemName_Packing.5pk9 = "Lata de Munição: 5x 9mm",
+	
+	ItemName_Packing.10pk22 = "Lata de Munição: 10x .22",
+	ItemName_Packing.5pk22 = "Lata de Munição: 5x .22",
+	
+	ItemName_Packing.10pk762 = "Lata de Munição: 10x 7.62",
+	ItemName_Packing.5pk762 = "Lata de Munição: 5x 7.62",
+	
+	ItemName_Packing.10pk38 = "Lata de Munição: 10x .38 Especial",
+	ItemName_Packing.5pk38 = "Lata de Munição: 5x .38 Especial",
+	
+	ItemName_Packing.10pk44 = "Lata de Munição: 10x .44 Magnum",
+	ItemName_Packing.5pk44 = "Lata de Munição: 5x .44 Magnum",
+	
+	ItemName_Packing.10pk45 = "Lata de Munição: 10x .45 Auto",
+	ItemName_Packing.5pk45 = "Lata de Munição: 5x .45 Auto",
+	
+	ItemName_Packing.10pk223 = "Lata de Munição: 10x .223",
+	ItemName_Packing.5pk223 = "Lata de Munição: 5x .223",
+	
+	ItemName_Packing.10pk308 = "Lata de Munição: 10x .308",
+	ItemName_Packing.5pk308 = "Lata de Munição: 5x .308",
+	
+	ItemName_Packing.10pk556 = "Lata de Munição: 10x 5.56mm",
+	ItemName_Packing.5pk556 = "Lata de Munição: 5x 5.56mm",
+	
+	ItemName_Packing.10pkShotgun = "Lata de Munição: 10x Espingarda",
+	ItemName_Packing.5pkShotgun = "Lata de Munição: 5x Espingarda",
+	
+	ItemName_Packing.10pkGF10g = "Lata de Munição: 10x 10g Espingarda",
+	ItemName_Packing.5pkGF10g = "Lata de Munição: 5x 10g Espingarda",
+	
+	ItemName_Packing.10pkGF20g = "Lata de Munição: 10x 20g Espingarda",
+	ItemName_Packing.5pkGF20g = "Lata de Munição: 5x 20g Espingarda",
+	
+	ItemName_Packing.10pkGF22 = "Lata de Munição: 10x 22-LR",
+	ItemName_Packing.5pkGF22 = "Lata de Munição: 5x 22-LR",
+	
+	ItemName_Packing.10pkGF3006 = "Lata de Munição: 10x 30-06 SPRG",
+	ItemName_Packing.5pkGF3006 = "Lata de Munição: 5x 30-06 SPRG",
+	
+	ItemName_Packing.10pkGF357 = "Lata de Munição: 10x 357-MAG",
+	ItemName_Packing.5pkGF357 = "Lata de Munição: 5x 357-MAG",
+	
+	ItemName_Packing.10pkGF380 = "Lata de Munição: 10x 380-ACP",
+	ItemName_Packing.5pkGF380 = "Lata de Munição: 5x 380-ACP",
+	
+	ItemName_Packing.10pkGF410g = "Lata de Munição: 10x 410g Espingarda",
+	ItemName_Packing.5pkGF410g = "Lata de Munição: 5x 410g Espingarda",
+	
+	ItemName_Packing.10pkGF4570 = "Lata de Munição: 10x 45-70 GOV",
+	ItemName_Packing.5pkGF4570 = "Lata de Munição: 5x 45-70 GOV",
+	
+	ItemName_Packing.10pkGF45 = "Lata de Munição: 10x 45-LC",
+	ItemName_Packing.5pkGF45 = "Lata de Munição: 5x 45-LC",
+	
+	ItemName_Packing.10pkGF4g = "Lata de Munição: 10x 4g Espingarda",
+	ItemName_Packing.5pkGF4g = "Lata de Munição: 5x 4g Espingarda",
+	
+	ItemName_Packing.10pkGF545x39 = "Lata de Munição: 10x 5.45x39mm",
+	ItemName_Packing.5pkGF545x39 = "Lata de Munição: 5x 5.45x39mm",
+	
+	ItemName_Packing.10pkGF57 = "Lata de Munição: 10x 5.7x28mm",
+	ItemName_Packing.5pkGF57 = "Lata de Munição: 5x 5.7x28mm",
+	
+	ItemName_Packing.10pkGF50 = "Lata de Munição: 10x 50 MAG",
+	ItemName_Packing.5pkGF50 = "Lata de Munição: 5x 50 MAG",
+	
+	ItemName_Packing.10pkGF50BMG = "Lata de Munição: 10x 50 MAG",
+	ItemName_Packing.5pkGF50BMG = "Lata de Munição: 5x 50 MAG",
+	
+	ItemName_Packing.10pkGF762x39 = "Lata de Munição: 10x 7.62x39mm",
+	ItemName_Packing.5pkGF762x39 = "Lata de Munição: 5x 7.62x39mm",
+	
+	ItemName_Packing.10pkGF762x51 = "Lata de Munição: 10x 7.62x51mm-OTAN",
+	ItemName_Packing.5pkGF762x51 = "Lata de Munição: 5x 7.62x51mm-OTAN",
+	
+	ItemName_Packing.10pkGF762x54r = "Lata de Munição: 10x 7.62x51mm-R",
+	ItemName_Packing.5pkGF762x54r = "Lata de Munição: 5x 7.62x51mm-R",
+	
+	ItemName_Packing.10pkGFBoltBear = "Lata de Munição: 10x Virotes de Besta de Carbono BearX",
+	ItemName_Packing.5pkGFBoltBear = "Lata de Munição: 5x Virotes de Besta de Carbono BearX",
+	
+	ItemName_Packing.10pkGFArrowFiberglass = "Lata de Munição: 10x Flechas de Fibra de Vidro",
+	ItemName_Packing.5pkGFArrowFiberglass = "Lata de Munição: 10x Flechas de Fibra de Vidro",
 }

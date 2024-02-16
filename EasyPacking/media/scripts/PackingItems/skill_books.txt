@@ -10,6 +10,7 @@ module Packing
 		Weight			= 2,
 		Type			= Normal,
 		DisplayName		= Bundle of Carpentry Books,
+		DisplayCategory = SkillBook,
 		Icon			= PCarpentryBook,
 		WorldStaticModel = BoxOfBooksCarpentry,
 	}
@@ -19,6 +20,7 @@ module Packing
 		Weight			= 2,
 		Type			= Normal,
 		DisplayName		= Bundle of Cooking Books,
+		DisplayCategory = SkillBook,
 		Icon			= PCookingBook,
 		WorldStaticModel = BoxOfBooksCooking,
 	}
@@ -28,6 +30,7 @@ module Packing
 		Weight			= 2,
 		Type			= Normal,
 		DisplayName		= Bundle of Electricity Books,
+		DisplayCategory = SkillBook,
 		Icon			= PElectricityBook,
 		WorldStaticModel = BoxOfBooksElectricity,
 	}
@@ -37,6 +40,7 @@ module Packing
 		Weight			= 2,
 		Type			= Normal,
 		DisplayName		= Bundle of Farming Books,
+		DisplayCategory = SkillBook,
 		Icon			= PFarmingBook,
 		WorldStaticModel = BoxOfBooksFarming,
 	}
@@ -46,6 +50,7 @@ module Packing
 		Weight			= 2,
 		Type			= Normal,
 		DisplayName		= Bundle of Firstaid Books,
+		DisplayCategory = SkillBook,
 		Icon			= PFirstaidBook,
 		WorldStaticModel = BoxOfBooksFirstaid,
 	}
@@ -55,6 +60,7 @@ module Packing
 		Weight			= 2,
 		Type			= Normal,
 		DisplayName		= Bundle of Fishing Books,
+		DisplayCategory = SkillBook,
 		Icon			= PFishingBook,
 		WorldStaticModel = BoxOfBooksFishing,
 	}
@@ -64,6 +70,7 @@ module Packing
 		Weight			= 2,
 		Type			= Normal,
 		DisplayName		= Bundle of Foraging Books,
+		DisplayCategory = SkillBook,
 		Icon			= PForagingBook,
 		WorldStaticModel = BoxOfBooksForaging,
 	}
@@ -73,6 +80,7 @@ module Packing
 		Weight			= 2,
 		Type			= Normal,
 		DisplayName		= Bundle of Mechanics Books,
+		DisplayCategory = SkillBook,
 		Icon			= PMechanicsBook,
 		WorldStaticModel = BoxOfBooksMechanics,
 	}
@@ -82,6 +90,7 @@ module Packing
 		Weight			= 2,
 		Type			= Normal,
 		DisplayName		= Bundle of Tailoring Books,
+		DisplayCategory = SkillBook,
 		Icon			= PTailoringBook,
 		WorldStaticModel = BoxOfBooksTailoring,
 	}
@@ -91,6 +100,7 @@ module Packing
 		Weight			= 2,
 		Type			= Normal,
 		DisplayName		= Bundle of Metalwork Books,
+		DisplayCategory = SkillBook,
 		Icon			= PMetalworkBook,
 		WorldStaticModel = BoxOfBooksMetalwork,
 	}
@@ -100,6 +110,7 @@ module Packing
 		Weight			= 2,
 		Type			= Normal,
 		DisplayName		= Bundle of Trapping Books,
+		DisplayCategory = SkillBook,
 		Icon			= PTrappingBook,
 		WorldStaticModel = BoxOfBooksTrapping,
 	}

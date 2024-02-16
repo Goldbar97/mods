@@ -10,6 +10,7 @@ module Packing
 		Weight			= 0.5,
 		Type			= Normal,
 		DisplayName		= 10 x Garbage Bag,
+		DisplayCategory = Container,
 		Icon			= PGarbage,
 		WorldStaticModel= PackOfGarbageBags,
 	}
@@ -19,6 +20,7 @@ module Packing
 		Weight			= 0.35,
 		Type			= Normal,
 		DisplayName		= 5 x Garbage Bag,
+		DisplayCategory = Container,
 		Icon			= PGarbage,
 		WorldStaticModel= PackOfGarbageBags,
 	}

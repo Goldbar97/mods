@@ -10,6 +10,7 @@ module Packing
 		Weight			= 7.5,
 		Type			= Normal,
 		DisplayName		= 10 x Gas Can (Rope),
+		DisplayCategory = VehicleMaintenance,
 		Icon			= PRopePetrolCan,
 		WorldStaticModel= StackOfPetrolCansRoped,
 	}
@@ -19,6 +20,7 @@ module Packing
 		Weight			= 5.0,
 		Type			= Normal,
 		DisplayName		= 5 x Gas Can (Rope),
+		DisplayCategory = VehicleMaintenance,
 		Icon			= PRopePetrolCan,
 		WorldStaticModel= StackOfPetrolCansRoped,
 	}
@@ -28,6 +30,7 @@ module Packing
 		Weight			= 12.5,
 		Type			= Normal,
 		DisplayName		= 10 x Gas Can (Sheet Rope),
+		DisplayCategory = VehicleMaintenance,
 		Icon			= PSheetRopePetrolCan,
 		WorldStaticModel= StackOfPetrolCansSheetRoped,
 	}
@@ -37,6 +40,7 @@ module Packing
 		Weight			= 7.5,
 		Type			= Normal,
 		DisplayName		= 5 x Gas Can (Sheet Rope),
+		DisplayCategory = VehicleMaintenance,
 		Icon			= PSheetRopePetrolCan,
 		WorldStaticModel= StackOfPetrolCansSheetRoped,
 	}
@@ -46,6 +50,7 @@ module Packing
 		Weight			= 2.4,
 		Type			= Normal,
 		DisplayName		= 10 x Empty Gas Can (Rope),
+		DisplayCategory = VehicleMaintenance,
 		Icon			= PRopePetrolCan,
 		WorldStaticModel= StackOfPetrolCansRoped,
 	}
@@ -55,6 +60,7 @@ module Packing
 		Weight			= 1.6,
 		Type			= Normal,
 		DisplayName		= 5 x Empty Gas Can (Rope),
+		DisplayCategory = VehicleMaintenance,
 		Icon			= PRopePetrolCan,
 		WorldStaticModel= StackOfPetrolCansRoped,
 	}
@@ -64,6 +70,7 @@ module Packing
 		Weight			= 4.0,
 		Type			= Normal,
 		DisplayName		= 10 x Empty Gas Can (Sheet Rope),
+		DisplayCategory = VehicleMaintenance,
 		Icon			= PSheetRopePetrolCan,
 		WorldStaticModel= StackOfPetrolCansSheetRoped,
 	}
@@ -73,6 +80,7 @@ module Packing
 		Weight			= 2.4,
 		Type			= Normal,
 		DisplayName		= 5 x Empty Gas Can (Sheet Rope),
+		DisplayCategory = VehicleMaintenance,
 		Icon			= PSheetRopePetrolCan,
 		WorldStaticModel= StackOfPetrolCansSheetRoped,
 	}

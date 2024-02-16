@@ -10,6 +10,7 @@ module Packing
 		Weight			= 2.5,
 		Type			= Normal,
 		DisplayName		= 10 x Notebook,
+		DisplayCategory = Literature,
 		Icon			= PNotebook,
 		WorldStaticModel= StackOfNotebook,
 	}
@@ -19,6 +20,7 @@ module Packing
 		Weight			= 1.75,
 		Type			= Normal,
 		DisplayName		= 5 x Notebook,
+		DisplayCategory = Literature,
 		Icon			= PNotebook,
 		WorldStaticModel= StackOfNotebook,
 	}
