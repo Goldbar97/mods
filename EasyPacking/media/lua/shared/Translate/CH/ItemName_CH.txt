@@ -281,4 +281,95 @@ ItemName_CH = {
 	ItemName_Packing.pkTailoring = "全套裁縫技能書",
 	ItemName_Packing.pkMetalwork = "全套金工技能書",
 	ItemName_Packing.pkTrapping = "全套陷阱技能書",
+
+
+
+/** -----  ----- || AMMO || -----  ----- **/
+
+	ItemName_Packing.10pk9 = "盒裝 9x19mm (10x)",
+	ItemName_Packing.5pk9 = "盒裝 9x19mm (5x)",
+	
+	ItemName_Packing.10pk22 = "盒裝 .22-LR (10x)",
+	ItemName_Packing.5pk22 = "盒裝 .22-LR (5x)",
+	
+	ItemName_Packing.10pk762 = "盒裝 7.62 (10x)",
+	ItemName_Packing.5pk762 = "盒裝 7.62 (5x)",
+	
+	ItemName_Packing.10pk38 = "盒裝 .38-Spc (10x)",
+	ItemName_Packing.5pk38 = "盒裝 .38-Spc (5x)",
+	
+	ItemName_Packing.10pk44 = "盒裝 .44-Mag (10x)",
+	ItemName_Packing.5pk44 = "盒裝 .44-Mag (5x)",
+	
+	ItemName_Packing.10pk45 = "盒裝 .45-ACP (10x)",
+	ItemName_Packing.5pk45 = "盒裝 .45-ACP (5x)",
+	
+	ItemName_Packing.10pk223 = "盒裝 .223-REM (10x)",
+	ItemName_Packing.5pk223 = "盒裝 .223-REM (5x)",
+	
+	ItemName_Packing.10pk308 = "盒裝 .308-WIN (10x)",
+	ItemName_Packing.5pk308 = "盒裝 .308-WIN (5x)",
+	
+	ItemName_Packing.10pk556 = "盒裝 5.56mm-NATO (10x)",
+	ItemName_Packing.5pk556 = "盒裝 5.56mm-NATO (5x)",
+	
+	ItemName_Packing.10pkShotgun = "盒裝 12ga霰彈 (10x)",
+	ItemName_Packing.5pkShotgun = "盒裝 12ga霰彈 (5x)",
+	
+	ItemName_Packing.10pkGF10g = "盒裝 10ga霰彈 (10x)",
+	ItemName_Packing.5pkGF10g = "盒裝 10ga霰彈 (5x)",
+	
+	ItemName_Packing.10pkGF20g = "盒裝 20ga霰彈 (10x)",
+	ItemName_Packing.5pkGF20g = "盒裝 20ga霰彈 (5x)",
+	
+	ItemName_Packing.10pkGF22 = "盒裝 .22-LR (10x)",
+	ItemName_Packing.5pkGF22 = "盒裝 .22-LR (5x)",
+	
+	ItemName_Packing.10pkGF3006 = "盒裝 .30-06 SPG (10x)",
+	ItemName_Packing.5pkGF3006 = "盒裝 .30-06 SPG (5x)",
+	
+	ItemName_Packing.10pkGF357 = "盒裝 .357-Mag (10x)",
+	ItemName_Packing.5pkGF357 = "盒裝 .357-Mag (5x)",
+	
+	ItemName_Packing.10pkGF380 = "盒裝 .380-ACP (10x)",
+	ItemName_Packing.5pkGF380 = "盒裝 .380-ACP (5x)",
+	
+	ItemName_Packing.10pkGF410g = "盒裝 .410ga霰彈 (10x)",
+	ItemName_Packing.5pkGF410g = "盒裝 .410ga霰彈 (5x)",
+	
+	ItemName_Packing.10pkGF4570 = "盒裝 .45-70 GOV (10x)",
+	ItemName_Packing.5pkGF4570 = "盒裝 .45-70 GOV (5x)",
+	
+	ItemName_Packing.10pkGF45 = "盒裝 .45-LC (10x)",
+	ItemName_Packing.5pkGF45 = "盒裝 .45-LC (5x)",
+	
+	ItemName_Packing.10pkGF4g = "盒裝 4ga霰彈 (10x)",
+	ItemName_Packing.5pkGF4g = "盒裝 4ga霰彈 (5x)",
+	
+	ItemName_Packing.10pkGF545x39 = "盒裝 5.45x39mm (10x)",
+	ItemName_Packing.5pkGF545x39 = "盒裝 5.45x39mm (5x)",
+	
+	ItemName_Packing.10pkGF57 = "盒裝 5.7x28mm (10x)",
+	ItemName_Packing.5pkGF57 = "盒裝 5.7x28mm (5x)",
+	
+	ItemName_Packing.10pkGF50 = "盒裝 .50-BMG (10x)",
+	ItemName_Packing.5pkGF50 = "盒裝 .50-BMG (5x)",
+	
+	ItemName_Packing.10pkGF50BMG = "盒裝 .50 Mag (10x)",
+	ItemName_Packing.5pkGF50BMG = "盒裝 .50 Mag (5x)",
+	
+	ItemName_Packing.10pkGF762x39 = "盒裝 7.62x39mm (10x)",
+	ItemName_Packing.5pkGF762x39 = "盒裝 7.62x39mm (5x)",
+	
+	ItemName_Packing.10pkGF762x51 = "盒裝 7.62mm-NATO (10x)",
+	ItemName_Packing.5pkGF762x51 = "盒裝 7.62mm-NATO (5x)",
+	
+	ItemName_Packing.10pkGF762x54r = "盒裝 7.62x54mm-R (10x)",
+	ItemName_Packing.5pkGF762x54r = "盒裝 7.62x54mm-R (5x)",
+	
+	ItemName_Packing.10pkGFBoltBear = "盒裝 BearX 碳纖維十字弓箭矢 (10x)",
+	ItemName_Packing.5pkGFBoltBear = "盒裝 BearX 碳纖維十字弓箭矢 (5x)",
+	
+	ItemName_Packing.10pkGFArrowFiberglass = "袋裝 玻璃纖維 箭矢 (10x)",
+	ItemName_Packing.5pkGFArrowFiberglass = "袋裝 玻璃纖維 箭矢 (5x)",
 }
