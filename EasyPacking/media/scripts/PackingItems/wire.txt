@@ -10,6 +10,7 @@ module Packing
 		Weight			= 1.0,
 		Type			= Normal,
 		DisplayName		= 10 x Wire,
+		DisplayCategory = Material,
 		Icon			= PWire,
 		WorldStaticModel= StackOfWire,
 	}
@@ -19,6 +20,7 @@ module Packing
 		Weight			= 0.7,
 		Type			= Normal,
 		DisplayName		= 5 x Wire,
+		DisplayCategory = Material,
 		Icon			= PWire,
 		WorldStaticModel= StackOfWire,
 	}

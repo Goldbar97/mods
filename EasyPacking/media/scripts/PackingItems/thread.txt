@@ -10,6 +10,7 @@ module Packing
 		Weight			= 0.5,
 		Type			= Normal,
 		DisplayName		= 10 x Thread,
+		DisplayCategory = Material,
 		Icon			= PThread,
 		WorldStaticModel= ThreadXL,
 	}
@@ -19,6 +20,7 @@ module Packing
 		Weight			= 0.35,
 		Type			= Normal,
 		DisplayName		= 5 x Thread,
+		DisplayCategory = Material,
 		Icon			= PThread,
 		WorldStaticModel= ThreadXL,
 	}

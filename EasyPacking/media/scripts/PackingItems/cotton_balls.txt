@@ -10,6 +10,7 @@ module GidOrganized
 		Weight			= 0.6,
 		Type			= Normal,
 		DisplayName		= 12 x Cotton Balls,
+		DisplayCategory = FirstAid,
 		Icon			= OS12pkCottonBalls,
 		WorldStaticModel= PackOfCottonBalls,
 	}

@@ -10,6 +10,7 @@ module Packing
 		Weight			= 2.4,
 		Type			= Normal,
 		DisplayName		= 6 x Canned Pineapple,
+		DisplayCategory = Food,
 		Icon			= PCannedPineapple,
 		WorldStaticModel= PackOfPineappleCan,
 	}

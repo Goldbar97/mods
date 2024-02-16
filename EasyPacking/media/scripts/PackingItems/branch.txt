@@ -10,6 +10,7 @@ module Packing
 		Weight			= 1.5,
 		Type			= Normal,
 		DisplayName		= 10 x Branch (Rope),
+		DisplayCategory = Material,
 		Icon			= PRopeBranch,
 		WorldStaticModel= StackOfTreeBranchesRoped,
 	}
@@ -19,6 +20,7 @@ module Packing
 		Weight			= 1,
 		Type			= Normal,
 		DisplayName		= 5 x Branch (Rope),
+		DisplayCategory = Material,
 		Icon			= PRopeBranch,
 		WorldStaticModel= StackOfTreeBranchesRoped,
 	}

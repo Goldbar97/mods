@@ -10,6 +10,7 @@ module Packing
 		Weight			= 1,
 		Type			= Normal,
 		DisplayName		= 10 x Wordsearch Magazine,
+		DisplayCategory = Literature,
 		Icon			= PMagazineWordsearchA,
 		WorldStaticModel= StackOfMagazineWordsearchA,
 	}
@@ -19,6 +20,7 @@ module Packing
 		Weight			= 0.7,
 		Type			= Normal,
 		DisplayName		= 5 x Wordsearch Magazine,
+		DisplayCategory = Literature,
 		Icon			= PMagazineWordsearchA,
 		WorldStaticModel= StackOfMagazineWordsearchA,
 	}
@@ -77,7 +79,7 @@ module Packing
 		Time:30.0,
 	}
 	
-	recipe Change
+	recipe Change to Type 2
 	{
 		destroy MagazineWordsearch1,
 		
@@ -85,7 +87,7 @@ module Packing
 		Time:25.0,
 	}
 	
-	recipe Change
+	recipe Change to Type 3
 	{
 		destroy MagazineWordsearch1,
 		

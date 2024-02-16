@@ -10,6 +10,7 @@ module Packing
 		Weight			= 0.35,
 		Type			= Normal,
 		DisplayName		= 10 x Ripped Sheets,
+		DisplayCategory = Household,
 		Icon			= PRag,
 		WorldStaticModel= StripRollSheet,
 	}
@@ -19,6 +20,7 @@ module Packing
 		Weight			= 1.5,
 		Type			= Normal,
 		DisplayName		= 50 x Ripped Sheets,
+		DisplayCategory = Household,
 		Icon			= PRag,
 		WorldStaticModel= StripRollSheet,
 	}
@@ -28,6 +30,7 @@ module Packing
 		Weight			= 2.5,
 		Type			= Normal,
 		DisplayName		= 100 x Ripped Sheets,
+		DisplayCategory = Household,
 		Icon			= PRag,
 		WorldStaticModel= StripRollSheet,
 	}
