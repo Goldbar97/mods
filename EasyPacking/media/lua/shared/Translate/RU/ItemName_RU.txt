@@ -1,281 +1,281 @@
 ItemName_RU = {
-ItemName_Packing.5pkScrapMetal = "5x ¬®¬Ц¬д¬С¬Э¬Э¬а¬Э¬а¬Ю",
-ItemName_Packing.10pkScrapMetal = "10x ¬®¬Ц¬д¬С¬Э¬Э¬а¬Э¬а¬Ю",
-ItemName_Packing.50pkScrapMetal = "50x ¬®¬Ц¬д¬С¬Э¬Э¬а¬Э¬а¬Ю",
-ItemName_Packing.100pkScrapMetal = "100x ¬®¬Ц¬д¬С¬Э¬Э¬а¬Э¬а¬Ю",
+ItemName_Packing.5pkScrapMetal = "5x Металлолом",
+ItemName_Packing.10pkScrapMetal = "10x Металлолом",
+ItemName_Packing.50pkScrapMetal = "50x Металлолом",
+ItemName_Packing.100pkScrapMetal = "100x Металлолом",
 
-ItemName_Packing.10pkSheetMetalSmall = "10x ¬®¬С¬Э¬Ц¬Я¬о¬Ь¬Ъ¬з ¬Э¬Ъ¬г¬д¬а¬У ¬Ю¬Ц¬д¬С¬Э¬Э¬С",
-ItemName_Packing.5pkSheetMetalSmall = "5x ¬®¬С¬Э¬Ц¬Я¬о¬Ь¬Ъ¬з ¬Э¬Ъ¬г¬д¬а¬У ¬Ю¬Ц¬д¬С¬Э¬Э¬С",
+ItemName_Packing.10pkSheetMetalSmall = "10x Маленьких листов металла",
+ItemName_Packing.5pkSheetMetalSmall = "5x Маленьких листов металла",
 
-ItemName_Packing.10pkSheetMetal = "10x ¬­¬Ъ¬г¬д¬а¬У ¬Ю¬Ц¬д¬С¬Э¬Э¬С",
-ItemName_Packing.5pkSheetMetal = "5x ¬­¬Ъ¬г¬д¬а¬У ¬Ю¬Ц¬д¬С¬Э¬Э¬С",
-ItemName_Packing.10pkRopeSheetMetal = "10x ¬­¬Ъ¬г¬д¬а¬У ¬Ю¬Ц¬д¬С¬Э¬Э¬С (¬Ј¬Ц¬в¬Ц¬У¬Ь¬С)",
-ItemName_Packing.5pkRopeSheetMetal = "5x ¬­¬Ъ¬г¬д¬а¬У ¬Ю¬Ц¬д¬С¬Э¬Э¬С (¬Ј¬Ц¬в¬Ц¬У¬Ь¬С)",
-ItemName_Packing.10pkSheetRopeSheetMetal = "10x ¬­¬Ъ¬г¬д¬а¬У ¬Ю¬Ц¬д¬С¬Э¬Э¬С(¬і¬С¬Ю¬а¬Х.¬У¬Ц¬в¬Ц¬У¬Ь¬С)",
-ItemName_Packing.5pkSheetRopeSheetMetal = "5x ¬­¬Ъ¬г¬д¬а¬У ¬Ю¬Ц¬д¬С¬Э¬Э¬С (¬і¬С¬Ю¬а¬Х.¬У¬Ц¬в¬Ц¬У¬Ь¬С)",
+ItemName_Packing.10pkSheetMetal = "10x Листов металла",
+ItemName_Packing.5pkSheetMetal = "5x Листов металла",
+ItemName_Packing.10pkRopeSheetMetal = "10x Листов металла (Веревка)",
+ItemName_Packing.5pkRopeSheetMetal = "5x Листов металла (Веревка)",
+ItemName_Packing.10pkSheetRopeSheetMetal = "10x Листов металла(Самод.веревка)",
+ItemName_Packing.5pkSheetRopeSheetMetal = "5x Листов металла (Самод.веревка)",
 
-ItemName_Packing.10pkMetalBar = "10x ¬®¬Ц¬д¬С¬Э¬Э¬Ъ¬й¬Ц¬г¬Ь¬Ъ¬з ¬б¬в¬е¬д¬а¬У",
-ItemName_Packing.5pkMetalBar = "5x ¬®¬Ц¬д¬С¬Э¬Э¬Ъ¬й¬Ц¬г¬Ь¬Ъ¬з ¬б¬в¬е¬д¬а¬У",
-ItemName_Packing.10pkRopeMetalBar = "10x ¬®¬Ц¬д¬С¬Э¬Э¬Ъ¬й¬Ц¬г¬Ь¬Ъ¬з ¬б¬в¬е¬д¬а¬У (¬Ј¬Ц¬в¬Ц¬У¬Ь¬С)",
-ItemName_Packing.5pkRopeMetalBar = "5x ¬®¬Ц¬д¬С¬Э¬Э¬Ъ¬й¬Ц¬г¬Ь¬Ъ¬з ¬б¬в¬е¬д¬а¬У (¬Ј¬Ц¬в¬Ц¬У¬Ь¬С)",
-ItemName_Packing.10pkSheetRopeMetalBar = "10x ¬®¬Ц¬д¬С¬Э¬Э¬Ъ¬й¬Ц¬г¬Ь¬Ъ¬з ¬б¬в¬е¬д¬а¬У (¬і¬С¬Ю¬а¬Х.¬У¬Ц¬в¬Ц¬У¬Ь¬С)",
-ItemName_Packing.5pkSheetRopeMetalBar = "5x ¬®¬Ц¬д¬С¬Э¬Э¬Ъ¬й¬Ц¬г¬Ь¬Ъ¬з ¬б¬в¬е¬д¬а¬У (¬і¬С¬Ю¬а¬Х.¬У¬Ц¬в¬Ц¬У¬Ь¬С)",
+ItemName_Packing.10pkMetalBar = "10x Металлических прутов",
+ItemName_Packing.5pkMetalBar = "5x Металлических прутов",
+ItemName_Packing.10pkRopeMetalBar = "10x Металлических прутов (Веревка)",
+ItemName_Packing.5pkRopeMetalBar = "5x Металлических прутов (Веревка)",
+ItemName_Packing.10pkSheetRopeMetalBar = "10x Металлических прутов (Самод.веревка)",
+ItemName_Packing.5pkSheetRopeMetalBar = "5x Металлических прутов (Самод.веревка)",
 
-ItemName_Packing.10pkMetalPipe = "10x ¬®¬Ц¬д¬С¬Э¬Э¬Ъ¬й¬Ц¬г¬Ь¬Ъ¬з ¬д¬в¬е¬Т",
-ItemName_Packing.5pkMetalPipe = "5x ¬®¬Ц¬д¬С¬Э¬Э¬Ъ¬й¬Ц¬г¬Ь¬Ъ¬з ¬д¬в¬е¬Т",
-ItemName_Packing.10pkRopeMetalPipe = "10x ¬®¬Ц¬д¬С¬Э¬Э¬Ъ¬й¬Ц¬г¬Ь¬Ъ¬з ¬д¬в¬е¬Т (¬Ј¬Ц¬в¬Ц¬У¬Ь¬С)",
-ItemName_Packing.5pkRopeMetalPipe = "5x ¬®¬Ц¬д¬С¬Э¬Э¬Ъ¬й¬Ц¬г¬Ь¬Ъ¬з ¬д¬в¬е¬Т (¬Ј¬Ц¬в¬Ц¬У¬Ь¬С)",
-ItemName_Packing.10pkSheetRopeMetalPipe = "10x ¬®¬Ц¬д¬С¬Э¬Э¬Ъ¬й¬Ц¬г¬Ь¬Ъ¬з ¬д¬в¬е¬Т (¬і¬С¬Ю¬а¬Х.¬У¬Ц¬в¬Ц¬У¬Ь¬С)",
-ItemName_Packing.5pkSheetRopeMetalPipe = "5x ¬®¬Ц¬д¬С¬Э¬Э¬Ъ¬й¬Ц¬г¬Ь¬Ъ¬з ¬д¬в¬е¬Т (¬і¬С¬Ю¬а¬Х.¬У¬Ц¬в¬Ц¬У¬Ь¬С)",
+ItemName_Packing.10pkMetalPipe = "10x Металлических труб",
+ItemName_Packing.5pkMetalPipe = "5x Металлических труб",
+ItemName_Packing.10pkRopeMetalPipe = "10x Металлических труб (Веревка)",
+ItemName_Packing.5pkRopeMetalPipe = "5x Металлических труб (Веревка)",
+ItemName_Packing.10pkSheetRopeMetalPipe = "10x Металлических труб (Самод.веревка)",
+ItemName_Packing.5pkSheetRopeMetalPipe = "5x Металлических труб (Самод.веревка)",
 
-ItemName_Packing.10pkWire = "10x ¬®¬а¬д¬Ь¬а¬У ¬б¬в¬а¬У¬а¬Э¬а¬Ь¬Ъ",
-ItemName_Packing.5pkWire = "5x ¬®¬а¬д¬Ь¬а¬У ¬б¬в¬а¬У¬а¬Э¬а¬Ь¬Ъ",
+ItemName_Packing.10pkWire = "10x Мотков проволоки",
+ItemName_Packing.5pkWire = "5x Мотков проволоки",
 
-ItemName_Packing.10pkBarbedWire = "10x ¬®¬а¬д¬Ь¬а¬У ¬Ь¬а¬Э¬р¬й¬Ц¬Ы ¬б¬в¬а¬У¬а¬Э¬а¬Ь¬Ъ",
-ItemName_Packing.5pkBarbedWire = "5x ¬®¬а¬д¬Ь¬а¬У ¬Ь¬а¬Э¬р¬й¬Ц¬Ы ¬б¬в¬а¬У¬а¬Э¬а¬Ь¬Ъ",
+ItemName_Packing.10pkBarbedWire = "10x Мотков колючей проволоки",
+ItemName_Packing.5pkBarbedWire = "5x Мотков колючей проволоки",
 
-ItemName_Packing.10pkWeldingRods = "10x ¬µ¬б¬С¬Ь¬а¬У¬а¬Ь ¬б¬в¬Ъ¬г¬С¬Х¬а¬й¬Я¬н¬з ¬б¬в¬е¬д¬Ь¬а¬У",
-ItemName_Packing.5pkWeldingRods = "5x ¬µ¬б¬С¬Ь¬а¬У¬а¬Ь ¬б¬в¬Ъ¬г¬С¬Х¬а¬й¬Я¬н¬з ¬б¬в¬е¬д¬Ь¬а¬У",
+ItemName_Packing.10pkWeldingRods = "10x Упаковок присадочных прутков",
+ItemName_Packing.5pkWeldingRods = "5x Упаковок присадочных прутков",
 
-ItemName_Packing.10pkNailsBox = "10x ¬¬¬а¬в¬а¬Т¬а¬Ь ¬г ¬Ф¬У¬а¬Щ¬Х¬с¬Ю¬Ъ",
-ItemName_Packing.5pkNailsBox = "5x ¬¬¬а¬в¬а¬Т¬а¬Ь ¬г ¬Ф¬У¬а¬Щ¬Х¬с¬Ю¬Ъ",
+ItemName_Packing.10pkNailsBox = "10x Коробок с гвоздями",
+ItemName_Packing.5pkNailsBox = "5x Коробок с гвоздями",
 
-ItemName_Packing.10pkScrewsBox = "10x ¬¬¬а¬в¬а¬Т¬а¬Ь ¬г ¬Т¬а¬Э¬д¬С¬Ю¬Ъ",
-ItemName_Packing.5pkScrewsBox = "5x ¬¬¬а¬в¬а¬Т¬а¬Ь ¬г ¬Т¬а¬Э¬д¬С¬Ю¬Ъ",
+ItemName_Packing.10pkScrewsBox = "10x Коробок с болтами",
+ItemName_Packing.5pkScrewsBox = "5x Коробок с болтами",
 
 
 
 /** ----- ----- || CARPENTRY STUFF || ----- ----- **/
 
-ItemName_Packing.10pkRopePlank = "10x ¬Ґ¬а¬г¬а¬Ь (¬Ј¬Ц¬в¬Ц¬У¬Ь¬С)",
-ItemName_Packing.5pkRopePlank = "5x ¬Ґ¬а¬г¬а¬Ь (¬Ј¬Ц¬в¬Ц¬У¬Ь¬С)",
-ItemName_Packing.10pkSheetRopePlank = "10x ¬Ґ¬а¬г¬а¬Ь (¬і¬С¬Ю¬а¬Х.¬У¬Ц¬в¬Ц¬У¬Ь¬С)",
-ItemName_Packing.5pkSheetRopePlank = "5x ¬Ґ¬а¬г¬а¬Ь (¬і¬С¬Ю¬а¬Х.¬У¬Ц¬в¬Ц¬У¬Ь¬С)",
+ItemName_Packing.10pkRopePlank = "10x Досок (Веревка)",
+ItemName_Packing.5pkRopePlank = "5x Досок (Веревка)",
+ItemName_Packing.10pkSheetRopePlank = "10x Досок (Самод.веревка)",
+ItemName_Packing.5pkSheetRopePlank = "5x Досок (Самод.веревка)",
 
 
 
 /** ----- ----- || FOOD STUFF || ----- ----- **/
 
-ItemName_Packing.6pkDogFood = "6x ¬ў¬С¬Я¬а¬Ь ¬г¬а¬Т¬С¬й¬о¬Ц¬Ы ¬Ц¬Х¬н",
-ItemName_GidOrganizedFood.OS6pkCannedSoup = "6x ¬ў¬С¬Я¬а¬Ь ¬Ь¬а¬Я¬г¬Ц¬в¬У.¬г¬е¬б",
-ItemName_GidOrganizedFood.OS6pkCannedBeans = "6x ¬ў¬С¬Я¬а¬Ь ¬Ь¬а¬Я¬г¬Ц¬в¬У.¬Т¬а¬Т¬н",
-ItemName_GidOrganizedFood.OS6pkCannedBolognese = "6x ¬ў¬С¬Я¬а¬Ь ¬Ь¬а¬Я¬г¬Ц¬в¬У.¬Т¬а¬Э¬а¬Я¬о¬Ц¬Щ¬Ц",
-ItemName_GidOrganizedFood.OS6pkCannedCarrots = "6x ¬ў¬С¬Я¬а¬Ь ¬Ь¬а¬Я¬г¬Ц¬в¬У.¬Ю¬а¬в¬Ь¬а¬У¬Ъ",
-ItemName_GidOrganizedFood.OS6pkCannedChili = "6x ¬ў¬С¬Я¬а¬Ь ¬Ь¬а¬Я¬г¬Ц¬в¬У.¬й¬Ъ¬Э¬Ъ",
-ItemName_GidOrganizedFood.OS6pkCannedCorn = "6x ¬ў¬С¬Я¬а¬Ь ¬Ь¬а¬Я¬г¬Ц¬в¬У.¬Ь¬е¬Ь¬е¬в¬е¬Щ¬н",
-ItemName_GidOrganizedFood.OS6pkCannedCornedBeef = "6x ¬ў¬С¬Я¬а¬Ь ¬Ь¬а¬Я¬г¬Ц¬в¬У.¬Ф¬а¬У¬с¬Х¬Ъ¬Я¬н",
-ItemName_GidOrganizedFood.OS6pkCannedMushSoup = "6x ¬ў¬С¬Я¬а¬Ь ¬Ь¬а¬Я¬г¬Ц¬в¬У.¬Ф¬в¬Ъ¬Т¬Я¬а¬Ф¬а ¬г¬е¬б¬С",
-ItemName_GidOrganizedFood.OS6pkCannedPeas = "6x ¬ў¬С¬Я¬а¬Ь ¬Ь¬а¬Я¬г¬Ц¬в¬У.¬Ф¬а¬в¬а¬з¬С",
-ItemName_GidOrganizedFood.OS6pkCannedPotato = "6x ¬ў¬С¬Я¬а¬Ь ¬Ь¬а¬Я¬г¬Ц¬в¬У.¬Ь¬С¬в¬д¬а¬ж¬Ц¬Э¬с",
-ItemName_GidOrganizedFood.OS6pkCannedTomato = "6x ¬ў¬С¬Я¬а¬Ь ¬Ь¬а¬Я¬г¬Ц¬в¬У.¬д¬а¬Ю¬С¬д¬а¬У",
-ItemName_GidOrganizedFood.OS8pkCannedTuna = "8x ¬ў¬С¬Я¬а¬Ь ¬д¬е¬Я¬и¬С",
-ItemName_GidOrganizedFood.OS4pkSardines = "4x ¬ў¬С¬Я¬а¬Ь ¬г¬С¬в¬Х¬Ъ¬Я",
+ItemName_Packing.6pkDogFood = "6x Банок собачьей еды",
+ItemName_GidOrganizedFood.OS6pkCannedSoup = "6x Банок консерв.суп",
+ItemName_GidOrganizedFood.OS6pkCannedBeans = "6x Банок консерв.бобы",
+ItemName_GidOrganizedFood.OS6pkCannedBolognese = "6x Банок консерв.болоньезе",
+ItemName_GidOrganizedFood.OS6pkCannedCarrots = "6x Банок консерв.моркови",
+ItemName_GidOrganizedFood.OS6pkCannedChili = "6x Банок консерв.чили",
+ItemName_GidOrganizedFood.OS6pkCannedCorn = "6x Банок консерв.кукурузы",
+ItemName_GidOrganizedFood.OS6pkCannedCornedBeef = "6x Банок консерв.говядины",
+ItemName_GidOrganizedFood.OS6pkCannedMushSoup = "6x Банок консерв.грибного супа",
+ItemName_GidOrganizedFood.OS6pkCannedPeas = "6x Банок консерв.гороха",
+ItemName_GidOrganizedFood.OS6pkCannedPotato = "6x Банок консерв.картофеля",
+ItemName_GidOrganizedFood.OS6pkCannedTomato = "6x Банок консерв.томатов",
+ItemName_GidOrganizedFood.OS8pkCannedTuna = "8x Банок тунца",
+ItemName_GidOrganizedFood.OS4pkSardines = "4x Банок сардин",
 
-ItemName_Packing.6pkCannedMilk = "6x ¬ў¬С¬Я¬а¬Ь ¬Ь¬а¬Я¬и¬Ц¬Я¬д¬в.¬Ю¬а¬Э¬а¬Ь¬С",
-ItemName_Packing.6pkCannedFruitBeverage = "6x ¬ў¬С¬Я¬а¬Ь ¬Ь¬а¬Я¬г¬Ц¬в¬У.¬ж¬в¬е¬Ь¬д¬а¬У",
-ItemName_Packing.6pkCannedFruitCocktail = "6x ¬ў¬С¬Я¬а¬Ь ¬Ь¬а¬Я¬г¬Ц¬в¬У.¬Ь¬а¬Ь¬д¬Ц¬Ы¬Э¬с",
-ItemName_Packing.6pkCannedPeaches = "6x ¬ў¬С¬Я¬а¬Ь ¬Ь¬а¬Я¬г¬Ц¬в¬У.¬б¬Ц¬в¬г¬Ъ¬Ь¬а¬У",
-ItemName_Packing.6pkCannedPineapple = "6x ¬ў¬С¬Я¬а¬Ь ¬Ь¬а¬Я¬г¬Ц¬в¬У.¬С¬Я¬С¬Я¬С¬г¬а¬У",
+ItemName_Packing.6pkCannedMilk = "6x Банок концентр.молока",
+ItemName_Packing.6pkCannedFruitBeverage = "6x Банок консерв.фруктов",
+ItemName_Packing.6pkCannedFruitCocktail = "6x Банок консерв.коктейля",
+ItemName_Packing.6pkCannedPeaches = "6x Банок консерв.персиков",
+ItemName_Packing.6pkCannedPineapple = "6x Банок консерв.ананасов",
 
-ItemName_GidOrganizedFood.OS4pkCoffee = "4x ¬ў¬С¬Я¬Ь¬Ъ ¬Ь¬а¬ж¬Ц",
+ItemName_GidOrganizedFood.OS4pkCoffee = "4x Банки кофе",
 
 
 
 /** ----- ----- || DRINK STUFF || ----- ----- **/
 
-ItemName_Packing.6pkBeerCan = "6x ¬ў¬С¬Я¬а¬Ь ¬б¬Ъ¬У¬С",
-ItemName_Packing.6pkBeer = "6x ¬ў¬е¬д¬н¬Э¬а¬Ь ¬б¬Ъ¬У¬С",
+ItemName_Packing.6pkBeerCan = "6x Банок пива",
+ItemName_Packing.6pkBeer = "6x Бутылок пива",
 
-ItemName_Packing.10pkRedWine = "10x ¬ў¬е¬д¬н¬Э¬а¬Ь ¬Ь¬в¬С¬г¬Я¬а¬Ф¬а ¬У¬Ъ¬Я¬С",
-ItemName_Packing.5pkRedWine = "5x ¬ў¬е¬д¬н¬Э¬а¬Ь ¬Ь¬в¬С¬г¬Я¬а¬Ф¬а ¬У¬Ъ¬Я¬С",
-ItemName_Packing.10pkWhiteWine = "10x ¬ў¬е¬д¬н¬Э¬а¬Ь ¬Т¬Ц¬Э¬а¬Ф¬а ¬У¬Ъ¬Я¬С",
-ItemName_Packing.5pkWhiteWine = "5x ¬ў¬е¬д¬н¬Э¬а¬Ь ¬Т¬Ц¬Э¬а¬Ф¬а ¬У¬Ъ¬Я¬С",
+ItemName_Packing.10pkRedWine = "10x Бутылок красного вина",
+ItemName_Packing.5pkRedWine = "5x Бутылок красного вина",
+ItemName_Packing.10pkWhiteWine = "10x Бутылок белого вина",
+ItemName_Packing.5pkWhiteWine = "5x Бутылок белого вина",
 
-ItemName_Packing.10pkWhiskey = "10x ¬ў¬е¬д¬н¬Э¬а¬Ь ¬Т¬е¬в¬Т¬а¬Я¬С",
-ItemName_Packing.5pkWhiskey = "5x ¬ў¬е¬д¬н¬Э¬а¬Ь ¬Т¬е¬в¬Т¬а¬Я¬С",
+ItemName_Packing.10pkWhiskey = "10x Бутылок бурбона",
+ItemName_Packing.5pkWhiskey = "5x Бутылок бурбона",
 
-ItemName_Packing.10pkOrangeSoda = "10x ¬ў¬е¬д¬н¬Э¬а¬Ь ¬С¬б¬Ц¬Э¬о¬г¬Ъ¬Я¬а¬У¬а¬Ы ¬г¬а¬Х¬а¬У¬а¬Ы",
-ItemName_Packing.5pkOrangeSoda = "5x ¬ў¬е¬д¬н¬Э¬а¬Ь ¬С¬б¬Ц¬Э¬о¬г¬Ъ¬Я¬а¬У¬а¬Ы ¬г¬а¬Х¬а¬У¬а¬Ы",
+ItemName_Packing.10pkOrangeSoda = "10x Бутылок апельсиновой содовой",
+ItemName_Packing.5pkOrangeSoda = "5x Бутылок апельсиновой содовой",
 
-ItemName_GidOrganizedFood.OS6pkPopDiet = "6x ¬ў¬С¬Я¬а¬Ь ¬Ф¬С¬Щ¬Ъ¬в¬а¬У¬Ь¬Ъ",
-ItemName_GidOrganizedFood.OS6pkPop = "6x ¬ў¬С¬Я¬а¬Ь ¬Ф¬С¬Щ¬Ъ¬в¬а¬У¬Ь¬Ъ",
-ItemName_GidOrganizedFood.OS6pkFizz = "6x ¬ў¬С¬Я¬а¬Ь ¬Ф¬С¬Щ¬Ъ¬в¬а¬У¬Ь¬Ъ",
+ItemName_GidOrganizedFood.OS6pkPopDiet = "6x Банок газировки",
+ItemName_GidOrganizedFood.OS6pkPop = "6x Банок газировки",
+ItemName_GidOrganizedFood.OS6pkFizz = "6x Банок газировки",
 
-ItemName_GidOrganizedFood.OS12pkWineEmpty = "12x ¬±¬е¬г¬д¬н¬з ¬У¬Ъ¬Я¬Я¬н¬з ¬Т¬е¬д¬н¬Э¬а¬Ь",
-ItemName_GidOrganizedFood.OS12pkWineEmpty2 = "12x ¬±¬е¬г¬д¬н¬з ¬У¬Ъ¬Я¬Я¬н¬з ¬Т¬е¬д¬н¬Э¬а¬Ь",
-ItemName_GidOrganizedFood.OS8pkWhiskeyEmpty = "8x ¬ў¬е¬д¬н¬Э¬а¬Ь ¬а¬д ¬Т¬е¬в¬Т¬а¬Я¬С",
+ItemName_GidOrganizedFood.OS12pkWineEmpty = "12x Пустых винных бутылок",
+ItemName_GidOrganizedFood.OS12pkWineEmpty2 = "12x Пустых винных бутылок",
+ItemName_GidOrganizedFood.OS8pkWhiskeyEmpty = "8x Бутылок от бурбона",
 
-ItemName_GidOrganizedFood.OS24pkWaterBottleEmpty = "24x ¬±¬е¬г¬д¬н¬Ц ¬Т¬е¬д¬н¬Э¬Ь¬Ъ",
-ItemName_GidOrganizedFood.OS24pkWaterBottleFull = "24x ¬ў¬е¬д¬н¬Э¬Ь¬Ъ ¬г ¬У¬а¬Х¬а¬Ы¬¬¬С¬в¬С¬Я¬Х¬С¬к¬Ц¬Ы¬в¬е¬й¬Ц¬Ь",
+ItemName_GidOrganizedFood.OS24pkWaterBottleEmpty = "24x Пустые бутылки",
+ItemName_GidOrganizedFood.OS24pkWaterBottleFull = "24x Бутылки с водойКарандашейручек",
 
 
 
 /** ----- ----- || PAPER STUFF || ----- ----- **/
 
-ItemName_Packing.10pkPencil = "10x ¬¬¬С¬в¬С¬Я¬Х¬С¬к¬Ц¬Ы¬в¬е¬й¬Ц¬Ь",
-ItemName_Packing.5pkPencil = "5x ¬¬¬С¬в¬С¬Я¬Х¬С¬к¬Ц¬Ы¬в¬е¬й¬Ц¬Ь",
+ItemName_Packing.10pkPencil = "10x Карандашейручек",
+ItemName_Packing.5pkPencil = "5x Карандашейручек",
 
-ItemName_Packing.10pkPen = "10x ¬І¬е¬й¬Ц¬Ь",
-ItemName_Packing.5pkPen = "5x ¬І¬е¬й¬Ц¬Ь",
+ItemName_Packing.10pkPen = "10x Ручек",
+ItemName_Packing.5pkPen = "5x Ручек",
 
-ItemName_Packing.10pkRedPen = "10x ¬¬¬в¬С¬г¬Я¬н¬з ¬в¬е¬й¬Ц¬Ь",
-ItemName_Packing.5pkRedPen = "5x ¬¬¬в¬С¬г¬Я¬н¬з ¬в¬е¬й¬Ц¬Ь",
+ItemName_Packing.10pkRedPen = "10x Красных ручек",
+ItemName_Packing.5pkRedPen = "5x Красных ручек",
 
-ItemName_Packing.10pkBluePen = "10x ¬і¬Ъ¬Я¬Ъ¬з ¬в¬е¬й¬Ц¬Ь",
-ItemName_Packing.5pkBluePen = "5x ¬і¬Ъ¬Я¬Ъ¬з ¬в¬е¬й¬Ц¬Ь",
+ItemName_Packing.10pkBluePen = "10x Синих ручек",
+ItemName_Packing.5pkBluePen = "5x Синих ручек",
 
-ItemName_Packing.10pkSheetPaper = "10x ¬­¬Ъ¬г¬д¬а¬У ¬Т¬е¬Ю¬С¬Ф¬Ъ",
-ItemName_Packing.5pkSheetPaper = "5x ¬­¬Ъ¬г¬д¬а¬У ¬Т¬е¬Ю¬С¬Ф¬Ъ",
+ItemName_Packing.10pkSheetPaper = "10x Листов бумаги",
+ItemName_Packing.5pkSheetPaper = "5x Листов бумаги",
 
-ItemName_Packing.10pkNotebook = "10x ¬ў¬Э¬а¬Ь¬Я¬а¬д¬а¬У",
-ItemName_Packing.5pkNotebook = "5x ¬ў¬Э¬а¬Ь¬Я¬а¬д¬а¬У",
+ItemName_Packing.10pkNotebook = "10x Блокнотов",
+ItemName_Packing.5pkNotebook = "5x Блокнотов",
 
-ItemName_Packing.10pkBook = "10x ¬¬¬Я¬Ъ¬Ф",
-ItemName_Packing.5pkBook = "5x ¬¬¬Я¬Ъ¬Ф",
+ItemName_Packing.10pkBook = "10x Книг",
+ItemName_Packing.5pkBook = "5x Книг",
 
-ItemName_Packing.10pkMagazine = "10x ¬Ё¬е¬в¬Я¬С¬Э¬а¬У",
-ItemName_Packing.5pkMagazine = "5x ¬Ё¬е¬в¬Я¬С¬Э¬а¬У",
+ItemName_Packing.10pkMagazine = "10x Журналов",
+ItemName_Packing.5pkMagazine = "5x Журналов",
 
-ItemName_Packing.10pkNewspaper = "10x ¬¤¬С¬Щ¬Ц¬д",
-ItemName_Packing.5pkNewspaper = "5x ¬¤¬С¬Щ¬Ц¬д",
+ItemName_Packing.10pkNewspaper = "10x Газет",
+ItemName_Packing.5pkNewspaper = "5x Газет",
 
 
 
 /** ----- ----- || TAILORING STUFF || ----- ----- **/
 
-ItemName_Packing.10pkThread = "10x ¬®¬а¬д¬Ь¬а¬У ¬Я¬Ъ¬д¬а¬Ь",
-ItemName_Packing.5pkThread = "5x ¬®¬а¬д¬Ь¬а¬У ¬Я¬Ъ¬д¬а¬Ь",
+ItemName_Packing.10pkThread = "10x Мотков ниток",
+ItemName_Packing.5pkThread = "5x Мотков ниток",
 
-ItemName_Packing.10pkRag = "10x ¬ґ¬в¬с¬б¬а¬Ь",
-ItemName_Packing.50pkRag = "50x ¬ґ¬в¬с¬б¬а¬Ь",
-ItemName_Packing.100pkRag = "100x ¬ґ¬в¬с¬б¬а¬Ь",
+ItemName_Packing.10pkRag = "10x Тряпок",
+ItemName_Packing.50pkRag = "50x Тряпок",
+ItemName_Packing.100pkRag = "100x Тряпок",
 
-ItemName_Packing.10pkDenim = "10x ¬Ґ¬Ш¬Ъ¬Я¬г¬а¬У¬н¬з ¬д¬в¬с¬б¬а¬Ь",
-ItemName_Packing.50pkDenim = "50x ¬Ґ¬Ш¬Ъ¬Я¬г¬а¬У¬н¬з ¬д¬в¬с¬б¬а¬Ь",
-ItemName_Packing.100pkDenim = "100x ¬Ґ¬Ш¬Ъ¬Я¬г¬а¬У¬н¬з ¬д¬в¬с¬б¬а¬Ь",
+ItemName_Packing.10pkDenim = "10x Джинсовых тряпок",
+ItemName_Packing.50pkDenim = "50x Джинсовых тряпок",
+ItemName_Packing.100pkDenim = "100x Джинсовых тряпок",
 
-ItemName_Packing.10pkLeather = "10x ¬±¬а¬Э¬а¬г¬а¬Ь ¬Ь¬а¬Ш¬Ъ",
-ItemName_Packing.50pkLeather = "50x ¬±¬а¬Э¬а¬г¬а¬Ь ¬Ь¬а¬Ш¬Ъ",
-ItemName_Packing.100pkLeather = "100x ¬±¬а¬Э¬а¬г¬а¬Ь ¬Ь¬а¬Ш¬Ъ",
+ItemName_Packing.10pkLeather = "10x Полосок кожи",
+ItemName_Packing.50pkLeather = "50x Полосок кожи",
+ItemName_Packing.100pkLeather = "100x Полосок кожи",
 
-ItemName_Packing.10pkTwine = "10x ¬®¬а¬д¬Ь¬а¬У ¬Т¬Ц¬й¬Ц¬У¬Ь¬Ъ",
-ItemName_Packing.5pkTwine = "5x ¬®¬а¬д¬Ь¬а¬У ¬Т¬Ц¬й¬Ц¬У¬Ь¬Ъ",
+ItemName_Packing.10pkTwine = "10x Мотков бечевки",
+ItemName_Packing.5pkTwine = "5x Мотков бечевки",
 
 
 
 /** ----- ----- || FORAGING STUFF || ----- ----- **/
 
-ItemName_Packing.10pkRopeBranch = "10x ¬Ј¬Ц¬д¬а¬Ь (¬Ј¬Ц¬в¬Ц¬У¬Ь¬С)",
-ItemName_Packing.5pkRopeBranch = "5x ¬Ј¬Ц¬д¬а¬Ь (¬Ј¬Ц¬в¬Ц¬У¬Ь¬С)",
+ItemName_Packing.10pkRopeBranch = "10x Веток (Веревка)",
+ItemName_Packing.5pkRopeBranch = "5x Веток (Веревка)",
 
-ItemName_Packing.10pkSheetRopeBranch = "10x ¬Ј¬Ц¬д¬а¬Ь (¬і¬С¬Ю¬а¬Х.¬У¬Ц¬в¬Ц¬У¬Ь¬С)",
-ItemName_Packing.5pkSheetRopeBranch = "5x ¬Ј¬Ц¬д¬а¬Ь (¬і¬С¬Ю¬а¬Х.¬У¬Ц¬в¬Ц¬У¬Ь¬С)",
+ItemName_Packing.10pkSheetRopeBranch = "10x Веток (Самод.веревка)",
+ItemName_Packing.5pkSheetRopeBranch = "5x Веток (Самод.веревка)",
 
 
 
 /** ----- ----- || MEDICINE STUFF || ----- ----- **/
 
-ItemName_GidOrganized.OS12pkAdhesiveBandages = "12x ¬±¬Э¬С¬г¬д¬н¬в¬Ц¬Ы",
-ItemName_GidOrganized.OS9pkBandages = "9x ¬ў¬Ъ¬Я¬д¬а¬У",
-ItemName_GidOrganized.OS9pkSterileBandages = "9x ¬і¬д¬Ц¬в¬Ъ¬Э¬о¬Я¬н¬з ¬Т¬Ъ¬Я¬д¬а¬У",
-ItemName_GidOrganized.OS9pkBandagesDirty = "9x ¬¤¬в¬с¬Щ¬Я¬н¬з ¬Т¬Ъ¬Я¬д¬а¬У",
+ItemName_GidOrganized.OS12pkAdhesiveBandages = "12x Пластырей",
+ItemName_GidOrganized.OS9pkBandages = "9x Бинтов",
+ItemName_GidOrganized.OS9pkSterileBandages = "9x Стерильных бинтов",
+ItemName_GidOrganized.OS9pkBandagesDirty = "9x Грязных бинтов",
 
-ItemName_Packing.10pkTissue = "10x ¬±¬Э¬С¬д¬Ь¬а¬У",
-ItemName_Packing.5pkTissue = "5x ¬±¬Э¬С¬д¬Ь¬а¬У",
-ItemName_Packing.4pkToiletPaper = "4x ¬І¬е¬Э¬а¬Я¬С ¬д¬е¬С¬Э¬Ц¬д¬Я¬а¬Ы ¬Т¬е¬Ю¬С¬Ф¬Ъ",
+ItemName_Packing.10pkTissue = "10x Платков",
+ItemName_Packing.5pkTissue = "5x Платков",
+ItemName_Packing.4pkToiletPaper = "4x Рулона туалетной бумаги",
 
-ItemName_GidOrganized.OS12pkCottonBalls = "12x ¬Ј¬С¬д¬Я¬н¬Ц ¬к¬С¬в¬Ъ¬Ь¬Ъ",
+ItemName_GidOrganized.OS12pkCottonBalls = "12x Ватные шарики",
 
-ItemName_GidOrganized.OS30pkAntibiotics = "30x ¬ґ¬С¬Т¬Э¬Ц¬д¬а¬Ь ¬Ў¬Я¬д¬Ъ¬Т¬Ъ¬а¬д¬Ъ¬Ь¬а¬У",
-ItemName_GidOrganized.OS50pkPainkillers = "5x ¬­¬С¬ж¬Ц¬д¬а¬Ь ¬°¬Т¬Ц¬Щ¬Т¬а¬Э¬Ъ¬У¬С¬р¬л¬Ц¬Ф¬а",
-ItemName_GidOrganized.OS50pkVitamins = "5x ¬ў¬С¬Я¬а¬й¬Ц¬Ь ¬Ј¬Ъ¬д¬С¬Ю¬Ъ¬Я¬а¬У",
-ItemName_GidOrganized.OS50pkBetaBlockers = "5x ¬ў¬С¬Я¬а¬й¬Ц¬Ь ¬Т¬Ц¬д¬С-¬Т¬Э¬а¬Ь¬С¬д¬а¬в¬а¬У",
-ItemName_GidOrganized.OS50pkAntidepressants = "5x ¬ў¬С¬Я¬а¬й¬Ц¬Ь ¬С¬Я¬д¬а¬Х¬Ц¬б¬в¬Ц¬г¬г¬С¬Я¬д¬а¬У",
-ItemName_GidOrganized.OS50pkSleepingPills = "5x ¬µ¬б¬С¬Ь¬а¬У¬а¬Ь ¬г¬Я¬а¬д¬У¬а¬в¬Я¬а¬Ф¬а",
+ItemName_GidOrganized.OS30pkAntibiotics = "30x Таблеток Антибиотиков",
+ItemName_GidOrganized.OS50pkPainkillers = "5x Лафеток Обезболивающего",
+ItemName_GidOrganized.OS50pkVitamins = "5x Баночек Витаминов",
+ItemName_GidOrganized.OS50pkBetaBlockers = "5x Баночек бета-блокаторов",
+ItemName_GidOrganized.OS50pkAntidepressants = "5x Баночек антодепрессантов",
+ItemName_GidOrganized.OS50pkSleepingPills = "5x Упаковок снотворного",
 
-ItemName_GidOrganized.OS4pkDisinfectant = "4x ¬ў¬е¬д¬н¬Э¬Ь¬Ъ ¬С¬Я¬д¬Ъ¬г¬Ц¬б¬д¬Ъ¬Ь¬С",
-ItemName_GidOrganized.OS30pkAlcoholWipes = "6x ¬µ¬б¬С¬Ь¬а¬У¬а¬Ь ¬г¬б¬Ъ¬в¬д.¬г¬С¬Э¬ж¬Ц¬д¬а¬Ь",
+ItemName_GidOrganized.OS4pkDisinfectant = "4x Бутылки антисептика",
+ItemName_GidOrganized.OS30pkAlcoholWipes = "6x Упаковок спирт.салфеток",
 
 
 
 /** ----- ----- || ELETRONIC STUFF || ----- ----- **/
 
-ItemName_Packing.10pkBattery = "10x ¬ў¬С¬д¬С¬в¬Ц¬Ц¬Ь",
-ItemName_Packing.5pkBattery = "5x ¬ў¬С¬д¬С¬в¬Ц¬Ц¬Ь",
+ItemName_Packing.10pkBattery = "10x Батареек",
+ItemName_Packing.5pkBattery = "5x Батареек",
 
-ItemName_Packing.10pkElectronicsScrap = "10x ¬ї¬Э¬Ц¬Ь¬д¬в¬а¬Я¬Я¬н¬з ¬Щ¬С¬б¬й¬С¬г¬д¬Ц¬Ы",
-ItemName_Packing.50pkElectronicsScrap = "50x ¬ї¬Э¬Ц¬Ь¬д¬в¬а¬Я¬Я¬н¬з ¬Щ¬С¬б¬й¬С¬г¬д¬Ц¬Ы",
-ItemName_Packing.100pkElectronicsScrap = "100x ¬ї¬Э¬Ц¬Ь¬д¬в¬а¬Я¬Я¬н¬з ¬Щ¬С¬б¬й¬С¬г¬д¬Ц¬Ы",
+ItemName_Packing.10pkElectronicsScrap = "10x Электронных запчастей",
+ItemName_Packing.50pkElectronicsScrap = "50x Электронных запчастей",
+ItemName_Packing.100pkElectronicsScrap = "100x Электронных запчастей",
 
-ItemName_Packing.10pkElectricWire = "10x ¬ї¬Э¬Ц¬Ь¬д¬в¬Ъ¬й¬Ц¬г¬Ь¬Ъ¬Ы ¬б¬в¬а¬У¬а¬Х",
-ItemName_Packing.5pkElectricWire = "5x ¬ї¬Э¬Ц¬Ь¬д¬в¬Ъ¬й¬Ц¬г¬Ь¬Ъ¬Ы ¬б¬в¬а¬У¬а¬Х",
+ItemName_Packing.10pkElectricWire = "10x Электрический провод",
+ItemName_Packing.5pkElectricWire = "5x Электрический провод",
 
 
 
 /** ----- ----- || MISCELLANEOUS THINGS || ----- ----- **/
 
-ItemName_Packing.10pkRope = "10x ¬Ј¬Ц¬в¬Ц¬У¬Ь¬С",
-ItemName_Packing.5pkRope = "5x ¬Ј¬Ц¬в¬Ц¬У¬Ь¬С",
+ItemName_Packing.10pkRope = "10x Веревка",
+ItemName_Packing.5pkRope = "5x Веревка",
 
-ItemName_Packing.10pkSheetRope = "10x ¬і¬С¬Ю¬а¬Х.¬У¬Ц¬в¬Ц¬У¬Ь¬С",
-ItemName_Packing.5pkSheetRope = "5x ¬і¬С¬Ю¬а¬Х.¬У¬Ц¬в¬Ц¬У¬Ь¬С",
+ItemName_Packing.10pkSheetRope = "10x Самод.веревка",
+ItemName_Packing.5pkSheetRope = "5x Самод.веревка",
 
-ItemName_Packing.10pkGarbage = "10x ¬®¬е¬г¬а¬в¬Я¬н¬з ¬б¬С¬Ь¬Ц¬д¬а¬У",
-ItemName_Packing.5pkGarbage = "5x ¬®¬е¬г¬а¬в¬Я¬н¬з ¬б¬С¬Ь¬Ц¬д¬а¬У",
+ItemName_Packing.10pkGarbage = "10x Мусорных пакетов",
+ItemName_Packing.5pkGarbage = "5x Мусорных пакетов",
 
-ItemName_Packing.10pkSoap = "10x ¬¬¬е¬г¬Ь¬а¬У ¬Ю¬н¬Э¬С",
-ItemName_Packing.5pkSoap = "5x ¬¬¬е¬г¬Ь¬а¬У ¬Ю¬н¬Э¬С",
+ItemName_Packing.10pkSoap = "10x Кусков мыла",
+ItemName_Packing.5pkSoap = "5x Кусков мыла",
 
-ItemName_Packing.10pkFishingLine = "10x ¬®¬а¬д¬Ь¬а¬У ¬Э¬Ц¬г¬Ь¬Ъ",
-ItemName_Packing.5pkFishingLine = "5x ¬®¬а¬д¬Ь¬а¬У ¬Э¬Ц¬г¬Ь¬Ъ",
+ItemName_Packing.10pkFishingLine = "10x Мотков лески",
+ItemName_Packing.5pkFishingLine = "5x Мотков лески",
 
 
-ItemName_Packing.10pkFishingNet = "10x ¬І¬н¬Т¬а¬Э¬а¬У¬Я¬н¬з ¬г¬Ц¬д¬Ц¬Ы",
-ItemName_Packing.5pkFishingNet = "5x ¬І¬н¬Т¬а¬Э¬а¬У¬Я¬н¬з ¬г¬Ц¬д¬Ц¬Ы",
+ItemName_Packing.10pkFishingNet = "10x Рыболовных сетей",
+ItemName_Packing.5pkFishingNet = "5x Рыболовных сетей",
 
-ItemName_Packing.20pkCigarettes = "20x ¬і¬Ъ¬Ф¬С¬в¬Ц¬д",
+ItemName_Packing.20pkCigarettes = "20x Сигарет",
 
-ItemName_Packing.10pkMatches = "10x ¬¬¬а¬в¬а¬Т¬Ь¬а¬У ¬г¬б¬Ъ¬й¬Ц¬Ь",
-ItemName_Packing.5pkMatches = "5x ¬¬¬а¬в¬а¬Т¬Ь¬а¬У ¬г¬б¬Ъ¬й¬Ц¬Ь",
-ItemName_Packing.10pkLighter = "10x ¬©¬С¬Ш¬Ъ¬Ф¬С¬Э¬а¬Ь",
-ItemName_Packing.5pkLighter = "5x ¬©¬С¬Ш¬Ъ¬Ф¬С¬Э¬а¬Ь",
+ItemName_Packing.10pkMatches = "10x Коробков спичек",
+ItemName_Packing.5pkMatches = "5x Коробков спичек",
+ItemName_Packing.10pkLighter = "10x Зажигалок",
+ItemName_Packing.5pkLighter = "5x Зажигалок",
 
-ItemName_Packing.10pkWoodGlue = "10x ¬ґ¬р¬Т¬Ъ¬Ь¬а¬У ¬Ь¬Э¬Ц¬с ¬Х¬Э¬с ¬Х¬Ц¬в¬Ц¬У¬С",
-ItemName_Packing.5pkWoodGlue = "5x ¬ґ¬р¬Т¬Ъ¬Ь¬а¬У ¬Ь¬Э¬Ц¬с ¬Х¬Э¬с ¬Х¬Ц¬в¬Ц¬У¬С",
+ItemName_Packing.10pkWoodGlue = "10x Тюбиков клея для дерева",
+ItemName_Packing.5pkWoodGlue = "5x Тюбиков клея для дерева",
 
-ItemName_Packing.10pkGlue = "10x ¬ґ¬р¬Т¬Ъ¬Ь¬а¬У ¬Ь¬Э¬Ц¬с",
-ItemName_Packing.5pkGlue = "5x ¬ґ¬р¬Т¬Ъ¬Ь¬а¬У ¬Ь¬Э¬Ц¬с",
+ItemName_Packing.10pkGlue = "10x Тюбиков клея",
+ItemName_Packing.5pkGlue = "5x Тюбиков клея",
 
-ItemName_GidOrganizedFood.OS4pkDuctTape = "4x ¬®¬а¬д¬Ь¬а¬У ¬Ъ¬Щ¬а¬Э¬Ц¬Я¬д¬н",
+ItemName_GidOrganizedFood.OS4pkDuctTape = "4x Мотков изоленты",
 
-ItemName_Packing.10pkRopeEmptyPetrolCan = "10x ¬±¬е¬г¬д¬н¬з ¬Ь¬С¬Я¬Ъ¬г¬д¬в (¬Ј¬Ц¬в¬Ц¬У¬Ь¬С)",
-ItemName_Packing.5pkRopeEmptyPetrolCan = "5x ¬±¬е¬г¬д¬н¬з ¬Ь¬С¬Я¬Ъ¬г¬д¬в (¬Ј¬Ц¬в¬Ц¬У¬Ь¬С)",
-ItemName_Packing.10pkSheetRopeEmptyPetrolCan = "10x ¬±¬е¬г¬д¬н¬з ¬Ь¬С¬Я¬Ъ¬г¬д¬в (¬і¬С¬Ю¬а¬Х.¬У¬Ц¬в¬Ц¬У¬Ь¬С)",
-ItemName_Packing.5pkSheetRopeEmptyPetrolCan = "5x ¬±¬е¬г¬д¬н¬з ¬Ь¬С¬Я¬Ъ¬г¬д¬в (¬і¬С¬Ю¬а¬Х.¬У¬Ц¬в¬Ц¬У¬Ь¬С)",
+ItemName_Packing.10pkRopeEmptyPetrolCan = "10x Пустых канистр (Веревка)",
+ItemName_Packing.5pkRopeEmptyPetrolCan = "5x Пустых канистр (Веревка)",
+ItemName_Packing.10pkSheetRopeEmptyPetrolCan = "10x Пустых канистр (Самод.веревка)",
+ItemName_Packing.5pkSheetRopeEmptyPetrolCan = "5x Пустых канистр (Самод.веревка)",
 
-ItemName_Packing.10pkRopePetrolCan = "10x ¬¬¬С¬Я¬Ъ¬г¬д¬в (¬Ј¬Ц¬в¬Ц¬У¬Ь¬С)",
-ItemName_Packing.5pkRopePetrolCan = "5x ¬¬¬С¬Я¬Ъ¬г¬д¬в (¬Ј¬Ц¬в¬Ц¬У¬Ь¬С)",
-ItemName_Packing.10pkSheetRopePetrolCan = "10x ¬¬¬С¬Я¬Ъ¬г¬д¬в (¬і¬С¬Ю¬а¬Х.¬У¬Ц¬в¬Ц¬У¬Ь¬С)",
-ItemName_Packing.5pkSheetRopePetrolCan = "5x ¬¬¬С¬Я¬Ъ¬г¬д¬в (¬і¬С¬Ю¬а¬Х.¬У¬Ц¬в¬Ц¬У¬Ь¬С)",
+ItemName_Packing.10pkRopePetrolCan = "10x Канистр (Веревка)",
+ItemName_Packing.5pkRopePetrolCan = "5x Канистр (Веревка)",
+ItemName_Packing.10pkSheetRopePetrolCan = "10x Канистр (Самод.веревка)",
+ItemName_Packing.5pkSheetRopePetrolCan = "5x Канистр (Самод.веревка)",
 
-ItemName_Packing.10pkRopePropaneTank = "10x ¬ў¬С¬Э¬а¬Я¬а¬У ¬г ¬б¬в¬а¬б¬С¬Я¬а¬Ю (¬Ј¬Ц¬в¬Ц¬У¬Ь¬С)",
-ItemName_Packing.5pkRopePropaneTank = "5x ¬ў¬С¬Э¬а¬Я¬а¬У ¬г ¬б¬в¬а¬б¬С¬Я¬а¬Ю (¬Ј¬Ц¬в¬Ц¬У¬Ь¬С)",
-ItemName_Packing.10pkSheetRopePropaneTank = "10x ¬ў¬С¬Э¬а¬Я¬а¬У ¬г ¬б¬в¬а¬б¬С¬Я¬а¬Ю (¬і¬С¬Ю¬а¬Х.¬У¬Ц¬в¬Ц¬У¬Ь¬С)",
-ItemName_Packing.5pkSheetRopePropaneTank = "5x ¬ў¬С¬Э¬а¬Я¬а¬У ¬г ¬б¬в¬а¬б¬С¬Я¬а¬Ю (¬і¬С¬Ю¬а¬Х.¬У¬Ц¬в¬Ц¬У¬Ь¬С)",
+ItemName_Packing.10pkRopePropaneTank = "10x Балонов с пропаном (Веревка)",
+ItemName_Packing.5pkRopePropaneTank = "5x Балонов с пропаном (Веревка)",
+ItemName_Packing.10pkSheetRopePropaneTank = "10x Балонов с пропаном (Самод.веревка)",
+ItemName_Packing.5pkSheetRopePropaneTank = "5x Балонов с пропаном (Самод.веревка)",
 
 
 
 /** ----- ----- || SKILL BOOKS || ----- ----- **/
 
-ItemName_Packing.pkCarpentry = "¬¬¬Я¬Ъ¬Ф¬Ъ ¬б¬а ¬г¬д¬в¬а¬Ъ¬д¬Ц¬Э¬о¬г¬д¬У¬е",
-ItemName_Packing.pkCooking = "¬¬¬Я¬Ъ¬Ф¬Ъ ¬б¬а ¬Ф¬а¬д¬а¬У¬Ь¬Ц",
-ItemName_Packing.pkElectricity = "¬¬¬Я¬Ъ¬Ф¬Ъ ¬б¬а ¬п¬Э¬Ц¬Ь¬д¬в¬Ъ¬Ь¬Ц",
-ItemName_Packing.pkFarming = "¬¬¬Я¬Ъ¬Ф¬Ъ ¬б¬а ¬ж¬Ц¬в¬Ю¬Ц¬в¬г¬д¬У¬е",
-ItemName_Packing.pkFirstaid = "¬¬¬Я¬Ъ¬Ф¬Ъ ¬б¬а ¬б¬Ц¬в¬У¬а¬Ы ¬б¬а¬Ю¬а¬л¬Ъ",
-ItemName_Packing.pkFishing = "¬¬¬Я¬Ъ¬Ф¬Ъ ¬б¬а ¬в¬н¬Т¬С¬Э¬Ь¬Ц",
-ItemName_Packing.pkForaging = "¬¬¬Я¬Ъ¬Ф¬Ъ ¬б¬а ¬г¬а¬Т¬Ъ¬в¬С¬д¬Ц¬Э¬о¬г¬д¬У¬е",
-ItemName_Packing.pkMechanics = "¬¬¬Я¬Ъ¬Ф¬Ъ ¬б¬а ¬Ю¬Ц¬з¬С¬Я¬Ъ¬Ь¬Ц",
-ItemName_Packing.pkTailoring = "¬¬¬Я¬Ъ¬Ф¬Ъ ¬б¬а ¬к¬Ъ¬д¬о¬р",
-ItemName_Packing.pkMetalwork = "¬¬¬Я¬Ъ¬Ф¬Ъ ¬б¬а ¬Ю¬Ц¬д¬С¬Э¬Э¬а¬а¬Т¬в¬С¬Т¬а¬д¬Ь¬Ц",
-ItemName_Packing.pkTrapping = "¬¬¬Я¬Ъ¬Ф¬Ъ ¬б¬а ¬а¬з¬а¬д¬Ц",
+ItemName_Packing.pkCarpentry = "Книги по строительству",
+ItemName_Packing.pkCooking = "Книги по готовке",
+ItemName_Packing.pkElectricity = "Книги по электрике",
+ItemName_Packing.pkFarming = "Книги по фермерству",
+ItemName_Packing.pkFirstaid = "Книги по первой помощи",
+ItemName_Packing.pkFishing = "Книги по рыбалке",
+ItemName_Packing.pkForaging = "Книги по собирательству",
+ItemName_Packing.pkMechanics = "Книги по механике",
+ItemName_Packing.pkTailoring = "Книги по шитью",
+ItemName_Packing.pkMetalwork = "Книги по металлообработке",
+ItemName_Packing.pkTrapping = "Книги по охоте",
 }
