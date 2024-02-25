@@ -497,5 +497,4 @@ AdjustWeight("Packing.5pkGFArrowFiberglass","Base.Arrow_Fiberglass_Pack",5,0.7)
 
 AdjustWeight("Packing.10pkGFBoltBear","Base.Bolt_Bear_Pack",10,0.5)
 AdjustWeight("Packing.5pkGFBoltBear","Base.Bolt_Bear_Pack",5,0.7)
-.
 Events.OnInitGlobalModData.Add(zzPerform)
