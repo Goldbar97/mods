@@ -60,6 +60,16 @@ function Recipe.OnCreate.LoadUsesTwoSheetRope(items, result, player)
 	Recipe.OnCreate.Unpack2SheetRope(items, result, player)
 end
 
+function Recipe.OnCreate.LoadUsesOneWoodenContainer(items, result, player)
+    Recipe.OnCreate.LoadUses(items, result, player)
+	Recipe.OnCreate.Unpack1WoodenContainer(items, result, player)
+end
+
+function Recipe.OnCreate.LoadUsesTwoWoodenContainer(items, result, player)
+    Recipe.OnCreate.LoadUses(items, result, player)
+	Recipe.OnCreate.Unpack2WoodenContainer(items, result, player)
+end
+
 function Recipe.OnCreate.MergeUses(items, result, player)
     local toMerge = {}
     for i=0,items:size()-1 do

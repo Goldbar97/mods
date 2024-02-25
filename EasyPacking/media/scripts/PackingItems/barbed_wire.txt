@@ -4,7 +4,7 @@ module Packing
 	{
 		Base,
 	}
-	
+	/** Base Weight = 1.0 **/
 	item 10pkBarbedWire
 	{
 		Weight			= 5,
@@ -12,7 +12,7 @@ module Packing
 		DisplayName		= 10 x Barbed Wire,
 		DisplayCategory = Material,
 		Icon			= PBarbedWire,
-		WorldStaticModel= StackOfBarbedWire
+		WorldStaticModel= StackOfBarbedWire,
 	}
 
 	item 5pkBarbedWire
@@ -22,7 +22,27 @@ module Packing
 		DisplayName		= 5 x Barbed Wire,
 		DisplayCategory = Material,
 		Icon			= PBarbedWire,
-		WorldStaticModel= StackOfBarbedWire
+		WorldStaticModel= StackOfBarbedWire,
+	}
+	
+	item 50pkWCBarbedWire
+	{
+		Weight			= 5.0,
+		Type			= Normal,
+		DisplayName		= 50 x Barbed Wire (Box),
+		DisplayCategory = Material,
+		Icon			= PBarbedWire,
+		WorldStaticModel= WIP,
+	}
+	
+	item 100pkWCBarbedWire
+	{
+		Weight			= 7.5,
+		Type			= Normal,
+		DisplayName		= 100 x Barbed Wire (Box),
+		DisplayCategory = Material,
+		Icon			= PBarbedWire,
+		WorldStaticModel= WIP,
 	}
 
 	recipe Pack 10
@@ -30,6 +50,8 @@ module Packing
 		destroy BarbedWire=10,
 		
 		Result:10pkBarbedWire,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
 		OnTest:Recipe.OnTest.IsFavorite,
 		Time:100.0,
 		Category:Storage,
@@ -40,6 +62,9 @@ module Packing
 		destroy 10pkBarbedWire,
 		
 		Result:BarbedWire=10,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnTest:Recipe.OnTest.IsFavorite,
 		Time:75.0,
 		Category:Storage,
 	}
@@ -49,6 +74,8 @@ module Packing
 		destroy BarbedWire=5,
 		
 		Result:5pkBarbedWire,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
 		OnTest:Recipe.OnTest.IsFavorite,
 		Time:75.0,
 		Category:Storage,
@@ -59,7 +86,62 @@ module Packing
 		destroy 5pkBarbedWire,
 		
 		Result:BarbedWire=5,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnTest:Recipe.OnTest.IsFavorite,
 		Time:50.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 50
+	{
+		destroy BarbedWire=50,
+		WoodenContainer=1,
+		
+		Result:50pkWCBarbedWire,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:280.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 50
+	{
+		destroy 50pkWCBarbedWire,
+		
+		Result:BarbedWire=50,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnCreate:Recipe.OnCreate.Unpack1WoodenContainer,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:140.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 100
+	{
+		destroy BarbedWire=100,
+		WoodenContainer=2,
+		
+		Result:100pkWCBarbedWire,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:330.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 100
+	{
+		destroy 100pkWCBarbedWire,
+		
+		Result:BarbedWire=100,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnCreate:Recipe.OnCreate.Unpack2WoodenContainer,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:165.0,
 		Category:Storage,
 	}
 
@@ -67,18 +149,36 @@ module Packing
 	{
 		5pkBarbedWire=2,
 		
-		CanBeDoneFromFloor:true,
 		Result:10pkBarbedWire=1,
+		CanBeDoneFromFloor:true,
 		Time:50.0,
+	}
+	
+	recipe Put Together
+	{
+		50pkWCBarbedWire=2,
+		
+		Result:100pkWCBarbedWire=1,
+		CanBeDoneFromFloor:true,
+		Time:152.0,
 	}
 
 	recipe Split in Two
 	{
 		10pkBarbedWire=1,
 		
-		CanBeDoneFromFloor:true,
 		Result:5pkBarbedWire=2,
+		CanBeDoneFromFloor:true,
 		Time:40.0,
+	}
+	
+	recipe Split in Two
+	{
+		100pkWCBarbedWire=1,
+		
+		Result:50pkWCBarbedWire=2,
+		CanBeDoneFromFloor:true,
+		Time:152.0,
 	}
 
 	model StackOfBarbedWire

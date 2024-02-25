@@ -4,7 +4,7 @@ module Packing
 	{
 		Base,
 	}
-	
+	/** Base Weight = 3.0 **/
 	item 10pkSheetRopePlank
 	{
 		Weight			= 7.5,
@@ -43,6 +43,26 @@ module Packing
 		DisplayCategory = Material,
 		Icon			= PRopePlank,
 		WorldStaticModel = StackOfWoodenPlanksRoped,
+	}
+
+	item 50pkWCPlank
+	{
+		Weight			= 15.0,
+		Type			= Normal,
+		DisplayName		= 50 x Plank (Box),
+		DisplayCategory	= Material,
+		Icon			= WIP,
+		WorldStaticModel= WIP,
+	}
+
+	item 100pkWCPlank
+	{
+		Weight			= 22.5,
+		Type			= Normal,
+		DisplayName		= 100 x Plank (Box),
+		DisplayCategory	= Material,
+		Icon			= WIP,
+		WorldStaticModel= WIP,
 	}
 
 	recipe Rope 10
@@ -145,6 +165,58 @@ module Packing
 		Category:Storage,
 	}
 
+	recipe Pack 50
+	{
+		destroy Plank=50,
+		WoodenContainer=1,
+	
+		Result:50pkWCPlank,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:360.0,
+		Category:Storage,
+	}
+
+	recipe Pack 100
+	{
+		destroy Plank=100,
+		WoodenContainer=2,
+	
+		Result:100pkWCPlank,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:410.0,
+		Category:Storage,
+	}
+
+	recipe Unpack 50
+	{
+		destroy 50pkWCPlank,
+	
+		Result:Plank=50,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnCreate:Recipe.OnCreate.Unpack1WoodenContainer,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:180.0,
+		Category:Storage,
+	}
+
+	recipe Unpack 100
+	{
+		destroy 100pkWCPlank,
+	
+		Result:Plank=100,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnCreate:Recipe.OnCreate.Unpack2WoodenContainer,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:205.0,
+		Category:Storage,
+	}
+
 	recipe Put Together
 	{
 		5pkSheetRopePlank=2,
@@ -161,6 +233,15 @@ module Packing
 		CanBeDoneFromFloor:true,
 		Result:10pkRopePlank=1,
 		Time:50.0,
+	}
+
+	recipe Put Together
+	{
+		50pkWCPlank=2,
+	
+		Result:100pkWCPlank=1,
+		CanBeDoneFromFloor:true,
+		Time:192.0,
 	}
 
 	recipe Split in Two
@@ -180,33 +261,14 @@ module Packing
 		Result:5pkRopePlank=2,
 		Time:50.0,
 	}
-	
-	model 10RopePlank_Ground
+
+	recipe Split in Two
 	{
-		mesh = WorldItems/10ropeplank_ground,
-		texture = WorldItems/ropeplank,
-		scale = 0.005,
-	}
+		100pkWCPlank=1,
 	
-	model 5RopePlank_Ground
-	{
-		mesh = WorldItems/5ropeplank_ground,
-		texture = WorldItems/ropeplank,
-		scale = 0.005,
-	}
-	
-	model 10SheetRopePlank_Ground
-	{
-		mesh = WorldItems/10sheetropeplank_ground,
-		texture = WorldItems/ropeplank,
-		scale = 0.005,
-	}
-	
-	model 5SheetRopePlank_Ground
-	{
-		mesh = WorldItems/5sheetropeplank_ground,
-		texture = WorldItems/ropeplank,
-		scale = 0.005,
+		Result:50pkWCPlank=2,
+		CanBeDoneFromFloor:true,
+		Time:192.0,
 	}
 	
 	model StackOfWoodenPlanksRoped

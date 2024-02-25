@@ -4,7 +4,7 @@ module Packing
 	{
 		Base,
 	}
-	
+	/** Base Weight = 10.0 **/
 	item 10pkRopePropaneTank
 	{
 		Weight			= 15,
@@ -43,6 +43,26 @@ module Packing
 		DisplayCategory = Material,
 		Icon			= PSheetRopePropaneTank,
 		WorldStaticModel= StackOfPropaneTankSheetRoped,
+	}
+
+	item 50pkWCPropaneTank
+	{
+		Weight			= 50.0,
+		Type			= Normal,
+		DisplayName		= 50 x Propane Tank (Box),
+		DisplayCategory	= Material,
+		Icon			= WIP,
+		WorldStaticModel= WIP,
+	}
+
+	item 100pkWCPropaneTank
+	{
+		Weight			= 75.0,
+		Type			= Normal,
+		DisplayName		= 100 x Propane Tank (Box),
+		DisplayCategory	= Material,
+		Icon			= WIP,
+		WorldStaticModel= WIP,
 	}
 
 	recipe Rope 10
@@ -145,6 +165,58 @@ module Packing
 		Category:Storage,
 	}
 
+	recipe Pack 50
+	{
+		destroy PropaneTank=50,
+		WoodenContainer=1,
+	
+		Result:50pkWCPropaneTank,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:450.0,
+		Category:Storage,
+	}
+
+	recipe Pack 100
+	{
+		destroy PropaneTank=100,
+		WoodenContainer=2,
+	
+		Result:100pkWCPropaneTank,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:500.0,
+		Category:Storage,
+	}
+
+	recipe Unpack 50
+	{
+		destroy 50pkWCPropaneTank,
+	
+		Result:PropaneTank=50,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnCreate:Recipe.OnCreate.Unpack1WoodenContainer,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:225.0,
+		Category:Storage,
+	}
+
+	recipe Unpack 100
+	{
+		destroy 100pkWCPropaneTank,
+	
+		Result:PropaneTank=100,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnCreate:Recipe.OnCreate.Unpack2WoodenContainer,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:250.0,
+		Category:Storage,
+	}
+
 	recipe Put Together
 	{
 		5pkRopePropaneTank=2,
@@ -163,6 +235,15 @@ module Packing
 		Result:10pkSheetRopePropaneTank=1,
 		OnCreate:Recipe.OnCreate.MergeUses,
 		Time:90.0,
+	}
+
+	recipe Put Together
+	{
+		50pkWCPropaneTank=2,
+	
+		Result:100pkWCPropaneTank=1,
+		CanBeDoneFromFloor:true,
+		Time:237.0,
 	}
 
 	recipe Split in Two
@@ -185,6 +266,15 @@ module Packing
 		OnCreate:Recipe.OnCreate.SplitUsesInTwo,
 		RemoveResultItem:true,
 		Time:60.0,
+	}
+
+	recipe Split in Two
+	{
+		100pkWCPropaneTank=1,
+	
+		Result:50pkWCPropaneTank=2,
+		CanBeDoneFromFloor:true,
+		Time:237.0,
 	}
 	
 	model StackOfPropaneTankRoped

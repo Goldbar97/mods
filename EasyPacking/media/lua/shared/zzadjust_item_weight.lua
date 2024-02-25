@@ -65,6 +65,8 @@ AdjustWeight("GidOrganized.OS9pkBandagesDirty","Base.BandageDirty",9,0.5)
 
 AdjustWeight("Packing.10pkBarbedWire","Base.BarbedWire",10,0.5)
 AdjustWeight("Packing.5pkBarbedWire","Base.BarbedWire",5,0.7)
+AdjustWeight("Packing.100pkWCBarbedWire","Base.BarbedWire",100,0.075)
+AdjustWeight("Packing.50pkWCBarbedWire","Base.BarbedWire",50,0.1)
 
 AdjustWeight("Packing.10pkBattery","Base.Battery",10,0.5)
 AdjustWeight("Packing.5pkBattery","Base.Battery",5,0.7)
@@ -80,11 +82,6 @@ AdjustWeight("Packing.5pkBluePen","Base.BluePen",5,0.7)
 
 AdjustWeight("Packing.10pkBook","Base.Book",10,0.5)
 AdjustWeight("Packing.5pkBook","Base.Book",5,0.7)
-
-AdjustWeight("Packing.10pkRopeBranch","Base.TreeBranch",10,0.15)
-AdjustWeight("Packing.5pkRopeBranch","Base.TreeBranch",5,0.2)
-AdjustWeight("Packing.10pkSheetRopeBranch","Base.TreeBranch",10,0.25)
-AdjustWeight("Packing.5pkSheetRopeBranch","Base.TreeBranch",5,0.3)
 
 AdjustWeight("GidOrganizedFood.OS6pkCannedBeans","Base.TinnedBeans",6,0.5)
 
@@ -130,6 +127,8 @@ AdjustWeight("Packing.10pkRopeConcretePowder","Base.ConcretePowder",10,0.15)
 AdjustWeight("Packing.5pkRopeConcretePowder","Base.ConcretePowder",5,0.2)
 AdjustWeight("Packing.10pkSheetRopeConcretePowder","Base.ConcretePowder",10,0.25)
 AdjustWeight("Packing.5pkSheetRopeConcretePowder","Base.ConcretePowder",5,0.3)
+AdjustWeight("Packing.100pkWCConcretePowder","Base.ConcretePowder",100,0.075)
+AdjustWeight("Packing.50pkWCConcretePowder","Base.ConcretePowder",50,0.1)
 
 AdjustWeight("GidOrganized.OS12pkCottonBalls","Base.CottonBalls",12,0.5)
 
@@ -286,11 +285,15 @@ AdjustWeight("Packing.10pkRopePlank","Base.Plank",10,0.15)
 AdjustWeight("Packing.5pkRopePlank","Base.Plank",5,0.2)
 AdjustWeight("Packing.10pkSheetRopePlank","Base.Plank",10,0.25)
 AdjustWeight("Packing.5pkSheetRopePlank","Base.Plank",5,0.3)
+AdjustWeight("Packing.100pkWCPlank","Base.Plank",100,0.075)
+AdjustWeight("Packing.50pkWCPlank","Base.Plank",50,0.1)
 
 AdjustWeight("Packing.10pkRopePlasterPowder","Base.PlasterPowder",10,0.15)
 AdjustWeight("Packing.5pkRopePlasterPowder","Base.PlasterPowder",5,0.2)
 AdjustWeight("Packing.10pkSheetRopePlasterPowder","Base.PlasterPowder",10,0.25)
 AdjustWeight("Packing.5pkSheetRopePlasterPowder","Base.PlasterPowder",5,0.3)
+AdjustWeight("Packing.100pkWCPlasterPowder","Base.PlasterPowder",100,0.075)
+AdjustWeight("Packing.50pkWCPlasterPowder","Base.PlasterPowder",50,0.1)
 
 AdjustWeight("GidOrganizedFood.OS6pkPop","Base.Pop2",6,0.5)
 
@@ -302,6 +305,8 @@ AdjustWeight("Packing.10pkRopePropaneTank","Base.PropaneTank",10,0.15)
 AdjustWeight("Packing.5pkRopePropaneTank","Base.PropaneTank",5,0.2)
 AdjustWeight("Packing.10pkSheetRopePropaneTank","Base.PropaneTank",10,0.25)
 AdjustWeight("Packing.5pkSheetRopePropaneTank","Base.PropaneTank",5,0.3)
+AdjustWeight("Packing.100pkWCPropaneTank","Base.PropaneTank",100,0.075)
+AdjustWeight("Packing.50pkWCPropaneTank","Base.PropaneTank",50,0.1)
 
 AdjustWeight("Packing.10pkRedPen","Base.RedPen",10,0.5)
 AdjustWeight("Packing.5pkRedPen","Base.RedPen",5,0.7)
@@ -320,6 +325,8 @@ AdjustWeight("Packing.10pkRopeSandBag","Base.Sandbag",10,0.15)
 AdjustWeight("Packing.5pkRopeSandBag","Base.Sandbag",5,0.2)
 AdjustWeight("Packing.10pkSheetRopeSandBag","Base.Sandbag",10,0.25)
 AdjustWeight("Packing.5pkSheetRopeSandBag","Base.Sandbag",5,0.3)
+AdjustWeight("Packing.100pkWCSandBag","Base.Sandbag",100,0.075)
+AdjustWeight("Packing.50pkWCSandBag","Base.Sandbag",50,0.1)
 
 AdjustWeight("Packing.5pkScrapMetal","Base.ScrapMetal",5,0.7)
 AdjustWeight("Packing.10pkScrapMetal","Base.ScrapMetal",10,0.6)
@@ -371,6 +378,13 @@ AdjustWeight("Packing.10pkTissue","Base.Tissue",10,0.5)
 AdjustWeight("Packing.5pkTissue","Base.Tissue",5,0.7)
 
 AdjustWeight("Packing.4pkToiletPaper","Base.ToiletPaper",4,0.5)
+
+AdjustWeight("Packing.10pkRopeTreeBranch","Base.TreeBranch",10,0.15)
+AdjustWeight("Packing.5pkRopeTreeBranch","Base.TreeBranch",5,0.2)
+AdjustWeight("Packing.10pkSheetRopeTreeBranch","Base.TreeBranch",10,0.25)
+AdjustWeight("Packing.5pkSheetRopeTreeBranch","Base.TreeBranch",5,0.3)
+AdjustWeight("Packing.100pkWCTreeBranch","Base.TreeBranch",100,0.075)
+AdjustWeight("Packing.50pkWCTreeBranch","Base.TreeBranch",50,0.1)
 
 AdjustWeight("Packing.10pkTwine","Base.Twine",10,0.5)
 AdjustWeight("Packing.5pkTwine","Base.Twine",5,0.7)
@@ -483,5 +497,5 @@ AdjustWeight("Packing.5pkGFArrowFiberglass","Base.Arrow_Fiberglass_Pack",5,0.7)
 
 AdjustWeight("Packing.10pkGFBoltBear","Base.Bolt_Bear_Pack",10,0.5)
 AdjustWeight("Packing.5pkGFBoltBear","Base.Bolt_Bear_Pack",5,0.7)
-
+.
 Events.OnInitGlobalModData.Add(zzPerform)

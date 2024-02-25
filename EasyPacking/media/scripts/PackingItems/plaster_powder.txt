@@ -4,7 +4,7 @@ module Packing
 	{
 		Base,
 	}
-	
+	/** Base Weight = 5.0 **/
 	item 10pkRopePlasterPowder
 	{
 		Weight			= 7.5,
@@ -12,7 +12,7 @@ module Packing
 		DisplayName		= 10 x Bag of Plaster Powder (Rope),
 		DisplayCategory = Material,
 		Icon			= PRopePlasterPowder,
-		WorldStaticModel= StackOfPlasterPowderRoped
+		WorldStaticModel= StackOfPlasterPowderRoped,
 	}
 	
 	item 5pkRopePlasterPowder
@@ -22,7 +22,7 @@ module Packing
 		DisplayName		= 5 x Bag of Plaster Powder (Rope),
 		DisplayCategory = Material,
 		Icon			= PRopePlasterPowder,
-		WorldStaticModel= StackOfPlasterPowderRoped
+		WorldStaticModel= StackOfPlasterPowderRoped,
 	}
 
 	item 10pkSheetRopePlasterPowder
@@ -32,7 +32,7 @@ module Packing
 		DisplayName		= 10 x Bag of Plaster Powder (SheetRope),
 		DisplayCategory = Material,
 		Icon			= PSheetRopePlasterPowder,
-		WorldStaticModel= StackOfPlasterPowderSheetRoped
+		WorldStaticModel= StackOfPlasterPowderSheetRoped,
 	}
 	
 	item 5pkSheetRopePlasterPowder
@@ -42,7 +42,27 @@ module Packing
 		DisplayName		= 5 x Bag of Plaster Powder (SheetRope),
 		DisplayCategory = Material,
 		Icon			= PSheetRopePlasterPowder,
-		WorldStaticModel= StackOfPlasterPowderSheetRoped
+		WorldStaticModel= StackOfPlasterPowderSheetRoped,
+	}
+	
+	item 50pkWCPlasterPowder
+	{
+		Weight			= 25.0,
+		Type			= Normal,
+		DisplayName		= 50 x Bag of Plaster Powder (Box),
+		DisplayCategory = Material,
+		Icon			= WIP,
+		WorldStaticModel= WIP,
+	}
+	
+	item 100pkWCPlasterPowder
+	{
+		Weight			= 37.5,
+		Type			= Normal,
+		DisplayName		= 100 x Bag of Plaster Powder (Box),
+		DisplayCategory = Material,
+		Icon			= WIP,
+		WorldStaticModel= WIP,
 	}
 	
 	recipe Rope 10
@@ -50,10 +70,11 @@ module Packing
 		destroy PlasterPowder=10,
 		Rope=2,
 		
-		CanBeDoneFromFloor:true,
 		Result:10pkRopePlasterPowder,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
 		OnTest:Recipe.OnTest.IsFavorite,
-		Time:300.0,
+		Time:280.0,
 		Category:Storage,
 	}
 	
@@ -61,10 +82,12 @@ module Packing
 	{
 		destroy 10pkRopePlasterPowder,
 		
-		CanBeDoneFromFloor:true,
 		Result:PlasterPowder=10,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
 		OnCreate:Recipe.OnCreate.Unpack2Rope,
-		Time:250.0,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:140.0,
 		Category:Storage,
 	}
 	
@@ -73,10 +96,11 @@ module Packing
 		destroy PlasterPowder=5,
 		Rope=1,
 		
-		CanBeDoneFromFloor:true,
 		Result:5pkRopePlasterPowder,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
 		OnTest:Recipe.OnTest.IsFavorite,
-		Time:250.0,
+		Time:230.0,
 		Category:Storage,
 	}
 	
@@ -84,10 +108,12 @@ module Packing
 	{
 		destroy 5pkRopePlasterPowder,
 		
-		CanBeDoneFromFloor:true,
 		Result:PlasterPowder=5,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
 		OnCreate:Recipe.OnCreate.Unpack1Rope,
-		Time:200.0,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:115.0,
 		Category:Storage,
 	}
 	
@@ -96,10 +122,11 @@ module Packing
 		destroy PlasterPowder=10,
 		SheetRope=2,
 		
-		CanBeDoneFromFloor:true,
 		Result:10pkSheetRopePlasterPowder,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
 		OnTest:Recipe.OnTest.IsFavorite,
-		Time:300.0,
+		Time:280.0,
 		Category:Storage,
 	}
 	
@@ -107,10 +134,12 @@ module Packing
 	{
 		destroy 10pkSheetRopePlasterPowder,
 		
-		CanBeDoneFromFloor:true,
 		Result:PlasterPowder=10,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
 		OnCreate:Recipe.OnCreate.Unpack2SheetRope,
-		Time:250.0,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:140.0,
 		Category:Storage,
 	}
 	
@@ -119,10 +148,11 @@ module Packing
 		destroy PlasterPowder=5,
 		SheetRope=1,
 		
-		CanBeDoneFromFloor:true,
 		Result:5pkSheetRopePlasterPowder,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
 		OnTest:Recipe.OnTest.IsFavorite,
-		Time:250.0,
+		Time:230.0,
 		Category:Storage,
 	}
 	
@@ -130,10 +160,64 @@ module Packing
 	{
 		destroy 5pkSheetRopePlasterPowder,
 		
-		CanBeDoneFromFloor:true,
 		Result:PlasterPowder=5,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
 		OnCreate:Recipe.OnCreate.Unpack1SheetRope,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:115.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 50
+	{
+		destroy PlasterPowder=50,
+		WoodenContainer=1,
+		
+		Result:50pkWCPlasterPowder,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:400.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 50
+	{
+		destroy 50pkWCPlasterPowder,
+		
+		Result:PlasterPowder=50,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnCreate:Recipe.OnCreate.Unpack1WoodenContainer,
+		OnTest:Recipe.OnTest.IsFavorite,
 		Time:200.0,
+		Category:Storage,
+	}
+	
+	recipe Pack 100
+	{
+		destroy PlasterPowder=100,
+		WoodenContainer=2,
+		
+		Result:100pkWCPlasterPowder,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:450.0,
+		Category:Storage,
+	}
+	
+	recipe Unpack 100
+	{
+		destroy 100pkWCPlasterPowder,
+		
+		Result:PlasterPowder=100,
+		CanBeDoneFromFloor:true,
+		OnGiveXP:Recipe.OnGiveXP.None,
+		OnCreate:Recipe.OnCreate.Unpack2WoodenContainer,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:225.0,
 		Category:Storage,
 	}
 	
@@ -143,7 +227,7 @@ module Packing
 		
 		CanBeDoneFromFloor:true,
 		Result:10pkRopePlasterPowder=1,
-		Time:70.0,
+		Time:127.0,
 	}
 
 	recipe Put Together
@@ -152,7 +236,16 @@ module Packing
 		
 		CanBeDoneFromFloor:true,
 		Result:10pkSheetRopePlasterPowder=1,
-		Time:70.0,
+		Time:127.0,
+	}
+
+	recipe Put Together
+	{
+		50pkWCPlasterPowder=2,
+		
+		CanBeDoneFromFloor:true,
+		Result:100pkWCPlasterPowder=1,
+		Time:212.0,
 	}
 
 	recipe Split in Two
@@ -161,7 +254,7 @@ module Packing
 		
 		CanBeDoneFromFloor:true,
 		Result:5pkRopePlasterPowder=2,
-		Time:50.0,
+		Time:127.0,
 	}
 	
 	recipe Split in Two
@@ -170,7 +263,16 @@ module Packing
 		
 		CanBeDoneFromFloor:true,
 		Result:5pkSheetRopePlasterPowder=2,
-		Time:50.0,
+		Time:127.0,
+	}
+
+	recipe Split in Two
+	{
+		100pkWCPlasterPowder=1,
+		
+		CanBeDoneFromFloor:true,
+		Result:50pkWCPlasterPowder=2,
+		Time:212.0,
 	}
 
 	model StackOfPlasterPowderRoped
