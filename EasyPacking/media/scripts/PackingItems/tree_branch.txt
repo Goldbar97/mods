@@ -11,7 +11,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Branch (Rope),
 		DisplayCategory = Material,
-		Icon			= PRopeTreeBranch,
+		Icon			= PRopeBranch,
 		WorldStaticModel= StackOfTreeBranchesRoped,
 	}
 	
@@ -21,7 +21,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Branch (Rope),
 		DisplayCategory = Material,
-		Icon			= PRopeTreeBranch,
+		Icon			= PRopeBranch,
 		WorldStaticModel= StackOfTreeBranchesRoped,
 	}
 	
@@ -31,7 +31,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 10 x Branch (SheetRope),
 		DisplayCategory = Material,
-		Icon			= PSheetRopeTreeBranch,
+		Icon			= PSheetRopeBranch,
 		WorldStaticModel= StackOfTreeBranchesSheetRoped,
 	}
 	
@@ -41,7 +41,7 @@ module Packing
 		Type			= Normal,
 		DisplayName		= 5 x Branch (SheetRope),
 		DisplayCategory = Material,
-		Icon			= PSheetRopeTreeBranch,
+		Icon			= PSheetRopeBranch,
 		WorldStaticModel= StackOfTreeBranchesSheetRoped,
 	}
 
