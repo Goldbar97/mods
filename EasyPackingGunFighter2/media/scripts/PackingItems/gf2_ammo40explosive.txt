@@ -1,0 +1,88 @@
+module GunFighter2EasyPacking
+{
+	imports
+	{
+		Base,
+		Packing,
+	}
+	
+	item 100pk40explosive
+	{
+		Weight			= 2.5,
+		Type			= Normal,
+		DisplayName		= 100 x Box 40mm Explosive Rounds,
+		DisplayCategory = Ammo,
+		Icon			= PAmmoBox,
+		WorldStaticModel = Packing.pkAmmoCan_Ground,
+	}
+	
+	item 50pk40explosive
+	{
+		Weight			= 1.75,
+		Type			= Normal,
+		DisplayName		= 5 x Box 40mm Explosive Rounds,
+		DisplayCategory = Ammo,
+		Icon			= PAmmoBox,
+		WorldStaticModel = Packing.pkAmmoCan_Ground,
+	}
+	
+	recipe Pack 100
+	{
+		destroy 40HERound=100,
+		
+		Result:100pk40explosive,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:180.0,
+		Category:Storage,
+		Sound:Packing.AmmoCan_Storage,
+	}
+	
+	recipe Unpack 100
+	{
+		destroy 100pk40explosive,
+		
+		Result:40HERound=100,
+		Time:180.0,
+		Category:Storage,
+		Sound:Packing.AmmoCan_Storage,
+	}
+	
+	recipe Pack 50
+	{
+		destroy 40HERound=50,
+		
+		Result:50pk40explosive,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:130.0,
+		Category:Storage,
+		Sound:Packing.AmmoCan_Storage,
+	}
+	
+	recipe Unpack 50
+	{
+		destroy 50pk40explosive,
+		
+		Result:40HERound=50,
+		Time:130.0,
+		Category:Storage,
+		Sound:Packing.AmmoCan_Storage,
+	}
+
+	recipe Put Together
+	{
+		50pk40explosive=2,
+		
+		Result:100pk40explosive=1,
+		Time:90.0,
+		Sound:Packing.AmmoCan_Storage,
+	}
+
+	recipe Split in Two
+	{
+		100pk40explosive=1,
+		
+		Result:50pk40explosive=2,
+		Time:90.0,
+		Sound:Packing.AmmoCan_Storage,
+	}
+}
