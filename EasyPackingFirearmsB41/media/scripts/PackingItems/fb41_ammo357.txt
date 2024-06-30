@@ -1,87 +1,88 @@
-module Packing
+module FirearmsB41EasyPacking
 {
 	imports
 	{
 		Base,
+		Packing,
 	}
 	
-	item 10pkGF357
+	item 10pkFB357
 	{
 		Weight			= 3.25,
 		Type			= Normal,
-		DisplayName		= 10 x Box of 357-MAG Rounds,
+		DisplayName		= 10 x Box of .357 Rounds,
 		DisplayCategory = Ammo,
 		Icon			= PAmmoBox,
-		WorldStaticModel = pkAmmoCan_Ground,
+		WorldStaticModel = Packing.pkAmmoCan_Ground,
 	}
 	
-	item 5pkGF357
+	item 5pkFB357
 	{
 		Weight			= 2.275,
 		Type			= Normal,
-		DisplayName		= 5 x Box of 357-MAG Rounds,
+		DisplayName		= 5 x Box of .357 Rounds,
 		DisplayCategory = Ammo,
 		Icon			= PAmmoBox,
-		WorldStaticModel = pkAmmoCan_Ground,
+		WorldStaticModel = Packing.pkAmmoCan_Ground,
 	}
 	
 	recipe Pack 10
 	{
 		destroy Bullets357Box=10,
 		
-		Result:10pkGF357,
+		Result:10pkFB357,
 		OnTest:Recipe.OnTest.IsFavorite,
 		Time:240.0,
 		Category:Storage,
-		Sound:AmmoCan_Storage,
+		Sound:Packing.AmmoCan_Storage,
 	}
 	
 	recipe Unpack 10
 	{
-		destroy 10pkGF357,
+		destroy 10pkFB357,
 		
 		Result:Bullets357Box=10,
 		Time:240.0,
 		Category:Storage,
-		Sound:AmmoCan_Storage,
+		Sound:Packing.AmmoCan_Storage,
 	}
 	
 	recipe Pack 5
 	{
 		destroy Bullets357Box=5,
 		
-		Result:5pkGF357,
+		Result:5pkFB357,
 		OnTest:Recipe.OnTest.IsFavorite,
 		Time:170.0,
 		Category:Storage,
-		Sound:AmmoCan_Storage,
+		Sound:Packing.AmmoCan_Storage,
 	}
 	
 	recipe Unpack 5
 	{
-		destroy 5pkGF357,
+		destroy 5pkFB357,
 		
 		Result:Bullets357Box=5,
 		Time:170.0,
 		Category:Storage,
-		Sound:AmmoCan_Storage,
+		Sound:Packing.AmmoCan_Storage,
 	}
 
 	recipe Put Together
 	{
-		5pkGF357=2,
+		5pkFB357=2,
 		
-		Result:10pkGF357=1,
+		Result:10pkFB357=1,
 		Time:120.0,
-		Sound:AmmoCan_Storage,
+		Sound:Packing.AmmoCan_Storage,
 	}
 
 	recipe Split in Two
 	{
-		10pkGF357=1,
+		10pkFB357=1,
 		
-		Result:5pkGF357=2,
+		Result:5pkFB357=2,
 		Time:120.0,
-		Sound:AmmoCan_Storage,
+		Sound:Packing.AmmoCan_Storage,
 	}
 }

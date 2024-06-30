@@ -441,60 +441,85 @@ AdjustWeight("Packing.5pk556","Base.556Box",5,0.7)
 AdjustWeight("Packing.10pkShotgun","Base.ShotgunShellsBox",10,0.5)
 AdjustWeight("Packing.5pkShotgun","Base.ShotgunShellsBox",5,0.7)
 
-AdjustWeight("Packing.10pkGF4g","Base.4gShotgunShellsBox",10,0.5)
-AdjustWeight("Packing.5pkGF4g","Base.4gShotgunShellsBox",5,0.7)
+-- EasyPacking FirearmsB41 Ammo
+if getActivatedMods():contains("EasyPackingFirearmsB41") then
+    AdjustWeight("FirearmsB41EasyPacking.10pkFB762x51","Base.762x51Box",10,0.5)
+    AdjustWeight("FirearmsB41EasyPacking.5pkFB762x51","Base.762x51Box",5,0.7)
 
-AdjustWeight("Packing.10pkGF10g","Base.10gShotgunShellsBox",10,0.5)
-AdjustWeight("Packing.5pkGF10g","Base.10gShotgunShellsBox",5,0.7)
+    AdjustWeight("FirearmsB41EasyPacking.10pkFB762x39","Base.762x39Box",10,0.5)
+    AdjustWeight("FirearmsB41EasyPacking.5pkFB762x39","Base.762x39Box",5,0.7)
 
-AdjustWeight("Packing.10pkGF20g","Base.20gShotgunShellsBox",10,0.5)
-AdjustWeight("Packing.5pkGF20g","Base.20gShotgunShellsBox",5,0.7)
+    AdjustWeight("FirearmsB41EasyPacking.10pkFB4440","Base.Bullets4440Box",10,0.5)
+    AdjustWeight("FirearmsB41EasyPacking.5pkFB4440","Base.Bullets4440Box",5,0.7)
 
-AdjustWeight("Packing.10pkGF22","Base.Bullets22Box",10,0.5)
-AdjustWeight("Packing.5pkGF22","Base.Bullets22Box",5,0.7)
+    AdjustWeight("FirearmsB41EasyPacking.10pkFB22","Base.Bullets22Box",10,0.5)
+    AdjustWeight("FirearmsB41EasyPacking.5pkFB22","Base.Bullets22Box",5,0.7)
 
-AdjustWeight("Packing.10pkGF45","Base.Bullets45LCBox",10,0.5)
-AdjustWeight("Packing.5pkGF45","Base.Bullets45LCBox",5,0.7)
+    AdjustWeight("FirearmsB41EasyPacking.10pkFB3006","Base.3006Box",10,0.5)
+    AdjustWeight("FirearmsB41EasyPacking.5pkFB3006","Base.3006Box",5,0.7)
 
-AdjustWeight("Packing.10pkGF50","Base.Bullets50MAGBox",10,0.5)
-AdjustWeight("Packing.5pkGF50","Base.Bullets50MAGBox",5,0.7)
+    AdjustWeight("FirearmsB41EasyPacking.10pkFB357","Base.Bullets357Box",10,0.5)
+    AdjustWeight("FirearmsB41EasyPacking.5pkFB357","Base.Bullets357Box",5,0.7)
+end
 
-AdjustWeight("Packing.10pkGF50BMG","Base.50BMGBox",10,0.5)
-AdjustWeight("Packing.5pkGF50BMG","Base.50BMGBox",5,0.7)
+-- Legacy GunFighter Ammo
+if getActivatedMods():contains("EasyPackingGunFighter2") then
+    AdjustWeight("Packing.10pkGF4g","Base.4gShotgunShellsBox",10,0.5)
+    AdjustWeight("Packing.5pkGF4g","Base.4gShotgunShellsBox",5,0.7)
 
-AdjustWeight("Packing.10pkGF57","Base.Bullets57Box",10,0.5)
-AdjustWeight("Packing.5pkGF57","Base.Bullets57Box",5,0.7)
+    AdjustWeight("Packing.10pkGF10g","Base.10gShotgunShellsBox",10,0.5)
+    AdjustWeight("Packing.5pkGF10g","Base.10gShotgunShellsBox",5,0.7)
 
-AdjustWeight("Packing.10pkGF357","Base.Bullets357Box",10,0.5)
-AdjustWeight("Packing.5pkGF357","Base.Bullets357Box",5,0.7)
+    AdjustWeight("Packing.10pkGF20g","Base.20gShotgunShellsBox",10,0.5)
+    AdjustWeight("Packing.5pkGF20g","Base.20gShotgunShellsBox",5,0.7)
 
-AdjustWeight("Packing.10pkGF380","Base.Bullets380Box",10,0.5)
-AdjustWeight("Packing.5pkGF380","Base.Bullets380Box",5,0.7)
+    AdjustWeight("Packing.10pkGF22","Base.Bullets22Box",10,0.5)
+    AdjustWeight("Packing.5pkGF22","Base.Bullets22Box",5,0.7)
 
-AdjustWeight("Packing.10pkGF410g","Base.410gShotgunShellsBox",10,0.5)
-AdjustWeight("Packing.5pkGF410g","Base.410gShotgunShellsBox",5,0.7)
+    AdjustWeight("Packing.10pkGF45","Base.Bullets45LCBox",10,0.5)
+    AdjustWeight("Packing.5pkGF45","Base.Bullets45LCBox",5,0.7)
 
-AdjustWeight("Packing.10pkGF545x39","Base.545x39Box",10,0.5)
-AdjustWeight("Packing.5pkGF545x39","Base.545x39Box",5,0.7)
+    AdjustWeight("Packing.10pkGF50","Base.Bullets50MAGBox",10,0.5)
+    AdjustWeight("Packing.5pkGF50","Base.Bullets50MAGBox",5,0.7)
 
-AdjustWeight("Packing.10pkGF762x39","Base.762x39Box",10,0.5)
-AdjustWeight("Packing.5pkGF762x39","Base.762x39Box",5,0.7)
+    AdjustWeight("Packing.10pkGF50BMG","Base.50BMGBox",10,0.5)
+    AdjustWeight("Packing.5pkGF50BMG","Base.50BMGBox",5,0.7)
 
-AdjustWeight("Packing.10pkGF762x51","Base.762x51Box",10,0.5)
-AdjustWeight("Packing.5pkGF762x51","Base.762x51Box",5,0.7)
+    AdjustWeight("Packing.10pkGF57","Base.Bullets57Box",10,0.5)
+    AdjustWeight("Packing.5pkGF57","Base.Bullets57Box",5,0.7)
 
-AdjustWeight("Packing.10pkGF762x54r","Base.762x54rBox",10,0.5)
-AdjustWeight("Packing.5pkGF762x54r","Base.762x54rBox",5,0.7)
+    AdjustWeight("Packing.10pkGF357","Base.Bullets357Box",10,0.5)
+    AdjustWeight("Packing.5pkGF357","Base.Bullets357Box",5,0.7)
 
-AdjustWeight("Packing.10pkGF3006","Base.3006Box",10,0.5)
-AdjustWeight("Packing.5pkGF3006","Base.3006Box",5,0.7)
+    AdjustWeight("Packing.10pkGF380","Base.Bullets380Box",10,0.5)
+    AdjustWeight("Packing.5pkGF380","Base.Bullets380Box",5,0.7)
 
-AdjustWeight("Packing.10pkGF4570","Base.Bullets4570Box",10,0.5)
-AdjustWeight("Packing.5pkGF4570","Base.Bullets4570Box",5,0.7)
+    AdjustWeight("Packing.10pkGF410g","Base.410gShotgunShellsBox",10,0.5)
+    AdjustWeight("Packing.5pkGF410g","Base.410gShotgunShellsBox",5,0.7)
 
-AdjustWeight("Packing.10pkGFArrowFiberglass","Base.Arrow_Fiberglass_Pack",10,0.5)
-AdjustWeight("Packing.5pkGFArrowFiberglass","Base.Arrow_Fiberglass_Pack",5,0.7)
+    AdjustWeight("Packing.10pkGF545x39","Base.545x39Box",10,0.5)
+    AdjustWeight("Packing.5pkGF545x39","Base.545x39Box",5,0.7)
 
-AdjustWeight("Packing.10pkGFBoltBear","Base.Bolt_Bear_Pack",10,0.5)
-AdjustWeight("Packing.5pkGFBoltBear","Base.Bolt_Bear_Pack",5,0.7)
+    AdjustWeight("Packing.10pkGF762x39","Base.762x39Box",10,0.5)
+    AdjustWeight("Packing.5pkGF762x39","Base.762x39Box",5,0.7)
+
+    AdjustWeight("Packing.10pkGF762x51","Base.762x51Box",10,0.5)
+    AdjustWeight("Packing.5pkGF762x51","Base.762x51Box",5,0.7)
+
+    AdjustWeight("Packing.10pkGF762x54r","Base.762x54rBox",10,0.5)
+    AdjustWeight("Packing.5pkGF762x54r","Base.762x54rBox",5,0.7)
+
+    AdjustWeight("Packing.10pkGF3006","Base.3006Box",10,0.5)
+    AdjustWeight("Packing.5pkGF3006","Base.3006Box",5,0.7)
+
+    AdjustWeight("Packing.10pkGF4570","Base.Bullets4570Box",10,0.5)
+    AdjustWeight("Packing.5pkGF4570","Base.Bullets4570Box",5,0.7)
+
+    AdjustWeight("Packing.10pkGFArrowFiberglass","Base.Arrow_Fiberglass_Pack",10,0.5)
+    AdjustWeight("Packing.5pkGFArrowFiberglass","Base.Arrow_Fiberglass_Pack",5,0.7)
+
+    AdjustWeight("Packing.10pkGFBoltBear","Base.Bolt_Bear_Pack",10,0.5)
+    AdjustWeight("Packing.5pkGFBoltBear","Base.Bolt_Bear_Pack",5,0.7)
+end
+
 Events.OnInitGlobalModData.Add(zzPerform)

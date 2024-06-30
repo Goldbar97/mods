@@ -1,4 +1,5 @@
-name=Easy Packing For Vanilla
+name=Easy Packing For Vanilla v1.0
 id=EasyPacking
+versionMin=41.78
 poster=poster.png
 description=Allows to pack some of drainable items. (For Vanilla)
