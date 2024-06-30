@@ -1,5 +1,11 @@
 module Packing {
 
+	model pkAmmoCan_Ground {
+		mesh = WorldItems/pk_ammocan_ground,
+		texture = WorldItems/pk_ammocan,
+		scale = 0.008,
+	}
+
 	sound AmmoCan_Storage {
 		loop = true, 
 		is3D = true,

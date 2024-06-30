@@ -1,0 +1,88 @@
+module FirearmsB41EasyPacking
+{
+	imports
+	{
+		Base,
+		Packing,
+	}
+	
+	item 10pkFB3006
+	{
+		Weight			= 2.8,
+		Type			= Normal,
+		DisplayName		= 10 x Box of .30-06 Rounds,
+		DisplayCategory = Ammo,
+		Icon			= PAmmoBox,
+		WorldStaticModel = Packing.pkAmmoCan_Ground,
+	}
+	
+	item 5pkFB3006
+	{
+		Weight			= 1.96,
+		Type			= Normal,
+		DisplayName		= 5 x Box of .30-06 Rounds,
+		DisplayCategory = Ammo,
+		Icon			= PAmmoBox,
+		WorldStaticModel = Packing.pkAmmoCan_Ground,
+	}
+	
+	recipe Pack 10
+	{
+		destroy Bullets3006Box=10,
+		
+		Result:10pkFB3006,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:210.0,
+		Category:Storage,
+		Sound:Packing.AmmoCan_Storage,
+	}
+	
+	recipe Unpack 10
+	{
+		destroy 10pkFB3006,
+		
+		Result:Bullets3006Box=10,
+		Time:210.0,
+		Category:Storage,
+		Sound:Packing.AmmoCan_Storage,
+	}
+	
+	recipe Pack 5
+	{
+		destroy Bullets3006Box=5,
+		
+		Result:5pkFB3006,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:147.0,
+		Category:Storage,
+		Sound:Packing.AmmoCan_Storage,
+	}
+	
+	recipe Unpack 5
+	{
+		destroy 5pkFB3006,
+		
+		Result:Bullets3006Box=5,
+		Time:147.0,
+		Category:Storage,
+		Sound:Packing.AmmoCan_Storage,
+	}
+
+	recipe Put Together
+	{
+		5pkFB3006=2,
+		
+		Result:10pkFB3006=1,
+		Time:105.0,
+		Sound:Packing.AmmoCan_Storage,
+	}
+
+	recipe Split in Two
+	{
+		10pkFB3006=1,
+		
+		Result:5pkFB3006=2,
+		Time:105.0,
+		Sound:Packing.AmmoCan_Storage,
+	}
+}

@@ -1,0 +1,6 @@
+name=Easy Packing For Firearms B41 (ADDON)
+id=EasyPackingFirearmsB41
+poster=poster.png
+description=Allows to pack some of drainable items. (For Firearms B41)
+authors=MrNekuromu, Goldbar
+require=EasyPacking,firearmmod
