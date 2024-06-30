@@ -106,7 +106,7 @@ ItemName_GidOrganizedFood.OS12pkWineEmpty2 = "12x Пустых винных бу
 ItemName_GidOrganizedFood.OS8pkWhiskeyEmpty = "8x Бутылок от бурбона",
 
 ItemName_GidOrganizedFood.OS24pkWaterBottleEmpty = "24x Пустые бутылки",
-ItemName_GidOrganizedFood.OS24pkWaterBottleFull = "24x Бутылки с водойКарандашейручек",
+ItemName_GidOrganizedFood.OS24pkWaterBottleFull = "24x Бутылки с водой",
 
 
 
