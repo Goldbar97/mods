@@ -1,0 +1,91 @@
+module GunFighter2EasyPacking
+{
+    imports
+    {
+        Base,
+        Packing,
+    }
+
+    item 100pk40incendiary
+    {
+        Weight = 1.0,
+        Type = Normal,
+        DisplayName = 10 x 40mm Incendiary Rounds,
+        DisplayCategory = Ammo,
+        Icon = PAmmoBox,
+        WorldStaticModel = Packing.pkAmmoCan_Ground,
+    }
+
+    item 50pk10gauge
+    {
+        Weight = 1.0,
+        Type = Normal,
+        DisplayName = 5 x 40mm Incendiary Rounds,
+        DisplayCategory = Ammo,
+        Icon = PAmmoBox,
+        WorldStaticModel = Packing.pkAmmoCan_Ground,
+    }
+
+    recipe Pack 100
+    {
+        destroy 40INCRound=100,
+
+        Result: 100pk40incendiary,
+        OnTest: Recipe.OnTest.IsFavorite,
+        Time: 180.0,
+        Category: Storage,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Unpack 100
+    {
+        destroy 100pk40incendiary,
+        
+        Result: 40INCRound=100,
+        OnTest: Recipe.OnTest.IsFavorite,
+        Time: 180.0,
+        Category: Storage,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Pack 50
+    {
+        destroy 40INCRound=50,
+
+        Result: 50pk10gauge,
+        OnTest: Recipe.OnTest.IsFavorite,
+        Time: 130.0,
+        Category: Storage,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Unpack 50
+    {
+        destroy 50pk10gauge,
+        
+        Result: 40INCRound=50,
+        OnTest: Recipe.OnTest.IsFavorite,
+        Time: 130.0,
+        Category: Storage,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Put Together
+    {
+        50pk10gauge=2,
+
+        Result: 100pk40incendiary,
+        Time: 90.0,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Split in Two
+    {
+        100pk40incendiary=1,
+
+        Result: 50pk10gauge=2,
+        Time: 90.0,
+        Sound: Packing.AmmoCan_Storage,
+    }
+    
+}
