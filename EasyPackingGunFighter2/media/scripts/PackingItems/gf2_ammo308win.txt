@@ -1,0 +1,29 @@
+module GunFighter2EasyPacking
+{
+    imports
+    {
+        Base,
+        Packing,
+    }
+
+    item 10pk308
+    {
+        Weight = 1.0,
+        Type = Normal,
+        DisplayName = 10 x Box 308-WIN Rounds,
+        DisplayCategory = Ammo,
+        Icon = PAmmoBox,
+        WorldStaticModel = Packing.pkAmmoCan_Ground,
+    }
+
+    item 5pk308
+    {
+        Weight = 1.0,
+        Type = Normal,
+        DisplayName = 5 x Box 308-WIN Rounds,
+        DisplayCategory = Ammo,
+        Icon = PAmmoBox,
+        WorldStaticModel = Packing.pkAmmoCan_Ground,
+    }
+    
+}
