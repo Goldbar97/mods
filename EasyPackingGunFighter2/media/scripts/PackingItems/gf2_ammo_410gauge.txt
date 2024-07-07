@@ -6,21 +6,21 @@ module GunFighter2EasyPacking
         Packing,
     }
 
-    item 10pk22lr
+    item 10pk410gauge
     {
         Weight = 1.0,
         Type = Normal,
-        DisplayName = 10 x Box 22-LR Rounds,
+        DisplayName = 10 x Box of 410g Shotgun Shells,
         DisplayCategory = Ammo,
         Icon = PAmmoBox,
         WorldStaticModel = Packing.pkAmmoCan_Ground,
     }
 
-    item 5pk22lr
+    item 5pk410gauge
     {
         Weight = 1.0,
         Type = Normal,
-        DisplayName = 5 x Box 22-LR Rounds,
+        DisplayName = 5 x Box  of 410g Shotgun Shells,
         DisplayCategory = Ammo,
         Icon = PAmmoBox,
         WorldStaticModel = Packing.pkAmmoCan_Ground,
@@ -28,9 +28,9 @@ module GunFighter2EasyPacking
 
     recipe Pack 10
     {
-        destroy Bullets22Box=10,
+        destroy 410gShotgunShellsBox=10,
 
-        Result: 10pk22lr,
+        Result: 10pk410gauge,
         OnTest: Recipe.OnTest.IsFavorite,
         Time: 180.0,
         Category: Storage,
@@ -39,9 +39,9 @@ module GunFighter2EasyPacking
 
     recipe Unpack 10
     {
-        destroy 10pk22lr,
+        destroy 10pk410gauge,
         
-        Result: Bullets22Box=10,
+        Result: 410gShotgunShellsBox=10,
         OnTest: Recipe.OnTest.IsFavorite,
         Time: 180.0,
         Category: Storage,
@@ -50,9 +50,9 @@ module GunFighter2EasyPacking
 
     recipe Pack 5
     {
-        destroy Bullets22Box=5,
+        destroy 410gShotgunShellsBox=5,
 
-        Result: 5pk22lr,
+        Result: 5pk410gauge,
         OnTest: Recipe.OnTest.IsFavorite,
         Time: 130.0,
         Category: Storage,
@@ -61,9 +61,9 @@ module GunFighter2EasyPacking
 
     recipe Unpack 5
     {
-        destroy 5pk22lr,
+        destroy 5pk410gauge,
         
-        Result: Bullets22Box=5,
+        Result: 410gShotgunShellsBox=5,
         OnTest: Recipe.OnTest.IsFavorite,
         Time: 130.0,
         Category: Storage,
@@ -72,18 +72,18 @@ module GunFighter2EasyPacking
 
     recipe Put Together
     {
-        5pk22lr=2,
+        5pk410gauge=2,
 
-        Result: 10pk22lr,
+        Result: 10pk410gauge,
         Time: 90.0,
         Sound: Packing.AmmoCan_Storage,
     }
 
     recipe Split in Two
     {
-        10pk22lr=1,
+        10pk410gauge=1,
 
-        Result: 5pk22lr=2,
+        Result: 5pk410gauge=2,
         Time: 90.0,
         Sound: Packing.AmmoCan_Storage,
     }

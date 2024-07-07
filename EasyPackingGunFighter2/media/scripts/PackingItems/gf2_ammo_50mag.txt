@@ -6,21 +6,21 @@ module GunFighter2EasyPacking
         Packing,
     }
 
-    item 10pk177bb
+    item 10pk50mag
     {
         Weight = 1.0,
         Type = Normal,
-        DisplayName = 10 x Box .177 BBs,
+        DisplayName = 10 x Box of .50 MAG Rounds,
         DisplayCategory = Ammo,
         Icon = PAmmoBox,
         WorldStaticModel = Packing.pkAmmoCan_Ground,
     }
 
-    item 5pk177bb
+    item 5pk50mag
     {
         Weight = 1.0,
         Type = Normal,
-        DisplayName = 5 x Box .177 BBs,
+        DisplayName = 5 x Box of .50 MAG Rounds,
         DisplayCategory = Ammo,
         Icon = PAmmoBox,
         WorldStaticModel = Packing.pkAmmoCan_Ground,
@@ -28,9 +28,9 @@ module GunFighter2EasyPacking
 
     recipe Pack 10
     {
-        destroy BB177Box=10,
+        destroy Bullets50MAGBox=10,
 
-        Result: 10pk177bb,
+        Result: 10pk50mag,
         OnTest: Recipe.OnTest.IsFavorite,
         Time: 180.0,
         Category: Storage,
@@ -39,9 +39,9 @@ module GunFighter2EasyPacking
 
     recipe Unpack 10
     {
-        destroy 10pk177bb,
+        destroy 10pk50mag,
         
-        Result: BB177Box=10,
+        Result: Bullets50MAGBox=10,
         OnTest: Recipe.OnTest.IsFavorite,
         Time: 180.0,
         Category: Storage,
@@ -50,9 +50,9 @@ module GunFighter2EasyPacking
 
     recipe Pack 5
     {
-        destroy BB177Box=5,
+        destroy Bullets50MAGBox=5,
 
-        Result: 5pk177bb,
+        Result: 5pk50mag,
         OnTest: Recipe.OnTest.IsFavorite,
         Time: 130.0,
         Category: Storage,
@@ -61,9 +61,9 @@ module GunFighter2EasyPacking
 
     recipe Unpack 5
     {
-        destroy 5pk177bb,
+        destroy 5pk50mag,
         
-        Result: BB177Box=5,
+        Result: Bullets50MAGBox=5,
         OnTest: Recipe.OnTest.IsFavorite,
         Time: 130.0,
         Category: Storage,
@@ -72,18 +72,18 @@ module GunFighter2EasyPacking
 
     recipe Put Together
     {
-        5pk177bb=2,
+        5pk50mag=2,
 
-        Result: 10pk177bb,
+        Result: 10pk50mag,
         Time: 90.0,
         Sound: Packing.AmmoCan_Storage,
     }
 
     recipe Split in Two
     {
-        10pk177bb=1,
+        10pk50mag=1,
 
-        Result: 5pk177bb=2,
+        Result: 5pk50mag=2,
         Time: 90.0,
         Sound: Packing.AmmoCan_Storage,
     }

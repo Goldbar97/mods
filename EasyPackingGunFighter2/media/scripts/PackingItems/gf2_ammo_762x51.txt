@@ -6,64 +6,64 @@ module GunFighter2EasyPacking
         Packing,
     }
 
-    item 100pk40incendiary
+    item 10pk762x51
     {
         Weight = 1.0,
         Type = Normal,
-        DisplayName = 10 x 40mm Incendiary Rounds,
+        DisplayName = 10 x Box of 7.62x51mm-NATO Rounds,
         DisplayCategory = Ammo,
         Icon = PAmmoBox,
         WorldStaticModel = Packing.pkAmmoCan_Ground,
     }
 
-    item 50pk10gauge
+    item 5pk762x51
     {
         Weight = 1.0,
         Type = Normal,
-        DisplayName = 5 x 40mm Incendiary Rounds,
+        DisplayName = 5 x Box of 7.62x51mm-NATO Rounds,
         DisplayCategory = Ammo,
         Icon = PAmmoBox,
         WorldStaticModel = Packing.pkAmmoCan_Ground,
     }
 
-    recipe Pack 100
+    recipe Pack 10
     {
-        destroy 40INCRound=100,
+        destroy 762x51Box=10,
 
-        Result: 100pk40incendiary,
+        Result: 10pk762x51,
         OnTest: Recipe.OnTest.IsFavorite,
         Time: 180.0,
         Category: Storage,
         Sound: Packing.AmmoCan_Storage,
     }
 
-    recipe Unpack 100
+    recipe Unpack 10
     {
-        destroy 100pk40incendiary,
+        destroy 10pk762x51,
         
-        Result: 40INCRound=100,
+        Result: 762x51Box=10,
         OnTest: Recipe.OnTest.IsFavorite,
         Time: 180.0,
         Category: Storage,
         Sound: Packing.AmmoCan_Storage,
     }
 
-    recipe Pack 50
+    recipe Pack 5
     {
-        destroy 40INCRound=50,
+        destroy 762x51Box=5,
 
-        Result: 50pk10gauge,
+        Result: 5pk762x51,
         OnTest: Recipe.OnTest.IsFavorite,
         Time: 130.0,
         Category: Storage,
         Sound: Packing.AmmoCan_Storage,
     }
 
-    recipe Unpack 50
+    recipe Unpack 5
     {
-        destroy 50pk10gauge,
+        destroy 5pk762x51,
         
-        Result: 40INCRound=50,
+        Result: 762x51Box=5,
         OnTest: Recipe.OnTest.IsFavorite,
         Time: 130.0,
         Category: Storage,
@@ -72,18 +72,18 @@ module GunFighter2EasyPacking
 
     recipe Put Together
     {
-        50pk10gauge=2,
+        5pk762x51=2,
 
-        Result: 100pk40incendiary,
+        Result: 10pk762x51,
         Time: 90.0,
         Sound: Packing.AmmoCan_Storage,
     }
 
     recipe Split in Two
     {
-        100pk40incendiary=1,
+        10pk762x51=1,
 
-        Result: 50pk10gauge=2,
+        Result: 5pk762x51=2,
         Time: 90.0,
         Sound: Packing.AmmoCan_Storage,
     }

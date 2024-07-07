@@ -6,21 +6,21 @@ module GunFighter2EasyPacking
         Packing,
     }
 
-    item 10pk3006sprg
+    item 10pk762x54
     {
         Weight = 1.0,
         Type = Normal,
-        DisplayName = 10 x Box 30-06 SPRG Rounds,
+        DisplayName = 10 x Box of 7.62x54mm-R Rounds,
         DisplayCategory = Ammo,
         Icon = PAmmoBox,
         WorldStaticModel = Packing.pkAmmoCan_Ground,
     }
 
-    item 5pk3006sprg
+    item 5pk762x54
     {
         Weight = 1.0,
         Type = Normal,
-        DisplayName = 5 x Box 30-06 SPRG Rounds,
+        DisplayName = 5 x Box of 7.62x54mm-R Rounds,
         DisplayCategory = Ammo,
         Icon = PAmmoBox,
         WorldStaticModel = Packing.pkAmmoCan_Ground,
@@ -28,9 +28,9 @@ module GunFighter2EasyPacking
 
     recipe Pack 10
     {
-        destroy 3006Box=10,
+        destroy 762x54rBox=10,
 
-        Result: 10pk3006sprg,
+        Result: 10pk762x54,
         OnTest: Recipe.OnTest.IsFavorite,
         Time: 180.0,
         Category: Storage,
@@ -39,9 +39,9 @@ module GunFighter2EasyPacking
 
     recipe Unpack 10
     {
-        destroy 10pk3006sprg,
+        destroy 10pk762x54,
         
-        Result: 3006Box=10,
+        Result: 762x54rBox=10,
         OnTest: Recipe.OnTest.IsFavorite,
         Time: 180.0,
         Category: Storage,
@@ -50,9 +50,9 @@ module GunFighter2EasyPacking
 
     recipe Pack 5
     {
-        destroy 3006Box=5,
+        destroy 762x54rBox=5,
 
-        Result: 5pk3006sprg,
+        Result: 5pk762x54,
         OnTest: Recipe.OnTest.IsFavorite,
         Time: 130.0,
         Category: Storage,
@@ -61,9 +61,9 @@ module GunFighter2EasyPacking
 
     recipe Unpack 5
     {
-        destroy 5pk3006sprg,
+        destroy 5pk762x54,
         
-        Result: 3006Box=5,
+        Result: 762x54rBox=5,
         OnTest: Recipe.OnTest.IsFavorite,
         Time: 130.0,
         Category: Storage,
@@ -72,18 +72,18 @@ module GunFighter2EasyPacking
 
     recipe Put Together
     {
-        5pk3006sprg=2,
+        5pk762x54=2,
 
-        Result: 10pk3006sprg,
+        Result: 10pk762x54,
         Time: 90.0,
         Sound: Packing.AmmoCan_Storage,
     }
 
     recipe Split in Two
     {
-        10pk3006sprg=1,
+        10pk762x54=1,
 
-        Result: 5pk3006sprg=2,
+        Result: 5pk762x54=2,
         Time: 90.0,
         Sound: Packing.AmmoCan_Storage,
     }

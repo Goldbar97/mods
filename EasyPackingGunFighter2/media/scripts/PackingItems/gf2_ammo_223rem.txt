@@ -6,21 +6,21 @@ module GunFighter2EasyPacking
         Packing,
     }
 
-    item 10pk38
+    item 10pk223
     {
         Weight = 1.0,
         Type = Normal,
-        DisplayName = 10 x Box 38-SPC Rounds,
+        DisplayName = 10 x Box of 223-REM Rounds,
         DisplayCategory = Ammo,
         Icon = PAmmoBox,
         WorldStaticModel = Packing.pkAmmoCan_Ground,
     }
 
-    item 5pk38
+    item 5pk223
     {
         Weight = 1.0,
         Type = Normal,
-        DisplayName = 5 x Box 38-SPC Rounds,
+        DisplayName = 5 x Box of 223-REM Rounds,
         DisplayCategory = Ammo,
         Icon = PAmmoBox,
         WorldStaticModel = Packing.pkAmmoCan_Ground,

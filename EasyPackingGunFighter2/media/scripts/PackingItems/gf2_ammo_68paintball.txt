@@ -10,7 +10,7 @@ module GunFighter2EasyPacking
 	{
 		Weight			= 2.5,
 		Type			= Normal,
-		DisplayName		= 10 x Box .68 Paintballs,
+		DisplayName		= 10 x Box of .68 Paintballs,
 		DisplayCategory = Ammo,
 		Icon			= PAmmoBox,
 		WorldStaticModel = Packing.pkAmmoCan_Ground,
@@ -20,7 +20,7 @@ module GunFighter2EasyPacking
 	{
 		Weight			= 1.75,
 		Type			= Normal,
-		DisplayName		= 5 x Box .68 Paintballs,
+		DisplayName		= 5 x Box of .68 Paintballs,
 		DisplayCategory = Ammo,
 		Icon			= PAmmoBox,
 		WorldStaticModel = Packing.pkAmmoCan_Ground,

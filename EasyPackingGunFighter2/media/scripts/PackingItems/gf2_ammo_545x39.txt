@@ -10,7 +10,7 @@ module GunFighter2EasyPacking
     {
         Weight = 1.0,
         Type = Normal,
-        DisplayName = 10 x Box 5.45x39mm Rounds,
+        DisplayName = 10 x Box of 5.45x39mm Rounds,
         DisplayCategory = Ammo,
         Icon = PAmmoBox,
         WorldStaticModel = Packing.pkAmmoCan_Ground,
@@ -20,7 +20,7 @@ module GunFighter2EasyPacking
     {
         Weight = 1.0,
         Type = Normal,
-        DisplayName = 5 x Box 5.45x39mm Rounds,
+        DisplayName = 5 x Box of 5.45x39mm Rounds,
         DisplayCategory = Ammo,
         Icon = PAmmoBox,
         WorldStaticModel = Packing.pkAmmoCan_Ground,

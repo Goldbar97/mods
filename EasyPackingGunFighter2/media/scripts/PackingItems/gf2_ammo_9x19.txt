@@ -6,21 +6,21 @@ module GunFighter2EasyPacking
         Packing,
     }
 
-    item 10pkShotgun
+    item 10pk9
     {
         Weight = 1.0,
         Type = Normal,
-        DisplayName = 10 x Box 12g Shotgun Shells,
+        DisplayName = 10 x Box of 9x19mm Rounds,
         DisplayCategory = Ammo,
         Icon = PAmmoBox,
         WorldStaticModel = Packing.pkAmmoCan_Ground,
     }
 
-    item 5pkShotgun
+    item 5pk9
     {
         Weight = 1.0,
         Type = Normal,
-        DisplayName = 5 x Box 12g Shotgun Shells,
+        DisplayName = 5 x Box of 9x19mm Rounds,
         DisplayCategory = Ammo,
         Icon = PAmmoBox,
         WorldStaticModel = Packing.pkAmmoCan_Ground,
