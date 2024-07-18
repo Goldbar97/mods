@@ -1,0 +1,18 @@
+Recipe_EN = {
+
+	Recipe_Put_Together = "Put Together",
+	Recipe_Split_in_Two = "Split in Two",
+	Recipe_Split_in_Five = "Split in Five",
+    
+	Recipe_Pack_5 = "Pack 5",
+	Recipe_Unpack_5 = "Unpack 5",
+
+	Recipe_Pack_10 = "Pack 10",
+	Recipe_Unpack_10 = "Unpack 10",
+	
+	Recipe_Pack_50 = "Pack 50",
+	Recipe_Unpack_50 = "Unpack 50",
+	
+	Recipe_Pack_100 = "Pack 100",
+	Recipe_Unpack_100 = "Unpack 100",
+}

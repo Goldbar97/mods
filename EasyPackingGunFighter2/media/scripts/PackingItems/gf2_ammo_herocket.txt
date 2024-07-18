@@ -1,0 +1,88 @@
+module GunFighter2EasyPacking
+{
+	imports
+	{
+		Base,
+		Packing,
+	}
+	
+	item 8pkherocket
+	{
+		Weight			= 2.5,
+		Type			= Normal,
+		DisplayName		= 8 x Box of High-Explosive Rocket,
+		DisplayCategory = Ammo,
+		Icon			= PAmmoBox,
+		WorldStaticModel = Packing.pkAmmoCan_Ground,
+	}
+	
+	item 4pkherocket
+	{
+		Weight			= 1.75,
+		Type			= Normal,
+		DisplayName		= 4 x Box of High-Explosive Rocket,
+		DisplayCategory = Ammo,
+		Icon			= PAmmoBox,
+		WorldStaticModel = Packing.pkAmmoCan_Ground,
+	}
+	
+	recipe Pack 8
+	{
+		destroy HERocket=8,
+		
+		Result:8pkherocket,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:180.0,
+		Category:Storage,
+		Sound:Packing.AmmoCan_Storage,
+	}
+	
+	recipe Unpack 8
+	{
+		destroy 8pkherocket,
+		
+		Result:HERocket=8,
+		Time:180.0,
+		Category:Storage,
+		Sound:Packing.AmmoCan_Storage,
+	}
+	
+	recipe Pack 4
+	{
+		destroy HERocket=4,
+		
+		Result:4pkherocket,
+		OnTest:Recipe.OnTest.IsFavorite,
+		Time:130.0,
+		Category:Storage,
+		Sound:Packing.AmmoCan_Storage,
+	}
+	
+	recipe Unpack 4
+	{
+		destroy 4pkherocket,
+		
+		Result:HERocket=4,
+		Time:130.0,
+		Category:Storage,
+		Sound:Packing.AmmoCan_Storage,
+	}
+
+	recipe Put Together
+	{
+		4pkherocket=2,
+		
+		Result:8pkherocket=1,
+		Time:90.0,
+		Sound:Packing.AmmoCan_Storage,
+	}
+
+	recipe Split in Two
+	{
+		8pkherocket=1,
+		
+		Result:4pkherocket=2,
+		Time:90.0,
+		Sound:Packing.AmmoCan_Storage,
+	}
+}
