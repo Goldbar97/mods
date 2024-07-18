@@ -111,11 +111,4 @@ module Packing
 		Result:5pkCrispC=2,
 		Time:40.0,
 	}
-
-	model WIP
-	{
-		mesh = WorldItems/wip_model,
-		texture = WorldItems/WIP_Tex,
-		scale = 1.0,
-	}
 }

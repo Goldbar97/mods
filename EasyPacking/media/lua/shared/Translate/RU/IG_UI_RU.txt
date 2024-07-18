@@ -1,3 +1,4 @@
 IGUI_RU = {
-	IGUI_CraftCategory_Storage = "����Ѭ߬֬߬ڬ�",
+	IGUI_CraftCategory_Storage = "’ранение",
 }
+

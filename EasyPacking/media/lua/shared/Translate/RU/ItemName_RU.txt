@@ -1,281 +1,283 @@
 ItemName_RU = {
-ItemName_Packing.5pkScrapMetal = "5x ¨Æ¨÷¨‰¨—¨›¨›¨‡¨›¨‡¨ﬁ",
-ItemName_Packing.10pkScrapMetal = "10x ¨Æ¨÷¨‰¨—¨›¨›¨‡¨›¨‡¨ﬁ",
-ItemName_Packing.50pkScrapMetal = "50x ¨Æ¨÷¨‰¨—¨›¨›¨‡¨›¨‡¨ﬁ",
-ItemName_Packing.100pkScrapMetal = "100x ¨Æ¨÷¨‰¨—¨›¨›¨‡¨›¨‡¨ﬁ",
+ItemName_Packing.5pkScrapMetal = "5x –ú–µ—Ç–∞–ª–ª–æ–ª–æ–º",
+ItemName_Packing.10pkScrapMetal = "10x –ú–µ—Ç–∞–ª–ª–æ–ª–æ–º",
+ItemName_Packing.50pkScrapMetal = "50x –ú–µ—Ç–∞–ª–ª–æ–ª–æ–º",
+ItemName_Packing.100pkScrapMetal = "100x –ú–µ—Ç–∞–ª–ª–æ–ª–æ–º",
 
-ItemName_Packing.10pkSheetMetalSmall = "10x ¨Æ¨—¨›¨÷¨ﬂ¨Ó¨‹¨⁄¨Á ¨›¨⁄¨„¨‰¨‡¨” ¨ﬁ¨÷¨‰¨—¨›¨›¨—",
-ItemName_Packing.5pkSheetMetalSmall = "5x ¨Æ¨—¨›¨÷¨ﬂ¨Ó¨‹¨⁄¨Á ¨›¨⁄¨„¨‰¨‡¨” ¨ﬁ¨÷¨‰¨—¨›¨›¨—",
+ItemName_Packing.10pkSheetMetalSmall = "10x –ú–∞–ª–µ–Ω—å–∫–∏—Ö –ª–∏—Å—Ç–æ–≤ –º–µ—Ç–∞–ª–ª–∞",
+ItemName_Packing.5pkSheetMetalSmall = "5x –ú–∞–ª–µ–Ω—å–∫–∏—Ö –ª–∏—Å—Ç–æ–≤ –º–µ—Ç–∞–ª–ª–∞",
 
-ItemName_Packing.10pkSheetMetal = "10x ¨≠¨⁄¨„¨‰¨‡¨” ¨ﬁ¨÷¨‰¨—¨›¨›¨—",
-ItemName_Packing.5pkSheetMetal = "5x ¨≠¨⁄¨„¨‰¨‡¨” ¨ﬁ¨÷¨‰¨—¨›¨›¨—",
-ItemName_Packing.10pkRopeSheetMetal = "10x ¨≠¨⁄¨„¨‰¨‡¨” ¨ﬁ¨÷¨‰¨—¨›¨›¨— (¨£¨÷¨‚¨÷¨”¨‹¨—)",
-ItemName_Packing.5pkRopeSheetMetal = "5x ¨≠¨⁄¨„¨‰¨‡¨” ¨ﬁ¨÷¨‰¨—¨›¨›¨— (¨£¨÷¨‚¨÷¨”¨‹¨—)",
-ItemName_Packing.10pkSheetRopeSheetMetal = "10x ¨≠¨⁄¨„¨‰¨‡¨” ¨ﬁ¨÷¨‰¨—¨›¨›¨—(¨≥¨—¨ﬁ¨‡¨’.¨”¨÷¨‚¨÷¨”¨‹¨—)",
-ItemName_Packing.5pkSheetRopeSheetMetal = "5x ¨≠¨⁄¨„¨‰¨‡¨” ¨ﬁ¨÷¨‰¨—¨›¨›¨— (¨≥¨—¨ﬁ¨‡¨’.¨”¨÷¨‚¨÷¨”¨‹¨—)",
+ItemName_Packing.10pkSheetMetal = "10x –õ–∏—Å—Ç–æ–≤ –º–µ—Ç–∞–ª–ª–∞",
+ItemName_Packing.5pkSheetMetal = "5x –õ–∏—Å—Ç–æ–≤ –º–µ—Ç–∞–ª–ª–∞",
+ItemName_Packing.10pkRopeSheetMetal = "10x –õ–∏—Å—Ç–æ–≤ –º–µ—Ç–∞–ª–ª–∞ (–í–µ—Ä–µ–≤–∫–∞)",
+ItemName_Packing.5pkRopeSheetMetal = "5x –õ–∏—Å—Ç–æ–≤ –º–µ—Ç–∞–ª–ª–∞ (–í–µ—Ä–µ–≤–∫–∞)",
+ItemName_Packing.10pkSheetRopeSheetMetal = "10x –õ–∏—Å—Ç–æ–≤ –º–µ—Ç–∞–ª–ª–∞(–°–∞–º–æ–¥.–≤–µ—Ä–µ–≤–∫–∞)",
+ItemName_Packing.5pkSheetRopeSheetMetal = "5x –õ–∏—Å—Ç–æ–≤ –º–µ—Ç–∞–ª–ª–∞ (–°–∞–º–æ–¥.–≤–µ—Ä–µ–≤–∫–∞)",
 
-ItemName_Packing.10pkMetalBar = "10x ¨Æ¨÷¨‰¨—¨›¨›¨⁄¨È¨÷¨„¨‹¨⁄¨Á ¨·¨‚¨Â¨‰¨‡¨”",
-ItemName_Packing.5pkMetalBar = "5x ¨Æ¨÷¨‰¨—¨›¨›¨⁄¨È¨÷¨„¨‹¨⁄¨Á ¨·¨‚¨Â¨‰¨‡¨”",
-ItemName_Packing.10pkRopeMetalBar = "10x ¨Æ¨÷¨‰¨—¨›¨›¨⁄¨È¨÷¨„¨‹¨⁄¨Á ¨·¨‚¨Â¨‰¨‡¨” (¨£¨÷¨‚¨÷¨”¨‹¨—)",
-ItemName_Packing.5pkRopeMetalBar = "5x ¨Æ¨÷¨‰¨—¨›¨›¨⁄¨È¨÷¨„¨‹¨⁄¨Á ¨·¨‚¨Â¨‰¨‡¨” (¨£¨÷¨‚¨÷¨”¨‹¨—)",
-ItemName_Packing.10pkSheetRopeMetalBar = "10x ¨Æ¨÷¨‰¨—¨›¨›¨⁄¨È¨÷¨„¨‹¨⁄¨Á ¨·¨‚¨Â¨‰¨‡¨” (¨≥¨—¨ﬁ¨‡¨’.¨”¨÷¨‚¨÷¨”¨‹¨—)",
-ItemName_Packing.5pkSheetRopeMetalBar = "5x ¨Æ¨÷¨‰¨—¨›¨›¨⁄¨È¨÷¨„¨‹¨⁄¨Á ¨·¨‚¨Â¨‰¨‡¨” (¨≥¨—¨ﬁ¨‡¨’.¨”¨÷¨‚¨÷¨”¨‹¨—)",
+ItemName_Packing.10pkMetalBar = "10x –ú–µ—Ç–∞–ª–ª–∏—á–µ—Å–∫–∏—Ö –ø—Ä—É—Ç–æ–≤",
+ItemName_Packing.5pkMetalBar = "5x –ú–µ—Ç–∞–ª–ª–∏—á–µ—Å–∫–∏—Ö –ø—Ä—É—Ç–æ–≤",
+ItemName_Packing.10pkRopeMetalBar = "10x –ú–µ—Ç–∞–ª–ª–∏—á–µ—Å–∫–∏—Ö –ø—Ä—É—Ç–æ–≤ (–í–µ—Ä–µ–≤–∫–∞)",
+ItemName_Packing.5pkRopeMetalBar = "5x –ú–µ—Ç–∞–ª–ª–∏—á–µ—Å–∫–∏—Ö –ø—Ä—É—Ç–æ–≤ (–í–µ—Ä–µ–≤–∫–∞)",
+ItemName_Packing.10pkSheetRopeMetalBar = "10x –ú–µ—Ç–∞–ª–ª–∏—á–µ—Å–∫–∏—Ö –ø—Ä—É—Ç–æ–≤ (–°–∞–º–æ–¥.–≤–µ—Ä–µ–≤–∫–∞)",
+ItemName_Packing.5pkSheetRopeMetalBar = "5x –ú–µ—Ç–∞–ª–ª–∏—á–µ—Å–∫–∏—Ö –ø—Ä—É—Ç–æ–≤ (–°–∞–º–æ–¥.–≤–µ—Ä–µ–≤–∫–∞)",
 
-ItemName_Packing.10pkMetalPipe = "10x ¨Æ¨÷¨‰¨—¨›¨›¨⁄¨È¨÷¨„¨‹¨⁄¨Á ¨‰¨‚¨Â¨“",
-ItemName_Packing.5pkMetalPipe = "5x ¨Æ¨÷¨‰¨—¨›¨›¨⁄¨È¨÷¨„¨‹¨⁄¨Á ¨‰¨‚¨Â¨“",
-ItemName_Packing.10pkRopeMetalPipe = "10x ¨Æ¨÷¨‰¨—¨›¨›¨⁄¨È¨÷¨„¨‹¨⁄¨Á ¨‰¨‚¨Â¨“ (¨£¨÷¨‚¨÷¨”¨‹¨—)",
-ItemName_Packing.5pkRopeMetalPipe = "5x ¨Æ¨÷¨‰¨—¨›¨›¨⁄¨È¨÷¨„¨‹¨⁄¨Á ¨‰¨‚¨Â¨“ (¨£¨÷¨‚¨÷¨”¨‹¨—)",
-ItemName_Packing.10pkSheetRopeMetalPipe = "10x ¨Æ¨÷¨‰¨—¨›¨›¨⁄¨È¨÷¨„¨‹¨⁄¨Á ¨‰¨‚¨Â¨“ (¨≥¨—¨ﬁ¨‡¨’.¨”¨÷¨‚¨÷¨”¨‹¨—)",
-ItemName_Packing.5pkSheetRopeMetalPipe = "5x ¨Æ¨÷¨‰¨—¨›¨›¨⁄¨È¨÷¨„¨‹¨⁄¨Á ¨‰¨‚¨Â¨“ (¨≥¨—¨ﬁ¨‡¨’.¨”¨÷¨‚¨÷¨”¨‹¨—)",
+ItemName_Packing.10pkMetalPipe = "10x –ú–µ—Ç–∞–ª–ª–∏—á–µ—Å–∫–∏—Ö —Ç—Ä—É–±",
+ItemName_Packing.5pkMetalPipe = "5x –ú–µ—Ç–∞–ª–ª–∏—á–µ—Å–∫–∏—Ö —Ç—Ä—É–±",
+ItemName_Packing.10pkRopeMetalPipe = "10x –ú–µ—Ç–∞–ª–ª–∏—á–µ—Å–∫–∏—Ö —Ç—Ä—É–± (–í–µ—Ä–µ–≤–∫–∞)",
+ItemName_Packing.5pkRopeMetalPipe = "5x –ú–µ—Ç–∞–ª–ª–∏—á–µ—Å–∫–∏—Ö —Ç—Ä—É–± (–í–µ—Ä–µ–≤–∫–∞)",
+ItemName_Packing.10pkSheetRopeMetalPipe = "10x –ú–µ—Ç–∞–ª–ª–∏—á–µ—Å–∫–∏—Ö —Ç—Ä—É–± (–°–∞–º–æ–¥.–≤–µ—Ä–µ–≤–∫–∞)",
+ItemName_Packing.5pkSheetRopeMetalPipe = "5x –ú–µ—Ç–∞–ª–ª–∏—á–µ—Å–∫–∏—Ö —Ç—Ä—É–± (–°–∞–º–æ–¥.–≤–µ—Ä–µ–≤–∫–∞)",
 
-ItemName_Packing.10pkWire = "10x ¨Æ¨‡¨‰¨‹¨‡¨” ¨·¨‚¨‡¨”¨‡¨›¨‡¨‹¨⁄",
-ItemName_Packing.5pkWire = "5x ¨Æ¨‡¨‰¨‹¨‡¨” ¨·¨‚¨‡¨”¨‡¨›¨‡¨‹¨⁄",
+ItemName_Packing.10pkWire = "10x –ú–æ—Ç–∫–æ–≤ –ø—Ä–æ–≤–æ–ª–æ–∫–∏",
+ItemName_Packing.5pkWire = "5x –ú–æ—Ç–∫–æ–≤ –ø—Ä–æ–≤–æ–ª–æ–∫–∏",
 
-ItemName_Packing.10pkBarbedWire = "10x ¨Æ¨‡¨‰¨‹¨‡¨” ¨‹¨‡¨›¨¨È¨÷¨€ ¨·¨‚¨‡¨”¨‡¨›¨‡¨‹¨⁄",
-ItemName_Packing.5pkBarbedWire = "5x ¨Æ¨‡¨‰¨‹¨‡¨” ¨‹¨‡¨›¨¨È¨÷¨€ ¨·¨‚¨‡¨”¨‡¨›¨‡¨‹¨⁄",
+ItemName_Packing.10pkBarbedWire = "10x –ú–æ—Ç–∫–æ–≤ –∫–æ–ª—é—á–µ–π –ø—Ä–æ–≤–æ–ª–æ–∫–∏",
+ItemName_Packing.5pkBarbedWire = "5x –ú–æ—Ç–∫–æ–≤ –∫–æ–ª—é—á–µ–π –ø—Ä–æ–≤–æ–ª–æ–∫–∏",
 
-ItemName_Packing.10pkWeldingRods = "10x ¨µ¨·¨—¨‹¨‡¨”¨‡¨‹ ¨·¨‚¨⁄¨„¨—¨’¨‡¨È¨ﬂ¨Ì¨Á ¨·¨‚¨Â¨‰¨‹¨‡¨”",
-ItemName_Packing.5pkWeldingRods = "5x ¨µ¨·¨—¨‹¨‡¨”¨‡¨‹ ¨·¨‚¨⁄¨„¨—¨’¨‡¨È¨ﬂ¨Ì¨Á ¨·¨‚¨Â¨‰¨‹¨‡¨”",
+ItemName_Packing.10pkWeldingRods = "10x –£–ø–∞–∫–æ–≤–æ–∫ –ø—Ä–∏—Å–∞–¥–æ—á–Ω—ã—Ö –ø—Ä—É—Ç–∫–æ–≤",
+ItemName_Packing.5pkWeldingRods = "5x –£–ø–∞–∫–æ–≤–æ–∫ –ø—Ä–∏—Å–∞–¥–æ—á–Ω—ã—Ö –ø—Ä—É—Ç–∫–æ–≤",
 
-ItemName_Packing.10pkNailsBox = "10x ¨¨¨‡¨‚¨‡¨“¨‡¨‹ ¨„ ¨‘¨”¨‡¨Ÿ¨’¨Ò¨ﬁ¨⁄",
-ItemName_Packing.5pkNailsBox = "5x ¨¨¨‡¨‚¨‡¨“¨‡¨‹ ¨„ ¨‘¨”¨‡¨Ÿ¨’¨Ò¨ﬁ¨⁄",
+ItemName_Packing.10pkNailsBox = "10x –ö–æ—Ä–æ–±–æ–∫ —Å –≥–≤–æ–∑–¥—è–º–∏",
+ItemName_Packing.5pkNailsBox = "5x –ö–æ—Ä–æ–±–æ–∫ —Å –≥–≤–æ–∑–¥—è–º–∏",
 
-ItemName_Packing.10pkScrewsBox = "10x ¨¨¨‡¨‚¨‡¨“¨‡¨‹ ¨„ ¨“¨‡¨›¨‰¨—¨ﬁ¨⁄",
-ItemName_Packing.5pkScrewsBox = "5x ¨¨¨‡¨‚¨‡¨“¨‡¨‹ ¨„ ¨“¨‡¨›¨‰¨—¨ﬁ¨⁄",
+ItemName_Packing.10pkScrewsBox = "10x –ö–æ—Ä–æ–±–æ–∫ —Å –±–æ–ª—Ç–∞–º–∏",
+ItemName_Packing.5pkScrewsBox = "5x –ö–æ—Ä–æ–±–æ–∫ —Å –±–æ–ª—Ç–∞–º–∏",
 
 
 
 /** ----- ----- || CARPENTRY STUFF || ----- ----- **/
 
-ItemName_Packing.10pkRopePlank = "10x ¨•¨‡¨„¨‡¨‹ (¨£¨÷¨‚¨÷¨”¨‹¨—)",
-ItemName_Packing.5pkRopePlank = "5x ¨•¨‡¨„¨‡¨‹ (¨£¨÷¨‚¨÷¨”¨‹¨—)",
-ItemName_Packing.10pkSheetRopePlank = "10x ¨•¨‡¨„¨‡¨‹ (¨≥¨—¨ﬁ¨‡¨’.¨”¨÷¨‚¨÷¨”¨‹¨—)",
-ItemName_Packing.5pkSheetRopePlank = "5x ¨•¨‡¨„¨‡¨‹ (¨≥¨—¨ﬁ¨‡¨’.¨”¨÷¨‚¨÷¨”¨‹¨—)",
+ItemName_Packing.10pkRopePlank = "10x –î–æ—Å–æ–∫ (–í–µ—Ä–µ–≤–∫–∞)",
+ItemName_Packing.5pkRopePlank = "5x –î–æ—Å–æ–∫ (–í–µ—Ä–µ–≤–∫–∞)",
+ItemName_Packing.10pkSheetRopePlank = "10x –î–æ—Å–æ–∫ (–°–∞–º–æ–¥.–≤–µ—Ä–µ–≤–∫–∞)",
+ItemName_Packing.5pkSheetRopePlank = "5x –î–æ—Å–æ–∫ (–°–∞–º–æ–¥.–≤–µ—Ä–µ–≤–∫–∞)",
 
 
 
 /** ----- ----- || FOOD STUFF || ----- ----- **/
 
-ItemName_Packing.6pkDogFood = "6x ¨¢¨—¨ﬂ¨‡¨‹ ¨„¨‡¨“¨—¨È¨Ó¨÷¨€ ¨÷¨’¨Ì",
-ItemName_GidOrganizedFood.OS6pkCannedSoup = "6x ¨¢¨—¨ﬂ¨‡¨‹ ¨‹¨‡¨ﬂ¨„¨÷¨‚¨”.¨„¨Â¨·",
-ItemName_GidOrganizedFood.OS6pkCannedBeans = "6x ¨¢¨—¨ﬂ¨‡¨‹ ¨‹¨‡¨ﬂ¨„¨÷¨‚¨”.¨“¨‡¨“¨Ì",
-ItemName_GidOrganizedFood.OS6pkCannedBolognese = "6x ¨¢¨—¨ﬂ¨‡¨‹ ¨‹¨‡¨ﬂ¨„¨÷¨‚¨”.¨“¨‡¨›¨‡¨ﬂ¨Ó¨÷¨Ÿ¨÷",
-ItemName_GidOrganizedFood.OS6pkCannedCarrots = "6x ¨¢¨—¨ﬂ¨‡¨‹ ¨‹¨‡¨ﬂ¨„¨÷¨‚¨”.¨ﬁ¨‡¨‚¨‹¨‡¨”¨⁄",
-ItemName_GidOrganizedFood.OS6pkCannedChili = "6x ¨¢¨—¨ﬂ¨‡¨‹ ¨‹¨‡¨ﬂ¨„¨÷¨‚¨”.¨È¨⁄¨›¨⁄",
-ItemName_GidOrganizedFood.OS6pkCannedCorn = "6x ¨¢¨—¨ﬂ¨‡¨‹ ¨‹¨‡¨ﬂ¨„¨÷¨‚¨”.¨‹¨Â¨‹¨Â¨‚¨Â¨Ÿ¨Ì",
-ItemName_GidOrganizedFood.OS6pkCannedCornedBeef = "6x ¨¢¨—¨ﬂ¨‡¨‹ ¨‹¨‡¨ﬂ¨„¨÷¨‚¨”.¨‘¨‡¨”¨Ò¨’¨⁄¨ﬂ¨Ì",
-ItemName_GidOrganizedFood.OS6pkCannedMushSoup = "6x ¨¢¨—¨ﬂ¨‡¨‹ ¨‹¨‡¨ﬂ¨„¨÷¨‚¨”.¨‘¨‚¨⁄¨“¨ﬂ¨‡¨‘¨‡ ¨„¨Â¨·¨—",
-ItemName_GidOrganizedFood.OS6pkCannedPeas = "6x ¨¢¨—¨ﬂ¨‡¨‹ ¨‹¨‡¨ﬂ¨„¨÷¨‚¨”.¨‘¨‡¨‚¨‡¨Á¨—",
-ItemName_GidOrganizedFood.OS6pkCannedPotato = "6x ¨¢¨—¨ﬂ¨‡¨‹ ¨‹¨‡¨ﬂ¨„¨÷¨‚¨”.¨‹¨—¨‚¨‰¨‡¨Ê¨÷¨›¨Ò",
-ItemName_GidOrganizedFood.OS6pkCannedTomato = "6x ¨¢¨—¨ﬂ¨‡¨‹ ¨‹¨‡¨ﬂ¨„¨÷¨‚¨”.¨‰¨‡¨ﬁ¨—¨‰¨‡¨”",
-ItemName_GidOrganizedFood.OS8pkCannedTuna = "8x ¨¢¨—¨ﬂ¨‡¨‹ ¨‰¨Â¨ﬂ¨Ë¨—",
-ItemName_GidOrganizedFood.OS4pkSardines = "4x ¨¢¨—¨ﬂ¨‡¨‹ ¨„¨—¨‚¨’¨⁄¨ﬂ",
+ItemName_Packing.6pkDogFood = "6x –ë–∞–Ω–æ–∫ —Å–æ–±–∞—á—å–µ–π –µ–¥—ã",
+ItemName_GidOrganizedFood.OS6pkCannedSoup = "6x –ë–∞–Ω–æ–∫ –∫–æ–Ω—Å–µ—Ä–≤.—Å—É–ø",
+ItemName_GidOrganizedFood.OS6pkCannedBeans = "6x –ë–∞–Ω–æ–∫ –∫–æ–Ω—Å–µ—Ä–≤.–±–æ–±—ã",
+ItemName_GidOrganizedFood.OS6pkCannedBolognese = "6x –ë–∞–Ω–æ–∫ –∫–æ–Ω—Å–µ—Ä–≤.–±–æ–ª–æ–Ω—å–µ–∑–µ",
+ItemName_GidOrganizedFood.OS6pkCannedCarrots = "6x –ë–∞–Ω–æ–∫ –∫–æ–Ω—Å–µ—Ä–≤.–º–æ—Ä–∫–æ–≤–∏",
+ItemName_GidOrganizedFood.OS6pkCannedChili = "6x –ë–∞–Ω–æ–∫ –∫–æ–Ω—Å–µ—Ä–≤.—á–∏–ª–∏",
+ItemName_GidOrganizedFood.OS6pkCannedCorn = "6x –ë–∞–Ω–æ–∫ –∫–æ–Ω—Å–µ—Ä–≤.–∫—É–∫—É—Ä—É–∑—ã",
+ItemName_GidOrganizedFood.OS6pkCannedCornedBeef = "6x –ë–∞–Ω–æ–∫ –∫–æ–Ω—Å–µ—Ä–≤.–≥–æ–≤—è–¥–∏–Ω—ã",
+ItemName_GidOrganizedFood.OS6pkCannedMushSoup = "6x –ë–∞–Ω–æ–∫ –∫–æ–Ω—Å–µ—Ä–≤.–≥—Ä–∏–±–Ω–æ–≥–æ —Å—É–ø–∞",
+ItemName_GidOrganizedFood.OS6pkCannedPeas = "6x –ë–∞–Ω–æ–∫ –∫–æ–Ω—Å–µ—Ä–≤.–≥–æ—Ä–æ—Ö–∞",
+ItemName_GidOrganizedFood.OS6pkCannedPotato = "6x –ë–∞–Ω–æ–∫ –∫–æ–Ω—Å–µ—Ä–≤.–∫–∞—Ä—Ç–æ—Ñ–µ–ª—è",
+ItemName_GidOrganizedFood.OS6pkCannedTomato = "6x –ë–∞–Ω–æ–∫ –∫–æ–Ω—Å–µ—Ä–≤.—Ç–æ–º–∞—Ç–æ–≤",
+ItemName_GidOrganizedFood.OS8pkCannedTuna = "8x –ë–∞–Ω–æ–∫ —Ç—É–Ω—Ü–∞",
+ItemName_GidOrganizedFood.OS4pkSardines = "4x –ë–∞–Ω–æ–∫ —Å–∞—Ä–¥–∏–Ω",
 
-ItemName_Packing.6pkCannedMilk = "6x ¨¢¨—¨ﬂ¨‡¨‹ ¨‹¨‡¨ﬂ¨Ë¨÷¨ﬂ¨‰¨‚.¨ﬁ¨‡¨›¨‡¨‹¨—",
-ItemName_Packing.6pkCannedFruitBeverage = "6x ¨¢¨—¨ﬂ¨‡¨‹ ¨‹¨‡¨ﬂ¨„¨÷¨‚¨”.¨Ê¨‚¨Â¨‹¨‰¨‡¨”",
-ItemName_Packing.6pkCannedFruitCocktail = "6x ¨¢¨—¨ﬂ¨‡¨‹ ¨‹¨‡¨ﬂ¨„¨÷¨‚¨”.¨‹¨‡¨‹¨‰¨÷¨€¨›¨Ò",
-ItemName_Packing.6pkCannedPeaches = "6x ¨¢¨—¨ﬂ¨‡¨‹ ¨‹¨‡¨ﬂ¨„¨÷¨‚¨”.¨·¨÷¨‚¨„¨⁄¨‹¨‡¨”",
-ItemName_Packing.6pkCannedPineapple = "6x ¨¢¨—¨ﬂ¨‡¨‹ ¨‹¨‡¨ﬂ¨„¨÷¨‚¨”.¨—¨ﬂ¨—¨ﬂ¨—¨„¨‡¨”",
+ItemName_Packing.6pkCannedMilk = "6x –ë–∞–Ω–æ–∫ –∫–æ–Ω—Ü–µ–Ω—Ç—Ä.–º–æ–ª–æ–∫–∞",
+ItemName_Packing.6pkCannedFruitBeverage = "6x –ë–∞–Ω–æ–∫ –∫–æ–Ω—Å–µ—Ä–≤.—Ñ—Ä—É–∫—Ç–æ–≤",
+ItemName_Packing.6pkCannedFruitCocktail = "6x –ë–∞–Ω–æ–∫ –∫–æ–Ω—Å–µ—Ä–≤.–∫–æ–∫—Ç–µ–π–ª—è",
+ItemName_Packing.6pkCannedPeaches = "6x –ë–∞–Ω–æ–∫ –∫–æ–Ω—Å–µ—Ä–≤.–ø–µ—Ä—Å–∏–∫–æ–≤",
+ItemName_Packing.6pkCannedPineapple = "6x –ë–∞–Ω–æ–∫ –∫–æ–Ω—Å–µ—Ä–≤.–∞–Ω–∞–Ω–∞—Å–æ–≤",
 
-ItemName_GidOrganizedFood.OS4pkCoffee = "4x ¨¢¨—¨ﬂ¨‹¨⁄ ¨‹¨‡¨Ê¨÷",
+ItemName_GidOrganizedFood.OS4pkCoffee = "4x –ë–∞–Ω–∫–∏ –∫–æ—Ñ–µ",
 
 
 
 /** ----- ----- || DRINK STUFF || ----- ----- **/
 
-ItemName_Packing.6pkBeerCan = "6x ¨¢¨—¨ﬂ¨‡¨‹ ¨·¨⁄¨”¨—",
-ItemName_Packing.6pkBeer = "6x ¨¢¨Â¨‰¨Ì¨›¨‡¨‹ ¨·¨⁄¨”¨—",
+ItemName_Packing.6pkBeerCan = "6x –ë–∞–Ω–æ–∫ –ø–∏–≤–∞",
+ItemName_Packing.6pkBeer = "6x –ë—É—Ç—ã–ª–æ–∫ –ø–∏–≤–∞",
 
-ItemName_Packing.10pkRedWine = "10x ¨¢¨Â¨‰¨Ì¨›¨‡¨‹ ¨‹¨‚¨—¨„¨ﬂ¨‡¨‘¨‡ ¨”¨⁄¨ﬂ¨—",
-ItemName_Packing.5pkRedWine = "5x ¨¢¨Â¨‰¨Ì¨›¨‡¨‹ ¨‹¨‚¨—¨„¨ﬂ¨‡¨‘¨‡ ¨”¨⁄¨ﬂ¨—",
-ItemName_Packing.10pkWhiteWine = "10x ¨¢¨Â¨‰¨Ì¨›¨‡¨‹ ¨“¨÷¨›¨‡¨‘¨‡ ¨”¨⁄¨ﬂ¨—",
-ItemName_Packing.5pkWhiteWine = "5x ¨¢¨Â¨‰¨Ì¨›¨‡¨‹ ¨“¨÷¨›¨‡¨‘¨‡ ¨”¨⁄¨ﬂ¨—",
+ItemName_Packing.10pkRedWine = "10x –ë—É—Ç—ã–ª–æ–∫ –∫—Ä–∞—Å–Ω–æ–≥–æ –≤–∏–Ω–∞",
+ItemName_Packing.5pkRedWine = "5x –ë—É—Ç—ã–ª–æ–∫ –∫—Ä–∞—Å–Ω–æ–≥–æ –≤–∏–Ω–∞",
+ItemName_Packing.10pkWhiteWine = "10x –ë—É—Ç—ã–ª–æ–∫ –±–µ–ª–æ–≥–æ –≤–∏–Ω–∞",
+ItemName_Packing.5pkWhiteWine = "5x –ë—É—Ç—ã–ª–æ–∫ –±–µ–ª–æ–≥–æ –≤–∏–Ω–∞",
 
-ItemName_Packing.10pkWhiskey = "10x ¨¢¨Â¨‰¨Ì¨›¨‡¨‹ ¨“¨Â¨‚¨“¨‡¨ﬂ¨—",
-ItemName_Packing.5pkWhiskey = "5x ¨¢¨Â¨‰¨Ì¨›¨‡¨‹ ¨“¨Â¨‚¨“¨‡¨ﬂ¨—",
+ItemName_Packing.10pkWhiskey = "10x –ë—É—Ç—ã–ª–æ–∫ –±—É—Ä–±–æ–Ω–∞",
+ItemName_Packing.5pkWhiskey = "5x –ë—É—Ç—ã–ª–æ–∫ –±—É—Ä–±–æ–Ω–∞",
 
-ItemName_Packing.10pkOrangeSoda = "10x ¨¢¨Â¨‰¨Ì¨›¨‡¨‹ ¨—¨·¨÷¨›¨Ó¨„¨⁄¨ﬂ¨‡¨”¨‡¨€ ¨„¨‡¨’¨‡¨”¨‡¨€",
-ItemName_Packing.5pkOrangeSoda = "5x ¨¢¨Â¨‰¨Ì¨›¨‡¨‹ ¨—¨·¨÷¨›¨Ó¨„¨⁄¨ﬂ¨‡¨”¨‡¨€ ¨„¨‡¨’¨‡¨”¨‡¨€",
+ItemName_Packing.10pkOrangeSoda = "10x –ë—É—Ç—ã–ª–æ–∫ –∞–ø–µ–ª—å—Å–∏–Ω–æ–≤–æ–π —Å–æ–¥–æ–≤–æ–π",
+ItemName_Packing.5pkOrangeSoda = "5x –ë—É—Ç—ã–ª–æ–∫ –∞–ø–µ–ª—å—Å–∏–Ω–æ–≤–æ–π —Å–æ–¥–æ–≤–æ–π",
 
-ItemName_GidOrganizedFood.OS6pkPopDiet = "6x ¨¢¨—¨ﬂ¨‡¨‹ ¨‘¨—¨Ÿ¨⁄¨‚¨‡¨”¨‹¨⁄",
-ItemName_GidOrganizedFood.OS6pkPop = "6x ¨¢¨—¨ﬂ¨‡¨‹ ¨‘¨—¨Ÿ¨⁄¨‚¨‡¨”¨‹¨⁄",
-ItemName_GidOrganizedFood.OS6pkFizz = "6x ¨¢¨—¨ﬂ¨‡¨‹ ¨‘¨—¨Ÿ¨⁄¨‚¨‡¨”¨‹¨⁄",
+ItemName_GidOrganizedFood.OS6pkPopDiet = "6x –ë–∞–Ω–æ–∫ –≥–∞–∑–∏—Ä–æ–≤–∫–∏",
+ItemName_GidOrganizedFood.OS6pkPop = "6x –ë–∞–Ω–æ–∫ –≥–∞–∑–∏—Ä–æ–≤–∫–∏",
+ItemName_GidOrganizedFood.OS6pkFizz = "6x –ë–∞–Ω–æ–∫ –≥–∞–∑–∏—Ä–æ–≤–∫–∏",
 
-ItemName_GidOrganizedFood.OS12pkWineEmpty = "12x ¨±¨Â¨„¨‰¨Ì¨Á ¨”¨⁄¨ﬂ¨ﬂ¨Ì¨Á ¨“¨Â¨‰¨Ì¨›¨‡¨‹",
-ItemName_GidOrganizedFood.OS12pkWineEmpty2 = "12x ¨±¨Â¨„¨‰¨Ì¨Á ¨”¨⁄¨ﬂ¨ﬂ¨Ì¨Á ¨“¨Â¨‰¨Ì¨›¨‡¨‹",
-ItemName_GidOrganizedFood.OS8pkWhiskeyEmpty = "8x ¨¢¨Â¨‰¨Ì¨›¨‡¨‹ ¨‡¨‰ ¨“¨Â¨‚¨“¨‡¨ﬂ¨—",
+ItemName_GidOrganizedFood.OS12pkWineEmpty = "12x –ü—É—Å—Ç—ã—Ö –≤–∏–Ω–Ω—ã—Ö –±—É—Ç—ã–ª–æ–∫",
+ItemName_GidOrganizedFood.OS12pkWineEmpty2 = "12x –ü—É—Å—Ç—ã—Ö –≤–∏–Ω–Ω—ã—Ö –±—É—Ç—ã–ª–æ–∫",
+ItemName_GidOrganizedFood.OS8pkWhiskeyEmpty = "8x –ë—É—Ç—ã–ª–æ–∫ –æ—Ç –±—É—Ä–±–æ–Ω–∞",
 
-ItemName_GidOrganizedFood.OS24pkWaterBottleEmpty = "24x ¨±¨Â¨„¨‰¨Ì¨÷ ¨“¨Â¨‰¨Ì¨›¨‹¨⁄",
-ItemName_GidOrganizedFood.OS24pkWaterBottleFull = "24x ¨¢¨Â¨‰¨Ì¨›¨‹¨⁄ ¨„ ¨”¨‡¨’¨‡¨€¨¨¨—¨‚¨—¨ﬂ¨’¨—¨Í¨÷¨€¨‚¨Â¨È¨÷¨‹",
+ItemName_GidOrganizedFood.OS24pkWaterBottleEmpty = "24x –ü—É—Å—Ç—ã–µ –±—É—Ç—ã–ª–∫–∏",
+ItemName_GidOrganizedFood.OS24pkWaterBottleFull = "24x –ë—É—Ç—ã–ª–∫–∏ —Å –≤–æ–¥–æ–π",
 
 
 
 /** ----- ----- || PAPER STUFF || ----- ----- **/
 
-ItemName_Packing.10pkPencil = "10x ¨¨¨—¨‚¨—¨ﬂ¨’¨—¨Í¨÷¨€¨‚¨Â¨È¨÷¨‹",
-ItemName_Packing.5pkPencil = "5x ¨¨¨—¨‚¨—¨ﬂ¨’¨—¨Í¨÷¨€¨‚¨Â¨È¨÷¨‹",
+ItemName_Packing.10pkPencil = "10x –ö–∞—Ä–∞–Ω–¥–∞—à–µ–π—Ä—É—á–µ–∫",
+ItemName_Packing.5pkPencil = "5x –ö–∞—Ä–∞–Ω–¥–∞—à–µ–π—Ä—É—á–µ–∫",
 
-ItemName_Packing.10pkPen = "10x ¨≤¨Â¨È¨÷¨‹",
-ItemName_Packing.5pkPen = "5x ¨≤¨Â¨È¨÷¨‹",
+ItemName_Packing.10pkPen = "10x –†—É—á–µ–∫",
+ItemName_Packing.5pkPen = "5x –†—É—á–µ–∫",
 
-ItemName_Packing.10pkRedPen = "10x ¨¨¨‚¨—¨„¨ﬂ¨Ì¨Á ¨‚¨Â¨È¨÷¨‹",
-ItemName_Packing.5pkRedPen = "5x ¨¨¨‚¨—¨„¨ﬂ¨Ì¨Á ¨‚¨Â¨È¨÷¨‹",
+ItemName_Packing.10pkRedPen = "10x –ö—Ä–∞—Å–Ω—ã—Ö —Ä—É—á–µ–∫",
+ItemName_Packing.5pkRedPen = "5x –ö—Ä–∞—Å–Ω—ã—Ö —Ä—É—á–µ–∫",
 
-ItemName_Packing.10pkBluePen = "10x ¨≥¨⁄¨ﬂ¨⁄¨Á ¨‚¨Â¨È¨÷¨‹",
-ItemName_Packing.5pkBluePen = "5x ¨≥¨⁄¨ﬂ¨⁄¨Á ¨‚¨Â¨È¨÷¨‹",
+ItemName_Packing.10pkBluePen = "10x –°–∏–Ω–∏—Ö —Ä—É—á–µ–∫",
+ItemName_Packing.5pkBluePen = "5x –°–∏–Ω–∏—Ö —Ä—É—á–µ–∫",
 
-ItemName_Packing.10pkSheetPaper = "10x ¨≠¨⁄¨„¨‰¨‡¨” ¨“¨Â¨ﬁ¨—¨‘¨⁄",
-ItemName_Packing.5pkSheetPaper = "5x ¨≠¨⁄¨„¨‰¨‡¨” ¨“¨Â¨ﬁ¨—¨‘¨⁄",
+ItemName_Packing.10pkSheetPaper = "10x –õ–∏—Å—Ç–æ–≤ –±—É–º–∞–≥–∏",
+ItemName_Packing.5pkSheetPaper = "5x –õ–∏—Å—Ç–æ–≤ –±—É–º–∞–≥–∏",
 
-ItemName_Packing.10pkNotebook = "10x ¨¢¨›¨‡¨‹¨ﬂ¨‡¨‰¨‡¨”",
-ItemName_Packing.5pkNotebook = "5x ¨¢¨›¨‡¨‹¨ﬂ¨‡¨‰¨‡¨”",
+ItemName_Packing.10pkNotebook = "10x –ë–ª–æ–∫–Ω–æ—Ç–æ–≤",
+ItemName_Packing.5pkNotebook = "5x –ë–ª–æ–∫–Ω–æ—Ç–æ–≤",
 
-ItemName_Packing.10pkBook = "10x ¨¨¨ﬂ¨⁄¨‘",
-ItemName_Packing.5pkBook = "5x ¨¨¨ﬂ¨⁄¨‘",
+ItemName_Packing.10pkBook = "10x –ö–Ω–∏–≥",
+ItemName_Packing.5pkBook = "5x –ö–Ω–∏–≥",
 
-ItemName_Packing.10pkMagazine = "10x ¨®¨Â¨‚¨ﬂ¨—¨›¨‡¨”",
-ItemName_Packing.5pkMagazine = "5x ¨®¨Â¨‚¨ﬂ¨—¨›¨‡¨”",
+ItemName_Packing.10pkMagazine = "10x –ñ—É—Ä–Ω–∞–ª–æ–≤",
+ItemName_Packing.5pkMagazine = "5x –ñ—É—Ä–Ω–∞–ª–æ–≤",
 
-ItemName_Packing.10pkNewspaper = "10x ¨§¨—¨Ÿ¨÷¨‰",
-ItemName_Packing.5pkNewspaper = "5x ¨§¨—¨Ÿ¨÷¨‰",
+ItemName_Packing.10pkNewspaper = "10x –ì–∞–∑–µ—Ç",
+ItemName_Packing.5pkNewspaper = "5x –ì–∞–∑–µ—Ç",
 
 
 
 /** ----- ----- || TAILORING STUFF || ----- ----- **/
 
-ItemName_Packing.10pkThread = "10x ¨Æ¨‡¨‰¨‹¨‡¨” ¨ﬂ¨⁄¨‰¨‡¨‹",
-ItemName_Packing.5pkThread = "5x ¨Æ¨‡¨‰¨‹¨‡¨” ¨ﬂ¨⁄¨‰¨‡¨‹",
+ItemName_Packing.10pkThread = "10x –ú–æ—Ç–∫–æ–≤ –Ω–∏—Ç–æ–∫",
+ItemName_Packing.5pkThread = "5x –ú–æ—Ç–∫–æ–≤ –Ω–∏—Ç–æ–∫",
 
-ItemName_Packing.10pkRag = "10x ¨¥¨‚¨Ò¨·¨‡¨‹",
-ItemName_Packing.50pkRag = "50x ¨¥¨‚¨Ò¨·¨‡¨‹",
-ItemName_Packing.100pkRag = "100x ¨¥¨‚¨Ò¨·¨‡¨‹",
+ItemName_Packing.10pkRag = "10x –¢—Ä—è–ø–æ–∫",
+ItemName_Packing.50pkRag = "50x –¢—Ä—è–ø–æ–∫",
+ItemName_Packing.100pkRag = "100x –¢—Ä—è–ø–æ–∫",
 
-ItemName_Packing.10pkDenim = "10x ¨•¨ÿ¨⁄¨ﬂ¨„¨‡¨”¨Ì¨Á ¨‰¨‚¨Ò¨·¨‡¨‹",
-ItemName_Packing.50pkDenim = "50x ¨•¨ÿ¨⁄¨ﬂ¨„¨‡¨”¨Ì¨Á ¨‰¨‚¨Ò¨·¨‡¨‹",
-ItemName_Packing.100pkDenim = "100x ¨•¨ÿ¨⁄¨ﬂ¨„¨‡¨”¨Ì¨Á ¨‰¨‚¨Ò¨·¨‡¨‹",
+ItemName_Packing.10pkDenim = "10x –î–∂–∏–Ω—Å–æ–≤—ã—Ö —Ç—Ä—è–ø–æ–∫",
+ItemName_Packing.50pkDenim = "50x –î–∂–∏–Ω—Å–æ–≤—ã—Ö —Ç—Ä—è–ø–æ–∫",
+ItemName_Packing.100pkDenim = "100x –î–∂–∏–Ω—Å–æ–≤—ã—Ö —Ç—Ä—è–ø–æ–∫",
 
-ItemName_Packing.10pkLeather = "10x ¨±¨‡¨›¨‡¨„¨‡¨‹ ¨‹¨‡¨ÿ¨⁄",
-ItemName_Packing.50pkLeather = "50x ¨±¨‡¨›¨‡¨„¨‡¨‹ ¨‹¨‡¨ÿ¨⁄",
-ItemName_Packing.100pkLeather = "100x ¨±¨‡¨›¨‡¨„¨‡¨‹ ¨‹¨‡¨ÿ¨⁄",
+ItemName_Packing.10pkLeather = "10x –ü–æ–ª–æ—Å–æ–∫ –∫–æ–∂–∏",
+ItemName_Packing.50pkLeather = "50x –ü–æ–ª–æ—Å–æ–∫ –∫–æ–∂–∏",
+ItemName_Packing.100pkLeather = "100x –ü–æ–ª–æ—Å–æ–∫ –∫–æ–∂–∏",
 
-ItemName_Packing.10pkTwine = "10x ¨Æ¨‡¨‰¨‹¨‡¨” ¨“¨÷¨È¨÷¨”¨‹¨⁄",
-ItemName_Packing.5pkTwine = "5x ¨Æ¨‡¨‰¨‹¨‡¨” ¨“¨÷¨È¨÷¨”¨‹¨⁄",
+ItemName_Packing.10pkTwine = "10x –ú–æ—Ç–∫–æ–≤ –±–µ—á–µ–≤–∫–∏",
+ItemName_Packing.5pkTwine = "5x –ú–æ—Ç–∫–æ–≤ –±–µ—á–µ–≤–∫–∏",
 
 
 
 /** ----- ----- || FORAGING STUFF || ----- ----- **/
 
-ItemName_Packing.10pkRopeBranch = "10x ¨£¨÷¨‰¨‡¨‹ (¨£¨÷¨‚¨÷¨”¨‹¨—)",
-ItemName_Packing.5pkRopeBranch = "5x ¨£¨÷¨‰¨‡¨‹ (¨£¨÷¨‚¨÷¨”¨‹¨—)",
+ItemName_Packing.10pkRopeBranch = "10x –í–µ—Ç–æ–∫ (–í–µ—Ä–µ–≤–∫–∞)",
+ItemName_Packing.5pkRopeBranch = "5x –í–µ—Ç–æ–∫ (–í–µ—Ä–µ–≤–∫–∞)",
 
-ItemName_Packing.10pkSheetRopeBranch = "10x ¨£¨÷¨‰¨‡¨‹ (¨≥¨—¨ﬁ¨‡¨’.¨”¨÷¨‚¨÷¨”¨‹¨—)",
-ItemName_Packing.5pkSheetRopeBranch = "5x ¨£¨÷¨‰¨‡¨‹ (¨≥¨—¨ﬁ¨‡¨’.¨”¨÷¨‚¨÷¨”¨‹¨—)",
+ItemName_Packing.10pkSheetRopeBranch = "10x –í–µ—Ç–æ–∫ (–°–∞–º–æ–¥.–≤–µ—Ä–µ–≤–∫–∞)",
+ItemName_Packing.5pkSheetRopeBranch = "5x –í–µ—Ç–æ–∫ (–°–∞–º–æ–¥.–≤–µ—Ä–µ–≤–∫–∞)",
 
 
 
 /** ----- ----- || MEDICINE STUFF || ----- ----- **/
 
-ItemName_GidOrganized.OS12pkAdhesiveBandages = "12x ¨±¨›¨—¨„¨‰¨Ì¨‚¨÷¨€",
-ItemName_GidOrganized.OS9pkBandages = "9x ¨¢¨⁄¨ﬂ¨‰¨‡¨”",
-ItemName_GidOrganized.OS9pkSterileBandages = "9x ¨≥¨‰¨÷¨‚¨⁄¨›¨Ó¨ﬂ¨Ì¨Á ¨“¨⁄¨ﬂ¨‰¨‡¨”",
-ItemName_GidOrganized.OS9pkBandagesDirty = "9x ¨§¨‚¨Ò¨Ÿ¨ﬂ¨Ì¨Á ¨“¨⁄¨ﬂ¨‰¨‡¨”",
+ItemName_GidOrganized.OS12pkAdhesiveBandages = "12x –ü–ª–∞—Å—Ç—ã—Ä–µ–π",
+ItemName_GidOrganized.OS9pkBandages = "9x –ë–∏–Ω—Ç–æ–≤",
+ItemName_GidOrganized.OS9pkSterileBandages = "9x –°—Ç–µ—Ä–∏–ª—å–Ω—ã—Ö –±–∏–Ω—Ç–æ–≤",
+ItemName_GidOrganized.OS9pkBandagesDirty = "9x –ì—Ä—è–∑–Ω—ã—Ö –±–∏–Ω—Ç–æ–≤",
 
-ItemName_Packing.10pkTissue = "10x ¨±¨›¨—¨‰¨‹¨‡¨”",
-ItemName_Packing.5pkTissue = "5x ¨±¨›¨—¨‰¨‹¨‡¨”",
-ItemName_Packing.4pkToiletPaper = "4x ¨≤¨Â¨›¨‡¨ﬂ¨— ¨‰¨Â¨—¨›¨÷¨‰¨ﬂ¨‡¨€ ¨“¨Â¨ﬁ¨—¨‘¨⁄",
+ItemName_Packing.10pkTissue = "10x –ü–ª–∞—Ç–∫–æ–≤",
+ItemName_Packing.5pkTissue = "5x –ü–ª–∞—Ç–∫–æ–≤",
+ItemName_Packing.4pkToiletPaper = "4x –†—É–ª–æ–Ω–∞ —Ç—É–∞–ª–µ—Ç–Ω–æ–π –±—É–º–∞–≥–∏",
 
-ItemName_GidOrganized.OS12pkCottonBalls = "12x ¨£¨—¨‰¨ﬂ¨Ì¨÷ ¨Í¨—¨‚¨⁄¨‹¨⁄",
+ItemName_GidOrganized.OS12pkCottonBalls = "12x –í–∞—Ç–Ω—ã–µ —à–∞—Ä–∏–∫–∏",
 
-ItemName_GidOrganized.OS30pkAntibiotics = "30x ¨¥¨—¨“¨›¨÷¨‰¨‡¨‹ ¨°¨ﬂ¨‰¨⁄¨“¨⁄¨‡¨‰¨⁄¨‹¨‡¨”",
-ItemName_GidOrganized.OS50pkPainkillers = "5x ¨≠¨—¨Ê¨÷¨‰¨‡¨‹ ¨∞¨“¨÷¨Ÿ¨“¨‡¨›¨⁄¨”¨—¨¨Î¨÷¨‘¨‡",
-ItemName_GidOrganized.OS50pkVitamins = "5x ¨¢¨—¨ﬂ¨‡¨È¨÷¨‹ ¨£¨⁄¨‰¨—¨ﬁ¨⁄¨ﬂ¨‡¨”",
-ItemName_GidOrganized.OS50pkBetaBlockers = "5x ¨¢¨—¨ﬂ¨‡¨È¨÷¨‹ ¨“¨÷¨‰¨—-¨“¨›¨‡¨‹¨—¨‰¨‡¨‚¨‡¨”",
-ItemName_GidOrganized.OS50pkAntidepressants = "5x ¨¢¨—¨ﬂ¨‡¨È¨÷¨‹ ¨—¨ﬂ¨‰¨‡¨’¨÷¨·¨‚¨÷¨„¨„¨—¨ﬂ¨‰¨‡¨”",
-ItemName_GidOrganized.OS50pkSleepingPills = "5x ¨µ¨·¨—¨‹¨‡¨”¨‡¨‹ ¨„¨ﬂ¨‡¨‰¨”¨‡¨‚¨ﬂ¨‡¨‘¨‡",
+ItemName_GidOrganized.OS30pkAntibiotics = "30x –¢–∞–±–ª–µ—Ç–æ–∫ –ê–Ω—Ç–∏–±–∏–æ—Ç–∏–∫–æ–≤",
+ItemName_GidOrganized.OS50pkPainkillers = "5x –õ–∞—Ñ–µ—Ç–æ–∫ –û–±–µ–∑–±–æ–ª–∏–≤–∞—é—â–µ–≥–æ",
+ItemName_GidOrganized.OS50pkVitamins = "5x –ë–∞–Ω–æ—á–µ–∫ –í–∏—Ç–∞–º–∏–Ω–æ–≤",
+ItemName_GidOrganized.OS50pkBetaBlockers = "5x –ë–∞–Ω–æ—á–µ–∫ –±–µ—Ç–∞-–±–ª–æ–∫–∞—Ç–æ—Ä–æ–≤",
+ItemName_GidOrganized.OS50pkAntidepressants = "5x –ë–∞–Ω–æ—á–µ–∫ –∞–Ω—Ç–æ–¥–µ–ø—Ä–µ—Å—Å–∞–Ω—Ç–æ–≤",
+ItemName_GidOrganized.OS50pkSleepingPills = "5x –£–ø–∞–∫–æ–≤–æ–∫ —Å–Ω–æ—Ç–≤–æ—Ä–Ω–æ–≥–æ",
 
-ItemName_GidOrganized.OS4pkDisinfectant = "4x ¨¢¨Â¨‰¨Ì¨›¨‹¨⁄ ¨—¨ﬂ¨‰¨⁄¨„¨÷¨·¨‰¨⁄¨‹¨—",
-ItemName_GidOrganized.OS30pkAlcoholWipes = "6x ¨µ¨·¨—¨‹¨‡¨”¨‡¨‹ ¨„¨·¨⁄¨‚¨‰.¨„¨—¨›¨Ê¨÷¨‰¨‡¨‹",
+ItemName_GidOrganized.OS4pkDisinfectant = "4x –ë—É—Ç—ã–ª–∫–∏ –∞–Ω—Ç–∏—Å–µ–ø—Ç–∏–∫–∞",
+ItemName_GidOrganized.OS30pkAlcoholWipes = "6x –£–ø–∞–∫–æ–≤–æ–∫ —Å–ø–∏—Ä—Ç.—Å–∞–ª—Ñ–µ—Ç–æ–∫",
 
 
 
 /** ----- ----- || ELETRONIC STUFF || ----- ----- **/
 
-ItemName_Packing.10pkBattery = "10x ¨¢¨—¨‰¨—¨‚¨÷¨÷¨‹",
-ItemName_Packing.5pkBattery = "5x ¨¢¨—¨‰¨—¨‚¨÷¨÷¨‹",
+ItemName_Packing.10pkBattery = "10x –ë–∞—Ç–∞—Ä–µ–µ–∫",
+ItemName_Packing.5pkBattery = "5x –ë–∞—Ç–∞—Ä–µ–µ–∫",
 
-ItemName_Packing.10pkElectronicsScrap = "10x ¨ø¨›¨÷¨‹¨‰¨‚¨‡¨ﬂ¨ﬂ¨Ì¨Á ¨Ÿ¨—¨·¨È¨—¨„¨‰¨÷¨€",
-ItemName_Packing.50pkElectronicsScrap = "50x ¨ø¨›¨÷¨‹¨‰¨‚¨‡¨ﬂ¨ﬂ¨Ì¨Á ¨Ÿ¨—¨·¨È¨—¨„¨‰¨÷¨€",
-ItemName_Packing.100pkElectronicsScrap = "100x ¨ø¨›¨÷¨‹¨‰¨‚¨‡¨ﬂ¨ﬂ¨Ì¨Á ¨Ÿ¨—¨·¨È¨—¨„¨‰¨÷¨€",
+ItemName_Packing.10pkElectronicsScrap = "10x –≠–ª–µ–∫—Ç—Ä–æ–Ω–Ω—ã—Ö –∑–∞–ø—á–∞—Å—Ç–µ–π",
+ItemName_Packing.50pkElectronicsScrap = "50x –≠–ª–µ–∫—Ç—Ä–æ–Ω–Ω—ã—Ö –∑–∞–ø—á–∞—Å—Ç–µ–π",
+ItemName_Packing.100pkElectronicsScrap = "100x –≠–ª–µ–∫—Ç—Ä–æ–Ω–Ω—ã—Ö –∑–∞–ø—á–∞—Å—Ç–µ–π",
 
-ItemName_Packing.10pkElectricWire = "10x ¨ø¨›¨÷¨‹¨‰¨‚¨⁄¨È¨÷¨„¨‹¨⁄¨€ ¨·¨‚¨‡¨”¨‡¨’",
-ItemName_Packing.5pkElectricWire = "5x ¨ø¨›¨÷¨‹¨‰¨‚¨⁄¨È¨÷¨„¨‹¨⁄¨€ ¨·¨‚¨‡¨”¨‡¨’",
+ItemName_Packing.10pkElectricWire = "10x –≠–ª–µ–∫—Ç—Ä–∏—á–µ—Å–∫–∏–π –ø—Ä–æ–≤–æ–¥",
+ItemName_Packing.5pkElectricWire = "5x –≠–ª–µ–∫—Ç—Ä–∏—á–µ—Å–∫–∏–π –ø—Ä–æ–≤–æ–¥",
 
 
 
 /** ----- ----- || MISCELLANEOUS THINGS || ----- ----- **/
 
-ItemName_Packing.10pkRope = "10x ¨£¨÷¨‚¨÷¨”¨‹¨—",
-ItemName_Packing.5pkRope = "5x ¨£¨÷¨‚¨÷¨”¨‹¨—",
+ItemName_Packing.10pkRope = "10x –í–µ—Ä–µ–≤–∫–∞",
+ItemName_Packing.5pkRope = "5x –í–µ—Ä–µ–≤–∫–∞",
 
-ItemName_Packing.10pkSheetRope = "10x ¨≥¨—¨ﬁ¨‡¨’.¨”¨÷¨‚¨÷¨”¨‹¨—",
-ItemName_Packing.5pkSheetRope = "5x ¨≥¨—¨ﬁ¨‡¨’.¨”¨÷¨‚¨÷¨”¨‹¨—",
+ItemName_Packing.10pkSheetRope = "10x –°–∞–º–æ–¥.–≤–µ—Ä–µ–≤–∫–∞",
+ItemName_Packing.5pkSheetRope = "5x –°–∞–º–æ–¥.–≤–µ—Ä–µ–≤–∫–∞",
 
-ItemName_Packing.10pkGarbage = "10x ¨Æ¨Â¨„¨‡¨‚¨ﬂ¨Ì¨Á ¨·¨—¨‹¨÷¨‰¨‡¨”",
-ItemName_Packing.5pkGarbage = "5x ¨Æ¨Â¨„¨‡¨‚¨ﬂ¨Ì¨Á ¨·¨—¨‹¨÷¨‰¨‡¨”",
+ItemName_Packing.10pkGarbage = "10x –ú—É—Å–æ—Ä–Ω—ã—Ö –ø–∞–∫–µ—Ç–æ–≤",
+ItemName_Packing.5pkGarbage = "5x –ú—É—Å–æ—Ä–Ω—ã—Ö –ø–∞–∫–µ—Ç–æ–≤",
 
-ItemName_Packing.10pkSoap = "10x ¨¨¨Â¨„¨‹¨‡¨” ¨ﬁ¨Ì¨›¨—",
-ItemName_Packing.5pkSoap = "5x ¨¨¨Â¨„¨‹¨‡¨” ¨ﬁ¨Ì¨›¨—",
+ItemName_Packing.10pkSoap = "10x –ö—É—Å–∫–æ–≤ –º—ã–ª–∞",
+ItemName_Packing.5pkSoap = "5x –ö—É—Å–∫–æ–≤ –º—ã–ª–∞",
 
-ItemName_Packing.10pkFishingLine = "10x ¨Æ¨‡¨‰¨‹¨‡¨” ¨›¨÷¨„¨‹¨⁄",
-ItemName_Packing.5pkFishingLine = "5x ¨Æ¨‡¨‰¨‹¨‡¨” ¨›¨÷¨„¨‹¨⁄",
+ItemName_Packing.10pkFishingLine = "10x –ú–æ—Ç–∫–æ–≤ –ª–µ—Å–∫–∏",
+ItemName_Packing.5pkFishingLine = "5x –ú–æ—Ç–∫–æ–≤ –ª–µ—Å–∫–∏",
 
 
-ItemName_Packing.10pkFishingNet = "10x ¨≤¨Ì¨“¨‡¨›¨‡¨”¨ﬂ¨Ì¨Á ¨„¨÷¨‰¨÷¨€",
-ItemName_Packing.5pkFishingNet = "5x ¨≤¨Ì¨“¨‡¨›¨‡¨”¨ﬂ¨Ì¨Á ¨„¨÷¨‰¨÷¨€",
+ItemName_Packing.10pkFishingNet = "10x –†—ã–±–æ–ª–æ–≤–Ω—ã—Ö —Å–µ—Ç–µ–π",
+ItemName_Packing.5pkFishingNet = "5x –†—ã–±–æ–ª–æ–≤–Ω—ã—Ö —Å–µ—Ç–µ–π",
 
-ItemName_Packing.20pkCigarettes = "20x ¨≥¨⁄¨‘¨—¨‚¨÷¨‰",
+ItemName_Packing.20pkCigarettes = "20x –°–∏–≥–∞—Ä–µ—Ç",
 
-ItemName_Packing.10pkMatches = "10x ¨¨¨‡¨‚¨‡¨“¨‹¨‡¨” ¨„¨·¨⁄¨È¨÷¨‹",
-ItemName_Packing.5pkMatches = "5x ¨¨¨‡¨‚¨‡¨“¨‹¨‡¨” ¨„¨·¨⁄¨È¨÷¨‹",
-ItemName_Packing.10pkLighter = "10x ¨©¨—¨ÿ¨⁄¨‘¨—¨›¨‡¨‹",
-ItemName_Packing.5pkLighter = "5x ¨©¨—¨ÿ¨⁄¨‘¨—¨›¨‡¨‹",
+ItemName_Packing.10pkMatches = "10x –ö–æ—Ä–æ–±–∫–æ–≤ —Å–ø–∏—á–µ–∫",
+ItemName_Packing.5pkMatches = "5x –ö–æ—Ä–æ–±–∫–æ–≤ —Å–ø–∏—á–µ–∫",
+ItemName_Packing.10pkLighter = "10x –ó–∞–∂–∏–≥–∞–ª–æ–∫",
+ItemName_Packing.5pkLighter = "5x –ó–∞–∂–∏–≥–∞–ª–æ–∫",
 
-ItemName_Packing.10pkWoodGlue = "10x ¨¥¨¨“¨⁄¨‹¨‡¨” ¨‹¨›¨÷¨Ò ¨’¨›¨Ò ¨’¨÷¨‚¨÷¨”¨—",
-ItemName_Packing.5pkWoodGlue = "5x ¨¥¨¨“¨⁄¨‹¨‡¨” ¨‹¨›¨÷¨Ò ¨’¨›¨Ò ¨’¨÷¨‚¨÷¨”¨—",
+ItemName_Packing.10pkWoodGlue = "10x –¢—é–±–∏–∫–æ–≤ –∫–ª–µ—è –¥–ª—è –¥–µ—Ä–µ–≤–∞",
+ItemName_Packing.5pkWoodGlue = "5x –¢—é–±–∏–∫–æ–≤ –∫–ª–µ—è –¥–ª—è –¥–µ—Ä–µ–≤–∞",
 
-ItemName_Packing.10pkGlue = "10x ¨¥¨¨“¨⁄¨‹¨‡¨” ¨‹¨›¨÷¨Ò",
-ItemName_Packing.5pkGlue = "5x ¨¥¨¨“¨⁄¨‹¨‡¨” ¨‹¨›¨÷¨Ò",
+ItemName_Packing.10pkGlue = "10x –¢—é–±–∏–∫–æ–≤ –∫–ª–µ—è",
+ItemName_Packing.5pkGlue = "5x –¢—é–±–∏–∫–æ–≤ –∫–ª–µ—è",
 
-ItemName_GidOrganizedFood.OS4pkDuctTape = "4x ¨Æ¨‡¨‰¨‹¨‡¨” ¨⁄¨Ÿ¨‡¨›¨÷¨ﬂ¨‰¨Ì",
+ItemName_GidOrganizedFood.OS4pkDuctTape = "4x –ú–æ—Ç–∫–æ–≤ –∏–∑–æ–ª–µ–Ω—Ç—ã",
 
-ItemName_Packing.10pkRopeEmptyPetrolCan = "10x ¨±¨Â¨„¨‰¨Ì¨Á ¨‹¨—¨ﬂ¨⁄¨„¨‰¨‚ (¨£¨÷¨‚¨÷¨”¨‹¨—)",
-ItemName_Packing.5pkRopeEmptyPetrolCan = "5x ¨±¨Â¨„¨‰¨Ì¨Á ¨‹¨—¨ﬂ¨⁄¨„¨‰¨‚ (¨£¨÷¨‚¨÷¨”¨‹¨—)",
-ItemName_Packing.10pkSheetRopeEmptyPetrolCan = "10x ¨±¨Â¨„¨‰¨Ì¨Á ¨‹¨—¨ﬂ¨⁄¨„¨‰¨‚ (¨≥¨—¨ﬁ¨‡¨’.¨”¨÷¨‚¨÷¨”¨‹¨—)",
-ItemName_Packing.5pkSheetRopeEmptyPetrolCan = "5x ¨±¨Â¨„¨‰¨Ì¨Á ¨‹¨—¨ﬂ¨⁄¨„¨‰¨‚ (¨≥¨—¨ﬁ¨‡¨’.¨”¨÷¨‚¨÷¨”¨‹¨—)",
+ItemName_Packing.10pkRopeEmptyPetrolCan = "10x –ü—É—Å—Ç—ã—Ö –∫–∞–Ω–∏—Å—Ç—Ä (–í–µ—Ä–µ–≤–∫–∞)",
+ItemName_Packing.5pkRopeEmptyPetrolCan = "5x –ü—É—Å—Ç—ã—Ö –∫–∞–Ω–∏—Å—Ç—Ä (–í–µ—Ä–µ–≤–∫–∞)",
+ItemName_Packing.10pkSheetRopeEmptyPetrolCan = "10x –ü—É—Å—Ç—ã—Ö –∫–∞–Ω–∏—Å—Ç—Ä (–°–∞–º–æ–¥.–≤–µ—Ä–µ–≤–∫–∞)",
+ItemName_Packing.5pkSheetRopeEmptyPetrolCan = "5x –ü—É—Å—Ç—ã—Ö –∫–∞–Ω–∏—Å—Ç—Ä (–°–∞–º–æ–¥.–≤–µ—Ä–µ–≤–∫–∞)",
 
-ItemName_Packing.10pkRopePetrolCan = "10x ¨¨¨—¨ﬂ¨⁄¨„¨‰¨‚ (¨£¨÷¨‚¨÷¨”¨‹¨—)",
-ItemName_Packing.5pkRopePetrolCan = "5x ¨¨¨—¨ﬂ¨⁄¨„¨‰¨‚ (¨£¨÷¨‚¨÷¨”¨‹¨—)",
-ItemName_Packing.10pkSheetRopePetrolCan = "10x ¨¨¨—¨ﬂ¨⁄¨„¨‰¨‚ (¨≥¨—¨ﬁ¨‡¨’.¨”¨÷¨‚¨÷¨”¨‹¨—)",
-ItemName_Packing.5pkSheetRopePetrolCan = "5x ¨¨¨—¨ﬂ¨⁄¨„¨‰¨‚ (¨≥¨—¨ﬁ¨‡¨’.¨”¨÷¨‚¨÷¨”¨‹¨—)",
+ItemName_Packing.10pkRopePetrolCan = "10x –ö–∞–Ω–∏—Å—Ç—Ä (–í–µ—Ä–µ–≤–∫–∞)",
+ItemName_Packing.5pkRopePetrolCan = "5x –ö–∞–Ω–∏—Å—Ç—Ä (–í–µ—Ä–µ–≤–∫–∞)",
+ItemName_Packing.10pkSheetRopePetrolCan = "10x –ö–∞–Ω–∏—Å—Ç—Ä (–°–∞–º–æ–¥.–≤–µ—Ä–µ–≤–∫–∞)",
+ItemName_Packing.5pkSheetRopePetrolCan = "5x –ö–∞–Ω–∏—Å—Ç—Ä (–°–∞–º–æ–¥.–≤–µ—Ä–µ–≤–∫–∞)",
 
-ItemName_Packing.10pkRopePropaneTank = "10x ¨¢¨—¨›¨‡¨ﬂ¨‡¨” ¨„ ¨·¨‚¨‡¨·¨—¨ﬂ¨‡¨ﬁ (¨£¨÷¨‚¨÷¨”¨‹¨—)",
-ItemName_Packing.5pkRopePropaneTank = "5x ¨¢¨—¨›¨‡¨ﬂ¨‡¨” ¨„ ¨·¨‚¨‡¨·¨—¨ﬂ¨‡¨ﬁ (¨£¨÷¨‚¨÷¨”¨‹¨—)",
-ItemName_Packing.10pkSheetRopePropaneTank = "10x ¨¢¨—¨›¨‡¨ﬂ¨‡¨” ¨„ ¨·¨‚¨‡¨·¨—¨ﬂ¨‡¨ﬁ (¨≥¨—¨ﬁ¨‡¨’.¨”¨÷¨‚¨÷¨”¨‹¨—)",
-ItemName_Packing.5pkSheetRopePropaneTank = "5x ¨¢¨—¨›¨‡¨ﬂ¨‡¨” ¨„ ¨·¨‚¨‡¨·¨—¨ﬂ¨‡¨ﬁ (¨≥¨—¨ﬁ¨‡¨’.¨”¨÷¨‚¨÷¨”¨‹¨—)",
+ItemName_Packing.10pkRopePropaneTank = "10x –ë–∞–ª–æ–Ω–æ–≤ —Å –ø—Ä–æ–ø–∞–Ω–æ–º (–í–µ—Ä–µ–≤–∫–∞)",
+ItemName_Packing.5pkRopePropaneTank = "5x –ë–∞–ª–æ–Ω–æ–≤ —Å –ø—Ä–æ–ø–∞–Ω–æ–º (–í–µ—Ä–µ–≤–∫–∞)",
+ItemName_Packing.10pkSheetRopePropaneTank = "10x –ë–∞–ª–æ–Ω–æ–≤ —Å –ø—Ä–æ–ø–∞–Ω–æ–º (–°–∞–º–æ–¥.–≤–µ—Ä–µ–≤–∫–∞)",
+ItemName_Packing.5pkSheetRopePropaneTank = "5x –ë–∞–ª–æ–Ω–æ–≤ —Å –ø—Ä–æ–ø–∞–Ω–æ–º (–°–∞–º–æ–¥.–≤–µ—Ä–µ–≤–∫–∞)",
 
 
 
 /** ----- ----- || SKILL BOOKS || ----- ----- **/
 
-ItemName_Packing.pkCarpentry = "¨¨¨ﬂ¨⁄¨‘¨⁄ ¨·¨‡ ¨„¨‰¨‚¨‡¨⁄¨‰¨÷¨›¨Ó¨„¨‰¨”¨Â",
-ItemName_Packing.pkCooking = "¨¨¨ﬂ¨⁄¨‘¨⁄ ¨·¨‡ ¨‘¨‡¨‰¨‡¨”¨‹¨÷",
-ItemName_Packing.pkElectricity = "¨¨¨ﬂ¨⁄¨‘¨⁄ ¨·¨‡ ¨Ô¨›¨÷¨‹¨‰¨‚¨⁄¨‹¨÷",
-ItemName_Packing.pkFarming = "¨¨¨ﬂ¨⁄¨‘¨⁄ ¨·¨‡ ¨Ê¨÷¨‚¨ﬁ¨÷¨‚¨„¨‰¨”¨Â",
-ItemName_Packing.pkFirstaid = "¨¨¨ﬂ¨⁄¨‘¨⁄ ¨·¨‡ ¨·¨÷¨‚¨”¨‡¨€ ¨·¨‡¨ﬁ¨‡¨Î¨⁄",
-ItemName_Packing.pkFishing = "¨¨¨ﬂ¨⁄¨‘¨⁄ ¨·¨‡ ¨‚¨Ì¨“¨—¨›¨‹¨÷",
-ItemName_Packing.pkForaging = "¨¨¨ﬂ¨⁄¨‘¨⁄ ¨·¨‡ ¨„¨‡¨“¨⁄¨‚¨—¨‰¨÷¨›¨Ó¨„¨‰¨”¨Â",
-ItemName_Packing.pkMechanics = "¨¨¨ﬂ¨⁄¨‘¨⁄ ¨·¨‡ ¨ﬁ¨÷¨Á¨—¨ﬂ¨⁄¨‹¨÷",
-ItemName_Packing.pkTailoring = "¨¨¨ﬂ¨⁄¨‘¨⁄ ¨·¨‡ ¨Í¨⁄¨‰¨Ó¨",
-ItemName_Packing.pkMetalwork = "¨¨¨ﬂ¨⁄¨‘¨⁄ ¨·¨‡ ¨ﬁ¨÷¨‰¨—¨›¨›¨‡¨‡¨“¨‚¨—¨“¨‡¨‰¨‹¨÷",
-ItemName_Packing.pkTrapping = "¨¨¨ﬂ¨⁄¨‘¨⁄ ¨·¨‡ ¨‡¨Á¨‡¨‰¨÷",
+ItemName_Packing.pkCarpentry = "–ö–Ω–∏–≥–∏ –ø–æ —Å—Ç—Ä–æ–∏—Ç–µ–ª—å—Å—Ç–≤—É",
+ItemName_Packing.pkCooking = "–ö–Ω–∏–≥–∏ –ø–æ –≥–æ—Ç–æ–≤–∫–µ",
+ItemName_Packing.pkElectricity = "–ö–Ω–∏–≥–∏ –ø–æ —ç–ª–µ–∫—Ç—Ä–∏–∫–µ",
+ItemName_Packing.pkFarming = "–ö–Ω–∏–≥–∏ –ø–æ —Ñ–µ—Ä–º–µ—Ä—Å—Ç–≤—É",
+ItemName_Packing.pkFirstaid = "–ö–Ω–∏–≥–∏ –ø–æ –ø–µ—Ä–≤–æ–π –ø–æ–º–æ—â–∏",
+ItemName_Packing.pkFishing = "–ö–Ω–∏–≥–∏ –ø–æ —Ä—ã–±–∞–ª–∫–µ",
+ItemName_Packing.pkForaging = "–ö–Ω–∏–≥–∏ –ø–æ —Å–æ–±–∏—Ä–∞—Ç–µ–ª—å—Å—Ç–≤—É",
+ItemName_Packing.pkMechanics = "–ö–Ω–∏–≥–∏ –ø–æ –º–µ—Ö–∞–Ω–∏–∫–µ",
+ItemName_Packing.pkTailoring = "–ö–Ω–∏–≥–∏ –ø–æ —à–∏—Ç—å—é",
+ItemName_Packing.pkMetalwork = "–ö–Ω–∏–≥–∏ –ø–æ –º–µ—Ç–∞–ª–ª–æ–æ–±—Ä–∞–±–æ—Ç–∫–µ",
+ItemName_Packing.pkTrapping = "–ö–Ω–∏–≥–∏ –ø–æ –æ—Ö–æ—Ç–µ",
 }
+
+

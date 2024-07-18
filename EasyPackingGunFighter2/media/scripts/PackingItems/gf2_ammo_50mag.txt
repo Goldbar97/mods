@@ -1,0 +1,91 @@
+module GunFighter2EasyPacking
+{
+    imports
+    {
+        Base,
+        Packing,
+    }
+
+    item 10pk50mag
+    {
+        Weight = 1.0,
+        Type = Normal,
+        DisplayName = 10 x Box of .50 MAG Rounds,
+        DisplayCategory = Ammo,
+        Icon = PAmmoBox,
+        WorldStaticModel = Packing.pkAmmoCan_Ground,
+    }
+
+    item 5pk50mag
+    {
+        Weight = 1.0,
+        Type = Normal,
+        DisplayName = 5 x Box of .50 MAG Rounds,
+        DisplayCategory = Ammo,
+        Icon = PAmmoBox,
+        WorldStaticModel = Packing.pkAmmoCan_Ground,
+    }
+
+    recipe Pack 10
+    {
+        destroy Bullets50MAGBox=10,
+
+        Result: 10pk50mag,
+        OnTest: Recipe.OnTest.IsFavorite,
+        Time: 180.0,
+        Category: Storage,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Unpack 10
+    {
+        destroy 10pk50mag,
+        
+        Result: Bullets50MAGBox=10,
+        OnTest: Recipe.OnTest.IsFavorite,
+        Time: 180.0,
+        Category: Storage,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Pack 5
+    {
+        destroy Bullets50MAGBox=5,
+
+        Result: 5pk50mag,
+        OnTest: Recipe.OnTest.IsFavorite,
+        Time: 130.0,
+        Category: Storage,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Unpack 5
+    {
+        destroy 5pk50mag,
+        
+        Result: Bullets50MAGBox=5,
+        OnTest: Recipe.OnTest.IsFavorite,
+        Time: 130.0,
+        Category: Storage,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Put Together
+    {
+        5pk50mag=2,
+
+        Result: 10pk50mag,
+        Time: 90.0,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Split in Two
+    {
+        10pk50mag=1,
+
+        Result: 5pk50mag=2,
+        Time: 90.0,
+        Sound: Packing.AmmoCan_Storage,
+    }
+    
+}

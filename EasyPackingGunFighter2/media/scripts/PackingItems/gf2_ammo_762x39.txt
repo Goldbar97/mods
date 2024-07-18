@@ -1,0 +1,91 @@
+module GunFighter2EasyPacking
+{
+    imports
+    {
+        Base,
+        Packing,
+    }
+
+    item 10pk762x39
+    {
+        Weight = 1.0,
+        Type = Normal,
+        DisplayName = 10 x Box of 7.62x39mm Rounds,
+        DisplayCategory = Ammo,
+        Icon = PAmmoBox,
+        WorldStaticModel = Packing.pkAmmoCan_Ground,
+    }
+
+    item 5pk762x39
+    {
+        Weight = 1.0,
+        Type = Normal,
+        DisplayName = 5 x Box of 7.62x39mm Rounds,
+        DisplayCategory = Ammo,
+        Icon = PAmmoBox,
+        WorldStaticModel = Packing.pkAmmoCan_Ground,
+    }
+
+    recipe Pack 10
+    {
+        destroy 762x39Box=10,
+
+        Result: 10pk762x39,
+        OnTest: Recipe.OnTest.IsFavorite,
+        Time: 180.0,
+        Category: Storage,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Unpack 10
+    {
+        destroy 10pk762x39,
+        
+        Result: 762x39Box=10,
+        OnTest: Recipe.OnTest.IsFavorite,
+        Time: 180.0,
+        Category: Storage,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Pack 5
+    {
+        destroy 762x39Box=5,
+
+        Result: 5pk762x39,
+        OnTest: Recipe.OnTest.IsFavorite,
+        Time: 130.0,
+        Category: Storage,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Unpack 5
+    {
+        destroy 5pk762x39,
+        
+        Result: 762x39Box=5,
+        OnTest: Recipe.OnTest.IsFavorite,
+        Time: 130.0,
+        Category: Storage,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Put Together
+    {
+        5pk762x39=2,
+
+        Result: 10pk762x39,
+        Time: 90.0,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Split in Two
+    {
+        10pk762x39=1,
+
+        Result: 5pk762x39=2,
+        Time: 90.0,
+        Sound: Packing.AmmoCan_Storage,
+    }
+    
+}

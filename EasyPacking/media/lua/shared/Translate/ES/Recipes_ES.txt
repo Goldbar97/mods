@@ -51,7 +51,7 @@ Recipe_ES = {
 	
 	Recipe_Fill_Pack_of_Empty_Water_Bottles = "Llenar paquete de botellas de agua vacias",
 	
-	Recipe_Pack_Carpentry_Skill_Books = "Empaquetar libros de Carpinteria,
+	Recipe_Pack_Carpentry_Skill_Books = "Empaquetar libros de Carpinteria",
 	Recipe_Unpack_Carpentry_Skill_Books = "Desempaquetar libros de Carpinteria",
 	Recipe_Pack_Cooking_Skill_Books = "Empaquetar libros de Cocina",
 	Recipe_Unpack_Cooking_Skill_Books = "Desempaquetar libros de Cocina",

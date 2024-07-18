@@ -125,6 +125,15 @@ function Recipe.OnTest.IsFavorite(items, result)
 	return not items:isFavorite()
 end
 
+function Recipe.OnCreate.Unpack2WoodenContainer(items, result, player)
+	player:getInventory():AddItem("Packing.WoodenContainer");
+	player:getInventory():AddItem("Packing.WoodenContainer");
+end
+
+function Recipe.OnCreate.Unpack1WoodenContainer(items, result, player)
+	player:getInventory():AddItem("Packing.WoodenContainer");
+end
+
 campingFuelType["10pkRag"] = 50/60.0;
 campingFuelType["50pkRag"] = 5;
 campingFuelType["100pkRag"] = 650/60.0;

@@ -1,0 +1,91 @@
+module GunFighter2EasyPacking
+{
+    imports
+    {
+        Base,
+        Packing,
+    }
+
+    item 10pk4gauge
+    {
+        Weight = 1.0,
+        Type = Normal,
+        DisplayName = 10 x Box of 4g Shotgun Shells,
+        DisplayCategory = Ammo,
+        Icon = PAmmoBox,
+        WorldStaticModel = Packing.pkAmmoCan_Ground,
+    }
+
+    item 5pk4gauge
+    {
+        Weight = 1.0,
+        Type = Normal,
+        DisplayName = 5 x Box of 4g Shotgun Shells,
+        DisplayCategory = Ammo,
+        Icon = PAmmoBox,
+        WorldStaticModel = Packing.pkAmmoCan_Ground,
+    }
+
+    recipe Pack 10
+    {
+        destroy 4gShotgunShellsBox=10,
+
+        Result: 10pk4gauge,
+        OnTest: Recipe.OnTest.IsFavorite,
+        Time: 180.0,
+        Category: Storage,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Unpack 10
+    {
+        destroy 10pk4gauge,
+        
+        Result: 4gShotgunShellsBox=10,
+        OnTest: Recipe.OnTest.IsFavorite,
+        Time: 180.0,
+        Category: Storage,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Pack 5
+    {
+        destroy 4gShotgunShellsBox=5,
+
+        Result: 5pk4gauge,
+        OnTest: Recipe.OnTest.IsFavorite,
+        Time: 130.0,
+        Category: Storage,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Unpack 5
+    {
+        destroy 5pk4gauge,
+        
+        Result: 4gShotgunShellsBox=5,
+        OnTest: Recipe.OnTest.IsFavorite,
+        Time: 130.0,
+        Category: Storage,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Put Together
+    {
+        5pk4gauge=2,
+
+        Result: 10pk4gauge,
+        Time: 90.0,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Split in Two
+    {
+        10pk4gauge=1,
+
+        Result: 5pk4gauge=2,
+        Time: 90.0,
+        Sound: Packing.AmmoCan_Storage,
+    }
+    
+}
