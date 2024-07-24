@@ -1,0 +1,119 @@
+module GunFighter2EasyPacking
+{
+    imports
+    {
+        Base,
+        Packing,
+    }
+
+    item FlareBox
+    {
+        Weight = 0.65,
+        Type = Normal,
+        DisplayName = Box of Flare Rounds,
+        DisplayCategory = Ammo,
+        Icon = PAmmoBox,
+        WorldStaticModel = Packing.pkAmmoCan_Ground,
+    }
+
+    item 10pkflare
+    {
+        Weight = 1.0,
+        Type = Normal,
+        DisplayName = 10 x Box of Flare Rounds,
+        DisplayCategory = Ammo,
+        Icon = PAmmoBox,
+        WorldStaticModel = Packing.pkAmmoCan_Ground,
+    }
+
+    item 5pkflare
+    {
+        Weight = 1.0,
+        Type = Normal,
+        DisplayName = 5 x Box of Flare Rounds,
+        DisplayCategory = Ammo,
+        Icon = PAmmoBox,
+        WorldStaticModel = Packing.pkAmmoCan_Ground,
+    }
+
+    recipe Pack 10
+    {
+        destroy FlareBox=10,
+
+        Result: 10pkflare,
+        OnTest: Recipe.OnTest.IsFavorite,
+        Time: 180.0,
+        Category: Storage,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Open Box of Flare Rounds
+    {
+        FlareBox,
+        Result:Flare=10,
+        Category::Firearm,
+        Sound:PutItemInBag,
+        Time:5.0
+    }
+
+    recipe Place Flare Rounds in Box
+    {
+        Flare=10,
+        Result:FlareBox,
+        Category:Firearm,
+        Sound:PutItemInBag,
+        Time:5.0
+    }
+
+    recipe Unpack 10
+    {
+        destroy 10pkflare,
+        
+        Result: FlareBox=10,
+        OnTest: Recipe.OnTest.IsFavorite,
+        Time: 180.0,
+        Category: Storage,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Pack 5
+    {
+        destroy FlareBox=5,
+
+        Result: 5pkflare,
+        OnTest: Recipe.OnTest.IsFavorite,
+        Time: 130.0,
+        Category: Storage,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Unpack 5
+    {
+        destroy 5pkflare,
+        
+        Result: FlareBox=5,
+        OnTest: Recipe.OnTest.IsFavorite,
+        Time: 130.0,
+        Category: Storage,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Put Together
+    {
+        5pkflare=2,
+
+        Result: 10pkflare,
+        Time: 90.0,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Split in Two
+    {
+        10pkflare=1,
+
+        Result: 5pkflare=2,
+        Time: 90.0,
+        Sound: Packing.AmmoCan_Storage,
+    }
+    
+}

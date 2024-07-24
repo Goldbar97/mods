@@ -1,0 +1,19 @@
+module Packing {
+
+	model pkAmmoCan_Ground {
+		mesh = WorldItems/pk_ammocan_ground,
+		texture = WorldItems/pk_ammocan,
+		scale = 0.008,
+	}
+
+	sound AmmoCan_Storage {
+		loop = true, 
+		is3D = true,
+		clip { 
+			file = media/sound/ammocan_storage.ogg,
+			distanceMax = 3, 
+			reverbFactor = 0.1, 
+			volume = 0.5, 
+		} 
+	}
+}

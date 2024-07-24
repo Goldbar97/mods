@@ -1,0 +1,91 @@
+module GunFighter2EasyPacking
+{
+    imports
+    {
+        Base,
+        Packing,
+    }
+
+    item 10pk380acp
+    {
+        Weight = 1.0,
+        Type = Normal,
+        DisplayName = 10 x Box of 380-ACP Rounds,
+        DisplayCategory = Ammo,
+        Icon = PAmmoBox,
+        WorldStaticModel = Packing.pkAmmoCan_Ground,
+    }
+
+    item 5pk380acp
+    {
+        Weight = 1.0,
+        Type = Normal,
+        DisplayName = 5 x Box of 380-ACP Rounds,
+        DisplayCategory = Ammo,
+        Icon = PAmmoBox,
+        WorldStaticModel = Packing.pkAmmoCan_Ground,
+    }
+
+    recipe Pack 10
+    {
+        destroy Bullets380Box=10,
+
+        Result: 10pk380acp,
+        OnTest: Recipe.OnTest.IsFavorite,
+        Time: 180.0,
+        Category: Storage,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Unpack 10
+    {
+        destroy 10pk380acp,
+        
+        Result: Bullets380Box=10,
+        OnTest: Recipe.OnTest.IsFavorite,
+        Time: 180.0,
+        Category: Storage,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Pack 5
+    {
+        destroy Bullets380Box=5,
+
+        Result: 5pk380acp,
+        OnTest: Recipe.OnTest.IsFavorite,
+        Time: 130.0,
+        Category: Storage,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Unpack 5
+    {
+        destroy 5pk380acp,
+        
+        Result: Bullets380Box=5,
+        OnTest: Recipe.OnTest.IsFavorite,
+        Time: 130.0,
+        Category: Storage,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Put Together
+    {
+        5pk380acp=2,
+
+        Result: 10pk380acp,
+        Time: 90.0,
+        Sound: Packing.AmmoCan_Storage,
+    }
+
+    recipe Split in Two
+    {
+        10pk380acp=1,
+
+        Result: 5pk380acp=2,
+        Time: 90.0,
+        Sound: Packing.AmmoCan_Storage,
+    }
+    
+}

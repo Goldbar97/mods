@@ -1,0 +1,108 @@
+ItemName_EN = {
+
+ /** -----  ----- || GUNFIGHTER [2.0] AMMO || -----  ----- **/
+
+    ItemName_GunFighter2EasyPacking.10pk10gauge = "Ammo Can: 10x 10g Shotgun Shells",
+    ItemName_GunFighter2EasyPacking.5pk10gauge = "Ammo Can: 5x 10g Shotgun Shells",
+
+    ItemName_Packing.10pkShotgun = "Ammo Can: 10x 12g Shotgun Shells",
+    ItemName_Packing.5pkShotgun = "Ammo Can: 5x 12g Shotgun Shells",
+
+    ItemName_GunFighter2EasyPacking.10pk20gauge = "Ammo Can: 10x 20g Shotgun Shells",
+    ItemName_GunFighter2EasyPacking.5pk20gauge = "Ammo Can: 5x 20g Shotgun Shells",
+
+    ItemName_GunFighter2EasyPacking.10pk22lr = "Ammo Can: 10x .22-LR Rounds",
+    ItemName_GunFighter2EasyPacking.5pk22lr = "Ammo Can: 5x .22-LR Rounds",
+
+    ItemName_Packing.10pk38 = "Ammo Can: 10x .38-SPC Rounds",
+    ItemName_Packing.5pk38 = "Ammo Can: 5x .38-SPC Rounds",
+
+    ItemName_GunFighter2EasyPacking.100pk40explosive = "Ammo Can: 100x 40mm Explosive Rounds",
+    ItemName_GunFighter2EasyPacking.50pk40explosive = "Ammo Can: 50x 40mm Explosive Rounds",
+
+    ItemName_GunFighter2EasyPacking.100pk40incendiary = "Ammo Can: 100x 40mm Incendiary Rounds",
+    ItemName_GunFighter2EasyPacking.50pk40incendiary = "Ammo Can: 50x 40mm Incendiary Rounds",
+
+    ItemName_GunFighter2EasyPacking.10pk68paintball = "Ammo Can: 10x .68 Paintballs",
+    ItemName_GunFighter2EasyPacking.5pk68paintball = "Ammo Can: 5x .68 Paintballs",
+
+    ItemName_GunFighter2EasyPacking.10pk177bb = "Ammo Can: 10x .177 BBs",
+    ItemName_GunFighter2EasyPacking.5pk177bb = "Ammo Can: 5x .177 BBs",
+
+    ItemName_Packing.10pk223 = "Ammo Can: 10x .223-REM Rounds",
+    ItemName_Packing.5pk223 = "Ammo Can: 5x .223-REM Rounds",
+
+    ItemName_GunFighter2EasyPacking.10pk357mag = "Ammo Can: 10x .357-MAG Rounds",
+    ItemName_GunFighter2EasyPacking.5pk357mag = "Ammo Can: 5x .357-MAG Rounds",
+
+    ItemName_GunFighter2EasyPacking.10pk380acp = "Ammo Can: 10x .380-ACP Rounds",
+    ItemName_GunFighter2EasyPacking.5pk380acp = "Ammo Can: 5x .380-ACP Rounds",
+
+    ItemName_GunFighter2EasyPacking.10pk3006sprg = "Ammo Can: 10x .30-06 SPRG Rounds",
+    ItemName_GunFighter2EasyPacking.5pk3006sprg = "Ammo Can: 5x .30-06 SPRG Rounds",
+
+    ItemName_GunFighter2EasyPacking.10pk4gauge = "Ammo Can: 10x 4g Shotgun Shells",
+    ItemName_GunFighter2EasyPacking.5pk4gauge = "Ammo Can: 5x 4g Shotgun Shells",
+
+    ItemName_Packing.10pk44 = "Ammo Can: 10x .44-MAG Rounds",
+    ItemName_Packing.5pk44 = "Ammo Can: 5x .44-MAG Rounds",
+
+    ItemName_Packing.10pk45 = "Ammo Can: 10x .45-ACP Rounds",
+    ItemName_Packing.5pk45 = "Ammo Can: 5x .45-ACP Rounds",
+
+    ItemName_GunFighter2EasyPacking.10pk45lc = "Ammo Can: 10x 45-LC Rounds",
+    ItemName_GunFighter2EasyPacking.5pk45lc = "Ammo Can: 5x 45-LC Rounds",
+
+    ItemName_GunFighter2EasyPacking.10pk4570gov = "Ammo Can: 10x 45-70 GOV Rounds",
+    ItemName_GunFighter2EasyPacking.5pk4570gov = "Ammo Can: 5x 45-70 GOV Rounds",
+
+    ItemName_Packing.10pk308 = "Ammo Can: 10x 308-WIN Rounds",
+    ItemName_Packing.5pk308 = "Ammo Can: 5x 308-WIN Rounds",
+
+    ItemName_GunFighter2EasyPacking.10pk410gauge = "Ammo Can: 10x 410g Shotgun Shells",
+    ItemName_GunFighter2EasyPacking.5pk410gauge = "Ammo Can: 5x 410g Shotgun Shells",
+
+    ItemName_GunFighter2EasyPacking.10pk545x39 = "Ammo Can: 10x 5.45x39mm Rounds",
+    ItemName_GunFighter2EasyPacking.5pk545x39 = "Ammo Can: 5x 5.45x39mm Rounds",
+
+    ItemName_Packing.10pk9 = "Ammo Can: 10x Box 9x19mm Rounds",
+    ItemName_Packing.10pk9 = "Ammo Can: 5x Box 9x19mm Rounds",
+
+    ItemName_GunFighter2EasyPacking.10pk50bmg = "Ammo Can: 10x Box .50-BMG Rounds",
+    ItemName_GunFighter2EasyPacking.5pk50bmg = "Ammo Can: 5x Box .50-BMG Rounds",
+
+    ItemName_GunFighter2EasyPacking.10pk50mag = "Ammo Can: 10x Box .50 MAG Rounds",
+    ItemName_GunFighter2EasyPacking.5pk50mag = "Ammo Can: 5x Box .50 MAG Rounds",
+
+    ItemName_GunFighter2EasyPacking.10pk57x28 = "Ammo Can: 10x Box 5.7x28mm Rounds",
+    ItemName_GunFighter2EasyPacking.5pk57x28 = "Ammo Can: 5x Box 5.7x28mm Rounds",
+
+    ItemName_Packing.10pk556 = "Ammo Can: 10x Box 5.56x45mm Rounds",
+    ItemName_Packing.5pk556 = "Ammo Can: 5x Box 5.56x45mm Rounds",
+
+    ItemName_GunFighter2EasyPacking.10pk762x39 = "Ammo Can: 10x Box 7.62x39mm Rounds",
+    ItemName_GunFighter2EasyPacking.5pk762x39 = "Ammo Can: 5x Box 7.62x39mm Rounds",
+
+    ItemName_GunFighter2EasyPacking.10pk762x51 = "Ammo Can: 10x Box 7.62x51mm-NATO Rounds",
+    ItemName_GunFighter2EasyPacking.5pk762x51 = "Ammo Can: 5x Box 7.62x51mm-NATO Rounds",
+
+    ItemName_GunFighter2EasyPacking.10pk762x54 = "Ammo Can: 10x Box 7.62x54mm-R Rounds",
+    ItemName_GunFighter2EasyPacking.5pk762x54 = "Ammo Can: 5x Box 7.62x54mm-R Rounds",
+
+    ItemName_GunFighter2EasyPacking.10pkco2 = "Ammo Can: 10x Box CO2 Cartridges",
+    ItemName_GunFighter2EasyPacking.5pkco2 = "Ammo Can: 5x Box CO2 Cartridges",
+
+    ItemName_GunFighter2EasyPacking.FlareBox = "Box of Flare Rounds"
+    ItemName_GunFighter2EasyPacking.10pkflare = "Ammo Can: 10x Box Flare Rounds",
+    ItemName_GunFighter2EasyPacking.5pkflare = "Ammo Can: 5x Box Flare Rounds",
+
+    ItemName_GunFighter2EasyPacking.8pkherocket = "Ammo Can: 8x Box High-Explosive Rocket",
+    ItemName_GunFighter2EasyPacking.4pkherocket = "Ammo Can: 4x Box High-Explosive Rocket",
+
+    ItemName_GunFighter2EasyPacking.10pkboltbear = "Ammo Can: 10x Box BearX Carbon Crossbow Bolts",
+    ItemName_GunFighter2EasyPacking.5pkboltbear = "Ammo Can: 5x Box BearX Carbon Crossbow Bolts",
+
+    ItemName_GunFighter2EasyPacking.10pkfiberglassarrow = "Ammo Can: 10x Box Fiberglass Arrows",
+    ItemName_GunFighter2EasyPacking.5pkfiberglassarrow = "Ammo Can: 5x Box Fiberglass Arrows",
+
+}

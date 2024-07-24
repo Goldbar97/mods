@@ -1,0 +1,6 @@
+name=Easy Packing For Gunfighter [2.0] (ADDON)
+id=EasyPackingGunFighter2
+poster=poster.png
+description=Allows to pack some of drainable items. (For Gunfighter [2.0])
+authors=MrNekuromu, Goldbar
+require=EasyPacking,Arsenal(26)GunFighter[MAIN MOD 2.0]
